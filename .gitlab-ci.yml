@@ -12,8 +12,7 @@ analyze-gitlab-flakiness:
   stage: analyze
   image: python:3.11-slim
   tags:
-    - shared
-    - x86_64
+    - itup-alm-x86
 
   # Run twice daily at 9 AM and 9 PM UTC (configured in GitLab schedule settings)
   rules:
@@ -40,8 +39,7 @@ backfill-gitlab-90days:
   stage: backfill
   image: python:3.11-slim
   tags:
-    - shared
-    - x86_64
+    - itup-alm-x86
 
   # Manual trigger only - appears in pipeline but requires manual play button
   rules:
@@ -69,8 +67,7 @@ push-backfill-to-github:
   stage: push
   image: python:3.11-slim
   tags:
-    - shared
-    - x86_64
+    - itup-alm-x86
 
   # Manual trigger only - appears in pipeline but requires manual play button
   rules:
@@ -122,8 +119,7 @@ push-to-github:
   stage: push
   image: python:3.11-slim
   tags:
-    - shared
-    - x86_64
+    - itup-alm-x86
 
   rules:
     - if: $CI_PIPELINE_SOURCE == "schedule"
