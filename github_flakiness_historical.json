@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-15T10:10:50.452882+00:00",
+  "analysis_date": "2025-12-15T22:08:27.536684+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-09-16T10:10:50.427785+00:00",
-    "to": "2025-12-15T10:10:50.452882+00:00"
+    "from": "2025-09-16T22:08:27.511564+00:00",
+    "to": "2025-12-15T22:08:27.536684+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1946,6 +1946,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 561,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-15T21:04:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/561"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 560,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2025-12-14T17:13:57Z",
@@ -2463,6 +2475,42 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 549,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-15T21:02:04Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/549"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 545,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-15T14:00:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/545"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 548,
+          "title": "Fix revive linting warning for errors package name",
+          "merged_at": "2025-12-15T13:48:10Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/548"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 544,
@@ -3491,6 +3539,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 730,
+          "title": "[CCXDEV-15625] Change message to avoid Glitchtip duplicates",
+          "merged_at": "2025-12-15T13:13:16Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/730"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 729,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2025-12-12T13:19:41Z",
@@ -4313,6 +4373,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1640,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.484 to 0.1.486",
+          "merged_at": "2025-12-15T12:51:53Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1640"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1637,
+          "title": "Bump github.com/redis/go-redis/v9 from 9.17.1 to 9.17.2",
+          "merged_at": "2025-12-15T12:20:47Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1637"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1639,
           "title": "Add AGENTS.md",
           "merged_at": "2025-12-11T14:05:28Z",
@@ -4589,13 +4673,13 @@
       }
     }
   },
-  "last_updated": "2025-12-15T10:10:50.452882+00:00",
-  "cutoff_date": "2025-09-16T10:10:50.427785+00:00",
+  "last_updated": "2025-12-15T22:08:27.536684+00:00",
+  "cutoff_date": "2025-09-16T22:08:27.511564+00:00",
   "summary": {
-    "total_prs": 366,
+    "total_prs": 373,
     "total_retests": 60,
     "prs_with_retests": 40,
-    "retest_rate": 10.92896174863388,
+    "retest_rate": 10.723860589812332,
     "retest_comments": 39,
     "update_branch_actions": 21
   }
