@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-15T21:08:41.670290",
+  "analysis_date": "2025-12-16T09:12:04.738830",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,13 +15,13 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2025-12-14T21:08:20.390465+00:00",
-    "to": "2025-12-15T21:08:41.670301"
+    "from": "2025-12-15T09:11:32.639747+00:00",
+    "to": "2025-12-16T09:12:04.738846"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 8,
-    "total_commits": 8,
+    "total_prs_analyzed": 10,
+    "total_commits": 10,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
@@ -32,18 +32,32 @@
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
+      "prs": [],
+      "summary": {
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
+      }
+    },
+    "RedHatInsights/insights-results-aggregator": {
       "prs": [
         {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 624,
-          "title": "build(deps): update boto3 requirement from <1.42.5,>=1.34.1 to >=1.34.1,<1.42.10",
-          "merged_at": "2025-12-15T07:23:35Z",
-          "user": "dependabot[bot]",
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2342,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-15T21:17:42Z",
+          "user": "red-hat-konflux[bot]",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/624"
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2342"
         }
       ],
       "summary": {
@@ -56,20 +70,6 @@
         "pr_retest_rate": 0.0,
         "avg_retests_per_pr": 0.0,
         "avg_retests_per_commit": 0.0
-      }
-    },
-    "RedHatInsights/insights-results-aggregator": {
-      "prs": [],
-      "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -87,17 +87,30 @@
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 243,
+          "title": "Bump fastapi from 0.124.0 to 0.124.4",
+          "merged_at": "2025-12-15T23:25:52Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/243"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-behavioral-spec": {
@@ -210,6 +223,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 731,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-15T21:22:35Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/731"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 730,
           "title": "[CCXDEV-15625] Change message to avoid Glitchtip duplicates",
           "merged_at": "2025-12-15T13:13:16Z",
@@ -222,8 +247,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
