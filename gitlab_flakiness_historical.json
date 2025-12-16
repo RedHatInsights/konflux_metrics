@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-16T10:10:09.630175+00:00",
+  "analysis_date": "2025-12-16T22:08:18.319341+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-09-17T10:10:09.617708+00:00",
-    "to": "2025-12-16T10:10:09.630175+00:00"
+    "from": "2025-09-17T22:08:18.306747+00:00",
+    "to": "2025-12-16T22:08:18.319341+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1156,
+          "title": "Add AGENTS.md",
+          "merged_at": "2025-12-16T13:50:21.456Z",
+          "author": "ireyes",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1156"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1158,
+          "title": "Update pre-commit hooks",
+          "merged_at": "2025-12-16T08:09:15.285Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1158"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1157,
@@ -686,6 +706,16 @@
       "mrs": [
         {
           "project": "ccx/content-service",
+          "mr_iid": 853,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-16T10:24:12.462Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/853"
+        },
+        {
+          "project": "ccx/content-service",
           "mr_iid": 842,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2025-12-15T12:06:28.630Z",
@@ -850,6 +880,46 @@
     },
     "ccx/parquet-factory": {
       "mrs": [
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 324,
+          "title": "fix(deps): update module github.com/xdg-go/scram to v1.2.0",
+          "merged_at": "2025-12-16T12:37:30.098Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/324"
+        },
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 327,
+          "title": "fix(deps): update aws-sdk-go-v2 monorepo",
+          "merged_at": "2025-12-16T11:10:21.022Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/327"
+        },
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 325,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-16T10:23:34.965Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/325"
+        },
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 326,
+          "title": "Remove deprecated CI tag",
+          "merged_at": "2025-12-16T10:19:39.906Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/326"
+        },
         {
           "project": "ccx/parquet-factory",
           "mr_iid": 321,
@@ -1075,6 +1145,16 @@
       "mrs": [
         {
           "project": "ccx/ccx-upgrades-data-eng",
+          "mr_iid": 213,
+          "title": "Increase CI resource for BDD",
+          "merged_at": "2025-12-16T13:51:37.259Z",
+          "author": "ireyes",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-data-eng/-/merge_requests/213"
+        },
+        {
+          "project": "ccx/ccx-upgrades-data-eng",
           "mr_iid": 211,
           "title": "Update pre-commit hooks version",
           "merged_at": "2025-11-24T09:38:38.584Z",
@@ -1228,12 +1308,12 @@
       }
     }
   },
-  "last_updated": "2025-12-16T10:10:09.630175+00:00",
-  "cutoff_date": "2025-09-17T10:10:09.617708+00:00",
+  "last_updated": "2025-12-16T22:08:18.319341+00:00",
+  "cutoff_date": "2025-09-17T22:08:18.306747+00:00",
   "summary": {
-    "total_mrs": 111,
+    "total_mrs": 119,
     "total_retests": 25,
     "mrs_with_retests": 16,
-    "retest_rate": 14.414414414414415
+    "retest_rate": 13.445378151260504
   }
 }
