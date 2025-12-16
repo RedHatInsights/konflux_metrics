@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-16T09:12:04.738830",
+  "analysis_date": "2025-12-16T21:09:22.096930",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,13 +15,13 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2025-12-15T09:11:32.639747+00:00",
-    "to": "2025-12-16T09:12:04.738846"
+    "from": "2025-12-15T21:09:00.955833+00:00",
+    "to": "2025-12-16T21:09:22.096945"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 10,
-    "total_commits": 10,
+    "total_prs_analyzed": 3,
+    "total_commits": 3,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
@@ -128,81 +128,31 @@
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 561,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-15T21:04:31Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/561"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 549,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-15T21:02:04Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/549"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 545,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-15T14:00:16Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/545"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 548,
-          "title": "Fix revive linting warning for errors package name",
-          "merged_at": "2025-12-15T13:48:10Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/548"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/ccx-notification-service": {
@@ -232,23 +182,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/731"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 730,
-          "title": "[CCXDEV-15625] Change message to avoid Glitchtip duplicates",
-          "merged_at": "2025-12-15T13:13:16Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/730"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -273,42 +211,17 @@
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1640,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.484 to 0.1.486",
-          "merged_at": "2025-12-15T12:51:53Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1640"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1637,
-          "title": "Bump github.com/redis/go-redis/v9 from 9.17.1 to 9.17.2",
-          "merged_at": "2025-12-15T12:20:47Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1637"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     }
   }
