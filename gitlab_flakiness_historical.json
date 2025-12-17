@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-16T22:08:18.319341+00:00",
+  "analysis_date": "2025-12-17T10:09:51.869116+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-09-17T22:08:18.306747+00:00",
-    "to": "2025-12-16T22:08:18.319341+00:00"
+    "from": "2025-09-18T10:09:51.856142+00:00",
+    "to": "2025-12-17T10:09:51.869116+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -680,16 +680,6 @@
           "total_commits": 1,
           "total_retests": 1,
           "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1099"
-        },
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1100,
-          "title": "Updating koflux references",
-          "merged_at": "2025-09-18T08:12:23.928Z",
-          "author": "jdrobena",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1100"
         }
       ],
       "summary": {
@@ -880,6 +870,16 @@
     },
     "ccx/parquet-factory": {
       "mrs": [
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 323,
+          "title": "fix(deps): update module github.com/prometheus/client_golang to v1.23.2",
+          "merged_at": "2025-12-16T21:53:43.872Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/323"
+        },
         {
           "project": "ccx/parquet-factory",
           "mr_iid": 324,
@@ -1145,6 +1145,16 @@
       "mrs": [
         {
           "project": "ccx/ccx-upgrades-data-eng",
+          "mr_iid": 212,
+          "title": "Update pre-commit hooks version",
+          "merged_at": "2025-12-16T20:33:29.111Z",
+          "author": "ccx-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-data-eng/-/merge_requests/212"
+        },
+        {
+          "project": "ccx/ccx-upgrades-data-eng",
           "mr_iid": 213,
           "title": "Increase CI resource for BDD",
           "merged_at": "2025-12-16T13:51:37.259Z",
@@ -1308,12 +1318,12 @@
       }
     }
   },
-  "last_updated": "2025-12-16T22:08:18.319341+00:00",
-  "cutoff_date": "2025-09-17T22:08:18.306747+00:00",
+  "last_updated": "2025-12-17T10:09:51.869116+00:00",
+  "cutoff_date": "2025-09-18T10:09:51.856142+00:00",
   "summary": {
-    "total_mrs": 119,
+    "total_mrs": 120,
     "total_retests": 25,
     "mrs_with_retests": 16,
-    "retest_rate": 13.445378151260504
+    "retest_rate": 13.333333333333334
   }
 }
