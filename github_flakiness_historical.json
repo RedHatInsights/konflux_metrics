@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-18T10:09:18.600546+00:00",
+  "analysis_date": "2025-12-18T22:08:11.464036+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-09-19T10:09:18.575265+00:00",
-    "to": "2025-12-18T10:09:18.600546+00:00"
+    "from": "2025-09-19T22:08:11.438506+00:00",
+    "to": "2025-12-18T22:08:11.464036+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1097,6 +1097,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 495,
+          "title": "fix(deps): update module github.com/burntsushi/toml to v1.6.0",
+          "merged_at": "2025-12-18T16:53:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/495"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 494,
           "title": "chore(deps): update module golang.org/x/net to v0.48.0",
           "merged_at": "2025-12-09T00:52:56Z",
@@ -1970,6 +1982,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 564,
+          "title": "fix(deps): update module github.com/burntsushi/toml to v1.6.0",
+          "merged_at": "2025-12-18T17:01:51Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/564"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 563,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2025-12-17T17:02:37Z",
@@ -2523,6 +2547,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 552,
+          "title": "fix(deps): update module github.com/burntsushi/toml to v1.6.0",
+          "merged_at": "2025-12-18T17:05:09Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/552"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 551,
@@ -3212,6 +3248,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1046,
+          "title": "Update module github.com/BurntSushi/toml to v1.6.0",
+          "merged_at": "2025-12-18T17:16:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1046"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1045,
           "title": "Reduce log level to WARN to avoid duplicate Glitchtip issues",
           "merged_at": "2025-12-10T08:24:04Z",
@@ -3609,6 +3657,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 734,
+          "title": "Bump github.com/BurntSushi/toml from 1.5.0 to 1.6.0",
+          "merged_at": "2025-12-18T14:28:31Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/734"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 733,
@@ -4469,6 +4529,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1643,
+          "title": "Bump github.com/BurntSushi/toml from 1.5.0 to 1.6.0",
+          "merged_at": "2025-12-18T18:08:36Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1643"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1640,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.484 to 0.1.486",
           "merged_at": "2025-12-15T12:51:53Z",
@@ -4769,13 +4841,13 @@
       }
     }
   },
-  "last_updated": "2025-12-18T10:09:18.600546+00:00",
-  "cutoff_date": "2025-09-19T10:09:18.575265+00:00",
+  "last_updated": "2025-12-18T22:08:11.464036+00:00",
+  "cutoff_date": "2025-09-19T22:08:11.438506+00:00",
   "summary": {
-    "total_prs": 381,
+    "total_prs": 387,
     "total_retests": 60,
     "prs_with_retests": 40,
-    "retest_rate": 10.498687664041995,
+    "retest_rate": 10.335917312661499,
     "retest_comments": 39,
     "update_branch_actions": 21
   }
