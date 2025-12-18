@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-17T20:04:02.521067",
+  "analysis_date": "2025-12-18T08:04:02.628511",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,13 +12,13 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2025-12-16T20:03:42.229927+00:00",
-    "to": "2025-12-17T20:04:02.521083"
+    "from": "2025-12-17T08:03:43.672874+00:00",
+    "to": "2025-12-18T08:04:02.628531"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 5,
-    "total_commits": 5,
+    "total_mrs_analyzed": 3,
+    "total_commits": 3,
     "total_retests": 0,
     "mrs_with_retests": 0,
     "mr_retest_rate": 0.0,
@@ -108,49 +108,27 @@
       }
     },
     "ccx/parquet-factory": {
-      "mrs": [
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 323,
-          "title": "fix(deps): update module github.com/prometheus/client_golang to v1.23.2",
-          "merged_at": "2025-12-16T21:53:43.872Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/323"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/ccx-upgrades-data-eng": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-upgrades-data-eng",
-          "mr_iid": 212,
-          "title": "Update pre-commit hooks version",
-          "merged_at": "2025-12-16T20:33:29.111Z",
-          "author": "ccx-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-data-eng/-/merge_requests/212"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/ccx-upgrades-inference": {
