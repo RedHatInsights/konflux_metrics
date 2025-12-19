@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-19T10:09:22.966794+00:00",
+  "analysis_date": "2025-12-19T22:08:29.956733+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-09-20T10:09:22.940610+00:00",
-    "to": "2025-12-19T10:09:22.966794+00:00"
+    "from": "2025-09-20T22:08:29.931274+00:00",
+    "to": "2025-12-19T22:08:29.956733+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -4529,6 +4529,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1644,
+          "title": "Reduce log level severity for non-errors",
+          "merged_at": "2025-12-19T14:53:29Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1644"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1643,
           "title": "Bump github.com/BurntSushi/toml from 1.5.0 to 1.6.0",
           "merged_at": "2025-12-18T18:08:36Z",
@@ -4841,13 +4853,13 @@
       }
     }
   },
-  "last_updated": "2025-12-19T10:09:22.966794+00:00",
-  "cutoff_date": "2025-09-20T10:09:22.940610+00:00",
+  "last_updated": "2025-12-19T22:08:29.956733+00:00",
+  "cutoff_date": "2025-09-20T22:08:29.931274+00:00",
   "summary": {
-    "total_prs": 387,
+    "total_prs": 388,
     "total_retests": 60,
     "prs_with_retests": 40,
-    "retest_rate": 10.335917312661499,
+    "retest_rate": 10.309278350515463,
     "retest_comments": 39,
     "update_branch_actions": 21
   }
