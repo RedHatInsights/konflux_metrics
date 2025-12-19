@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-18T08:04:02.628511",
+  "analysis_date": "2025-12-18T20:03:40.945259",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,13 +12,13 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2025-12-17T08:03:43.672874+00:00",
-    "to": "2025-12-18T08:04:02.628531"
+    "from": "2025-12-17T20:03:21.604882+00:00",
+    "to": "2025-12-18T20:03:40.945274"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 3,
-    "total_commits": 3,
+    "total_mrs_analyzed": 4,
+    "total_commits": 4,
     "total_retests": 0,
     "mrs_with_retests": 0,
     "mr_retest_rate": 0.0,
@@ -30,13 +30,13 @@
       "mrs": [
         {
           "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1159,
-          "title": "Bumped ccx-rules-ocp version to 2025.12.17",
-          "merged_at": "2025-12-17T10:34:42.364Z",
-          "author": "iqe-bot",
+          "mr_iid": 1160,
+          "title": "Use the same clusters in ephemeral and clowder smoke",
+          "merged_at": "2025-12-18T13:32:14.361Z",
+          "author": "ireyes",
           "total_commits": 1,
           "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1159"
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1160"
         }
       ],
       "summary": {
@@ -50,39 +50,28 @@
       }
     },
     "ccx/ccx-data-pipeline": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1127,
-          "title": "Bumped ccx-rules-ocp version to 2025.12.17",
-          "merged_at": "2025-12-17T10:09:40.871Z",
-          "author": "ccx-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1127"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/content-service": {
       "mrs": [
         {
           "project": "ccx/content-service",
-          "mr_iid": 855,
-          "title": "Bumped ccx-rules-ocp version to 2025.12.17",
-          "merged_at": "2025-12-17T10:19:59.566Z",
-          "author": "ccx-bot",
+          "mr_iid": 854,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-18T13:07:09.547Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
           "total_commits": 1,
           "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/855"
+          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/854"
         }
       ],
       "summary": {
@@ -108,15 +97,36 @@
       }
     },
     "ccx/parquet-factory": {
-      "mrs": [],
+      "mrs": [
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 329,
+          "title": "fix(deps): update aws-sdk-go-v2 monorepo",
+          "merged_at": "2025-12-18T13:08:53.814Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/329"
+        },
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 330,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2025-12-18T13:08:06.506Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/330"
+        }
+      ],
       "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
+        "total_mrs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
+        "mr_retest_rate": 0.0,
+        "avg_retests_per_mr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "ccx/ccx-upgrades-data-eng": {
