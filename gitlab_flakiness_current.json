@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-20T08:03:50.652323",
+  "analysis_date": "2025-12-20T20:03:50.833787",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,18 +12,18 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2025-12-19T08:03:30.675998+00:00",
-    "to": "2025-12-20T08:03:50.652339"
+    "from": "2025-12-19T20:03:31.676476+00:00",
+    "to": "2025-12-20T20:03:50.833802"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 3,
-    "total_commits": 3,
-    "total_retests": 7,
-    "mrs_with_retests": 2,
-    "mr_retest_rate": 66.66666666666666,
-    "avg_retests_per_mr": 2.3333333333333335,
-    "avg_retests_per_commit": 2.3333333333333335
+    "total_mrs_analyzed": 0,
+    "total_commits": 0,
+    "total_retests": 0,
+    "mrs_with_retests": 0,
+    "mr_retest_rate": 0,
+    "avg_retests_per_mr": 0,
+    "avg_retests_per_commit": 0
   },
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
@@ -51,26 +51,15 @@
       }
     },
     "ccx/content-service": {
-      "mrs": [
-        {
-          "project": "ccx/content-service",
-          "mr_iid": 857,
-          "title": "fix(deps): update module github.com/burntsushi/toml to v1.6.0",
-          "merged_at": "2025-12-19T11:17:06.613Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/857"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/ccx-load-test": {
@@ -98,49 +87,27 @@
       }
     },
     "ccx/ccx-upgrades-data-eng": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-upgrades-data-eng",
-          "mr_iid": 214,
-          "title": "Remove pr_check script as now Konflux is running integration tests",
-          "merged_at": "2025-12-19T15:22:53.060Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 4,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-data-eng/-/merge_requests/214"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 4,
-        "mrs_with_retests": 1,
-        "mr_retest_rate": 100.0,
-        "avg_retests_per_mr": 4.0,
-        "avg_retests_per_commit": 4.0
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "mrs_with_retests": 0,
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/ccx-upgrades-inference": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-upgrades-inference",
-          "mr_iid": 132,
-          "title": "Remove pr_check script as now Konflux is running integration tests",
-          "merged_at": "2025-12-19T15:06:25.528Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 3,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-inference/-/merge_requests/132"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 3,
-        "mrs_with_retests": 1,
-        "mr_retest_rate": 100.0,
-        "avg_retests_per_mr": 3.0,
-        "avg_retests_per_commit": 3.0
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "mrs_with_retests": 0,
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     }
   }
