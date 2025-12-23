@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-23T10:09:41.523823+00:00",
+  "analysis_date": "2025-12-23T22:08:21.942030+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-09-24T10:09:41.510983+00:00",
-    "to": "2025-12-23T10:09:41.523823+00:00"
+    "from": "2025-09-24T22:08:21.929353+00:00",
+    "to": "2025-12-23T22:08:21.942030+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -654,6 +654,16 @@
     },
     "ccx/content-service": {
       "mrs": [
+        {
+          "project": "ccx/content-service",
+          "mr_iid": 856,
+          "title": "Remove pr_check script as now Konflux is running integration tests",
+          "merged_at": "2025-12-23T08:58:53.406Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 7,
+          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/856"
+        },
         {
           "project": "ccx/content-service",
           "mr_iid": 857,
@@ -1318,12 +1328,12 @@
       }
     }
   },
-  "last_updated": "2025-12-23T10:09:41.523823+00:00",
-  "cutoff_date": "2025-09-24T10:09:41.510983+00:00",
+  "last_updated": "2025-12-23T22:08:21.942030+00:00",
+  "cutoff_date": "2025-09-24T22:08:21.929353+00:00",
   "summary": {
-    "total_mrs": 120,
-    "total_retests": 30,
-    "mrs_with_retests": 16,
-    "retest_rate": 13.333333333333334
+    "total_mrs": 121,
+    "total_retests": 37,
+    "mrs_with_retests": 17,
+    "retest_rate": 14.049586776859504
   }
 }
