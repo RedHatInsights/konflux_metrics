@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-23T22:08:21.942030+00:00",
+  "analysis_date": "2025-12-24T10:08:55.823072+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-09-24T22:08:21.929353+00:00",
-    "to": "2025-12-23T22:08:21.942030+00:00"
+    "from": "2025-09-25T10:08:55.810478+00:00",
+    "to": "2025-12-24T10:08:55.823072+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -836,18 +836,7 @@
       }
     },
     "ccx/ccx-load-test": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-load-test",
-          "mr_iid": 100,
-          "title": "[CCXDEV-15499] Use remote Konflux pipelines",
-          "merged_at": "2025-09-25T07:36:11.040Z",
-          "author": "ireyes",
-          "total_commits": 2,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/100"
-        }
-      ],
+      "mrs": [],
       "summary": {
         "total_mrs_analyzed": 6,
         "total_commits": 7,
@@ -1129,16 +1118,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/298"
-        },
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 295,
-          "title": "[CCXDEV-15498] Use remote Konflux pipelines",
-          "merged_at": "2025-09-25T07:49:43.266Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 2,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/295"
         }
       ],
       "summary": {
@@ -1328,12 +1307,12 @@
       }
     }
   },
-  "last_updated": "2025-12-23T22:08:21.942030+00:00",
-  "cutoff_date": "2025-09-24T22:08:21.929353+00:00",
+  "last_updated": "2025-12-24T10:08:55.823072+00:00",
+  "cutoff_date": "2025-09-25T10:08:55.810478+00:00",
   "summary": {
-    "total_mrs": 121,
-    "total_retests": 37,
-    "mrs_with_retests": 17,
-    "retest_rate": 14.049586776859504
+    "total_mrs": 119,
+    "total_retests": 35,
+    "mrs_with_retests": 16,
+    "retest_rate": 13.445378151260504
   }
 }
