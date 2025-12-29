@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2025-12-29T08:03:54.386305",
+  "analysis_date": "2025-12-29T20:03:52.108272",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,18 +12,18 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2025-12-28T08:03:36.429384+00:00",
-    "to": "2025-12-29T08:03:54.386321"
+    "from": "2025-12-28T20:03:33.419121+00:00",
+    "to": "2025-12-29T20:03:52.108288"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 0,
-    "total_commits": 0,
-    "total_retests": 0,
-    "mrs_with_retests": 0,
-    "mr_retest_rate": 0,
-    "avg_retests_per_mr": 0,
-    "avg_retests_per_commit": 0
+    "total_mrs_analyzed": 1,
+    "total_commits": 1,
+    "total_retests": 1,
+    "mrs_with_retests": 1,
+    "mr_retest_rate": 100.0,
+    "avg_retests_per_mr": 1.0,
+    "avg_retests_per_commit": 1.0
   },
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
@@ -75,15 +75,26 @@
       }
     },
     "ccx/parquet-factory": {
-      "mrs": [],
+      "mrs": [
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 332,
+          "title": "fix(deps): update aws-sdk-go-v2 monorepo",
+          "merged_at": "2025-12-29T10:41:32.091Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 1,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/332"
+        }
+      ],
       "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
+        "total_mrs_analyzed": 1,
+        "total_commits": 1,
+        "total_retests": 1,
+        "mrs_with_retests": 1,
+        "mr_retest_rate": 100.0,
+        "avg_retests_per_mr": 1.0,
+        "avg_retests_per_commit": 1.0
       }
     },
     "ccx/ccx-upgrades-data-eng": {
