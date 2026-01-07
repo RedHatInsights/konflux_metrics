@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-07T10:10:06.500206+00:00",
+  "analysis_date": "2026-01-07T22:08:10.117612+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-09T10:10:06.475221+00:00",
-    "to": "2026-01-07T10:10:06.500206+00:00"
+    "from": "2025-10-09T22:08:10.092372+00:00",
+    "to": "2026-01-07T22:08:10.117612+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -396,6 +396,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2349,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-07T12:59:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2349"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2346,
@@ -1019,18 +1031,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2287"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2286,
-          "title": "Golang CI lint",
-          "merged_at": "2025-10-09T11:45:16Z",
-          "user": "ikerreyes",
-          "total_commits": 4,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2286"
         }
       ],
       "summary": {
@@ -1724,18 +1724,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/721"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 720,
-          "title": "Add dependency on db to bdd container",
-          "merged_at": "2025-10-09T11:13:15Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/720"
         }
       ],
       "summary": {
@@ -2243,30 +2231,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/521"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 518,
-          "title": "chore(deps): update dependency go to v1.25.2",
-          "merged_at": "2025-10-09T11:23:08Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/518"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 520,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-09T10:50:41Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/520"
         }
       ],
       "summary": {
@@ -3317,30 +3281,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1016"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1015,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-09T11:25:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1015"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1012,
-          "title": "[CCXDEV-15554] No error when unable to push metrics",
-          "merged_at": "2025-10-09T10:28:38Z",
-          "user": "lenasolarova",
-          "total_commits": 7,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1012"
         }
       ],
       "summary": {
@@ -3357,6 +3297,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 735,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-07T12:38:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/735"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 734,
@@ -4169,6 +4121,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1648,
+          "title": "[CCXDEV-14258] Reduce log level",
+          "merged_at": "2026-01-07T13:38:55Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1648"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1644,
           "title": "Reduce log level severity for non-errors",
           "merged_at": "2025-12-19T14:53:29Z",
@@ -4466,18 +4430,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1610"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1609,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-09T11:05:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1609"
         }
       ],
       "summary": {
@@ -4493,14 +4445,14 @@
       }
     }
   },
-  "last_updated": "2026-01-07T10:10:06.500206+00:00",
-  "cutoff_date": "2025-10-09T10:10:06.475221+00:00",
+  "last_updated": "2026-01-07T22:08:10.117612+00:00",
+  "cutoff_date": "2025-10-09T22:08:10.092372+00:00",
   "summary": {
-    "total_prs": 358,
-    "total_retests": 55,
-    "prs_with_retests": 36,
-    "retest_rate": 10.05586592178771,
-    "retest_comments": 36,
-    "update_branch_actions": 19
+    "total_prs": 354,
+    "total_retests": 52,
+    "prs_with_retests": 34,
+    "retest_rate": 9.6045197740113,
+    "retest_comments": 35,
+    "update_branch_actions": 17
   }
 }
