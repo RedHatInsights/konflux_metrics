@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-06T22:08:33.014812+00:00",
+  "analysis_date": "2026-01-07T10:10:06.522672+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-08T22:08:33.002240+00:00",
-    "to": "2026-01-06T22:08:33.014812+00:00"
+    "from": "2025-10-09T10:10:06.507691+00:00",
+    "to": "2026-01-07T10:10:06.522672+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1162,
+          "title": "[CCXDEV-15873] test: remove tests for ols",
+          "merged_at": "2026-01-07T07:50:33.030Z",
+          "author": "lsolarov",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1162"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1161,
@@ -1257,12 +1267,12 @@
       }
     }
   },
-  "last_updated": "2026-01-06T22:08:33.014812+00:00",
-  "cutoff_date": "2025-10-08T22:08:33.002240+00:00",
+  "last_updated": "2026-01-07T10:10:06.522672+00:00",
+  "cutoff_date": "2025-10-09T10:10:06.507691+00:00",
   "summary": {
-    "total_mrs": 114,
+    "total_mrs": 115,
     "total_retests": 34,
     "mrs_with_retests": 15,
-    "retest_rate": 13.157894736842104
+    "retest_rate": 13.043478260869565
   }
 }
