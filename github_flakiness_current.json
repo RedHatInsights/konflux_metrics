@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-08T09:12:54.686000",
+  "analysis_date": "2026-01-08T21:10:43.802569",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,23 +15,50 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-07T09:12:29.435589+00:00",
-    "to": "2026-01-08T09:12:54.686013"
+    "from": "2026-01-07T21:10:18.387252+00:00",
+    "to": "2026-01-08T21:10:43.802587"
   },
   "overall_summary": {
     "total_repos": 11,
     "total_prs_analyzed": 3,
-    "total_commits": 3,
-    "total_retests": 1,
-    "retest_comments": 1,
+    "total_commits": 6,
+    "total_retests": 2,
+    "retest_comments": 2,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
     "pr_retest_rate": 33.33333333333333,
-    "avg_retests_per_pr": 0.3333333333333333,
+    "avg_retests_per_pr": 0.6666666666666666,
     "avg_retests_per_commit": 0.3333333333333333
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 633,
+          "title": "[CCXDEV-15676] Remove archive-sync-ols from ccx-messaging",
+          "merged_at": "2026-01-08T14:16:36Z",
+          "user": "lenasolarova",
+          "total_commits": 4,
+          "retest_comments": 2,
+          "update_branch_count": 0,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/633"
+        }
+      ],
+      "summary": {
+        "total_prs_analyzed": 1,
+        "total_commits": 4,
+        "total_retests": 2,
+        "retest_comments": 2,
+        "update_branch_actions": 0,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 2.0,
+        "avg_retests_per_commit": 0.5
+      }
+    },
+    "RedHatInsights/insights-results-aggregator": {
       "prs": [],
       "summary": {
         "total_prs_analyzed": 0,
@@ -45,45 +72,31 @@
         "avg_retests_per_commit": 0
       }
     },
-    "RedHatInsights/insights-results-aggregator": {
+    "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
         {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2349,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-07T12:59:48Z",
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 498,
+          "title": "chore(deps): update module golang.org/x/sys to v0.40.0",
+          "merged_at": "2026-01-08T12:56:40Z",
           "user": "red-hat-konflux[bot]",
           "total_commits": 1,
-          "retest_comments": 1,
+          "retest_comments": 0,
           "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2349"
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/498"
         }
       ],
       "summary": {
         "total_prs_analyzed": 1,
         "total_commits": 1,
-        "total_retests": 1,
-        "retest_comments": 1,
-        "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 1.0
-      }
-    },
-    "RedHatInsights/insights-results-aggregator-exporter": {
-      "prs": [],
-      "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -129,17 +142,30 @@
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 555,
+          "title": "chore(deps): update module golang.org/x/sys to v0.40.0",
+          "merged_at": "2026-01-08T13:03:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/555"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-service": {
@@ -157,30 +183,17 @@
       }
     },
     "RedHatInsights/ccx-notification-writer": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 735,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-07T12:38:50Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/735"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/obsint-mocks": {
@@ -198,30 +211,17 @@
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1648,
-          "title": "[CCXDEV-14258] Reduce log level",
-          "merged_at": "2026-01-07T13:38:55Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1648"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     }
   }
