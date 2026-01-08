@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-08T10:10:17.891510+00:00",
+  "analysis_date": "2026-01-08T22:08:28.545693+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-10T10:10:17.866860+00:00",
-    "to": "2026-01-08T10:10:17.891510+00:00"
+    "from": "2025-10-10T22:08:28.521084+00:00",
+    "to": "2026-01-08T22:08:28.545693+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,18 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 633,
+          "title": "[CCXDEV-15676] Remove archive-sync-ols from ccx-messaging",
+          "merged_at": "2026-01-08T14:16:36Z",
+          "user": "lenasolarova",
+          "total_commits": 4,
+          "retest_comments": 2,
+          "update_branch_count": 0,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/633"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 631,
@@ -1007,18 +1019,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2292"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2291,
-          "title": "Remove toolchain directive from go.mod file",
-          "merged_at": "2025-10-10T11:40:07Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2291"
         }
       ],
       "summary": {
@@ -1035,6 +1035,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 498,
+          "title": "chore(deps): update module golang.org/x/sys to v0.40.0",
+          "merged_at": "2026-01-08T12:56:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/498"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 497,
@@ -1334,18 +1346,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/473"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 472,
-          "title": "Remove toolchain directive from go.mod file",
-          "merged_at": "2025-10-10T11:41:00Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/472"
         }
       ],
       "summary": {
@@ -2207,18 +2207,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/522"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 521,
-          "title": "Remove toolchain directive from go.mod file",
-          "merged_at": "2025-10-10T11:38:59Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/521"
         }
       ],
       "summary": {
@@ -2235,6 +2223,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 555,
+          "title": "chore(deps): update module golang.org/x/sys to v0.40.0",
+          "merged_at": "2026-01-08T13:03:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/555"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 554,
@@ -2882,18 +2882,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/498"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 497,
-          "title": "Remove toolchain directive from go.mod file",
-          "merged_at": "2025-10-10T11:40:50Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/497"
         }
       ],
       "summary": {
@@ -3245,30 +3233,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1019"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1017,
-          "title": "Remove toolchain directive from go.mod file",
-          "merged_at": "2025-10-10T11:41:26Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1017"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1016,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-10T10:13:26Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1016"
         }
       ],
       "summary": {
@@ -3992,18 +3956,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/677"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 675,
-          "title": "Remove toolchain directive from go.mod file",
-          "merged_at": "2025-10-10T11:40:18Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/675"
         }
       ],
       "summary": {
@@ -4394,18 +4346,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1613"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1611,
-          "title": "Remove toolchain directive from go.mod file",
-          "merged_at": "2025-10-10T11:40:40Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1611"
         }
       ],
       "summary": {
@@ -4421,14 +4361,14 @@
       }
     }
   },
-  "last_updated": "2026-01-08T10:10:17.891510+00:00",
-  "cutoff_date": "2025-10-10T10:10:17.866860+00:00",
+  "last_updated": "2026-01-08T22:08:28.545693+00:00",
+  "cutoff_date": "2025-10-10T22:08:28.521084+00:00",
   "summary": {
-    "total_prs": 352,
-    "total_retests": 52,
-    "prs_with_retests": 34,
-    "retest_rate": 9.659090909090908,
-    "retest_comments": 35,
+    "total_prs": 347,
+    "total_retests": 54,
+    "prs_with_retests": 35,
+    "retest_rate": 10.086455331412104,
+    "retest_comments": 37,
     "update_branch_actions": 17
   }
 }
