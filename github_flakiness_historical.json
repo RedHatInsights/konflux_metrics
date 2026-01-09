@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-09T10:09:11.483506+00:00",
+  "analysis_date": "2026-01-09T22:08:26.054959+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-11T10:09:11.458886+00:00",
-    "to": "2026-01-09T10:09:11.483506+00:00"
+    "from": "2025-10-11T22:08:26.030323+00:00",
+    "to": "2026-01-09T22:08:26.054959+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1718,6 +1718,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 567,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-09T21:03:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/567"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 566,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-09T08:57:42Z",
@@ -2223,6 +2235,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 556,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-09T21:00:27Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/556"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 555,
@@ -4361,13 +4385,13 @@
       }
     }
   },
-  "last_updated": "2026-01-09T10:09:11.483506+00:00",
-  "cutoff_date": "2025-10-11T10:09:11.458886+00:00",
+  "last_updated": "2026-01-09T22:08:26.054959+00:00",
+  "cutoff_date": "2025-10-11T22:08:26.030323+00:00",
   "summary": {
-    "total_prs": 347,
+    "total_prs": 349,
     "total_retests": 57,
     "prs_with_retests": 36,
-    "retest_rate": 10.37463976945245,
+    "retest_rate": 10.315186246418339,
     "retest_comments": 40,
     "update_branch_actions": 17
   }
