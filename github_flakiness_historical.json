@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-08T22:08:28.545693+00:00",
+  "analysis_date": "2026-01-09T10:09:11.483506+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-10T22:08:28.521084+00:00",
-    "to": "2026-01-08T22:08:28.545693+00:00"
+    "from": "2025-10-11T10:09:11.458886+00:00",
+    "to": "2026-01-09T10:09:11.483506+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1007,18 +1007,6 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2280"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2292,
-          "title": "fix(deps): update module github.com/ibm/sarama to v1.46.2",
-          "merged_at": "2025-10-11T00:59:17Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2292"
         }
       ],
       "summary": {
@@ -1728,6 +1716,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 566,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-09T08:57:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 3,
+          "update_branch_count": 0,
+          "total_retests": 3,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/566"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 564,
@@ -4361,14 +4361,14 @@
       }
     }
   },
-  "last_updated": "2026-01-08T22:08:28.545693+00:00",
-  "cutoff_date": "2025-10-10T22:08:28.521084+00:00",
+  "last_updated": "2026-01-09T10:09:11.483506+00:00",
+  "cutoff_date": "2025-10-11T10:09:11.458886+00:00",
   "summary": {
     "total_prs": 347,
-    "total_retests": 54,
-    "prs_with_retests": 35,
-    "retest_rate": 10.086455331412104,
-    "retest_comments": 37,
+    "total_retests": 57,
+    "prs_with_retests": 36,
+    "retest_rate": 10.37463976945245,
+    "retest_comments": 40,
     "update_branch_actions": 17
   }
 }
