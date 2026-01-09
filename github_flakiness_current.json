@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-09T09:12:34.718361",
+  "analysis_date": "2026-01-09T21:08:49.094504",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,47 +15,34 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-08T09:12:06.957342+00:00",
-    "to": "2026-01-09T09:12:34.718378"
+    "from": "2026-01-08T21:08:25.401355+00:00",
+    "to": "2026-01-09T21:08:49.094522"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 4,
-    "total_commits": 7,
-    "total_retests": 5,
-    "retest_comments": 5,
+    "total_prs_analyzed": 3,
+    "total_commits": 3,
+    "total_retests": 3,
+    "retest_comments": 3,
     "update_branch_actions": 0,
-    "prs_with_retests": 2,
-    "pr_retest_rate": 50.0,
-    "avg_retests_per_pr": 1.25,
-    "avg_retests_per_commit": 0.7142857142857143
+    "prs_with_retests": 1,
+    "pr_retest_rate": 33.33333333333333,
+    "avg_retests_per_pr": 1.0,
+    "avg_retests_per_commit": 1.0
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 633,
-          "title": "[CCXDEV-15676] Remove archive-sync-ols from ccx-messaging",
-          "merged_at": "2026-01-08T14:16:36Z",
-          "user": "lenasolarova",
-          "total_commits": 4,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/633"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 4,
-        "total_retests": 2,
-        "retest_comments": 2,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 2.0,
-        "avg_retests_per_commit": 0.5
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-results-aggregator": {
@@ -73,30 +60,17 @@
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 498,
-          "title": "chore(deps): update module golang.org/x/sys to v0.40.0",
-          "merged_at": "2026-01-08T12:56:40Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/498"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -131,6 +105,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 567,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-09T21:03:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/567"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 566,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-09T08:57:42Z",
@@ -143,30 +129,30 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 3,
         "retest_comments": 3,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 3.0,
-        "avg_retests_per_commit": 3.0
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 1.5,
+        "avg_retests_per_commit": 1.5
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 555,
-          "title": "chore(deps): update module golang.org/x/sys to v0.40.0",
-          "merged_at": "2026-01-08T13:03:15Z",
+          "pr_number": 556,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-09T21:00:27Z",
           "user": "red-hat-konflux[bot]",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/555"
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/556"
         }
       ],
       "summary": {
