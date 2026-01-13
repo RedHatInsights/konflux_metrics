@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-13T10:09:49.468908+00:00",
+  "analysis_date": "2026-01-13T22:08:37.692666+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-15T10:09:49.456372+00:00",
-    "to": "2026-01-13T10:09:49.468908+00:00"
+    "from": "2025-10-15T22:08:37.679815+00:00",
+    "to": "2026-01-13T22:08:37.692666+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1164,
+          "title": "Bumped ccx-rules-ocp version to 2026.01.13",
+          "merged_at": "2026-01-13T09:05:36.638Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1164"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1162,
@@ -397,16 +407,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1128"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1126,
-          "title": "Bumped ccx-rules-ocp version to 2025.10.06",
-          "merged_at": "2025-10-15T16:36:02.047Z",
-          "author": "iqe-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1126"
         }
       ],
       "summary": {
@@ -421,6 +421,36 @@
     },
     "ccx/ccx-data-pipeline": {
       "mrs": [
+        {
+          "project": "ccx/ccx-data-pipeline",
+          "mr_iid": 1131,
+          "title": "[CCXDEV-15916] Removing recursive permissions changes from Dockerfile",
+          "merged_at": "2026-01-13T15:39:39.344Z",
+          "author": "jsegural",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1131"
+        },
+        {
+          "project": "ccx/ccx-data-pipeline",
+          "mr_iid": 1129,
+          "title": "[CCXDEV-15854] Fix CVE-2025-66034 Remove fonttools dependency (no longer required)",
+          "merged_at": "2026-01-13T11:07:56.468Z",
+          "author": "mzibrick",
+          "total_commits": 9,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1129"
+        },
+        {
+          "project": "ccx/ccx-data-pipeline",
+          "mr_iid": 1130,
+          "title": "Bumped ccx-rules-ocp version to 2026.01.13",
+          "merged_at": "2026-01-13T08:37:22.007Z",
+          "author": "ccx-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1130"
+        },
         {
           "project": "ccx/ccx-data-pipeline",
           "mr_iid": 1128,
@@ -614,6 +644,16 @@
     },
     "ccx/content-service": {
       "mrs": [
+        {
+          "project": "ccx/content-service",
+          "mr_iid": 859,
+          "title": "Bumped ccx-rules-ocp version to 2026.01.13",
+          "merged_at": "2026-01-13T08:40:10.089Z",
+          "author": "ccx-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/859"
+        },
         {
           "project": "ccx/content-service",
           "mr_iid": 856,
@@ -998,16 +1038,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/308"
-        },
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 310,
-          "title": "Update Shopify/sarama to IBM/sarama",
-          "merged_at": "2025-10-15T10:40:30.555Z",
-          "author": "jipapous",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/310"
         }
       ],
       "summary": {
@@ -1187,12 +1217,12 @@
       }
     }
   },
-  "last_updated": "2026-01-13T10:09:49.468908+00:00",
-  "cutoff_date": "2025-10-15T10:09:49.456372+00:00",
+  "last_updated": "2026-01-13T22:08:37.692666+00:00",
+  "cutoff_date": "2025-10-15T22:08:37.679815+00:00",
   "summary": {
-    "total_mrs": 107,
+    "total_mrs": 110,
     "total_retests": 34,
     "mrs_with_retests": 15,
-    "retest_rate": 14.018691588785046
+    "retest_rate": 13.636363636363635
   }
 }
