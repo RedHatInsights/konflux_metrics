@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-12T22:08:22.327463+00:00",
+  "analysis_date": "2026-01-13T10:09:49.451401+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-14T22:08:22.303239+00:00",
-    "to": "2026-01-12T22:08:22.327463+00:00"
+    "from": "2025-10-15T10:09:49.426603+00:00",
+    "to": "2026-01-13T10:09:49.451401+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -380,18 +380,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/599"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 598,
-          "title": "Avoid number of instances check for archive-sync and archive-sync-ols-copy",
-          "merged_at": "2025-10-15T09:41:20Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/598"
         }
       ],
       "summary": {
@@ -1670,6 +1658,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 572,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-13T01:58:18Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/572"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 571,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-12T17:31:32Z",
@@ -2211,6 +2211,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 560,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-13T01:55:05Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/560"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 559,
@@ -3275,6 +3287,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 738,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-13T01:50:46Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/738"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 737,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-12T17:46:30Z",
@@ -3980,30 +4004,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/680"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 679,
-          "title": "build(deps): bump github.com/IBM/sarama from 1.45.2 to 1.46.2",
-          "merged_at": "2025-10-15T10:06:29Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/679"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 677,
-          "title": "[CCXDEV-15504] Sarama version bump",
-          "merged_at": "2025-10-15T09:40:24Z",
-          "user": "ikerreyes",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/677"
         }
       ],
       "summary": {
@@ -4107,6 +4107,18 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1649,
+          "title": "[CCXDEV-15516] Group Go version updates + add CI check to keep them in sync",
+          "merged_at": "2026-01-13T08:05:31Z",
+          "user": "JiriPapousek",
+          "total_commits": 3,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1649"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1648,
@@ -4409,14 +4421,14 @@
       }
     }
   },
-  "last_updated": "2026-01-12T22:08:22.327463+00:00",
-  "cutoff_date": "2025-10-14T22:08:22.303239+00:00",
+  "last_updated": "2026-01-13T10:09:49.451401+00:00",
+  "cutoff_date": "2025-10-15T10:09:49.426603+00:00",
   "summary": {
-    "total_prs": 351,
-    "total_retests": 55,
-    "prs_with_retests": 34,
-    "retest_rate": 9.686609686609685,
-    "retest_comments": 38,
+    "total_prs": 352,
+    "total_retests": 56,
+    "prs_with_retests": 35,
+    "retest_rate": 9.943181818181818,
+    "retest_comments": 39,
     "update_branch_actions": 17
   }
 }
