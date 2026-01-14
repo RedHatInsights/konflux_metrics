@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-14T09:13:03.006612",
+  "analysis_date": "2026-01-14T21:12:38.913802",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,74 +15,73 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-13T09:12:34.756896+00:00",
-    "to": "2026-01-14T09:13:03.006628"
+    "from": "2026-01-13T21:12:12.531010+00:00",
+    "to": "2026-01-14T21:12:38.913820"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 5,
-    "total_commits": 8,
-    "total_retests": 1,
-    "retest_comments": 1,
+    "total_prs_analyzed": 3,
+    "total_commits": 10,
+    "total_retests": 2,
+    "retest_comments": 2,
     "update_branch_actions": 0,
-    "prs_with_retests": 1,
-    "pr_retest_rate": 20.0,
-    "avg_retests_per_pr": 0.2,
-    "avg_retests_per_commit": 0.125
+    "prs_with_retests": 2,
+    "pr_retest_rate": 66.66666666666666,
+    "avg_retests_per_pr": 0.6666666666666666,
+    "avg_retests_per_commit": 0.2
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 636,
-          "title": "[CCXDEV-15916] Removing recursive permissions changes from Dockerfile",
-          "merged_at": "2026-01-13T12:59:28Z",
-          "user": "joselsegura",
+          "pr_number": 638,
+          "title": "[CCXDEV-15881] Change groups to process messages on the right group",
+          "merged_at": "2026-01-14T14:58:23Z",
+          "user": "lenasolarova",
           "total_commits": 1,
           "retest_comments": 1,
           "update_branch_count": 0,
           "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/636"
-        }
-      ],
-      "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 1,
-        "retest_comments": 1,
-        "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 1.0
-      }
-    },
-    "RedHatInsights/insights-results-aggregator": {
-      "prs": [
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/638"
+        },
         {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2351,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-13T12:49:42Z",
-          "user": "red-hat-konflux[bot]",
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 634,
+          "title": "[CCXDEV-15881] Remove multiplexor stage one",
+          "merged_at": "2026-01-14T12:13:37Z",
+          "user": "lenasolarova",
           "total_commits": 2,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2351"
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/634"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 2,
+        "total_prs_analyzed": 2,
+        "total_commits": 3,
+        "total_retests": 1,
+        "retest_comments": 1,
+        "update_branch_actions": 0,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.5,
+        "avg_retests_per_commit": 0.3333333333333333
+      }
+    },
+    "RedHatInsights/insights-results-aggregator": {
+      "prs": [],
+      "summary": {
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -201,51 +200,27 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1656,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.486 to 0.1.487",
-          "merged_at": "2026-01-13T18:25:37Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1656"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1655,
-          "title": "[CCXDEV-15516] Fix go-toolset image tag",
-          "merged_at": "2026-01-13T14:55:55Z",
+          "pr_number": 1657,
+          "title": "[CCXDEV-15516] Use skopeo for go version retrieval from image",
+          "merged_at": "2026-01-14T14:35:26Z",
           "user": "JiriPapousek",
-          "total_commits": 3,
-          "retest_comments": 0,
+          "total_commits": 7,
+          "retest_comments": 1,
           "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1655"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1652,
-          "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v9",
-          "merged_at": "2026-01-13T09:30:57Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1652"
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1657"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 5,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 7,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.14285714285714285
       }
     }
   }
