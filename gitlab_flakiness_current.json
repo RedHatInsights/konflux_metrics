@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-14T08:03:38.977513",
+  "analysis_date": "2026-01-14T20:03:54.850523",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,13 +12,13 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-13T08:03:19.930859+00:00",
-    "to": "2026-01-14T08:03:38.977534"
+    "from": "2026-01-13T20:03:35.681631+00:00",
+    "to": "2026-01-14T20:03:54.850538"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 5,
-    "total_commits": 13,
+    "total_mrs_analyzed": 4,
+    "total_commits": 4,
     "total_retests": 0,
     "mrs_with_retests": 0,
     "mr_retest_rate": 0.0,
@@ -30,18 +30,28 @@
       "mrs": [
         {
           "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1164,
-          "title": "Bumped ccx-rules-ocp version to 2026.01.13",
-          "merged_at": "2026-01-13T09:05:36.638Z",
-          "author": "iqe-bot",
+          "mr_iid": 1166,
+          "title": "Update Flexy install Jenkins URL",
+          "merged_at": "2026-01-14T12:45:48.240Z",
+          "author": "ireyes",
           "total_commits": 1,
           "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1164"
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1166"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1165,
+          "title": "Use the same clusters in ephemeral and clowder smoke",
+          "merged_at": "2026-01-14T12:45:49.589Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1165"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
@@ -50,69 +60,27 @@
       }
     },
     "ccx/ccx-data-pipeline": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1131,
-          "title": "[CCXDEV-15916] Removing recursive permissions changes from Dockerfile",
-          "merged_at": "2026-01-13T15:39:39.344Z",
-          "author": "jsegural",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1131"
-        },
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1129,
-          "title": "[CCXDEV-15854] Fix CVE-2025-66034 Remove fonttools dependency (no longer required)",
-          "merged_at": "2026-01-13T11:07:56.468Z",
-          "author": "mzibrick",
-          "total_commits": 9,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1129"
-        },
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1130,
-          "title": "Bumped ccx-rules-ocp version to 2026.01.13",
-          "merged_at": "2026-01-13T08:37:22.007Z",
-          "author": "ccx-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1130"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 3,
-        "total_commits": 11,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/content-service": {
-      "mrs": [
-        {
-          "project": "ccx/content-service",
-          "mr_iid": 859,
-          "title": "Bumped ccx-rules-ocp version to 2026.01.13",
-          "merged_at": "2026-01-13T08:40:10.089Z",
-          "author": "ccx-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/859"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/ccx-load-test": {
@@ -128,15 +96,36 @@
       }
     },
     "ccx/parquet-factory": {
-      "mrs": [],
+      "mrs": [
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 334,
+          "title": "fix(deps): update aws-sdk-go-v2 monorepo",
+          "merged_at": "2026-01-14T11:41:48.258Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/334"
+        },
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 335,
+          "title": "Fix: lint failures in Konflux PRs",
+          "merged_at": "2026-01-14T09:18:49.128Z",
+          "author": "lsolarov",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/335"
+        }
+      ],
       "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
+        "total_mrs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
+        "mr_retest_rate": 0.0,
+        "avg_retests_per_mr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "ccx/ccx-upgrades-data-eng": {
