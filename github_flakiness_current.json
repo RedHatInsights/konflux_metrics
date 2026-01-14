@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-13T21:14:34.375049",
+  "analysis_date": "2026-01-14T09:13:03.006612",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,20 +15,20 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-12T21:14:09.230798+00:00",
-    "to": "2026-01-13T21:14:34.375068"
+    "from": "2026-01-13T09:12:34.756896+00:00",
+    "to": "2026-01-14T09:13:03.006628"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 9,
-    "total_commits": 14,
-    "total_retests": 2,
-    "retest_comments": 2,
+    "total_prs_analyzed": 5,
+    "total_commits": 8,
+    "total_retests": 1,
+    "retest_comments": 1,
     "update_branch_actions": 0,
-    "prs_with_retests": 2,
-    "pr_retest_rate": 22.22222222222222,
-    "avg_retests_per_pr": 0.2222222222222222,
-    "avg_retests_per_commit": 0.14285714285714285
+    "prs_with_retests": 1,
+    "pr_retest_rate": 20.0,
+    "avg_retests_per_pr": 0.2,
+    "avg_retests_per_commit": 0.125
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -128,57 +128,31 @@
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 572,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-13T01:58:18Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/572"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 560,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-13T01:55:05Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/560"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/ccx-notification-service": {
@@ -196,30 +170,17 @@
       }
     },
     "RedHatInsights/ccx-notification-writer": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 738,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-13T01:50:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/738"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/obsint-mocks": {
@@ -273,30 +234,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1652"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1649,
-          "title": "[CCXDEV-15516] Group Go version updates + add CI check to keep them in sync",
-          "merged_at": "2026-01-13T08:05:31Z",
-          "user": "JiriPapousek",
-          "total_commits": 3,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1649"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 8,
-        "total_retests": 1,
-        "retest_comments": 1,
+        "total_prs_analyzed": 3,
+        "total_commits": 5,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.125
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     }
   }
