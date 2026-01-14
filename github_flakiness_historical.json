@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-14T10:10:05.023378+00:00",
+  "analysis_date": "2026-01-14T22:08:44.024032+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-16T10:10:04.998442+00:00",
-    "to": "2026-01-14T10:10:05.023378+00:00"
+    "from": "2025-10-16T22:08:44.000040+00:00",
+    "to": "2026-01-14T22:08:44.024032+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,30 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 638,
+          "title": "[CCXDEV-15881] Change groups to process messages on the right group",
+          "merged_at": "2026-01-14T14:58:23Z",
+          "user": "lenasolarova",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/638"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 634,
+          "title": "[CCXDEV-15881] Remove multiplexor stage one",
+          "merged_at": "2026-01-14T12:13:37Z",
+          "user": "lenasolarova",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/634"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 636,
@@ -4025,6 +4049,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1657,
+          "title": "[CCXDEV-15516] Use skopeo for go version retrieval from image",
+          "merged_at": "2026-01-14T14:35:26Z",
+          "user": "JiriPapousek",
+          "total_commits": 7,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1657"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1656,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.486 to 0.1.487",
           "merged_at": "2026-01-13T18:25:37Z",
@@ -4373,14 +4409,14 @@
       }
     }
   },
-  "last_updated": "2026-01-14T10:10:05.023378+00:00",
-  "cutoff_date": "2025-10-16T10:10:04.998442+00:00",
+  "last_updated": "2026-01-14T22:08:44.024032+00:00",
+  "cutoff_date": "2025-10-16T22:08:44.000040+00:00",
   "summary": {
-    "total_prs": 348,
-    "total_retests": 55,
-    "prs_with_retests": 35,
-    "retest_rate": 10.057471264367816,
-    "retest_comments": 38,
+    "total_prs": 351,
+    "total_retests": 57,
+    "prs_with_retests": 37,
+    "retest_rate": 10.541310541310542,
+    "retest_comments": 40,
     "update_branch_actions": 17
   }
 }
