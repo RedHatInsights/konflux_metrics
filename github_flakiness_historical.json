@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-14T22:08:44.024032+00:00",
+  "analysis_date": "2026-01-15T10:09:37.951208+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-16T22:08:44.000040+00:00",
-    "to": "2026-01-14T22:08:44.024032+00:00"
+    "from": "2025-10-17T10:09:37.926545+00:00",
+    "to": "2026-01-15T10:09:37.951208+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -2948,6 +2948,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1050,
+          "title": "Fix prealloc linter issues in cluster_filter_test.go",
+          "merged_at": "2026-01-15T08:29:50Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1050"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1047,
           "title": "config: store less jobs in history",
           "merged_at": "2025-12-30T11:15:06Z",
@@ -4409,13 +4421,13 @@
       }
     }
   },
-  "last_updated": "2026-01-14T22:08:44.024032+00:00",
-  "cutoff_date": "2025-10-16T22:08:44.000040+00:00",
+  "last_updated": "2026-01-15T10:09:37.951208+00:00",
+  "cutoff_date": "2025-10-17T10:09:37.926545+00:00",
   "summary": {
-    "total_prs": 351,
+    "total_prs": 352,
     "total_retests": 57,
     "prs_with_retests": 37,
-    "retest_rate": 10.541310541310542,
+    "retest_rate": 10.511363636363637,
     "retest_comments": 40,
     "update_branch_actions": 17
   }
