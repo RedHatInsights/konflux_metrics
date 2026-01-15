@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-15T08:03:43.929361",
+  "analysis_date": "2026-01-15T20:03:45.374170",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-14T08:03:25.246555+00:00",
-    "to": "2026-01-15T08:03:43.929382"
+    "from": "2026-01-14T20:03:25.210237+00:00",
+    "to": "2026-01-15T20:03:45.374191"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -27,26 +27,38 @@
   },
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
+      "mrs": [],
+      "summary": {
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "mrs_with_retests": 0,
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
+      }
+    },
+    "ccx/ccx-data-pipeline": {
       "mrs": [
         {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1166,
-          "title": "Update Flexy install Jenkins URL",
-          "merged_at": "2026-01-14T12:45:48.240Z",
-          "author": "ireyes",
+          "project": "ccx/ccx-data-pipeline",
+          "mr_iid": 1132,
+          "title": "[CCXDEV-15889] conf: update urllib3",
+          "merged_at": "2026-01-15T13:15:22.652Z",
+          "author": "jdiazsua",
           "total_commits": 1,
           "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1166"
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1132"
         },
         {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1165,
-          "title": "Use the same clusters in ephemeral and clowder smoke",
-          "merged_at": "2026-01-14T12:45:49.589Z",
-          "author": "ireyes",
+          "project": "ccx/ccx-data-pipeline",
+          "mr_iid": 1133,
+          "title": "Fix uv command option in README.md",
+          "merged_at": "2026-01-15T11:55:23.176Z",
+          "author": "mzibrick",
           "total_commits": 1,
           "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1165"
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1133"
         }
       ],
       "summary": {
@@ -59,28 +71,27 @@
         "avg_retests_per_commit": 0.0
       }
     },
-    "ccx/ccx-data-pipeline": {
-      "mrs": [],
-      "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
-      }
-    },
     "ccx/content-service": {
-      "mrs": [],
+      "mrs": [
+        {
+          "project": "ccx/content-service",
+          "mr_iid": 858,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-15T11:03:02.333Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/858"
+        }
+      ],
       "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
+        "total_mrs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
+        "mr_retest_rate": 0.0,
+        "avg_retests_per_mr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "ccx/ccx-load-test": {
@@ -99,28 +110,18 @@
       "mrs": [
         {
           "project": "ccx/parquet-factory",
-          "mr_iid": 334,
-          "title": "fix(deps): update aws-sdk-go-v2 monorepo",
-          "merged_at": "2026-01-14T11:41:48.258Z",
+          "mr_iid": 336,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-15T08:13:49.867Z",
           "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
           "total_commits": 1,
           "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/334"
-        },
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 335,
-          "title": "Fix: lint failures in Konflux PRs",
-          "merged_at": "2026-01-14T09:18:49.128Z",
-          "author": "lsolarov",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/335"
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/336"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 2,
-        "total_commits": 2,
+        "total_mrs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
