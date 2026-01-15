@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-14T21:12:38.913802",
+  "analysis_date": "2026-01-15T09:12:43.541220",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,20 +15,20 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-13T21:12:12.531010+00:00",
-    "to": "2026-01-14T21:12:38.913820"
+    "from": "2026-01-14T09:12:20.836784+00:00",
+    "to": "2026-01-15T09:12:43.541239"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 3,
-    "total_commits": 10,
+    "total_prs_analyzed": 4,
+    "total_commits": 11,
     "total_retests": 2,
     "retest_comments": 2,
     "update_branch_actions": 0,
     "prs_with_retests": 2,
-    "pr_retest_rate": 66.66666666666666,
-    "avg_retests_per_pr": 0.6666666666666666,
-    "avg_retests_per_commit": 0.2
+    "pr_retest_rate": 50.0,
+    "avg_retests_per_pr": 0.5,
+    "avg_retests_per_commit": 0.18181818181818182
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -155,17 +155,30 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1050,
+          "title": "Fix prealloc linter issues in cluster_filter_test.go",
+          "merged_at": "2026-01-15T08:29:50Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1050"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
