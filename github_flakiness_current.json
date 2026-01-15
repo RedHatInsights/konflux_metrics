@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-15T09:12:43.541220",
+  "analysis_date": "2026-01-15T21:09:18.980550",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,87 +15,100 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-14T09:12:20.836784+00:00",
-    "to": "2026-01-15T09:12:43.541239"
+    "from": "2026-01-14T21:08:52.475087+00:00",
+    "to": "2026-01-15T21:09:18.980566"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 4,
-    "total_commits": 11,
-    "total_retests": 2,
-    "retest_comments": 2,
+    "total_prs_analyzed": 10,
+    "total_commits": 10,
+    "total_retests": 6,
+    "retest_comments": 6,
     "update_branch_actions": 0,
     "prs_with_retests": 2,
-    "pr_retest_rate": 50.0,
-    "avg_retests_per_pr": 0.5,
-    "avg_retests_per_commit": 0.18181818181818182
+    "pr_retest_rate": 20.0,
+    "avg_retests_per_pr": 0.6,
+    "avg_retests_per_commit": 0.6
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
+      "prs": [],
+      "summary": {
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
+      }
+    },
+    "RedHatInsights/insights-results-aggregator": {
       "prs": [
         {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 638,
-          "title": "[CCXDEV-15881] Change groups to process messages on the right group",
-          "merged_at": "2026-01-14T14:58:23Z",
-          "user": "lenasolarova",
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2352,
+          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
+          "merged_at": "2026-01-15T11:54:38Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
+          "retest_comments": 5,
+          "update_branch_count": 0,
+          "total_retests": 5,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2352"
+        }
+      ],
+      "summary": {
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
+        "total_retests": 5,
+        "retest_comments": 5,
+        "update_branch_actions": 0,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 5.0,
+        "avg_retests_per_commit": 5.0
+      }
+    },
+    "RedHatInsights/insights-results-aggregator-exporter": {
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 502,
+          "title": "fix(deps): update module github.com/minio/minio-go/v7 to v7.0.98",
+          "merged_at": "2026-01-15T15:14:39Z",
+          "user": "red-hat-konflux[bot]",
           "total_commits": 1,
           "retest_comments": 1,
           "update_branch_count": 0,
           "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/638"
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/502"
         },
         {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 634,
-          "title": "[CCXDEV-15881] Remove multiplexor stage one",
-          "merged_at": "2026-01-14T12:13:37Z",
-          "user": "lenasolarova",
-          "total_commits": 2,
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 501,
+          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
+          "merged_at": "2026-01-15T11:49:25Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/634"
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/501"
         }
       ],
       "summary": {
         "total_prs_analyzed": 2,
-        "total_commits": 3,
+        "total_commits": 2,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
         "pr_retest_rate": 50.0,
         "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.3333333333333333
-      }
-    },
-    "RedHatInsights/insights-results-aggregator": {
-      "prs": [],
-      "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
-      }
-    },
-    "RedHatInsights/insights-results-aggregator-exporter": {
-      "prs": [],
-      "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -127,35 +140,97 @@
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 574,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-15T17:05:56Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/574"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 573,
+          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
+          "merged_at": "2026-01-15T11:54:49Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/573"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 562,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-15T17:04:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/562"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 561,
+          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
+          "merged_at": "2026-01-15T11:54:58Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/561"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1049,
+          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
+          "merged_at": "2026-01-15T11:54:21Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1049"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1050,
@@ -170,8 +245,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -182,17 +257,30 @@
       }
     },
     "RedHatInsights/ccx-notification-writer": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 739,
+          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
+          "merged_at": "2026-01-15T11:49:37Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/739"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/obsint-mocks": {
@@ -210,30 +298,17 @@
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1657,
-          "title": "[CCXDEV-15516] Use skopeo for go version retrieval from image",
-          "merged_at": "2026-01-14T14:35:26Z",
-          "user": "JiriPapousek",
-          "total_commits": 7,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1657"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 7,
-        "total_retests": 1,
-        "retest_comments": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 0.14285714285714285
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     }
   }
