@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-15T22:08:37.380369+00:00",
+  "analysis_date": "2026-01-16T10:09:39.808322+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-17T22:08:37.356012+00:00",
-    "to": "2026-01-15T22:08:37.380369+00:00"
+    "from": "2025-10-18T10:09:39.783247+00:00",
+    "to": "2026-01-16T10:09:39.808322+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -432,6 +432,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2353,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-16T08:01:11Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2353"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2352,
@@ -3371,6 +3383,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 740,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-16T07:49:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/740"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 739,
           "title": "[CCXDEV-15516] Add CI for checking Go version sync",
           "merged_at": "2026-01-15T11:49:37Z",
@@ -4529,14 +4553,14 @@
       }
     }
   },
-  "last_updated": "2026-01-15T22:08:37.380369+00:00",
-  "cutoff_date": "2025-10-17T22:08:37.356012+00:00",
+  "last_updated": "2026-01-16T10:09:39.808322+00:00",
+  "cutoff_date": "2025-10-18T10:09:39.783247+00:00",
   "summary": {
-    "total_prs": 361,
-    "total_retests": 63,
-    "prs_with_retests": 39,
-    "retest_rate": 10.80332409972299,
-    "retest_comments": 46,
-    "update_branch_actions": 17
+    "total_prs": 363,
+    "total_retests": 65,
+    "prs_with_retests": 41,
+    "retest_rate": 11.294765840220386,
+    "retest_comments": 47,
+    "update_branch_actions": 18
   }
 }

@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-15T22:08:37.397625+00:00",
+  "analysis_date": "2026-01-16T10:09:39.826205+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-17T22:08:37.385265+00:00",
-    "to": "2026-01-15T22:08:37.397625+00:00"
+    "from": "2025-10-18T10:09:39.813535+00:00",
+    "to": "2026-01-16T10:09:39.826205+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -686,6 +686,16 @@
       "mrs": [
         {
           "project": "ccx/content-service",
+          "mr_iid": 860,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-16T07:12:06.285Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/860"
+        },
+        {
+          "project": "ccx/content-service",
           "mr_iid": 858,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-15T11:03:02.333Z",
@@ -899,6 +909,16 @@
     },
     "ccx/parquet-factory": {
       "mrs": [
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 338,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-16T07:12:14.546Z",
+          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/338"
+        },
         {
           "project": "ccx/parquet-factory",
           "mr_iid": 336,
@@ -1297,12 +1317,12 @@
       }
     }
   },
-  "last_updated": "2026-01-15T22:08:37.397625+00:00",
-  "cutoff_date": "2025-10-17T22:08:37.385265+00:00",
+  "last_updated": "2026-01-16T10:09:39.826205+00:00",
+  "cutoff_date": "2025-10-18T10:09:39.813535+00:00",
   "summary": {
-    "total_mrs": 118,
+    "total_mrs": 120,
     "total_retests": 34,
     "mrs_with_retests": 15,
-    "retest_rate": 12.711864406779661
+    "retest_rate": 12.5
   }
 }
