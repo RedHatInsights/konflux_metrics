@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-15T21:09:18.980550",
+  "analysis_date": "2026-01-16T09:11:53.548745",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,20 +15,20 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-14T21:08:52.475087+00:00",
-    "to": "2026-01-15T21:09:18.980566"
+    "from": "2026-01-15T09:11:20.608938+00:00",
+    "to": "2026-01-16T09:11:53.548762"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 10,
-    "total_commits": 10,
-    "total_retests": 6,
-    "retest_comments": 6,
-    "update_branch_actions": 0,
-    "prs_with_retests": 2,
-    "pr_retest_rate": 20.0,
-    "avg_retests_per_pr": 0.6,
-    "avg_retests_per_commit": 0.6
+    "total_prs_analyzed": 11,
+    "total_commits": 13,
+    "total_retests": 8,
+    "retest_comments": 7,
+    "update_branch_actions": 1,
+    "prs_with_retests": 4,
+    "pr_retest_rate": 36.36363636363637,
+    "avg_retests_per_pr": 0.7272727272727273,
+    "avg_retests_per_commit": 0.6153846153846154
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -49,6 +49,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2353,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-16T08:01:11Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2353"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2352,
           "title": "[CCXDEV-15516] Add CI for checking Go version sync",
           "merged_at": "2026-01-15T11:54:38Z",
@@ -61,15 +73,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 5,
+        "total_prs_analyzed": 2,
+        "total_commits": 4,
+        "total_retests": 6,
         "retest_comments": 5,
-        "update_branch_actions": 0,
-        "prs_with_retests": 1,
+        "update_branch_actions": 1,
+        "prs_with_retests": 2,
         "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 5.0,
-        "avg_retests_per_commit": 5.0
+        "avg_retests_per_pr": 3.0,
+        "avg_retests_per_commit": 1.5
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -230,23 +242,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1049"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1050,
-          "title": "Fix prealloc linter issues in cluster_filter_test.go",
-          "merged_at": "2026-01-15T08:29:50Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1050"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -258,6 +258,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 740,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-16T07:49:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/740"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 739,
@@ -272,15 +284,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.5,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/obsint-mocks": {
