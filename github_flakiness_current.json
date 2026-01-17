@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-16T21:11:37.672067",
+  "analysis_date": "2026-01-17T09:08:44.988527",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,20 +15,20 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-15T21:11:06.260642+00:00",
-    "to": "2026-01-16T21:11:37.672084"
+    "from": "2026-01-16T09:08:20.165791+00:00",
+    "to": "2026-01-17T09:08:44.988543"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 7,
-    "total_commits": 9,
-    "total_retests": 2,
-    "retest_comments": 1,
-    "update_branch_actions": 1,
-    "prs_with_retests": 2,
-    "pr_retest_rate": 28.57142857142857,
-    "avg_retests_per_pr": 0.2857142857142857,
-    "avg_retests_per_commit": 0.2222222222222222
+    "total_prs_analyzed": 6,
+    "total_commits": 6,
+    "total_retests": 0,
+    "retest_comments": 0,
+    "update_branch_actions": 0,
+    "prs_with_retests": 0,
+    "pr_retest_rate": 0.0,
+    "avg_retests_per_pr": 0.0,
+    "avg_retests_per_commit": 0.0
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -46,30 +46,17 @@
       }
     },
     "RedHatInsights/insights-results-aggregator": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2353,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-16T08:01:11Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2353"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 3,
-        "total_retests": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
         "retest_comments": 0,
-        "update_branch_actions": 1,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 0.3333333333333333
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -210,6 +197,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 742,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-16T21:16:27Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/742"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 741,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-16T17:46:23Z",
@@ -219,30 +218,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/741"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 740,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-16T07:49:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/740"
         }
       ],
       "summary": {
         "total_prs_analyzed": 2,
         "total_commits": 2,
-        "total_retests": 1,
-        "retest_comments": 1,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.5
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/obsint-mocks": {
