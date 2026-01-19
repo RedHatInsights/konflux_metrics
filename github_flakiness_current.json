@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-19T09:52:03.829303",
+  "analysis_date": "2026-01-19T21:08:27.913977",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,20 +15,20 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-18T09:51:45.645794+00:00",
-    "to": "2026-01-19T09:52:03.829322"
+    "from": "2026-01-18T21:08:02.744956+00:00",
+    "to": "2026-01-19T21:08:27.913994"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 1,
-    "total_commits": 2,
+    "total_prs_analyzed": 3,
+    "total_commits": 4,
     "total_retests": 2,
     "retest_comments": 2,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "pr_retest_rate": 100.0,
-    "avg_retests_per_pr": 2.0,
-    "avg_retests_per_commit": 1.0
+    "pr_retest_rate": 33.33333333333333,
+    "avg_retests_per_pr": 0.6666666666666666,
+    "avg_retests_per_commit": 0.5
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -115,17 +115,30 @@
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 577,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-19T18:36:08Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/577"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
@@ -185,17 +198,30 @@
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1658,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.487 to 0.1.488",
+          "merged_at": "2026-01-19T20:03:16Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1658"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     }
   }
