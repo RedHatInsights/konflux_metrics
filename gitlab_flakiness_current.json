@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-19T20:03:50.813812",
+  "analysis_date": "2026-01-20T08:03:50.479858",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,13 +12,13 @@
   ],
   "days_analyzed": 1,
   "date_range": {
-    "from": "2026-01-18T20:03:32.675072+00:00",
-    "to": "2026-01-19T20:03:50.813857"
+    "from": "2026-01-19T08:03:31.785260+00:00",
+    "to": "2026-01-20T08:03:50.479877"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 5,
-    "total_commits": 7,
+    "total_mrs_analyzed": 3,
+    "total_commits": 5,
     "total_retests": 0,
     "mrs_with_retests": 0,
     "mr_retest_rate": 0.0,
@@ -50,49 +50,27 @@
       }
     },
     "ccx/ccx-data-pipeline": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1134,
-          "title": "Bumped ccx-rules-ocp version to 2026.01.19",
-          "merged_at": "2026-01-19T06:39:44.082Z",
-          "author": "ccx-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1134"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/content-service": {
-      "mrs": [
-        {
-          "project": "ccx/content-service",
-          "mr_iid": 862,
-          "title": "Bumped ccx-rules-ocp version to 2026.01.19",
-          "merged_at": "2026-01-19T06:58:15.065Z",
-          "author": "ccx-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/862"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/ccx-load-test": {
