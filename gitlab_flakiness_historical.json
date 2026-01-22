@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-22T10:11:59.661779+00:00",
+  "analysis_date": "2026-01-22T11:02:59.987569",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,18 +12,18 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-24T10:11:59.648931+00:00",
-    "to": "2026-01-22T10:11:59.661779+00:00"
+    "from": "2025-10-24T11:02:06.099686+00:00",
+    "to": "2026-01-22T11:02:59.987598"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 78,
-    "total_commits": 96,
-    "total_retests": 16,
-    "mrs_with_retests": 12,
-    "mr_retest_rate": 15.384615384615385,
-    "avg_retests_per_mr": 0.20512820512820512,
-    "avg_retests_per_commit": 0.16666666666666666
+    "total_mrs_analyzed": 120,
+    "total_commits": 195,
+    "total_retests": 34,
+    "mrs_with_retests": 13,
+    "mr_retest_rate": 10.833333333333334,
+    "avg_retests_per_mr": 0.2833333333333333,
+    "avg_retests_per_commit": 0.17435897435897435
   },
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
@@ -40,16 +40,6 @@
         },
         {
           "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1165,
-          "title": "Use the same clusters in ephemeral and clowder smoke",
-          "merged_at": "2026-01-14T12:45:49.589Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1165"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1166,
           "title": "Update Flexy install Jenkins URL",
           "merged_at": "2026-01-14T12:45:48.240Z",
@@ -57,6 +47,16 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1166"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1165,
+          "title": "Use the same clusters in ephemeral and clowder smoke",
+          "merged_at": "2026-01-14T12:45:49.589Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1165"
         },
         {
           "project": "insights-qe/iqe-ccx-plugin",
@@ -370,16 +370,6 @@
         },
         {
           "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1131,
-          "title": "Update pre-commit hooks",
-          "merged_at": "2025-11-10T14:58:41.573Z",
-          "author": "iqe-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1131"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1120,
           "title": "first part of the nexus migration",
           "merged_at": "2025-11-10T14:43:53.467Z",
@@ -387,6 +377,16 @@
           "total_commits": 3,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1120"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1131,
+          "title": "Update pre-commit hooks",
+          "merged_at": "2025-11-10T14:58:41.573Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1131"
         },
         {
           "project": "insights-qe/iqe-ccx-plugin",
@@ -407,21 +407,11 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1130"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1127,
-          "title": "Update pre-commit hooks",
-          "merged_at": "2025-10-24T11:12:06.436Z",
-          "author": "iqe-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1127"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 21,
-        "total_commits": 33,
+        "total_mrs_analyzed": 38,
+        "total_commits": 71,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
@@ -650,26 +640,16 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1113"
-        },
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1112,
-          "title": "Fix deprecation warning from pythonjsonlogger",
-          "merged_at": "2025-10-24T10:29:53.047Z",
-          "author": "jsegural",
-          "total_commits": 2,
-          "total_retests": 1,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1112"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 24,
-        "total_commits": 27,
-        "total_retests": 9,
-        "mrs_with_retests": 7,
-        "mr_retest_rate": 29.166666666666668,
-        "avg_retests_per_mr": 0.375,
-        "avg_retests_per_commit": 0.3333333333333333
+        "total_mrs_analyzed": 22,
+        "total_commits": 38,
+        "total_retests": 5,
+        "mrs_with_retests": 3,
+        "mr_retest_rate": 13.636363636363635,
+        "avg_retests_per_mr": 0.22727272727272727,
+        "avg_retests_per_commit": 0.13157894736842105
       }
     },
     "ccx/content-service": {
@@ -886,25 +866,25 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 3,
-        "total_commits": 3,
-        "total_retests": 0,
-        "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "total_mrs_analyzed": 21,
+        "total_commits": 29,
+        "total_retests": 9,
+        "mrs_with_retests": 3,
+        "mr_retest_rate": 14.285714285714285,
+        "avg_retests_per_mr": 0.42857142857142855,
+        "avg_retests_per_commit": 0.3103448275862069
       }
     },
     "ccx/ccx-load-test": {
       "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 6,
-        "total_commits": 7,
-        "total_retests": 1,
-        "mrs_with_retests": 1,
-        "mr_retest_rate": 16.666666666666664,
-        "avg_retests_per_mr": 0.16666666666666666,
-        "avg_retests_per_commit": 0.14285714285714285
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "mrs_with_retests": 0,
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/parquet-factory": {
@@ -1141,13 +1121,13 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 17,
-        "total_commits": 19,
-        "total_retests": 3,
-        "mrs_with_retests": 2,
-        "mr_retest_rate": 11.76470588235294,
-        "avg_retests_per_mr": 0.17647058823529413,
-        "avg_retests_per_commit": 0.15789473684210525
+        "total_mrs_analyzed": 23,
+        "total_commits": 36,
+        "total_retests": 1,
+        "mrs_with_retests": 1,
+        "mr_retest_rate": 4.3478260869565215,
+        "avg_retests_per_mr": 0.043478260869565216,
+        "avg_retests_per_commit": 0.027777777777777776
       }
     },
     "ccx/ccx-upgrades-data-eng": {
@@ -1229,7 +1209,7 @@
           "merged_at": "2025-11-19T14:21:36.467Z",
           "author": "ccx-bot",
           "total_commits": 1,
-          "total_retests": 4,
+          "total_retests": 5,
           "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-data-eng/-/merge_requests/209"
         },
         {
@@ -1244,13 +1224,13 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 0,
-        "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "total_mrs_analyzed": 9,
+        "total_commits": 13,
+        "total_retests": 9,
+        "mrs_with_retests": 2,
+        "mr_retest_rate": 22.22222222222222,
+        "avg_retests_per_mr": 1.0,
+        "avg_retests_per_commit": 0.6923076923076923
       }
     },
     "ccx/ccx-upgrades-inference": {
@@ -1302,7 +1282,7 @@
           "merged_at": "2025-11-17T22:32:44.697Z",
           "author": "ccx-bot",
           "total_commits": 1,
-          "total_retests": 4,
+          "total_retests": 5,
           "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-inference/-/merge_requests/129"
         },
         {
@@ -1327,22 +1307,14 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 6,
-        "total_commits": 6,
-        "total_retests": 3,
-        "mrs_with_retests": 2,
-        "mr_retest_rate": 33.33333333333333,
-        "avg_retests_per_mr": 0.5,
-        "avg_retests_per_commit": 0.5
+        "total_mrs_analyzed": 7,
+        "total_commits": 8,
+        "total_retests": 10,
+        "mrs_with_retests": 4,
+        "mr_retest_rate": 57.14285714285714,
+        "avg_retests_per_mr": 1.4285714285714286,
+        "avg_retests_per_commit": 1.25
       }
     }
-  },
-  "last_updated": "2026-01-22T10:11:59.661779+00:00",
-  "cutoff_date": "2025-10-24T10:11:59.648931+00:00",
-  "summary": {
-    "total_mrs": 122,
-    "total_retests": 33,
-    "mrs_with_retests": 14,
-    "retest_rate": 11.475409836065573
   }
 }
