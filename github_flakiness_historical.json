@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-21T10:11:27.621676+00:00",
+  "analysis_date": "2026-01-22T10:11:59.644168+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-23T10:11:27.596568+00:00",
-    "to": "2026-01-21T10:11:27.621676+00:00"
+    "from": "2025-10-24T10:11:59.619591+00:00",
+    "to": "2026-01-22T10:11:59.644168+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,18 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 640,
+          "title": "build(deps): update boto3 requirement from <1.42.26,>=1.34.1 to >=1.34.1,<1.42.31",
+          "merged_at": "2026-01-21T11:19:46Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/640"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 637,
@@ -356,30 +368,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/604"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 605,
-          "title": "[CCXDEV-14960] fix: don't accept minio urls",
-          "merged_at": "2025-10-24T07:59:18Z",
-          "user": "juandspy",
-          "total_commits": 3,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/605"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 606,
-          "title": "Fix deprecation warning from pythonjsonlogger",
-          "merged_at": "2025-10-23T14:57:30Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/606"
         }
       ],
       "summary": {
@@ -396,6 +384,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2354,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-21T12:20:18Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2354"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2353,
@@ -899,42 +899,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2304"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2306,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-24T08:39:29Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2306"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2307,
-          "title": "fix(deps): update module github.com/redhatinsights/app-common-go to v1.6.9",
-          "merged_at": "2025-10-24T04:33:33Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2307"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2302,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-23T20:58:26Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2302"
         }
       ],
       "summary": {
@@ -951,6 +915,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 505,
+          "title": "Use the appropriate job name in the CJI definition",
+          "merged_at": "2026-01-21T10:25:03Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/505"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 504,
@@ -1262,18 +1238,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/477"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 476,
-          "title": "Bump github.com/redhatinsights/app-common-go from 1.6.8 to 1.6.9",
-          "merged_at": "2025-10-23T23:10:48Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/476"
         }
       ],
       "summary": {
@@ -1632,6 +1596,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 579,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-22T05:06:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/579"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 578,
@@ -2147,42 +2123,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/532"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 531,
-          "title": "fix(deps): update module github.com/redhatinsights/app-common-go to v1.6.9",
-          "merged_at": "2025-10-24T04:33:15Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/531"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 530,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-24T00:32:45Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/530"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 529,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-23T20:44:53Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/529"
         }
       ],
       "summary": {
@@ -2199,6 +2139,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 565,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-21T09:53:46Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/565"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 564,
@@ -2882,42 +2834,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/505"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 504,
-          "title": "fix(deps): update module github.com/redhatinsights/app-common-go to v1.6.9",
-          "merged_at": "2025-10-24T04:25:40Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/504"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 503,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-24T00:33:02Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/503"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 502,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-23T20:36:00Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/502"
         }
       ],
       "summary": {
@@ -2934,6 +2850,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1052,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.488 to 0.1.490",
+          "merged_at": "2026-01-22T07:34:31Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1052"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1051,
@@ -3173,42 +3101,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1030"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1028,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-24T08:40:17Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1028"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1029,
-          "title": "fix(deps): update module github.com/redhatinsights/app-common-go to v1.6.9",
-          "merged_at": "2025-10-24T04:40:27Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1029"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1027,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-23T20:49:16Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1027"
         }
       ],
       "summary": {
@@ -3225,6 +3117,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 743,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-21T15:40:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/743"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 742,
@@ -3872,42 +3776,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/690"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 689,
-          "title": "fix(deps): update module github.com/redhatinsights/app-common-go to v1.6.9",
-          "merged_at": "2025-10-24T04:43:15Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/689"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 688,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-24T00:37:03Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/688"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 687,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-23T20:42:11Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/687"
         }
       ],
       "summary": {
@@ -4322,18 +4190,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1618"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1617,
-          "title": "Bump github.com/redis/go-redis/v9 from 9.15.1 to 9.16.0",
-          "merged_at": "2025-10-23T17:33:02Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1617"
         }
       ],
       "summary": {
@@ -4349,14 +4205,14 @@
       }
     }
   },
-  "last_updated": "2026-01-21T10:11:27.621676+00:00",
-  "cutoff_date": "2025-10-23T10:11:27.596568+00:00",
+  "last_updated": "2026-01-22T10:11:59.644168+00:00",
+  "cutoff_date": "2025-10-24T10:11:59.619591+00:00",
   "summary": {
-    "total_prs": 346,
-    "total_retests": 67,
-    "prs_with_retests": 42,
-    "retest_rate": 12.138728323699421,
-    "retest_comments": 49,
+    "total_prs": 334,
+    "total_retests": 68,
+    "prs_with_retests": 43,
+    "retest_rate": 12.874251497005988,
+    "retest_comments": 50,
     "update_branch_actions": 18
   }
 }
