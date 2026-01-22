@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-22T12:12:21.664781",
+  "analysis_date": "2026-01-22T21:11:01.514968",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-15T12:11:27.241183+00:00",
-    "to": "2026-01-22T12:12:21.664798"
+    "from": "2026-01-15T21:10:09.498494+00:00",
+    "to": "2026-01-22T21:11:01.514986"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 25,
-    "total_commits": 30,
-    "total_retests": 10,
-    "retest_comments": 8,
+    "total_prs_analyzed": 23,
+    "total_commits": 28,
+    "total_retests": 9,
+    "retest_comments": 7,
     "update_branch_actions": 2,
-    "prs_with_retests": 8,
-    "prs_with_lte_1_retest": 23,
-    "prs_with_lte_1_retest_percentage": 92.0,
-    "pr_retest_rate": 32.0,
-    "avg_retests_per_pr": 0.4,
-    "avg_retests_per_commit": 0.3333333333333333
+    "prs_with_retests": 7,
+    "prs_with_lte_1_retest": 21,
+    "prs_with_lte_1_retest_percentage": 91.30434782608695,
+    "pr_retest_rate": 30.434782608695656,
+    "avg_retests_per_pr": 0.391304347826087,
+    "avg_retests_per_commit": 0.32142857142857145
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -148,30 +148,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/504"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 502,
-          "title": "fix(deps): update module github.com/minio/minio-go/v7 to v7.0.98",
-          "merged_at": "2026-01-15T15:14:39Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/502"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 6,
-        "total_retests": 3,
-        "retest_comments": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 5,
+        "total_retests": 2,
+        "retest_comments": 1,
         "update_branch_actions": 1,
-        "prs_with_retests": 2,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 0.75,
-        "avg_retests_per_commit": 0.5
+        "prs_with_retests": 1,
+        "pr_retest_rate": 33.33333333333333,
+        "avg_retests_per_pr": 0.6666666666666666,
+        "avg_retests_per_commit": 0.4
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -263,23 +251,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/575"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 574,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-15T17:05:56Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/574"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -326,23 +302,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/563"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 562,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-15T17:04:43Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/562"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -472,6 +436,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1659,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.488 to 0.1.490",
+          "merged_at": "2026-01-22T18:25:22Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1659"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1658,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.487 to 0.1.488",
           "merged_at": "2026-01-19T20:03:16Z",
@@ -484,8 +460,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
