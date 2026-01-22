@@ -305,6 +305,13 @@ def main():
     overall_update_branch = sum(repo['summary']['update_branch_actions'] for repo in all_results.values())
     overall_prs_with_retests = sum(repo['summary']['prs_with_retests'] for repo in all_results.values())
 
+    # Count PRs with ≤1 retest for SLO tracking
+    overall_prs_with_lte_1_retest = sum(
+        1 for repo in all_results.values()
+        for pr in repo['prs']
+        if pr['total_retests'] <= 1
+    )
+
     print(f"\n📊 Total: {overall_prs} PRs, {overall_retests} retests " +
           f"({overall_retest_comments} /retest, {overall_update_branch} update branch) " +
           f"({overall_prs_with_retests/overall_prs*100:.1f}% rate)" if overall_prs > 0 else "\n📊 No PRs analyzed")
@@ -327,6 +334,8 @@ def main():
             'retest_comments': overall_retest_comments,
             'update_branch_actions': overall_update_branch,
             'prs_with_retests': overall_prs_with_retests,
+            'prs_with_lte_1_retest': overall_prs_with_lte_1_retest,
+            'prs_with_lte_1_retest_percentage': overall_prs_with_lte_1_retest/overall_prs*100 if overall_prs > 0 else 0,
             'pr_retest_rate': overall_prs_with_retests/overall_prs*100 if overall_prs > 0 else 0,
             'avg_retests_per_pr': overall_retests/overall_prs if overall_prs > 0 else 0,
             'avg_retests_per_commit': overall_retests/overall_commits if overall_commits > 0 else 0,

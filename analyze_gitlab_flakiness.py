@@ -285,6 +285,13 @@ def main():
     overall_retests = sum(proj['summary']['total_retests'] for proj in all_results.values())
     overall_mrs_with_retests = sum(proj['summary']['mrs_with_retests'] for proj in all_results.values())
 
+    # Count MRs with ≤1 retest for SLO tracking
+    overall_mrs_with_lte_1_retest = sum(
+        1 for proj in all_results.values()
+        for mr in proj['mrs']
+        if mr['total_retests'] <= 1
+    )
+
     print(f"\n📊 Total: {overall_mrs} MRs, {overall_retests} /retest comments ({overall_mrs_with_retests/overall_mrs*100:.1f}% rate)" if overall_mrs > 0 else "\n📊 No MRs analyzed")
 
     # Save current scrape results (all data)
@@ -304,6 +311,8 @@ def main():
             'total_commits': overall_commits,
             'total_retests': overall_retests,
             'mrs_with_retests': overall_mrs_with_retests,
+            'mrs_with_lte_1_retest': overall_mrs_with_lte_1_retest,
+            'mrs_with_lte_1_retest_percentage': overall_mrs_with_lte_1_retest/overall_mrs*100 if overall_mrs > 0 else 0,
             'mr_retest_rate': overall_mrs_with_retests/overall_mrs*100 if overall_mrs > 0 else 0,
             'avg_retests_per_mr': overall_retests/overall_mrs if overall_mrs > 0 else 0,
             'avg_retests_per_commit': overall_retests/overall_commits if overall_commits > 0 else 0,

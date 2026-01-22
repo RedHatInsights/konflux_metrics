@@ -161,13 +161,35 @@ data:
               }
             },
             {
+              "id": "calculateField",
+              "options": {
+                "alias": "count_field",
+                "mode": "reduceRow",
+                "reduce": {
+                  "reducer": "count"
+                }
+              }
+            },
+            {
               "id": "reduce",
               "options": {
                 "includeTimeField": false,
                 "mode": "reduceFields",
                 "reducers": [
-                  "count"
+                  "sum"
                 ]
+              }
+            },
+            {
+              "id": "organize",
+              "options": {
+                "excludeByName": {
+                  "merged_at (sum)": true,
+                  "total_retests (sum)": true
+                },
+                "renameByName": {
+                  "count_field (sum)": "Count"
+                }
               }
             }
           ],
@@ -359,13 +381,35 @@ data:
               }
             },
             {
+              "id": "calculateField",
+              "options": {
+                "alias": "count_field",
+                "mode": "reduceRow",
+                "reduce": {
+                  "reducer": "count"
+                }
+              }
+            },
+            {
               "id": "reduce",
               "options": {
                 "includeTimeField": false,
                 "mode": "reduceFields",
                 "reducers": [
-                  "count"
+                  "sum"
                 ]
+              }
+            },
+            {
+              "id": "organize",
+              "options": {
+                "excludeByName": {
+                  "merged_at (sum)": true,
+                  "total_retests (sum)": true
+                },
+                "renameByName": {
+                  "count_field (sum)": "Count"
+                }
               }
             }
           ],
@@ -428,13 +472,13 @@ data:
             {
               "columns": [
                 {
-                  "selector": "merged_at",
-                  "text": "merged_at",
-                  "type": "timestamp"
+                  "selector": "prs_with_lte_1_retest",
+                  "text": "prs_with_lte_1_retest",
+                  "type": "number"
                 },
                 {
-                  "selector": "total_retests",
-                  "text": "total_retests",
+                  "selector": "total_prs_analyzed",
+                  "text": "total_prs_analyzed",
                   "type": "number"
                 }
               ],
@@ -445,7 +489,7 @@ data:
               "format": "table",
               "parser": "backend",
               "refId": "A",
-              "root_selector": "$.repositories.*.prs[*]",
+              "root_selector": "$.overall_summary",
               "source": "url",
               "type": "json",
               "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
@@ -456,13 +500,13 @@ data:
             {
               "columns": [
                 {
-                  "selector": "merged_at",
-                  "text": "merged_at",
-                  "type": "timestamp"
+                  "selector": "mrs_with_lte_1_retest",
+                  "text": "prs_with_lte_1_retest",
+                  "type": "number"
                 },
                 {
-                  "selector": "total_retests",
-                  "text": "total_retests",
+                  "selector": "total_mrs_analyzed",
+                  "text": "total_prs_analyzed",
                   "type": "number"
                 }
               ],
@@ -473,7 +517,7 @@ data:
               "format": "table",
               "parser": "backend",
               "refId": "B",
-              "root_selector": "$.projects.*.mrs[*]",
+              "root_selector": "$.overall_summary",
               "source": "url",
               "type": "json",
               "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_current.json",
@@ -489,77 +533,13 @@ data:
               "options": {}
             },
             {
-              "id": "groupBy",
+              "id": "reduce",
               "options": {
-                "fields": {
-                  "total_retests": {
-                    "aggregations": [
-                      "count"
-                    ],
-                    "operation": "aggregate"
-                  }
-                }
-              }
-            },
-            {
-              "id": "calculateField",
-              "options": {
-                "alias": "total_count",
-                "mode": "reduceRow",
-                "reduce": {
-                  "reducer": "sum"
-                }
-              }
-            },
-            {
-              "id": "filterByRefId",
-              "options": {
-                "include": "A|B"
-              }
-            },
-            {
-              "id": "merge",
-              "options": {}
-            },
-            {
-              "id": "filterByValue",
-              "options": {
-                "filters": [
-                  {
-                    "config": {
-                      "id": "lessOrEqual",
-                      "options": {
-                        "value": 1
-                      }
-                    },
-                    "fieldName": "total_retests"
-                  }
-                ],
-                "match": "all",
-                "type": "include"
-              }
-            },
-            {
-              "id": "groupBy",
-              "options": {
-                "fields": {
-                  "total_retests": {
-                    "aggregations": [
-                      "count"
-                    ],
-                    "operation": "aggregate"
-                  }
-                }
-              }
-            },
-            {
-              "id": "calculateField",
-              "options": {
-                "alias": "good_count",
-                "mode": "reduceRow",
-                "reduce": {
-                  "reducer": "sum"
-                }
+                "includeTimeField": false,
+                "mode": "reduceFields",
+                "reducers": [
+                  "sum"
+                ]
               }
             },
             {
@@ -567,9 +547,9 @@ data:
               "options": {
                 "alias": "Percentage",
                 "binary": {
-                  "left": "good_count",
+                  "left": "prs_with_lte_1_retest (sum)",
                   "operator": "/",
-                  "right": "total_count"
+                  "right": "total_prs_analyzed (sum)"
                 },
                 "mode": "binary"
               }
