@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-22T11:01:29.787940",
+  "analysis_date": "2026-01-22T11:37:32.483062",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,15 +12,17 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-15T11:01:09.441271+00:00",
-    "to": "2026-01-22T11:01:29.787957"
+    "from": "2026-01-15T11:37:25.180627+00:00",
+    "to": "2026-01-22T11:37:32.483078"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 11,
-    "total_commits": 13,
+    "total_mrs_analyzed": 10,
+    "total_commits": 12,
     "total_retests": 0,
     "mrs_with_retests": 0,
+    "mrs_with_lte_1_retest": 10,
+    "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
     "avg_retests_per_commit": 0.0
@@ -123,21 +125,11 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/860"
-        },
-        {
-          "project": "ccx/content-service",
-          "mr_iid": 858,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-15T11:03:02.333Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/858"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 3,
-        "total_commits": 3,
+        "total_mrs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
