@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-22T11:38:52.302422",
+  "analysis_date": "2026-01-22T12:12:21.664781",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-15T11:38:09.367193+00:00",
-    "to": "2026-01-22T11:38:52.302437"
+    "from": "2026-01-15T12:11:27.241183+00:00",
+    "to": "2026-01-22T12:12:21.664798"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 31,
-    "total_commits": 36,
-    "total_retests": 15,
-    "retest_comments": 13,
+    "total_prs_analyzed": 25,
+    "total_commits": 30,
+    "total_retests": 10,
+    "retest_comments": 8,
     "update_branch_actions": 2,
-    "prs_with_retests": 9,
-    "prs_with_lte_1_retest": 28,
-    "prs_with_lte_1_retest_percentage": 90.32258064516128,
-    "pr_retest_rate": 29.03225806451613,
-    "avg_retests_per_pr": 0.4838709677419355,
-    "avg_retests_per_commit": 0.4166666666666667
+    "prs_with_retests": 8,
+    "prs_with_lte_1_retest": 23,
+    "prs_with_lte_1_retest_percentage": 92.0,
+    "pr_retest_rate": 32.0,
+    "avg_retests_per_pr": 0.4,
+    "avg_retests_per_commit": 0.3333333333333333
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -97,30 +97,18 @@
           "update_branch_count": 1,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2353"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2352,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:54:38Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 5,
-          "update_branch_count": 0,
-          "total_retests": 5,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2352"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 5,
-        "total_retests": 7,
-        "retest_comments": 6,
+        "total_prs_analyzed": 2,
+        "total_commits": 4,
+        "total_retests": 2,
+        "retest_comments": 1,
         "update_branch_actions": 1,
-        "prs_with_retests": 3,
+        "prs_with_retests": 2,
         "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 2.3333333333333335,
-        "avg_retests_per_commit": 1.4
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -172,30 +160,18 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/502"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 501,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:49:25Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/501"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 7,
+        "total_prs_analyzed": 4,
+        "total_commits": 6,
         "total_retests": 3,
         "retest_comments": 2,
         "update_branch_actions": 1,
         "prs_with_retests": 2,
-        "pr_retest_rate": 40.0,
-        "avg_retests_per_pr": 0.6,
-        "avg_retests_per_commit": 0.42857142857142855
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.75,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -299,23 +275,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/574"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 573,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:54:49Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/573"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 7,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -374,23 +338,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/562"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 561,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:54:58Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/561"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -425,23 +377,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1051"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1049,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:54:21Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1049"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -500,30 +440,18 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/740"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 739,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:49:37Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/739"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 2,
         "retest_comments": 2,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 40.0,
-        "avg_retests_per_pr": 0.4,
-        "avg_retests_per_commit": 0.4
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.5,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/obsint-mocks": {
