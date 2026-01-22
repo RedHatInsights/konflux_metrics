@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-22T12:13:05.159688+00:00",
+  "analysis_date": "2026-01-22T22:08:58.683142+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-24T12:13:05.135153+00:00",
-    "to": "2026-01-22T12:13:05.159688+00:00"
+    "from": "2025-10-24T22:08:58.658706+00:00",
+    "to": "2026-01-22T22:08:58.683142+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -875,18 +875,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2308"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2304,
-          "title": "Avoid initializing OCP recommendations table in dvo-writer",
-          "merged_at": "2025-10-24T13:16:20Z",
-          "user": "ikerreyes",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2304"
         }
       ],
       "summary": {
@@ -3869,6 +3857,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1659,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.488 to 0.1.490",
+          "merged_at": "2026-01-22T18:25:22Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1659"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1658,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.487 to 0.1.488",
           "merged_at": "2026-01-19T20:03:16Z",
@@ -4178,18 +4178,6 @@
           "update_branch_count": 1,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1616"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1618,
-          "title": "fix(deps): update module github.com/redhatinsights/app-common-go to v1.6.9",
-          "merged_at": "2025-10-24T16:15:53Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1618"
         }
       ],
       "summary": {
@@ -4205,13 +4193,13 @@
       }
     }
   },
-  "last_updated": "2026-01-22T12:13:05.159688+00:00",
-  "cutoff_date": "2025-10-24T12:13:05.135153+00:00",
+  "last_updated": "2026-01-22T22:08:58.683142+00:00",
+  "cutoff_date": "2025-10-24T22:08:58.658706+00:00",
   "summary": {
-    "total_prs": 334,
+    "total_prs": 333,
     "total_retests": 70,
     "prs_with_retests": 44,
-    "retest_rate": 13.17365269461078,
+    "retest_rate": 13.213213213213212,
     "retest_comments": 51,
     "update_branch_actions": 19
   }
