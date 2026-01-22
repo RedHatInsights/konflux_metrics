@@ -205,9 +205,9 @@ def main():
         "RedHatInsights/obsint-mocks",
         "RedHatInsights/insights-results-smart-proxy"
     ]
-    # Analyze last 1 day for incremental updates (24h window to catch overlaps)
+    # Analyze last 7 days for incremental updates
     # Can be overridden with DAYS_BACK environment variable for backfilling
-    days_back = int(os.environ.get('DAYS_BACK', '1'))
+    days_back = int(os.environ.get('DAYS_BACK', '7'))
 
     # Get token from environment or use None (rate limited to 60/hour)
     token = os.environ.get('GITHUB_TOKEN')

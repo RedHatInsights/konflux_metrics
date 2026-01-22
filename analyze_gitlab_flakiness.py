@@ -201,9 +201,9 @@ def main():
         "ccx/ccx-upgrades-data-eng",
         "ccx/ccx-upgrades-inference"
     ]
-    # Analyze last 1 day for incremental updates (24h window to catch overlaps)
+    # Analyze last 7 days for incremental updates
     # Can be overridden with DAYS_BACK environment variable for backfilling
-    days_back = int(os.environ.get('DAYS_BACK', '1'))
+    days_back = int(os.environ.get('DAYS_BACK', '7'))
 
     # Get token from environment and strip any BOM or whitespace
     token = os.environ.get('GITLAB_TOKEN')
