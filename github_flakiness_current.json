@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-22T11:05:36.892357",
+  "analysis_date": "2026-01-22T11:38:52.302422",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,20 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-15T11:04:38.742763+00:00",
-    "to": "2026-01-22T11:05:36.892374"
+    "from": "2026-01-15T11:38:09.367193+00:00",
+    "to": "2026-01-22T11:38:52.302437"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 30,
-    "total_commits": 33,
-    "total_retests": 13,
-    "retest_comments": 12,
-    "update_branch_actions": 1,
-    "prs_with_retests": 8,
-    "pr_retest_rate": 26.666666666666668,
-    "avg_retests_per_pr": 0.43333333333333335,
-    "avg_retests_per_commit": 0.3939393939393939
+    "total_prs_analyzed": 31,
+    "total_commits": 36,
+    "total_retests": 15,
+    "retest_comments": 13,
+    "update_branch_actions": 2,
+    "prs_with_retests": 9,
+    "prs_with_lte_1_retest": 28,
+    "prs_with_lte_1_retest_percentage": 90.32258064516128,
+    "pr_retest_rate": 29.03225806451613,
+    "avg_retests_per_pr": 0.4838709677419355,
+    "avg_retests_per_commit": 0.4166666666666667
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -125,6 +127,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 500,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-22T11:26:37Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 3,
+          "retest_comments": 1,
+          "update_branch_count": 1,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/500"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 505,
           "title": "Use the appropriate job name in the CJI definition",
           "merged_at": "2026-01-21T10:25:03Z",
@@ -173,15 +187,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
-        "total_retests": 1,
-        "retest_comments": 1,
-        "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.25
+        "total_prs_analyzed": 5,
+        "total_commits": 7,
+        "total_retests": 3,
+        "retest_comments": 2,
+        "update_branch_actions": 1,
+        "prs_with_retests": 2,
+        "pr_retest_rate": 40.0,
+        "avg_retests_per_pr": 0.6,
+        "avg_retests_per_commit": 0.42857142857142855
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
