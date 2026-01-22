@@ -1,117 +1,539 @@
 {
-  "title": "Konflux Retest Metrics",
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
   "panels": [
     {
-      "id": 1,
-      "title": "Retests per merged PR / MR",
-      "type": "timeseries",
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "infinity-any-url"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              }
+            ]
+          },
+          "unit": "short"
+        },
+        "overrides": []
+      },
       "gridPos": {
-        "h": 10,
-        "w": 24,
+        "h": 6,
+        "w": 4,
         "x": 0,
         "y": 0
       },
+      "id": 4,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": true
+        },
+        "textMode": "auto",
+        "showPercentChange": false
+      },
+      "pluginVersion": "11.6.3",
       "targets": [
         {
-          "refId": "A",
+          "columns": [
+            {
+              "selector": "merged_at",
+              "text": "merged_at",
+              "type": "timestamp"
+            },
+            {
+              "selector": "total_retests",
+              "text": "total_retests",
+              "type": "number"
+            }
+          ],
           "datasource": {
             "type": "yesoreyeram-infinity-datasource",
             "uid": "infinity-any-url"
           },
-          "type": "json",
-          "parser": "backend",
-          "source": "url",
           "format": "table",
-          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_historical.json",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "$.repositories.*.prs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
           "url_options": {
             "method": "GET"
-          },
-          "root_selector": "$.repositories.*.prs[*]",
-          "columns": [
-            {
-              "selector": "merged_at",
-              "text": "Time",
-              "type": "timestamp"
-            },
-            {
-              "selector": "pr_number",
-              "text": "PR",
-              "type": "number"
-            },
-            {
-              "selector": "repository",
-              "text": "Repository",
-              "type": "string"
-            },
-            {
-              "selector": "total_retests",
-              "text": "Retests",
-              "type": "number"
-            },
-            {
-              "selector": "url",
-              "text": "url",
-              "type": "string"
-            }
-          ]
+          }
         },
         {
-          "refId": "B",
+          "columns": [
+            {
+              "selector": "merged_at",
+              "text": "merged_at",
+              "type": "timestamp"
+            },
+            {
+              "selector": "total_retests",
+              "text": "total_retests",
+              "type": "number"
+            }
+          ],
           "datasource": {
             "type": "yesoreyeram-infinity-datasource",
             "uid": "infinity-any-url"
           },
-          "type": "json",
-          "parser": "backend",
-          "source": "url",
           "format": "table",
-          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_historical.json",
+          "parser": "backend",
+          "refId": "B",
+          "root_selector": "$.projects.*.mrs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_current.json",
           "url_options": {
             "method": "GET"
+          }
+        }
+      ],
+      "title": "Count: PRs/MRs with >1 Retest (Last 7 Days)",
+      "transformations": [
+        {
+          "id": "merge",
+          "options": {}
+        },
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "greater",
+                  "options": {
+                    "value": 1
+                  }
+                },
+                "fieldName": "total_retests"
+              }
+            ],
+            "match": "all",
+            "type": "include"
+          }
+        },
+        {
+          "id": "reduce",
+          "options": {
+            "includeTimeField": false,
+            "mode": "reduceFields",
+            "reducers": [
+              "count"
+            ]
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "infinity-any-url"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
           },
-          "root_selector": "$.projects.*.mrs[*]",
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "unit": "short"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 4,
+        "x": 4,
+        "y": 0
+      },
+      "id": 5,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": true
+        },
+        "textMode": "auto",
+        "showPercentChange": false
+      },
+      "pluginVersion": "11.6.3",
+      "targets": [
+        {
           "columns": [
             {
               "selector": "merged_at",
-              "text": "Time",
+              "text": "merged_at",
               "type": "timestamp"
             },
             {
-              "selector": "mr_iid",
-              "text": "MR",
+              "selector": "total_retests",
+              "text": "total_retests",
               "type": "number"
-            },
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "Total",
+          "root_selector": "$.repositories.*.prs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
+          "url_options": {
+            "method": "GET"
+          }
+        },
+        {
+          "columns": [
             {
-              "selector": "project",
-              "text": "Project",
-              "type": "string"
+              "selector": "merged_at",
+              "text": "merged_at",
+              "type": "timestamp"
             },
             {
               "selector": "total_retests",
-              "text": "Retests",
+              "text": "total_retests",
               "type": "number"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "Total2",
+          "root_selector": "$.projects.*.mrs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_current.json",
+          "url_options": {
+            "method": "GET"
+          }
+        },
+        {
+          "columns": [
+            {
+              "selector": "merged_at",
+              "text": "merged_at",
+              "type": "timestamp"
             },
             {
-              "selector": "url",
-              "text": "url",
-              "type": "string"
+              "selector": "total_retests",
+              "text": "total_retests",
+              "type": "number"
             }
-          ]
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "WithRetests",
+          "root_selector": "$.repositories.*.prs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
+          "url_options": {
+            "method": "GET"
+          }
+        },
+        {
+          "columns": [
+            {
+              "selector": "merged_at",
+              "text": "merged_at",
+              "type": "timestamp"
+            },
+            {
+              "selector": "total_retests",
+              "text": "total_retests",
+              "type": "number"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "WithRetests2",
+          "root_selector": "$.projects.*.mrs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_current.json",
+          "url_options": {
+            "method": "GET"
+          }
         }
       ],
+      "title": "Count: PRs/MRs with ≤1 Retest (Last 7 Days)",
+      "transformations": [
+        {
+          "id": "merge",
+          "options": {}
+        },
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "lowerOrEqual",
+                  "options": {
+                    "value": 1
+                  }
+                },
+                "fieldName": "total_retests"
+              }
+            ],
+            "match": "all",
+            "type": "include"
+          }
+        },
+        {
+          "id": "reduce",
+          "options": {
+            "includeTimeField": false,
+            "mode": "reduceFields",
+            "reducers": [
+              "count"
+            ]
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "infinity-any-url"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "percentage",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 90
+              }
+            ]
+          },
+          "max": 100,
+          "min": 0,
+          "unit": "percent"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 4,
+        "x": 8,
+        "y": 0
+      },
+      "id": 6,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "textMode": "auto",
+        "showPercentChange": false
+      },
+      "pluginVersion": "11.6.3",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "prs_with_lte_1_retest_percentage",
+              "text": "percentage",
+              "type": "number"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "$.overall_summary",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
+          "url_options": {
+            "method": "GET"
+          }
+        },
+        {
+          "columns": [
+            {
+              "selector": "mrs_with_lte_1_retest_percentage",
+              "text": "percentage",
+              "type": "number"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "B",
+          "root_selector": "$.overall_summary",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_current.json",
+          "url_options": {
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "% PRs/MRs with ≤1 Retest (Last 7 Days)",
+      "transformations": [
+        {
+          "id": "merge",
+          "options": {}
+        },
+        {
+          "id": "reduce",
+          "options": {
+            "includeTimeField": false,
+            "mode": "reduceFields",
+            "reducers": [
+              "mean"
+            ]
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
       "fieldConfig": {
         "defaults": {
           "color": {
             "mode": "palette-classic"
           },
           "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "points",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
             "lineWidth": 0,
             "pointSize": 10,
+            "scaleDistribution": {
+              "type": "linear"
+            },
             "showPoints": "always",
-            "spanNulls": false
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "line"
+            }
           },
+          "mappings": [],
           "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "yellow"
+              },
+              {
+                "color": "yellow",
+                "value": 1
+              }
+            ]
+          },
           "unit": "short"
         },
         "overrides": [
@@ -124,9 +546,9 @@
               {
                 "id": "custom.hideFrom",
                 "value": {
+                  "legend": true,
                   "tooltip": false,
-                  "viz": true,
-                  "legend": true
+                  "viz": true
                 }
               }
             ]
@@ -140,9 +562,9 @@
               {
                 "id": "custom.hideFrom",
                 "value": {
+                  "legend": true,
                   "tooltip": false,
-                  "viz": true,
-                  "legend": true
+                  "viz": true
                 }
               }
             ]
@@ -156,9 +578,9 @@
               {
                 "id": "custom.hideFrom",
                 "value": {
+                  "legend": true,
                   "tooltip": false,
-                  "viz": true,
-                  "legend": true
+                  "viz": true
                 }
               }
             ]
@@ -172,9 +594,9 @@
               {
                 "id": "custom.hideFrom",
                 "value": {
+                  "legend": true,
                   "tooltip": false,
-                  "viz": true,
-                  "legend": true
+                  "viz": true
                 }
               }
             ]
@@ -188,9 +610,9 @@
               {
                 "id": "custom.hideFrom",
                 "value": {
+                  "legend": true,
                   "tooltip": false,
-                  "viz": true,
-                  "legend": true
+                  "viz": true
                 }
               }
             ]
@@ -208,8 +630,8 @@
               {
                 "id": "color",
                 "value": {
-                  "mode": "fixed",
-                  "fixedColor": "purple"
+                  "fixedColor": "purple",
+                  "mode": "fixed"
                 }
               },
               {
@@ -236,8 +658,8 @@
               {
                 "id": "color",
                 "value": {
-                  "mode": "fixed",
-                  "fixedColor": "orange"
+                  "fixedColor": "orange",
+                  "mode": "fixed"
                 }
               },
               {
@@ -253,86 +675,48 @@
           }
         ]
       },
+      "gridPos": {
+        "h": 10,
+        "w": 24,
+        "x": 0,
+        "y": 6
+      },
+      "id": 1,
       "options": {
         "legend": {
+          "calcs": [],
           "displayMode": "list",
           "placement": "bottom",
           "showLegend": true
         },
         "tooltip": {
+          "hideZeros": false,
           "mode": "single",
           "sort": "none"
         }
-      }
-    },
-    {
-      "id": 2,
-      "title": "GitHub Pull Requests",
-      "type": "table",
-      "gridPos": {
-        "h": 12,
-        "w": 12,
-        "x": 0,
-        "y": 10
       },
-      "options": {
-        "showHeader": true,
-        "footer": {
-          "show": false,
-          "reducer": ["sum"],
-          "fields": ""
-        }
-      },
+      "pluginVersion": "11.6.3",
       "targets": [
         {
-          "refId": "A",
-          "datasource": {
-            "type": "yesoreyeram-infinity-datasource",
-            "uid": "infinity-any-url"
-          },
-          "type": "json",
-          "parser": "backend",
-          "source": "url",
-          "format": "table",
-          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_historical.json",
-          "url_options": {
-            "method": "GET"
-          },
-          "root_selector": "$.repositories.*.prs[*]",
           "columns": [
             {
-              "selector": "repository",
-              "text": "repository",
-              "type": "string"
-            },
-            {
-              "selector": "pr_number",
-              "text": "pr_number",
-              "type": "number"
-            },
-            {
-              "selector": "title",
-              "text": "title",
-              "type": "string"
-            },
-            {
               "selector": "merged_at",
-              "text": "merged_at",
+              "text": "Time",
               "type": "timestamp"
             },
             {
-              "selector": "user",
-              "text": "author",
-              "type": "string"
-            },
-            {
-              "selector": "total_commits",
-              "text": "commits",
+              "selector": "pr_number",
+              "text": "PR",
               "type": "number"
             },
             {
+              "selector": "repository",
+              "text": "Repository",
+              "type": "string"
+            },
+            {
               "selector": "total_retests",
-              "text": "retests",
+              "text": "Retests",
               "type": "number"
             },
             {
@@ -340,72 +724,92 @@
               "text": "url",
               "type": "string"
             }
-          ]
-        }
-      ],
-      "transformations": [
-        {
-          "id": "merge",
-          "options": {}
-        },
-        {
-          "id": "convertFieldType",
-          "options": {
-            "conversions": [
-              {
-                "targetField": "merged_at",
-                "destinationType": "time"
-              }
-            ]
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "$.repositories.*.prs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_historical.json",
+          "url_options": {
+            "method": "GET"
           }
         },
         {
-          "id": "organize",
-          "options": {
-            "excludeByName": {
-              "labels": true,
-              "ts": true
+          "columns": [
+            {
+              "selector": "merged_at",
+              "text": "Time",
+              "type": "timestamp"
             },
-            "indexByName": {
-              "merged_at": 0,
-              "repository": 1,
-              "pr_number": 2,
-              "title": 3,
-              "author": 4,
-              "commits": 5,
-              "retests": 6,
-              "url": 7
+            {
+              "selector": "mr_iid",
+              "text": "MR",
+              "type": "number"
             },
-            "renameByName": {
-              "merged_at": "Merged At",
-              "repository": "Repository",
-              "pr_number": "PR #",
-              "title": "Title",
-              "author": "Author",
-              "commits": "Commits",
-              "retests": "Retests",
-              "url": "URL"
+            {
+              "selector": "project",
+              "text": "Project",
+              "type": "string"
+            },
+            {
+              "selector": "total_retests",
+              "text": "Retests",
+              "type": "number"
+            },
+            {
+              "selector": "url",
+              "text": "url",
+              "type": "string"
             }
-          }
-        },
-        {
-          "id": "sortBy",
-          "options": {
-            "sort": [
-              {
-                "field": "Merged At",
-                "desc": true
-              }
-            ]
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "B",
+          "root_selector": "$.projects.*.mrs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_historical.json",
+          "url_options": {
+            "method": "GET"
           }
         }
       ],
+      "title": "Retests per merged PR / MR",
+      "type": "timeseries"
+    },
+    {
       "fieldConfig": {
         "defaults": {
           "custom": {
             "align": "auto",
-            "displayMode": "auto",
-            "filterable": true
+            "cellOptions": {
+              "type": "auto"
+            },
+            "filterable": true,
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
           }
         },
         "overrides": [
@@ -461,17 +865,12 @@
             },
             "properties": [
               {
-                "id": "custom.displayMode",
-                "value": "color-background"
-              },
-              {
                 "id": "thresholds",
                 "value": {
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green",
-                      "value": null
+                      "color": "green"
                     },
                     {
                       "color": "yellow",
@@ -507,51 +906,44 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": 3,
-      "title": "GitLab Merge Requests",
-      "type": "table",
+      },
       "gridPos": {
         "h": 12,
         "w": 12,
-        "x": 12,
-        "y": 10
+        "x": 0,
+        "y": 16
       },
+      "id": 2,
       "options": {
-        "showHeader": true,
+        "cellHeight": "sm",
         "footer": {
-          "show": false,
-          "reducer": ["sum"],
-          "fields": ""
-        }
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Retests"
+          }
+        ]
       },
+      "pluginVersion": "11.6.3",
       "targets": [
         {
-          "refId": "A",
-          "datasource": {
-            "type": "yesoreyeram-infinity-datasource",
-            "uid": "infinity-any-url"
-          },
-          "type": "json",
-          "parser": "backend",
-          "source": "url",
-          "format": "table",
-          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_historical.json",
-          "url_options": {
-            "method": "GET"
-          },
-          "root_selector": "$.projects.*.mrs[*]",
           "columns": [
             {
-              "selector": "project",
-              "text": "project",
+              "selector": "repository",
+              "text": "repository",
               "type": "string"
             },
             {
-              "selector": "mr_iid",
-              "text": "mr_number",
+              "selector": "pr_number",
+              "text": "pr_number",
               "type": "number"
             },
             {
@@ -565,7 +957,7 @@
               "type": "timestamp"
             },
             {
-              "selector": "author",
+              "selector": "user",
               "text": "author",
               "type": "string"
             },
@@ -584,9 +976,24 @@
               "text": "url",
               "type": "string"
             }
-          ]
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "$.repositories.*.prs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_historical.json",
+          "url_options": {
+            "method": "GET"
+          }
         }
       ],
+      "title": "GitHub Pull Requests",
       "transformations": [
         {
           "id": "merge",
@@ -597,8 +1004,8 @@
           "options": {
             "conversions": [
               {
-                "targetField": "merged_at",
-                "destinationType": "time"
+                "destinationType": "time",
+                "targetField": "merged_at"
               }
             ]
           }
@@ -611,23 +1018,23 @@
               "ts": true
             },
             "indexByName": {
-              "merged_at": 0,
-              "project": 1,
-              "mr_number": 2,
-              "title": 3,
               "author": 4,
               "commits": 5,
+              "merged_at": 0,
+              "pr_number": 2,
+              "repository": 1,
               "retests": 6,
+              "title": 3,
               "url": 7
             },
             "renameByName": {
-              "merged_at": "Merged At",
-              "project": "Project",
-              "mr_number": "MR #",
-              "title": "Title",
               "author": "Author",
               "commits": "Commits",
+              "merged_at": "Merged At",
+              "pr_number": "PR #",
+              "repository": "Repository",
               "retests": "Retests",
+              "title": "Title",
               "url": "URL"
             }
           }
@@ -637,19 +1044,38 @@
           "options": {
             "sort": [
               {
-                "field": "Merged At",
-                "desc": true
+                "desc": true,
+                "field": "Merged At"
               }
             ]
           }
         }
       ],
+      "type": "table"
+    },
+    {
       "fieldConfig": {
         "defaults": {
           "custom": {
             "align": "auto",
-            "displayMode": "auto",
-            "filterable": true
+            "cellOptions": {
+              "type": "auto"
+            },
+            "filterable": true,
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
           }
         },
         "overrides": [
@@ -705,17 +1131,12 @@
             },
             "properties": [
               {
-                "id": "custom.displayMode",
-                "value": "color-background"
-              },
-              {
                 "id": "thresholds",
                 "value": {
                   "mode": "absolute",
                   "steps": [
                     {
-                      "color": "green",
-                      "value": null
+                      "color": "green"
                     },
                     {
                       "color": "yellow",
@@ -751,9 +1172,162 @@
             ]
           }
         ]
-      }
+      },
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 16
+      },
+      "id": 3,
+      "options": {
+        "cellHeight": "sm",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true
+      },
+      "pluginVersion": "11.6.3",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "project",
+              "text": "project",
+              "type": "string"
+            },
+            {
+              "selector": "mr_iid",
+              "text": "mr_number",
+              "type": "number"
+            },
+            {
+              "selector": "title",
+              "text": "title",
+              "type": "string"
+            },
+            {
+              "selector": "merged_at",
+              "text": "merged_at",
+              "type": "timestamp"
+            },
+            {
+              "selector": "author",
+              "text": "author",
+              "type": "string"
+            },
+            {
+              "selector": "total_commits",
+              "text": "commits",
+              "type": "number"
+            },
+            {
+              "selector": "total_retests",
+              "text": "retests",
+              "type": "number"
+            },
+            {
+              "selector": "url",
+              "text": "url",
+              "type": "string"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "$.projects.*.mrs[*]",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_historical.json",
+          "url_options": {
+            "method": "GET"
+          }
+        }
+      ],
+      "title": "GitLab Merge Requests",
+      "transformations": [
+        {
+          "id": "merge",
+          "options": {}
+        },
+        {
+          "id": "convertFieldType",
+          "options": {
+            "conversions": [
+              {
+                "destinationType": "time",
+                "targetField": "merged_at"
+              }
+            ]
+          }
+        },
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "labels": true,
+              "ts": true
+            },
+            "indexByName": {
+              "author": 4,
+              "commits": 5,
+              "merged_at": 0,
+              "mr_number": 2,
+              "project": 1,
+              "retests": 6,
+              "title": 3,
+              "url": 7
+            },
+            "renameByName": {
+              "author": "Author",
+              "commits": "Commits",
+              "merged_at": "Merged At",
+              "mr_number": "MR #",
+              "project": "Project",
+              "retests": "Retests",
+              "title": "Title",
+              "url": "URL"
+            }
+          }
+        },
+        {
+          "id": "sortBy",
+          "options": {
+            "sort": [
+              {
+                "desc": true,
+                "field": "Merged At"
+              }
+            ]
+          }
+        }
+      ],
+      "type": "table"
     }
   ],
-  "schemaVersion": 38,
-  "version": 1
+  "refresh": "",
+  "schemaVersion": 41,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "2025-08-21T08:11:13.400Z",
+    "to": "2025-08-21T11:36:37.800Z"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Konflux Retest Metrics",
+  "uid": "none",
+  "version": 2,
+  "weekStart": ""
 }

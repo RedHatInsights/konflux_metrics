@@ -161,35 +161,13 @@ data:
               }
             },
             {
-              "id": "calculateField",
-              "options": {
-                "alias": "count_field",
-                "mode": "reduceRow",
-                "reduce": {
-                  "reducer": "count"
-                }
-              }
-            },
-            {
               "id": "reduce",
               "options": {
                 "includeTimeField": false,
                 "mode": "reduceFields",
                 "reducers": [
-                  "sum"
+                  "count"
                 ]
-              }
-            },
-            {
-              "id": "organize",
-              "options": {
-                "excludeByName": {
-                  "merged_at (sum)": true,
-                  "total_retests (sum)": true
-                },
-                "renameByName": {
-                  "count_field (sum)": "Count"
-                }
               }
             }
           ],
@@ -381,35 +359,13 @@ data:
               }
             },
             {
-              "id": "calculateField",
-              "options": {
-                "alias": "count_field",
-                "mode": "reduceRow",
-                "reduce": {
-                  "reducer": "count"
-                }
-              }
-            },
-            {
               "id": "reduce",
               "options": {
                 "includeTimeField": false,
                 "mode": "reduceFields",
                 "reducers": [
-                  "sum"
+                  "count"
                 ]
-              }
-            },
-            {
-              "id": "organize",
-              "options": {
-                "excludeByName": {
-                  "merged_at (sum)": true,
-                  "total_retests (sum)": true
-                },
-                "renameByName": {
-                  "count_field (sum)": "Count"
-                }
               }
             }
           ],
@@ -435,7 +391,7 @@ data:
                   },
                   {
                     "color": "green",
-                    "value": 75
+                    "value": 90
                   }
                 ]
               },
@@ -472,13 +428,8 @@ data:
             {
               "columns": [
                 {
-                  "selector": "prs_with_lte_1_retest",
-                  "text": "prs_with_lte_1_retest",
-                  "type": "number"
-                },
-                {
-                  "selector": "total_prs_analyzed",
-                  "text": "total_prs_analyzed",
+                  "selector": "prs_with_lte_1_retest_percentage",
+                  "text": "percentage",
                   "type": "number"
                 }
               ],
@@ -500,13 +451,8 @@ data:
             {
               "columns": [
                 {
-                  "selector": "mrs_with_lte_1_retest",
-                  "text": "prs_with_lte_1_retest",
-                  "type": "number"
-                },
-                {
-                  "selector": "total_mrs_analyzed",
-                  "text": "total_prs_analyzed",
+                  "selector": "mrs_with_lte_1_retest_percentage",
+                  "text": "percentage",
                   "type": "number"
                 }
               ],
@@ -538,33 +484,8 @@ data:
                 "includeTimeField": false,
                 "mode": "reduceFields",
                 "reducers": [
-                  "sum"
+                  "mean"
                 ]
-              }
-            },
-            {
-              "id": "calculateField",
-              "options": {
-                "alias": "Percentage",
-                "binary": {
-                  "left": "prs_with_lte_1_retest (sum)",
-                  "operator": "/",
-                  "right": "total_prs_analyzed (sum)"
-                },
-                "mode": "binary"
-              }
-            },
-            {
-              "id": "calculateField",
-              "options": {
-                "alias": "Percentage",
-                "binary": {
-                  "left": "Percentage",
-                  "operator": "*",
-                  "right": "100"
-                },
-                "mode": "binary",
-                "replaceFields": true
               }
             }
           ],
@@ -1416,7 +1337,7 @@ data:
       "timepicker": {},
       "timezone": "",
       "title": "Konflux Retest Metrics",
-      "uid": "none",
+      "uid": "cf3bjtzod9blsa",
       "version": 2,
       "weekStart": ""
     }
