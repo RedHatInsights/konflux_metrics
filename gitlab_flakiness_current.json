@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-22T11:37:32.483062",
+  "analysis_date": "2026-01-23T11:31:30.495901",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-15T11:37:25.180627+00:00",
-    "to": "2026-01-22T11:37:32.483078"
+    "from": "2026-01-16T11:31:09.611997+00:00",
+    "to": "2026-01-23T11:31:30.495940"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 10,
-    "total_commits": 12,
+    "total_mrs_analyzed": 6,
+    "total_commits": 8,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 10,
+    "mrs_with_lte_1_retest": 6,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -72,31 +72,11 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1134"
-        },
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1132,
-          "title": "[CCXDEV-15889] conf: update urllib3",
-          "merged_at": "2026-01-15T13:15:22.652Z",
-          "author": "jdiazsua",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1132"
-        },
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1133,
-          "title": "Fix uv command option in README.md",
-          "merged_at": "2026-01-15T11:55:23.176Z",
-          "author": "mzibrick",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1133"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 4,
-        "total_commits": 4,
+        "total_mrs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
@@ -115,21 +95,11 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/862"
-        },
-        {
-          "project": "ccx/content-service",
-          "mr_iid": 860,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-16T07:12:06.285Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/860"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 2,
-        "total_commits": 2,
+        "total_mrs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
@@ -150,26 +120,15 @@
       }
     },
     "ccx/parquet-factory": {
-      "mrs": [
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 338,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-16T07:12:14.546Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/338"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/ccx-upgrades-data-eng": {
