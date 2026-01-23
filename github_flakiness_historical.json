@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-23T10:09:49.520317+00:00",
+  "analysis_date": "2026-01-23T22:07:26.727524+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-25T10:09:49.495915+00:00",
-    "to": "2026-01-23T10:09:49.520317+00:00"
+    "from": "2025-10-25T22:07:26.702807+00:00",
+    "to": "2026-01-23T22:07:26.727524+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,30 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 642,
+          "title": "Fix trailing commas in grafana dashboard",
+          "merged_at": "2026-01-23T13:16:37Z",
+          "user": "lenasolarova",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/642"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 641,
+          "title": "Pin sentry-sdk minimal version due to fixed bugs",
+          "merged_at": "2026-01-23T11:33:08Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/641"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 640,
@@ -863,18 +887,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2309"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2308,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-25T16:44:26Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2308"
         }
       ],
       "summary": {
@@ -2099,18 +2111,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/533"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 532,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-25T16:41:38Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/532"
         }
       ],
       "summary": {
@@ -2810,18 +2810,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/506"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 505,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-25T16:43:16Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/505"
         }
       ],
       "summary": {
@@ -3089,18 +3077,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1032"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1030,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-25T16:46:19Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1030"
         }
       ],
       "summary": {
@@ -3764,18 +3740,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/691"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 690,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-25T16:43:01Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/690"
         }
       ],
       "summary": {
@@ -3867,6 +3831,18 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1660,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.490 to 0.1.492",
+          "merged_at": "2026-01-23T18:23:24Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1660"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1659,
@@ -4205,13 +4181,13 @@
       }
     }
   },
-  "last_updated": "2026-01-23T10:09:49.520317+00:00",
-  "cutoff_date": "2025-10-25T10:09:49.495915+00:00",
+  "last_updated": "2026-01-23T22:07:26.727524+00:00",
+  "cutoff_date": "2025-10-25T22:07:26.702807+00:00",
   "summary": {
-    "total_prs": 334,
+    "total_prs": 332,
     "total_retests": 70,
     "prs_with_retests": 44,
-    "retest_rate": 13.17365269461078,
+    "retest_rate": 13.253012048192772,
     "retest_comments": 51,
     "update_branch_actions": 19
   }
