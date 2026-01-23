@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-23T09:13:46.424382",
+  "analysis_date": "2026-01-23T21:08:58.306058",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,26 +15,50 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-16T09:13:08.182656+00:00",
-    "to": "2026-01-23T09:13:46.424397"
+    "from": "2026-01-16T21:08:28.630193+00:00",
+    "to": "2026-01-23T21:08:58.306074"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 22,
-    "total_commits": 25,
+    "total_prs_analyzed": 20,
+    "total_commits": 23,
     "total_retests": 7,
     "retest_comments": 6,
     "update_branch_actions": 1,
     "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 20,
-    "prs_with_lte_1_retest_percentage": 90.9090909090909,
-    "pr_retest_rate": 22.727272727272727,
-    "avg_retests_per_pr": 0.3181818181818182,
-    "avg_retests_per_commit": 0.28
+    "prs_with_lte_1_retest": 18,
+    "prs_with_lte_1_retest_percentage": 90.0,
+    "pr_retest_rate": 25.0,
+    "avg_retests_per_pr": 0.35,
+    "avg_retests_per_commit": 0.30434782608695654
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 642,
+          "title": "Fix trailing commas in grafana dashboard",
+          "merged_at": "2026-01-23T13:16:37Z",
+          "user": "lenasolarova",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/642"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 641,
+          "title": "Pin sentry-sdk minimal version due to fixed bugs",
+          "merged_at": "2026-01-23T11:33:08Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/641"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 640,
@@ -61,15 +85,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 3,
+        "total_prs_analyzed": 4,
+        "total_commits": 5,
         "total_retests": 3,
         "retest_comments": 3,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.5,
-        "avg_retests_per_commit": 1.0
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.75,
+        "avg_retests_per_commit": 0.6
       }
     },
     "RedHatInsights/insights-results-aggregator": {
@@ -215,35 +239,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/577"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 576,
-          "title": "fix(deps): update module github.com/olekukonko/tablewriter to v1.1.3",
-          "merged_at": "2026-01-16T20:56:45Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/576"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 575,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-16T17:36:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/575"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -266,35 +266,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/565"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 564,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-16T21:01:08Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/564"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 563,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-16T17:34:41Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/563"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -380,30 +356,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/742"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 741,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-16T17:46:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/741"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.3333333333333333,
-        "avg_retests_per_commit": 0.3333333333333333
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.5,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/obsint-mocks": {
@@ -422,6 +386,18 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1660,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.490 to 0.1.492",
+          "merged_at": "2026-01-23T18:23:24Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1660"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1659,
@@ -448,8 +424,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
