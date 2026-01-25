@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-25T09:09:38.344594",
+  "analysis_date": "2026-01-25T21:07:58.947984",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-18T09:08:56.454373+00:00",
-    "to": "2026-01-25T09:09:38.344610"
+    "from": "2026-01-18T21:07:27.967018+00:00",
+    "to": "2026-01-25T21:07:58.948000"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 20,
-    "total_commits": 23,
+    "total_prs_analyzed": 21,
+    "total_commits": 24,
     "total_retests": 7,
     "retest_comments": 6,
     "update_branch_actions": 1,
     "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 18,
-    "prs_with_lte_1_retest_percentage": 90.0,
-    "pr_retest_rate": 25.0,
-    "avg_retests_per_pr": 0.35,
-    "avg_retests_per_commit": 0.30434782608695654
+    "prs_with_lte_1_retest": 19,
+    "prs_with_lte_1_retest_percentage": 90.47619047619048,
+    "pr_retest_rate": 23.809523809523807,
+    "avg_retests_per_pr": 0.3333333333333333,
+    "avg_retests_per_commit": 0.2916666666666667
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -100,6 +100,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2355,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-25T13:17:35Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2355"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2354,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-21T12:20:18Z",
@@ -112,15 +124,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 1.0
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.5,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
