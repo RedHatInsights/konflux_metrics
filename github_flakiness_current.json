@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-24T21:07:55.218064",
+  "analysis_date": "2026-01-25T09:09:38.344594",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-17T21:07:16.282882+00:00",
-    "to": "2026-01-24T21:07:55.218079"
+    "from": "2026-01-18T09:08:56.454373+00:00",
+    "to": "2026-01-25T09:09:38.344610"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 19,
-    "total_commits": 22,
+    "total_prs_analyzed": 20,
+    "total_commits": 23,
     "total_retests": 7,
     "retest_comments": 6,
     "update_branch_actions": 1,
     "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 17,
-    "prs_with_lte_1_retest_percentage": 89.47368421052632,
-    "pr_retest_rate": 26.31578947368421,
-    "avg_retests_per_pr": 0.3684210526315789,
-    "avg_retests_per_commit": 0.3181818181818182
+    "prs_with_lte_1_retest": 18,
+    "prs_with_lte_1_retest_percentage": 90.0,
+    "pr_retest_rate": 25.0,
+    "avg_retests_per_pr": 0.35,
+    "avg_retests_per_commit": 0.30434782608695654
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -206,6 +206,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 580,
+          "title": "chore(deps): update module github.com/clipperhouse/uax29/v2 to v2.4.0",
+          "merged_at": "2026-01-25T05:03:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/580"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 579,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-22T05:06:44Z",
@@ -242,8 +254,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
