@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-25T22:07:55.545945+00:00",
+  "analysis_date": "2026-01-26T10:11:03.300195+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-27T22:07:55.521883+00:00",
-    "to": "2026-01-25T22:07:55.545945+00:00"
+    "from": "2025-10-28T10:11:03.276335+00:00",
+    "to": "2026-01-26T10:11:03.300195+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,30 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 643,
+          "title": "Switch kafka groups for the right ones (multiplexor <- archive-sync)",
+          "merged_at": "2026-01-26T08:21:07Z",
+          "user": "lenasolarova",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/643"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 644,
+          "title": "build(deps): update boto3 requirement from <1.42.31,>=1.34.1 to >=1.34.1,<1.42.35",
+          "merged_at": "2026-01-26T08:09:53Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/644"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 642,
@@ -1421,18 +1445,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/229"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 228,
-          "title": "Bump fastapi from 0.120.0 to 0.120.1",
-          "merged_at": "2025-10-27T23:52:15Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/228"
         }
       ],
       "summary": {
@@ -1500,6 +1512,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 581,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-26T05:05:55Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/581"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 580,
@@ -2682,6 +2706,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1054,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.491 to 0.1.493",
+          "merged_at": "2026-01-26T07:58:27Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1054"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1053,
@@ -3941,13 +3977,13 @@
       }
     }
   },
-  "last_updated": "2026-01-25T22:07:55.545945+00:00",
-  "cutoff_date": "2025-10-27T22:07:55.521883+00:00",
+  "last_updated": "2026-01-26T10:11:03.300195+00:00",
+  "cutoff_date": "2025-10-28T10:11:03.276335+00:00",
   "summary": {
-    "total_prs": 312,
+    "total_prs": 315,
     "total_retests": 68,
     "prs_with_retests": 42,
-    "retest_rate": 13.461538461538462,
+    "retest_rate": 13.333333333333334,
     "retest_comments": 51,
     "update_branch_actions": 17
   }
