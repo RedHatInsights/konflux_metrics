@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-27T09:15:44.179931",
+  "analysis_date": "2026-01-27T21:09:30.957127",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-20T09:14:57.274365+00:00",
-    "to": "2026-01-27T09:15:44.179946"
+    "from": "2026-01-20T21:08:43.330677+00:00",
+    "to": "2026-01-27T21:09:30.957137"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 21,
-    "total_commits": 24,
+    "total_prs_analyzed": 23,
+    "total_commits": 26,
     "total_retests": 5,
     "retest_comments": 4,
     "update_branch_actions": 1,
     "prs_with_retests": 4,
-    "prs_with_lte_1_retest": 20,
-    "prs_with_lte_1_retest_percentage": 95.23809523809523,
-    "pr_retest_rate": 19.047619047619047,
-    "avg_retests_per_pr": 0.23809523809523808,
-    "avg_retests_per_commit": 0.20833333333333334
+    "prs_with_lte_1_retest": 22,
+    "prs_with_lte_1_retest_percentage": 95.65217391304348,
+    "pr_retest_rate": 17.391304347826086,
+    "avg_retests_per_pr": 0.21739130434782608,
+    "avg_retests_per_commit": 0.19230769230769232
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -151,6 +151,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 506,
+          "title": "chore(deps): update module github.com/getsentry/sentry-go to v0.42.0",
+          "merged_at": "2026-01-27T12:54:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/506"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 500,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-22T11:26:37Z",
@@ -172,18 +184,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/505"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 504,
-          "title": "Change the name of the generated job to avoid name collision",
-          "merged_at": "2026-01-20T13:17:09Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/504"
         }
       ],
       "summary": {
@@ -228,6 +228,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 583,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-27T13:01:54Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/583"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 582,
@@ -278,8 +290,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -291,6 +303,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 566,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-27T13:01:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/566"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 565,
@@ -305,8 +329,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
