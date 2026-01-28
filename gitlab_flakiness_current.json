@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-27T20:03:56.370141",
+  "analysis_date": "2026-01-28T20:03:44.161628",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-20T20:03:37.785145+00:00",
-    "to": "2026-01-27T20:03:56.370157"
+    "from": "2026-01-21T20:03:25.601187+00:00",
+    "to": "2026-01-28T20:03:44.161644"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 3,
-    "total_commits": 3,
+    "total_mrs_analyzed": 6,
+    "total_commits": 6,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 3,
+    "mrs_with_lte_1_retest": 6,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1172,
+          "title": "Adding blockers for iqe-core issue detected",
+          "merged_at": "2026-01-28T12:18:39.476Z",
+          "author": "jsegural",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1172"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1170,
+          "title": "Bumped ccx-rules-ocp version",
+          "merged_at": "2026-01-28T08:07:32.423Z",
+          "author": "jsegural",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1170"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1169,
@@ -52,8 +72,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 2,
-        "total_commits": 2,
+        "total_mrs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
@@ -85,15 +105,26 @@
       }
     },
     "ccx/content-service": {
-      "mrs": [],
+      "mrs": [
+        {
+          "project": "ccx/content-service",
+          "mr_iid": 863,
+          "title": "Bumped ccx-rules-ocp version to 2026.01.27",
+          "merged_at": "2026-01-28T09:26:51.321Z",
+          "author": "ccx-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/863"
+        }
+      ],
       "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
+        "total_mrs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
+        "mr_retest_rate": 0.0,
+        "avg_retests_per_mr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "ccx/ccx-load-test": {
