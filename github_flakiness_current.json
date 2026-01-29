@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-29T09:20:37.055600",
+  "analysis_date": "2026-01-29T21:12:21.769053",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-22T09:20:03.537189+00:00",
-    "to": "2026-01-29T09:20:37.055616"
+    "from": "2026-01-22T21:11:35.330363+00:00",
+    "to": "2026-01-29T21:12:21.769068"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 21,
-    "total_commits": 24,
-    "total_retests": 2,
-    "retest_comments": 1,
-    "update_branch_actions": 1,
-    "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 20,
-    "prs_with_lte_1_retest_percentage": 95.23809523809523,
-    "pr_retest_rate": 4.761904761904762,
-    "avg_retests_per_pr": 0.09523809523809523,
-    "avg_retests_per_commit": 0.08333333333333333
+    "total_prs_analyzed": 22,
+    "total_commits": 23,
+    "total_retests": 0,
+    "retest_comments": 0,
+    "update_branch_actions": 0,
+    "prs_with_retests": 0,
+    "prs_with_lte_1_retest": 22,
+    "prs_with_lte_1_retest_percentage": 100.0,
+    "pr_retest_rate": 0.0,
+    "avg_retests_per_pr": 0.0,
+    "avg_retests_per_commit": 0.0
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -100,6 +100,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2357,
+          "title": "fix(deps): update module github.com/lib/pq to v1.11.1",
+          "merged_at": "2026-01-29T17:19:36Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2357"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2355,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-25T13:17:35Z",
@@ -112,8 +124,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -125,6 +137,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 508,
+          "title": "fix(deps): update module github.com/lib/pq to v1.11.1",
+          "merged_at": "2026-01-29T17:00:20Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/508"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 507,
@@ -148,30 +172,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/506"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 500,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-22T11:26:37Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 3,
-          "retest_comments": 1,
-          "update_branch_count": 1,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/500"
         }
       ],
       "summary": {
         "total_prs_analyzed": 3,
-        "total_commits": 5,
-        "total_retests": 2,
-        "retest_comments": 1,
-        "update_branch_actions": 1,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.6666666666666666,
-        "avg_retests_per_commit": 0.4
+        "total_commits": 3,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -204,6 +216,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 585,
+          "title": "fix(deps): update module github.com/lib/pq to v1.11.1",
+          "merged_at": "2026-01-29T17:06:49Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/585"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 584,
@@ -266,8 +290,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -305,58 +329,33 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1055,
-          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
-          "merged_at": "2026-01-29T01:07:10Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1055"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1054,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.491 to 0.1.493",
-          "merged_at": "2026-01-26T07:58:27Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1054"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1053,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.490 to 0.1.491",
-          "merged_at": "2026-01-23T07:34:18Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1053"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 746,
+          "title": "Bump github.com/lib/pq from 1.11.0 to 1.11.1",
+          "merged_at": "2026-01-29T14:28:34Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/746"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 744,
@@ -383,8 +382,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -412,6 +411,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1663,
+          "title": "Bump github.com/redis/go-redis/v9 from 9.17.2 to 9.17.3",
+          "merged_at": "2026-01-29T18:58:27Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1663"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1665,
+          "title": "Bump github.com/golang-jwt/jwt/v5 from 5.3.0 to 5.3.1",
+          "merged_at": "2026-01-29T18:23:18Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1665"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1660,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.490 to 0.1.492",
           "merged_at": "2026-01-23T18:23:24Z",
@@ -421,23 +444,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1660"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1659,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.488 to 0.1.490",
-          "merged_at": "2026-01-22T18:25:22Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1659"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
