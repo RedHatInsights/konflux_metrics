@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-28T22:11:35.396023+00:00",
+  "analysis_date": "2026-01-29T10:18:11.503597+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-30T22:11:35.372098+00:00",
-    "to": "2026-01-28T22:11:35.396023+00:00"
+    "from": "2025-10-31T10:18:11.479598+00:00",
+    "to": "2026-01-29T10:18:11.503597+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -869,6 +869,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 507,
+          "title": "Bump github.com/lib/pq from 1.10.9 to 1.11.0",
+          "merged_at": "2026-01-28T23:16:33Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/507"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 506,
           "title": "chore(deps): update module github.com/getsentry/sentry-go to v0.42.0",
           "merged_at": "2026-01-27T12:54:23Z",
@@ -1476,6 +1488,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 584,
+          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
+          "merged_at": "2026-01-29T00:57:58Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/584"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 583,
@@ -2630,18 +2654,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/511"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 510,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-10-31T00:37:38Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/510"
         }
       ],
       "summary": {
@@ -2658,6 +2670,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1055,
+          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
+          "merged_at": "2026-01-29T01:07:10Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1055"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1054,
@@ -2889,6 +2913,30 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 744,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-29T05:13:41Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/744"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 745,
+          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
+          "merged_at": "2026-01-29T01:07:12Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/745"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 743,
@@ -3881,13 +3929,13 @@
       }
     }
   },
-  "last_updated": "2026-01-28T22:11:35.396023+00:00",
-  "cutoff_date": "2025-10-30T22:11:35.372098+00:00",
+  "last_updated": "2026-01-29T10:18:11.503597+00:00",
+  "cutoff_date": "2025-10-31T10:18:11.479598+00:00",
   "summary": {
-    "total_prs": 307,
+    "total_prs": 311,
     "total_retests": 66,
     "prs_with_retests": 40,
-    "retest_rate": 13.029315960912053,
+    "retest_rate": 12.861736334405144,
     "retest_comments": 50,
     "update_branch_actions": 16
   }
