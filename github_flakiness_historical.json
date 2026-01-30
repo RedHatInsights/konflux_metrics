@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-01-29T22:11:09.108659+00:00",
+  "analysis_date": "2026-01-30T10:15:14.947160+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-10-31T22:11:09.084225+00:00",
-    "to": "2026-01-29T22:11:09.108659+00:00"
+    "from": "2025-11-01T10:15:14.923023+00:00",
+    "to": "2026-01-30T10:15:14.947160+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -384,6 +384,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2356,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-01-29T21:16:54Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2356"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2357,
@@ -2696,6 +2708,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1056,
+          "title": "Bump github.com/lib/pq from 1.11.0 to 1.11.1",
+          "merged_at": "2026-01-30T07:37:14Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1056"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1055,
           "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
           "merged_at": "2026-01-29T01:07:10Z",
@@ -3989,13 +4013,13 @@
       }
     }
   },
-  "last_updated": "2026-01-29T22:11:09.108659+00:00",
-  "cutoff_date": "2025-10-31T22:11:09.084225+00:00",
+  "last_updated": "2026-01-30T10:15:14.947160+00:00",
+  "cutoff_date": "2025-11-01T10:15:14.923023+00:00",
   "summary": {
-    "total_prs": 316,
+    "total_prs": 318,
     "total_retests": 66,
     "prs_with_retests": 40,
-    "retest_rate": 12.658227848101266,
+    "retest_rate": 12.578616352201259,
     "retest_comments": 50,
     "update_branch_actions": 16
   }
