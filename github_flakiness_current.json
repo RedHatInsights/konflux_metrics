@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-04T09:21:48.695000",
+  "analysis_date": "2026-02-04T21:20:01.485089",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-28T09:21:19.411534+00:00",
-    "to": "2026-02-04T09:21:48.695014"
+    "from": "2026-01-28T21:19:32.704476+00:00",
+    "to": "2026-02-04T21:20:01.485107"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 15,
-    "total_commits": 18,
+    "total_prs_analyzed": 16,
+    "total_commits": 19,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 15,
+    "prs_with_lte_1_retest": 16,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 6.666666666666667,
-    "avg_retests_per_pr": 0.06666666666666667,
-    "avg_retests_per_commit": 0.05555555555555555
+    "pr_retest_rate": 6.25,
+    "avg_retests_per_pr": 0.0625,
+    "avg_retests_per_commit": 0.05263157894736842
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -153,17 +153,30 @@
       }
     },
     "RedHatInsights/insights-behavioral-spec": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 727,
+          "title": "[CCXDEV-15926] Update content service BDD launch script",
+          "merged_at": "2026-02-04T14:41:31Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/727"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
