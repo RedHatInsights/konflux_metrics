@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-04T21:20:01.485089",
+  "analysis_date": "2026-02-05T09:26:49.559184",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-28T21:19:32.704476+00:00",
-    "to": "2026-02-04T21:20:01.485107"
+    "from": "2026-01-29T09:26:08.172051+00:00",
+    "to": "2026-02-05T09:26:49.559200"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 16,
-    "total_commits": 19,
+    "total_prs_analyzed": 12,
+    "total_commits": 15,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 16,
+    "prs_with_lte_1_retest": 12,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 6.25,
-    "avg_retests_per_pr": 0.0625,
-    "avg_retests_per_commit": 0.05263157894736842
+    "pr_retest_rate": 8.333333333333332,
+    "avg_retests_per_pr": 0.08333333333333333,
+    "avg_retests_per_commit": 0.06666666666666667
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -112,23 +112,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/508"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 507,
-          "title": "Bump github.com/lib/pq from 1.10.9 to 1.11.0",
-          "merged_at": "2026-01-28T23:16:33Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/507"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -204,23 +192,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/585"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 584,
-          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
-          "merged_at": "2026-01-29T00:57:58Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/584"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -296,35 +272,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/746"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 744,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-29T05:13:41Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/744"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 745,
-          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
-          "merged_at": "2026-01-29T01:07:12Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/745"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
