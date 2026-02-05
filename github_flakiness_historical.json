@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-05T10:21:07.016971+00:00",
+  "analysis_date": "2026-02-05T22:11:21.756029+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-07T10:21:06.993350+00:00",
-    "to": "2026-02-05T10:21:07.016971+00:00"
+    "from": "2025-11-07T22:11:21.732049+00:00",
+    "to": "2026-02-05T22:11:21.756029+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -2546,18 +2546,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/517"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 514,
-          "title": "Add needed configuration to ConfigMap in order to make them configurable",
-          "merged_at": "2025-11-07T16:24:31Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/514"
         }
       ],
       "summary": {
@@ -3461,6 +3449,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1662,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.492 to 0.1.493",
+          "merged_at": "2026-02-05T11:41:34Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1662"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1667,
+          "title": "Update content service ref from insights-content-service to content-service",
+          "merged_at": "2026-02-05T11:09:14Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1667"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1663,
           "title": "Bump github.com/redis/go-redis/v9 from 9.17.2 to 9.17.3",
           "merged_at": "2026-01-29T18:58:27Z",
@@ -3785,13 +3797,13 @@
       }
     }
   },
-  "last_updated": "2026-02-05T10:21:07.016971+00:00",
-  "cutoff_date": "2025-11-07T10:21:06.993350+00:00",
+  "last_updated": "2026-02-05T22:11:21.756029+00:00",
+  "cutoff_date": "2025-11-07T22:11:21.732049+00:00",
   "summary": {
-    "total_prs": 299,
+    "total_prs": 300,
     "total_retests": 63,
     "prs_with_retests": 39,
-    "retest_rate": 13.043478260869565,
+    "retest_rate": 13.0,
     "retest_comments": 49,
     "update_branch_actions": 14
   }
