@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-06T10:19:57.194176+00:00",
+  "analysis_date": "2026-02-06T22:09:04.470243+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-08T10:19:57.170347+00:00",
-    "to": "2026-02-06T10:19:57.194176+00:00"
+    "from": "2025-11-08T22:09:04.446437+00:00",
+    "to": "2026-02-06T22:09:04.470243+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1178,18 +1178,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/481"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 480,
-          "title": "chore(deps): update module golang.org/x/sys to v0.38.0",
-          "merged_at": "2025-11-08T12:43:20Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/480"
         }
       ],
       "summary": {
@@ -1931,18 +1919,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/544"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 543,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-11-08T12:49:49Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/543"
         }
       ],
       "summary": {
@@ -1959,6 +1935,30 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 569,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-06T21:05:05Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/569"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 568,
+          "title": "fix(deps): update module github.com/unleash/unleash-go-sdk/v5 to v5.1.0",
+          "merged_at": "2026-02-06T17:05:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/568"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 566,
@@ -2534,18 +2534,6 @@
           "update_branch_count": 1,
           "total_retests": 2,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/515"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 517,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-11-08T12:43:10Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/517"
         }
       ],
       "summary": {
@@ -3797,13 +3785,13 @@
       }
     }
   },
-  "last_updated": "2026-02-06T10:19:57.194176+00:00",
-  "cutoff_date": "2025-11-08T10:19:57.170347+00:00",
+  "last_updated": "2026-02-06T22:09:04.470243+00:00",
+  "cutoff_date": "2025-11-08T22:09:04.446437+00:00",
   "summary": {
-    "total_prs": 300,
+    "total_prs": 299,
     "total_retests": 63,
     "prs_with_retests": 39,
-    "retest_rate": 13.0,
+    "retest_rate": 13.043478260869565,
     "retest_comments": 49,
     "update_branch_actions": 14
   }
