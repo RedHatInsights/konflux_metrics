@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-06T09:23:20.585615",
+  "analysis_date": "2026-02-06T21:13:24.544633",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-30T09:22:48.045610+00:00",
-    "to": "2026-02-06T09:23:20.585633"
+    "from": "2026-01-30T21:12:49.900431+00:00",
+    "to": "2026-02-06T21:13:24.544648"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 6,
-    "total_commits": 9,
+    "total_prs_analyzed": 8,
+    "total_commits": 11,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 6,
+    "prs_with_lte_1_retest": 8,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 16.666666666666664,
-    "avg_retests_per_pr": 0.16666666666666666,
-    "avg_retests_per_commit": 0.1111111111111111
+    "pr_retest_rate": 12.5,
+    "avg_retests_per_pr": 0.125,
+    "avg_retests_per_commit": 0.09090909090909091
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -157,17 +157,42 @@
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 569,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-06T21:05:05Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/569"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 568,
+          "title": "fix(deps): update module github.com/unleash/unleash-go-sdk/v5 to v5.1.0",
+          "merged_at": "2026-02-06T17:05:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/568"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-service": {
