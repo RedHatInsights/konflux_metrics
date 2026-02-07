@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-06T22:09:04.487240+00:00",
+  "analysis_date": "2026-02-07T10:09:58.814109+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-08T22:09:04.474570+00:00",
-    "to": "2026-02-06T22:09:04.487240+00:00"
+    "from": "2025-11-09T10:09:58.801461+00:00",
+    "to": "2026-02-07T10:09:58.814109+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -861,6 +861,16 @@
       "mrs": [
         {
           "project": "ccx/parquet-factory",
+          "mr_iid": 341,
+          "title": "[CCXDEV-15927] Add note about the move to GH",
+          "merged_at": "2026-02-06T21:47:13.581Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/341"
+        },
+        {
+          "project": "ccx/parquet-factory",
           "mr_iid": 338,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-01-16T07:12:14.546Z",
@@ -1227,12 +1237,12 @@
       }
     }
   },
-  "last_updated": "2026-02-06T22:09:04.487240+00:00",
-  "cutoff_date": "2025-11-08T22:09:04.474570+00:00",
+  "last_updated": "2026-02-07T10:09:58.814109+00:00",
+  "cutoff_date": "2025-11-09T10:09:58.801461+00:00",
   "summary": {
-    "total_mrs": 111,
+    "total_mrs": 112,
     "total_retests": 30,
     "mrs_with_retests": 11,
-    "retest_rate": 9.90990990990991
+    "retest_rate": 9.821428571428571
   }
 }
