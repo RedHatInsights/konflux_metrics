@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-06T20:03:57.396894",
+  "analysis_date": "2026-02-07T08:03:48.220886",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-01-30T20:03:39.029745+00:00",
-    "to": "2026-02-06T20:03:57.396911"
+    "from": "2026-01-31T08:03:30.903638+00:00",
+    "to": "2026-02-07T08:03:48.220901"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 1,
-    "total_commits": 1,
+    "total_mrs_analyzed": 2,
+    "total_commits": 2,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 1,
+    "mrs_with_lte_1_retest": 2,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -88,15 +88,26 @@
       }
     },
     "ccx/parquet-factory": {
-      "mrs": [],
+      "mrs": [
+        {
+          "project": "ccx/parquet-factory",
+          "mr_iid": 341,
+          "title": "[CCXDEV-15927] Add note about the move to GH",
+          "merged_at": "2026-02-06T21:47:13.581Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/341"
+        }
+      ],
       "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
+        "total_mrs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
+        "mr_retest_rate": 0.0,
+        "avg_retests_per_mr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "ccx/ccx-upgrades-data-eng": {
