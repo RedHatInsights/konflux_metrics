@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-08T09:13:20.801443",
+  "analysis_date": "2026-02-08T21:11:28.189801",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-01T09:12:57.688579+00:00",
-    "to": "2026-02-08T09:13:20.801460"
+    "from": "2026-02-01T21:11:05.530381+00:00",
+    "to": "2026-02-08T21:11:28.189814"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 8,
-    "total_commits": 11,
+    "total_prs_analyzed": 9,
+    "total_commits": 12,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 8,
+    "prs_with_lte_1_retest": 9,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 12.5,
-    "avg_retests_per_pr": 0.125,
-    "avg_retests_per_commit": 0.09090909090909091
+    "pr_retest_rate": 11.11111111111111,
+    "avg_retests_per_pr": 0.1111111111111111,
+    "avg_retests_per_commit": 0.08333333333333333
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -75,17 +75,30 @@
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 509,
+          "title": "chore(deps): update module golang.org/x/sys to v0.41.0",
+          "merged_at": "2026-02-08T21:06:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/509"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
