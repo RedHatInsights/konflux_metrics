@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-09T21:35:30.697636",
+  "analysis_date": "2026-02-10T09:33:28.985029",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,13 +15,13 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-02T21:34:32.739800+00:00",
-    "to": "2026-02-09T21:35:30.697653"
+    "from": "2026-02-03T09:32:28.858750+00:00",
+    "to": "2026-02-10T09:33:28.985045"
   },
   "overall_summary": {
     "total_repos": 11,
     "total_prs_analyzed": 24,
-    "total_commits": 25,
+    "total_commits": 24,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
@@ -34,30 +34,17 @@
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 646,
-          "title": "docs: add ccx-data-pipeline docs",
-          "merged_at": "2026-02-03T09:29:54Z",
-          "user": "juandspy",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/646"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 2,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-results-aggregator": {
@@ -175,17 +162,30 @@
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 247,
+          "title": "Bump fastapi from 0.128.0 to 0.128.6",
+          "merged_at": "2026-02-10T01:49:03Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/247"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-behavioral-spec": {
