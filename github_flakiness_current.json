@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-10T21:28:09.038496",
+  "analysis_date": "2026-02-11T09:25:09.848443",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,18 +15,18 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-03T21:27:09.091609+00:00",
-    "to": "2026-02-10T21:28:09.038514"
+    "from": "2026-02-04T09:24:21.765878+00:00",
+    "to": "2026-02-11T09:25:09.848461"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 29,
-    "total_commits": 29,
+    "total_prs_analyzed": 30,
+    "total_commits": 30,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
     "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 29,
+    "prs_with_lte_1_retest": 30,
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 0.0,
     "avg_retests_per_pr": 0.0,
@@ -402,17 +402,30 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1058,
+          "title": "Bump github.com/lib/pq from 1.11.1 to 1.11.2",
+          "merged_at": "2026-02-11T07:34:15Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1058"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
