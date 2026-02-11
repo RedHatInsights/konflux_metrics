@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-11T08:04:02.920859",
+  "analysis_date": "2026-02-11T20:03:59.939440",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-04T08:03:42.520062+00:00",
-    "to": "2026-02-11T08:04:02.920874"
+    "from": "2026-02-04T20:03:39.779252+00:00",
+    "to": "2026-02-11T20:03:59.939455"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 5,
-    "total_commits": 6,
+    "total_mrs_analyzed": 7,
+    "total_commits": 8,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 5,
+    "mrs_with_lte_1_retest": 7,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1178,
+          "title": "Bumped ccx-rules-ocp version to 2026.02.10.post1",
+          "merged_at": "2026-02-11T11:53:08.231Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1178"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1177,
+          "title": "Bumped ccx-rules-ocp version to 2026.02.10.post1",
+          "merged_at": "2026-02-11T10:54:38.156Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1177"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1176,
@@ -72,8 +92,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 4,
-        "total_commits": 5,
+        "total_mrs_analyzed": 6,
+        "total_commits": 7,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
