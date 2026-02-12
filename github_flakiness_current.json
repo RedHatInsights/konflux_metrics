@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-12T09:24:39.162182",
+  "analysis_date": "2026-02-12T21:16:13.646693",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-05T09:23:36.267940+00:00",
-    "to": "2026-02-12T09:24:39.162194"
+    "from": "2026-02-05T21:15:10.224382+00:00",
+    "to": "2026-02-12T21:16:13.646709"
   },
   "overall_summary": {
     "total_repos": 11,
     "total_prs_analyzed": 30,
-    "total_commits": 30,
-    "total_retests": 0,
-    "retest_comments": 0,
+    "total_commits": 32,
+    "total_retests": 3,
+    "retest_comments": 3,
     "update_branch_actions": 0,
-    "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 30,
-    "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 0.0,
-    "avg_retests_per_pr": 0.0,
-    "avg_retests_per_commit": 0.0
+    "prs_with_retests": 1,
+    "prs_with_lte_1_retest": 29,
+    "prs_with_lte_1_retest_percentage": 96.66666666666667,
+    "pr_retest_rate": 3.3333333333333335,
+    "avg_retests_per_pr": 0.1,
+    "avg_retests_per_commit": 0.09375
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -520,39 +520,39 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1662,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.492 to 0.1.493",
-          "merged_at": "2026-02-05T11:41:34Z",
+          "pr_number": 1671,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.493 to 0.1.494",
+          "merged_at": "2026-02-12T18:19:46Z",
           "user": "dependabot[bot]",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1662"
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1671"
         },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1667,
-          "title": "Update content service ref from insights-content-service to content-service",
-          "merged_at": "2026-02-05T11:09:14Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
+          "pr_number": 1669,
+          "title": "fix `/rating` endpoint ignoring error codes and non-200 aggregator responses",
+          "merged_at": "2026-02-12T09:28:01Z",
+          "user": "Bee-lee",
+          "total_commits": 3,
+          "retest_comments": 3,
           "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1667"
+          "total_retests": 3,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1669"
         }
       ],
       "summary": {
         "total_prs_analyzed": 2,
-        "total_commits": 2,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_commits": 4,
+        "total_retests": 3,
+        "retest_comments": 3,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 1.5,
+        "avg_retests_per_commit": 0.75
       }
     }
   }
