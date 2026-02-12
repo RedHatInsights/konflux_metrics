@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-12T10:22:58.461511+00:00",
+  "analysis_date": "2026-02-12T22:13:17.178462+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-14T10:22:58.438127+00:00",
-    "to": "2026-02-12T10:22:58.461511+00:00"
+    "from": "2025-11-14T22:13:17.155462+00:00",
+    "to": "2026-02-12T22:13:17.178462+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -3341,6 +3341,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1671,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.493 to 0.1.494",
+          "merged_at": "2026-02-12T18:19:46Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1671"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1669,
+          "title": "fix `/rating` endpoint ignoring error codes and non-200 aggregator responses",
+          "merged_at": "2026-02-12T09:28:01Z",
+          "user": "Bee-lee",
+          "total_commits": 3,
+          "retest_comments": 3,
+          "update_branch_count": 0,
+          "total_retests": 3,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1669"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1662,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.492 to 0.1.493",
           "merged_at": "2026-02-05T11:41:34Z",
@@ -3677,14 +3701,14 @@
       }
     }
   },
-  "last_updated": "2026-02-12T10:22:58.461511+00:00",
-  "cutoff_date": "2025-11-14T10:22:58.438127+00:00",
+  "last_updated": "2026-02-12T22:13:17.178462+00:00",
+  "cutoff_date": "2025-11-14T22:13:17.155462+00:00",
   "summary": {
-    "total_prs": 290,
-    "total_retests": 57,
-    "prs_with_retests": 34,
-    "retest_rate": 11.724137931034482,
-    "retest_comments": 47,
+    "total_prs": 292,
+    "total_retests": 60,
+    "prs_with_retests": 35,
+    "retest_rate": 11.986301369863012,
+    "retest_comments": 50,
     "update_branch_actions": 10
   }
 }
