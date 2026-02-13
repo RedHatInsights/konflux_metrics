@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-13T09:23:08.779620",
+  "analysis_date": "2026-02-13T21:17:13.948719",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-06T09:22:03.008804+00:00",
-    "to": "2026-02-13T09:23:08.779635"
+    "from": "2026-02-06T21:16:34.977978+00:00",
+    "to": "2026-02-13T21:17:13.948735"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 32,
-    "total_commits": 34,
+    "total_prs_analyzed": 30,
+    "total_commits": 32,
     "total_retests": 3,
     "retest_comments": 3,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 31,
-    "prs_with_lte_1_retest_percentage": 96.875,
-    "pr_retest_rate": 3.125,
-    "avg_retests_per_pr": 0.09375,
-    "avg_retests_per_commit": 0.08823529411764706
+    "prs_with_lte_1_retest": 29,
+    "prs_with_lte_1_retest_percentage": 96.66666666666667,
+    "pr_retest_rate": 3.3333333333333335,
+    "avg_retests_per_pr": 0.1,
+    "avg_retests_per_commit": 0.09375
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -374,35 +374,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/570"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 569,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-06T21:05:05Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/569"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 568,
-          "title": "fix(deps): update module github.com/unleash/unleash-go-sdk/v5 to v5.1.0",
-          "merged_at": "2026-02-06T17:05:16Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/568"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
