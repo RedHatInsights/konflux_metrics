@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-13T22:14:15.735180+00:00",
+  "analysis_date": "2026-02-14T10:10:29.496382+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-15T22:14:15.722716+00:00",
-    "to": "2026-02-13T22:14:15.735180+00:00"
+    "from": "2025-11-16T10:10:29.483257+00:00",
+    "to": "2026-02-14T10:10:29.496382+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1182,
+          "title": "Add dumb blocker to help with rule release",
+          "merged_at": "2026-02-13T21:34:59.592Z",
+          "author": "ireyes",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1182"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1181,
+          "title": "Bumped ccx-rules-ocp version to 2026.02.13",
+          "merged_at": "2026-02-13T20:09:02.204Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1181"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1180,
@@ -1237,12 +1257,12 @@
       }
     }
   },
-  "last_updated": "2026-02-13T22:14:15.735180+00:00",
-  "cutoff_date": "2025-11-15T22:14:15.722716+00:00",
+  "last_updated": "2026-02-14T10:10:29.496382+00:00",
+  "cutoff_date": "2025-11-16T10:10:29.483257+00:00",
   "summary": {
-    "total_mrs": 112,
+    "total_mrs": 114,
     "total_retests": 30,
     "mrs_with_retests": 11,
-    "retest_rate": 9.821428571428571
+    "retest_rate": 9.649122807017543
   }
 }
