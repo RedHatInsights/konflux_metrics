@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-15T09:13:57.959608",
+  "analysis_date": "2026-02-15T21:10:37.507335",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-08T09:13:17.923984+00:00",
-    "to": "2026-02-15T09:13:57.959625"
+    "from": "2026-02-08T21:09:56.978361+00:00",
+    "to": "2026-02-15T21:10:37.507352"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 30,
-    "total_commits": 32,
+    "total_prs_analyzed": 29,
+    "total_commits": 31,
     "total_retests": 3,
     "retest_comments": 3,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 29,
-    "prs_with_lte_1_retest_percentage": 96.66666666666667,
-    "pr_retest_rate": 3.3333333333333335,
-    "avg_retests_per_pr": 0.1,
-    "avg_retests_per_commit": 0.09375
+    "prs_with_lte_1_retest": 28,
+    "prs_with_lte_1_retest_percentage": 96.55172413793103,
+    "pr_retest_rate": 3.4482758620689653,
+    "avg_retests_per_pr": 0.10344827586206896,
+    "avg_retests_per_commit": 0.0967741935483871
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -159,23 +159,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/510"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 509,
-          "title": "chore(deps): update module golang.org/x/sys to v0.41.0",
-          "merged_at": "2026-02-08T21:06:57Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/509"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
