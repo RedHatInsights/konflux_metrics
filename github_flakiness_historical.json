@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-17T10:23:49.098019+00:00",
+  "analysis_date": "2026-02-17T22:13:00.784189+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-19T10:23:49.073811+00:00",
-    "to": "2026-02-17T10:23:49.098019+00:00"
+    "from": "2025-11-19T22:13:00.760570+00:00",
+    "to": "2026-02-17T22:13:00.784189+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1034,18 +1034,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/487"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 486,
-          "title": "chore(deps): update module golang.org/x/crypto to v0.45.0",
-          "merged_at": "2025-11-19T20:48:19Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/486"
         }
       ],
       "summary": {
@@ -1284,6 +1272,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 596,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-17T14:04:02Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/596"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 595,
@@ -2318,18 +2318,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/530"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 529,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-11-19T20:56:52Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/529"
         }
       ],
       "summary": {
@@ -3080,18 +3068,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/713"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 712,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-11-19T21:13:31Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/712"
         }
       ],
       "summary": {
@@ -3155,18 +3131,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/obsint-mocks/pull/158"
-        },
-        {
-          "repository": "RedHatInsights/obsint-mocks",
-          "pr_number": 157,
-          "title": "[CCXDEV-15130] Support IN clause for AMS org ID queries",
-          "merged_at": "2025-11-19T14:25:49Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/157"
         }
       ],
       "summary": {
@@ -3557,13 +3521,13 @@
       }
     }
   },
-  "last_updated": "2026-02-17T10:23:49.098019+00:00",
-  "cutoff_date": "2025-11-19T10:23:49.073811+00:00",
+  "last_updated": "2026-02-17T22:13:00.784189+00:00",
+  "cutoff_date": "2025-11-19T22:13:00.760570+00:00",
   "summary": {
-    "total_prs": 280,
+    "total_prs": 277,
     "total_retests": 58,
     "prs_with_retests": 33,
-    "retest_rate": 11.785714285714285,
+    "retest_rate": 11.913357400722022,
     "retest_comments": 49,
     "update_branch_actions": 9
   }
