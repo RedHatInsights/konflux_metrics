@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-16T20:05:03.885115",
+  "analysis_date": "2026-02-17T08:03:46.941350",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-09T20:04:44.694238+00:00",
-    "to": "2026-02-16T20:05:03.885133"
+    "from": "2026-02-10T08:03:28.846979+00:00",
+    "to": "2026-02-17T08:03:46.941371"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 10,
-    "total_commits": 13,
+    "total_mrs_analyzed": 8,
+    "total_commits": 10,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 10,
+    "mrs_with_lte_1_retest": 8,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1183,
+          "title": "Revert \"Add dumb blocker to help with rule release\"",
+          "merged_at": "2026-02-16T22:57:41.439Z",
+          "author": "jipapous",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1183"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1182,
@@ -99,41 +109,11 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1176"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1173,
-          "title": "Pin platform UI plugin migration",
-          "merged_at": "2026-02-10T07:52:44.813Z",
-          "author": "ireyes",
-          "total_commits": 2,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1173"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1175,
-          "title": "Bumped ccx-rules-ocp version to 2026.02.10.post1",
-          "merged_at": "2026-02-10T14:52:39.205Z",
-          "author": "iqe-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1175"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1174,
-          "title": "Bumped ccx-rules-ocp version to 2026.02.10",
-          "merged_at": "2026-02-10T09:56:58.021Z",
-          "author": "iqe-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1174"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 10,
-        "total_commits": 13,
+        "total_mrs_analyzed": 8,
+        "total_commits": 10,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
