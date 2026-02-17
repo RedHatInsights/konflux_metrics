@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-16T22:11:40.540145+00:00",
+  "analysis_date": "2026-02-17T10:23:49.114890+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-18T22:11:40.528172+00:00",
-    "to": "2026-02-16T22:11:40.540145+00:00"
+    "from": "2025-11-19T10:23:49.102363+00:00",
+    "to": "2026-02-17T10:23:49.114890+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1183,
+          "title": "Revert \"Add dumb blocker to help with rule release\"",
+          "merged_at": "2026-02-16T22:57:41.439Z",
+          "author": "jipapous",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1183"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1182,
@@ -1177,12 +1187,12 @@
       }
     }
   },
-  "last_updated": "2026-02-16T22:11:40.540145+00:00",
-  "cutoff_date": "2025-11-18T22:11:40.528172+00:00",
+  "last_updated": "2026-02-17T10:23:49.114890+00:00",
+  "cutoff_date": "2025-11-19T10:23:49.102363+00:00",
   "summary": {
-    "total_mrs": 106,
+    "total_mrs": 107,
     "total_retests": 25,
     "mrs_with_retests": 10,
-    "retest_rate": 9.433962264150944
+    "retest_rate": 9.345794392523365
   }
 }
