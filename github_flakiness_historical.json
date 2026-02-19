@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-18T22:14:50.985020+00:00",
+  "analysis_date": "2026-02-19T10:22:24.279176+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-20T22:14:50.961956+00:00",
-    "to": "2026-02-18T22:14:50.985020+00:00"
+    "from": "2025-11-21T10:22:24.255939+00:00",
+    "to": "2026-02-19T10:22:24.279176+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -683,18 +683,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2330"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2328,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-11-21T08:21:19Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2328"
         }
       ],
       "summary": {
@@ -1209,6 +1197,18 @@
     },
     "RedHatInsights/insights-behavioral-spec": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 728,
+          "title": "Adaptation needed for reusable workflows",
+          "merged_at": "2026-02-19T09:18:48Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/728"
+        },
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 727,
@@ -1827,6 +1827,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 573,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-19T09:01:29Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/573"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 572,
@@ -2489,18 +2501,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1042"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1041,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.482 to 0.1.483",
-          "merged_at": "2025-11-21T07:22:59Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1041"
         }
       ],
       "summary": {
@@ -2960,18 +2960,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/715"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 711,
-          "title": "[CCXDEV-15719] Removing double error message",
-          "merged_at": "2025-11-21T07:25:16Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 4,
-          "update_branch_count": 1,
-          "total_retests": 5,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/711"
         }
       ],
       "summary": {
@@ -3374,18 +3362,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1629"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1627,
-          "title": "[CCXDEV-14277] Reduce log level for error",
-          "merged_at": "2025-11-21T09:00:19Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 2,
-          "update_branch_count": 1,
-          "total_retests": 3,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1627"
         }
       ],
       "summary": {
@@ -3401,14 +3377,14 @@
       }
     }
   },
-  "last_updated": "2026-02-18T22:14:50.985020+00:00",
-  "cutoff_date": "2025-11-20T22:14:50.961956+00:00",
+  "last_updated": "2026-02-19T10:22:24.279176+00:00",
+  "cutoff_date": "2025-11-21T10:22:24.255939+00:00",
   "summary": {
-    "total_prs": 267,
-    "total_retests": 55,
-    "prs_with_retests": 31,
-    "retest_rate": 11.610486891385769,
-    "retest_comments": 46,
-    "update_branch_actions": 9
+    "total_prs": 265,
+    "total_retests": 47,
+    "prs_with_retests": 29,
+    "retest_rate": 10.943396226415095,
+    "retest_comments": 40,
+    "update_branch_actions": 7
   }
 }
