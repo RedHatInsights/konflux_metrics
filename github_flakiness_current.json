@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-19T21:18:45.634939",
+  "analysis_date": "2026-02-20T09:20:53.419976",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,18 +15,18 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-12T21:18:12.315103+00:00",
-    "to": "2026-02-19T21:18:45.634957"
+    "from": "2026-02-13T09:20:28.258960+00:00",
+    "to": "2026-02-20T09:20:53.419996"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 14,
-    "total_commits": 18,
+    "total_prs_analyzed": 12,
+    "total_commits": 16,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
     "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 14,
+    "prs_with_lte_1_retest": 12,
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 0.0,
     "avg_retests_per_pr": 0.0,
@@ -216,23 +216,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/595"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 594,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-13T01:12:05Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/594"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -270,30 +258,17 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1060,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.493 to 0.1.494",
-          "merged_at": "2026-02-13T07:37:35Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1060"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
