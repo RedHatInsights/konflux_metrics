@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-21T22:08:44.008292+00:00",
+  "analysis_date": "2026-02-22T10:09:55.396294+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-23T22:08:43.985324+00:00",
-    "to": "2026-02-21T22:08:44.008292+00:00"
+    "from": "2025-11-24T10:09:55.373245+00:00",
+    "to": "2026-02-22T10:09:55.396294+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -296,30 +296,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/622"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 618,
-          "title": "build(deps): update boto3 requirement from <1.40.75,>=1.34.1 to >=1.34.1,<1.41.3",
-          "merged_at": "2025-11-24T07:21:29Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/618"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 617,
-          "title": "[CCXDEV-15630] Add metrics gathering (archive size and processing time) to idp",
-          "merged_at": "2025-11-24T06:36:22Z",
-          "user": "lenasolarova",
-          "total_commits": 4,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/617"
         }
       ],
       "summary": {
@@ -1296,6 +1272,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 599,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-22T05:30:24Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/599"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 598,
@@ -3035,30 +3023,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/obsint-mocks/pull/160"
-        },
-        {
-          "repository": "RedHatInsights/obsint-mocks",
-          "pr_number": 159,
-          "title": "Add single-cluster management endpoints and simplify RHOBS API",
-          "merged_at": "2025-11-24T09:29:55Z",
-          "user": "ikerreyes",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/159"
-        },
-        {
-          "repository": "RedHatInsights/obsint-mocks",
-          "pr_number": 158,
-          "title": "Do not use AMS as the main app",
-          "merged_at": "2025-11-24T09:04:35Z",
-          "user": "ikerreyes",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/158"
         }
       ],
       "summary": {
@@ -3389,14 +3353,14 @@
       }
     }
   },
-  "last_updated": "2026-02-21T22:08:44.008292+00:00",
-  "cutoff_date": "2025-11-23T22:08:43.985324+00:00",
+  "last_updated": "2026-02-22T10:09:55.396294+00:00",
+  "cutoff_date": "2025-11-24T10:09:55.373245+00:00",
   "summary": {
-    "total_prs": 266,
-    "total_retests": 47,
-    "prs_with_retests": 29,
-    "retest_rate": 10.902255639097744,
-    "retest_comments": 40,
+    "total_prs": 263,
+    "total_retests": 45,
+    "prs_with_retests": 28,
+    "retest_rate": 10.646387832699618,
+    "retest_comments": 38,
     "update_branch_actions": 7
   }
 }
