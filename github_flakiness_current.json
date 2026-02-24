@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-24T09:28:44.657280",
+  "analysis_date": "2026-02-24T21:18:23.240196",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,18 +15,18 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-17T09:27:48.962647+00:00",
-    "to": "2026-02-24T09:28:44.657295"
+    "from": "2026-02-17T21:17:31.645781+00:00",
+    "to": "2026-02-24T21:18:23.240208"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 22,
-    "total_commits": 26,
+    "total_prs_analyzed": 26,
+    "total_commits": 30,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
     "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 22,
+    "prs_with_lte_1_retest": 26,
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 0.0,
     "avg_retests_per_pr": 0.0,
@@ -112,17 +112,30 @@
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 514,
+          "title": "chore(deps): update module github.com/getsentry/sentry-go to v0.43.0",
+          "merged_at": "2026-02-24T21:04:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/514"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -156,6 +169,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 730,
+          "title": "Unifying the log path handling",
+          "merged_at": "2026-02-24T12:15:23Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/730"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 729,
           "title": "Add duplicated rules to avoid mappings in the workflows definitions",
           "merged_at": "2026-02-19T10:38:21Z",
@@ -180,8 +205,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -193,6 +218,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 603,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-24T21:14:05Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/603"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 602,
@@ -264,18 +301,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/597"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 596,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-17T14:04:02Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/596"
         }
       ],
       "summary": {
@@ -292,6 +317,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 577,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-24T21:11:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/577"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 576,
@@ -342,8 +379,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 6,
+        "total_prs_analyzed": 5,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -436,6 +473,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1675,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.495 to 0.1.496",
+          "merged_at": "2026-02-24T18:32:47Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1675"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1674,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.494 to 0.1.495",
           "merged_at": "2026-02-23T20:11:25Z",
@@ -448,8 +497,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
