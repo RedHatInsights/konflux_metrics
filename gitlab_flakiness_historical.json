@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-24T10:23:42.125526+00:00",
+  "analysis_date": "2026-02-24T22:14:01.440065+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-26T10:23:42.113669+00:00",
-    "to": "2026-02-24T10:23:42.125526+00:00"
+    "from": "2025-11-26T22:14:01.428118+00:00",
+    "to": "2026-02-24T22:14:01.440065+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,36 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1189,
+          "title": "Bumped ccx-rules-ocp version to 2026.02.24",
+          "merged_at": "2026-02-24T11:52:56.827Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1189"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1188,
+          "title": "Bumped ccx-rules-ocp version to 2026.02.17",
+          "merged_at": "2026-02-24T10:49:54.633Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1188"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1187,
+          "title": "[CCXDEV-16026] Mark tests as xfail if there is a rules version mismatch",
+          "merged_at": "2026-02-24T08:58:23.257Z",
+          "author": "ireyes",
+          "total_commits": 8,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1187"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1186,
@@ -1047,12 +1077,12 @@
       }
     }
   },
-  "last_updated": "2026-02-24T10:23:42.125526+00:00",
-  "cutoff_date": "2025-11-26T10:23:42.113669+00:00",
+  "last_updated": "2026-02-24T22:14:01.440065+00:00",
+  "cutoff_date": "2025-11-26T22:14:01.428118+00:00",
   "summary": {
-    "total_mrs": 93,
+    "total_mrs": 96,
     "total_retests": 17,
     "mrs_with_retests": 6,
-    "retest_rate": 6.451612903225806
+    "retest_rate": 6.25
   }
 }

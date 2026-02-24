@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-24T10:23:42.110029+00:00",
+  "analysis_date": "2026-02-24T22:14:01.424301+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-26T10:23:42.087866+00:00",
-    "to": "2026-02-24T10:23:42.110029+00:00"
+    "from": "2025-11-26T22:14:01.401976+00:00",
+    "to": "2026-02-24T22:14:01.424301+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -659,18 +659,6 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2333"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2301,
-          "title": "Add dependency for dvo-writer",
-          "merged_at": "2025-11-26T11:34:05Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 3,
-          "update_branch_count": 0,
-          "total_retests": 3,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2301"
         }
       ],
       "summary": {
@@ -687,6 +675,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 514,
+          "title": "chore(deps): update module github.com/getsentry/sentry-go to v0.43.0",
+          "merged_at": "2026-02-24T21:04:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/514"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 513,
@@ -1175,6 +1175,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 730,
+          "title": "Unifying the log path handling",
+          "merged_at": "2026-02-24T12:15:23Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/730"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 729,
           "title": "Add duplicated rules to avoid mappings in the workflows definitions",
           "merged_at": "2026-02-19T10:38:21Z",
@@ -1248,6 +1260,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 603,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-24T21:14:05Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/603"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 602,
@@ -1887,6 +1911,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 577,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-24T21:11:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/577"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 576,
@@ -2951,18 +2987,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/obsint-mocks/pull/161"
-        },
-        {
-          "repository": "RedHatInsights/obsint-mocks",
-          "pr_number": 160,
-          "title": "Removed unused clowdapp file.",
-          "merged_at": "2025-11-26T11:16:40Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/160"
         }
       ],
       "summary": {
@@ -2979,6 +3003,18 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1675,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.495 to 0.1.496",
+          "merged_at": "2026-02-24T18:32:47Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1675"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1674,
@@ -3242,30 +3278,6 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1639"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1634,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.483 to 0.1.484",
-          "merged_at": "2025-11-26T17:55:15Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1634"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1635,
-          "title": "Bump github.com/redis/go-redis/v9 from 9.17.0 to 9.17.1",
-          "merged_at": "2025-11-26T17:26:27Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1635"
         }
       ],
       "summary": {
@@ -3281,14 +3293,14 @@
       }
     }
   },
-  "last_updated": "2026-02-24T10:23:42.110029+00:00",
-  "cutoff_date": "2025-11-26T10:23:42.087866+00:00",
+  "last_updated": "2026-02-24T22:14:01.424301+00:00",
+  "cutoff_date": "2025-11-26T22:14:01.401976+00:00",
   "summary": {
-    "total_prs": 257,
-    "total_retests": 41,
-    "prs_with_retests": 25,
-    "retest_rate": 9.72762645914397,
-    "retest_comments": 36,
+    "total_prs": 258,
+    "total_retests": 38,
+    "prs_with_retests": 24,
+    "retest_rate": 9.30232558139535,
+    "retest_comments": 33,
     "update_branch_actions": 5
   }
 }
