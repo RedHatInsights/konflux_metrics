@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-23T22:21:00.436773+00:00",
+  "analysis_date": "2026-02-24T10:23:42.110029+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-25T22:21:00.413964+00:00",
-    "to": "2026-02-23T22:21:00.436773+00:00"
+    "from": "2025-11-26T10:23:42.087866+00:00",
+    "to": "2026-02-24T10:23:42.110029+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -324,6 +324,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2366,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-23T21:39:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2366"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2365,
@@ -659,18 +671,6 @@
           "update_branch_count": 0,
           "total_retests": 3,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2301"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2332,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-11-26T01:14:15Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2332"
         }
       ],
       "summary": {
@@ -1004,6 +1004,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 250,
+          "title": "Bump fastapi from 0.129.0 to 0.132.0",
+          "merged_at": "2026-02-24T00:23:13Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/250"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 249,
           "title": "Bump fastapi from 0.128.6 to 0.129.0",
           "merged_at": "2026-02-16T23:52:39Z",
@@ -1236,6 +1248,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 602,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-24T01:11:51Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/602"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 601,
@@ -1865,6 +1889,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 576,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-24T01:11:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/576"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 575,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-02-23T21:16:33Z",
@@ -2234,30 +2270,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/541"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 538,
-          "title": "[CCXDEV-14330] Reduce log level for non-error scenarios",
-          "merged_at": "2025-11-26T09:52:51Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/538"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 540,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-11-26T00:59:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/540"
         }
       ],
       "summary": {
@@ -2493,6 +2505,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 757,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-24T01:25:39Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/757"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 756,
@@ -2900,18 +2924,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/720"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 719,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-11-26T01:14:17Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/719"
         }
       ],
       "summary": {
@@ -3269,14 +3281,14 @@
       }
     }
   },
-  "last_updated": "2026-02-23T22:21:00.436773+00:00",
-  "cutoff_date": "2025-11-25T22:21:00.413964+00:00",
+  "last_updated": "2026-02-24T10:23:42.110029+00:00",
+  "cutoff_date": "2025-11-26T10:23:42.087866+00:00",
   "summary": {
-    "total_prs": 256,
-    "total_retests": 42,
-    "prs_with_retests": 26,
-    "retest_rate": 10.15625,
+    "total_prs": 257,
+    "total_retests": 41,
+    "prs_with_retests": 25,
+    "retest_rate": 9.72762645914397,
     "retest_comments": 36,
-    "update_branch_actions": 6
+    "update_branch_actions": 5
   }
 }
