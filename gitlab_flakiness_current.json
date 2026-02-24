@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-24T08:03:55.160905",
+  "analysis_date": "2026-02-24T20:04:02.218312",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-17T08:03:36.869146+00:00",
-    "to": "2026-02-24T08:03:55.160920"
+    "from": "2026-02-17T20:03:44.657540+00:00",
+    "to": "2026-02-24T20:04:02.218328"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 2,
-    "total_commits": 3,
+    "total_mrs_analyzed": 3,
+    "total_commits": 10,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 2,
+    "mrs_with_lte_1_retest": 3,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -32,28 +32,38 @@
       "mrs": [
         {
           "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1186,
-          "title": "Bumped ccx-rules-ocp version to 2026.02.17",
-          "merged_at": "2026-02-17T15:44:50.851Z",
-          "author": "iqe-bot",
-          "total_commits": 2,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1186"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1184,
-          "title": "Bumped ccx-rules-ocp version to 2026.02.13",
-          "merged_at": "2026-02-17T14:52:20.669Z",
+          "mr_iid": 1189,
+          "title": "Bumped ccx-rules-ocp version to 2026.02.24",
+          "merged_at": "2026-02-24T11:52:56.827Z",
           "author": "iqe-bot",
           "total_commits": 1,
           "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1184"
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1189"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1188,
+          "title": "Bumped ccx-rules-ocp version to 2026.02.17",
+          "merged_at": "2026-02-24T10:49:54.633Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1188"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1187,
+          "title": "[CCXDEV-16026] Mark tests as xfail if there is a rules version mismatch",
+          "merged_at": "2026-02-24T08:58:23.257Z",
+          "author": "ireyes",
+          "total_commits": 8,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1187"
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 2,
-        "total_commits": 3,
+        "total_mrs_analyzed": 3,
+        "total_commits": 10,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
