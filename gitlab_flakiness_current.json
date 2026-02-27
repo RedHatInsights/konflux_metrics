@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-27T08:04:06.794289",
+  "analysis_date": "2026-02-27T20:04:01.913681",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-20T08:03:49.531760+00:00",
-    "to": "2026-02-27T08:04:06.794304"
+    "from": "2026-02-20T20:03:42.921186+00:00",
+    "to": "2026-02-27T20:04:01.913697"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 6,
-    "total_commits": 14,
+    "total_mrs_analyzed": 7,
+    "total_commits": 15,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 6,
+    "mrs_with_lte_1_retest": 7,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1195,
+          "title": "Do not run blocked tests",
+          "merged_at": "2026-02-27T13:51:43.912Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1195"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1191,
@@ -92,8 +102,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 6,
-        "total_commits": 14,
+        "total_mrs_analyzed": 7,
+        "total_commits": 15,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
