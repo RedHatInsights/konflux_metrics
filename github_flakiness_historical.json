@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-02-27T10:18:25.805145+00:00",
+  "analysis_date": "2026-02-27T22:09:04.029422+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-11-29T10:18:25.782142+00:00",
-    "to": "2026-02-27T10:18:25.805145+00:00"
+    "from": "2025-11-29T22:09:04.005919+00:00",
+    "to": "2026-02-27T22:09:04.029422+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1163,6 +1163,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 731,
+          "title": "Scripts for reusable workflow",
+          "merged_at": "2026-02-27T12:00:04Z",
+          "user": "joselsegura",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/731"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 732,
+          "title": "Proper log directory handling for CCX Upgrades Risks Predicition Daa Eng BDD runs",
+          "merged_at": "2026-02-27T11:30:54Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/732"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 730,
           "title": "Unifying the log path handling",
           "merged_at": "2026-02-24T12:15:23Z",
@@ -1248,6 +1272,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 606,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-27T13:36:51Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/606"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 605,
@@ -1925,6 +1961,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 580,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-02-27T13:33:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/580"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 567,
+          "title": "fix(deps): update module github.com/unleash/unleash-go-sdk/v5 to v6",
+          "merged_at": "2026-02-27T13:14:02Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/567"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 579,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-02-26T01:38:44Z",
@@ -2555,6 +2615,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 760,
+          "title": "fix(deps): update module github.com/ibm/sarama to v1.47.0",
+          "merged_at": "2026-02-27T13:40:24Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/760"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 759,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-02-26T01:55:12Z",
@@ -3029,6 +3101,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1677,
+          "title": "Use reusable workflow for BDD tests",
+          "merged_at": "2026-02-27T16:15:48Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 3,
+          "update_branch_count": 0,
+          "total_retests": 3,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1677"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1675,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.495 to 0.1.496",
           "merged_at": "2026-02-24T18:32:47Z",
@@ -3317,14 +3401,14 @@
       }
     }
   },
-  "last_updated": "2026-02-27T10:18:25.805145+00:00",
-  "cutoff_date": "2025-11-29T10:18:25.782142+00:00",
+  "last_updated": "2026-02-27T22:09:04.029422+00:00",
+  "cutoff_date": "2025-11-29T22:09:04.005919+00:00",
   "summary": {
-    "total_prs": 260,
-    "total_retests": 37,
-    "prs_with_retests": 23,
-    "retest_rate": 8.846153846153847,
-    "retest_comments": 32,
-    "update_branch_actions": 5
+    "total_prs": 267,
+    "total_retests": 41,
+    "prs_with_retests": 25,
+    "retest_rate": 9.363295880149813,
+    "retest_comments": 35,
+    "update_branch_actions": 6
   }
 }
