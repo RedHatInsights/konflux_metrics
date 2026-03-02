@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-01T22:08:47.244505+00:00",
+  "analysis_date": "2026-03-02T10:23:17.852387+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-01T22:08:47.221643+00:00",
-    "to": "2026-03-01T22:08:47.244505+00:00"
+    "from": "2025-12-02T10:23:17.829347+00:00",
+    "to": "2026-03-02T10:23:17.852387+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -288,6 +288,30 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2370,
+          "title": "Bump github.com/IBM/sarama from 1.46.3 to 1.47.0",
+          "merged_at": "2026-03-02T08:29:06Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2370"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2369,
+          "title": "Use reusable workflow for BDD tests",
+          "merged_at": "2026-03-02T07:16:55Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2369"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2366,
@@ -1085,18 +1109,6 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/238"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 239,
-          "title": "Bump fastapi from 0.122.0 to 0.123.0",
-          "merged_at": "2025-12-02T02:22:26Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/239"
         }
       ],
       "summary": {
@@ -3341,14 +3353,14 @@
       }
     }
   },
-  "last_updated": "2026-03-01T22:08:47.244505+00:00",
-  "cutoff_date": "2025-12-01T22:08:47.221643+00:00",
+  "last_updated": "2026-03-02T10:23:17.852387+00:00",
+  "cutoff_date": "2025-12-02T10:23:17.829347+00:00",
   "summary": {
-    "total_prs": 262,
-    "total_retests": 41,
-    "prs_with_retests": 25,
-    "retest_rate": 9.541984732824428,
-    "retest_comments": 35,
+    "total_prs": 263,
+    "total_retests": 42,
+    "prs_with_retests": 26,
+    "retest_rate": 9.885931558935361,
+    "retest_comments": 36,
     "update_branch_actions": 6
   }
 }
