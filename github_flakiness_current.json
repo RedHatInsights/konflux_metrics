@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-03T09:21:31.657906",
+  "analysis_date": "2026-03-03T21:15:28.898351",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,21 +15,21 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-24T09:20:31.612944+00:00",
-    "to": "2026-03-03T09:21:31.657923"
+    "from": "2026-02-24T21:14:40.780856+00:00",
+    "to": "2026-03-03T21:15:28.898366"
   },
   "overall_summary": {
     "total_repos": 11,
     "total_prs_analyzed": 32,
-    "total_commits": 35,
-    "total_retests": 7,
+    "total_commits": 40,
+    "total_retests": 8,
     "retest_comments": 6,
-    "update_branch_actions": 1,
-    "prs_with_retests": 5,
+    "update_branch_actions": 2,
+    "prs_with_retests": 6,
     "prs_with_lte_1_retest": 31,
     "prs_with_lte_1_retest_percentage": 96.875,
-    "pr_retest_rate": 15.625,
-    "avg_retests_per_pr": 0.21875,
+    "pr_retest_rate": 18.75,
+    "avg_retests_per_pr": 0.25,
     "avg_retests_per_commit": 0.2
   },
   "repositories": {
@@ -114,6 +114,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 516,
+          "title": "Use reusable workflow for BDD tests",
+          "merged_at": "2026-03-03T11:44:26Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/516"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 515,
           "title": "chore(deps): update module golang.org/x/net to v0.51.0",
           "merged_at": "2026-02-26T01:31:16Z",
@@ -123,18 +135,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/515"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 514,
-          "title": "chore(deps): update module github.com/getsentry/sentry-go to v0.43.0",
-          "merged_at": "2026-02-24T21:04:17Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/514"
         }
       ],
       "summary": {
@@ -165,6 +165,30 @@
     },
     "RedHatInsights/insights-behavioral-spec": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 735,
+          "title": "Adapt exporter BDD tests scripts",
+          "merged_at": "2026-03-03T10:59:24Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/735"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 734,
+          "title": "refactor: extract test runner common logic into tools/test_runner_common.sh",
+          "merged_at": "2026-03-03T10:08:11Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/734"
+        },
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 733,
@@ -200,34 +224,34 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/732"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 730,
-          "title": "Unifying the log path handling",
-          "merged_at": "2026-02-24T12:15:23Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/730"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 6,
+        "total_prs_analyzed": 5,
+        "total_commits": 8,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.16666666666666666
+        "pr_retest_rate": 20.0,
+        "avg_retests_per_pr": 0.2,
+        "avg_retests_per_commit": 0.125
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 610,
+          "title": "Use reusable workflow for BDD tests",
+          "merged_at": "2026-03-03T10:50:06Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/610"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 609,
@@ -299,30 +323,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/604"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 603,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-24T21:14:05Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/603"
         }
       ],
       "summary": {
         "total_prs_analyzed": 7,
-        "total_commits": 7,
-        "total_retests": 0,
+        "total_commits": 8,
+        "total_retests": 1,
         "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "update_branch_actions": 1,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.125
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
@@ -398,23 +410,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/578"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 577,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-24T21:11:31Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/577"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 8,
+        "total_prs_analyzed": 6,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -543,6 +543,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1680,
+          "title": "add temporary endpoint for checking the status of request_id in Redis",
+          "merged_at": "2026-03-03T16:06:11Z",
+          "user": "Bee-lee",
+          "total_commits": 4,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1680"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1677,
           "title": "Use reusable workflow for BDD tests",
           "merged_at": "2026-02-27T16:15:48Z",
@@ -552,30 +564,18 @@
           "update_branch_count": 0,
           "total_retests": 3,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1677"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1675,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.495 to 0.1.496",
-          "merged_at": "2026-02-24T18:32:47Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1675"
         }
       ],
       "summary": {
         "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_commits": 5,
         "total_retests": 3,
         "retest_comments": 3,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
         "pr_retest_rate": 50.0,
         "avg_retests_per_pr": 1.5,
-        "avg_retests_per_commit": 1.5
+        "avg_retests_per_commit": 0.6
       }
     }
   }
