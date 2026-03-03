@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-03T10:19:25.923350+00:00",
+  "analysis_date": "2026-03-03T22:11:44.328286+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-03T10:19:25.900244+00:00",
-    "to": "2026-03-03T10:19:25.923350+00:00"
+    "from": "2025-12-03T22:11:44.304884+00:00",
+    "to": "2026-03-03T22:11:44.328286+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -260,18 +260,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/623"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 620,
-          "title": "[CCXDEV-15619] Add AGENTS.md",
-          "merged_at": "2025-12-03T11:08:21Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/620"
         }
       ],
       "summary": {
@@ -663,6 +651,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 516,
+          "title": "Use reusable workflow for BDD tests",
+          "merged_at": "2026-03-03T11:44:26Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/516"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 515,
@@ -1139,6 +1139,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 735,
+          "title": "Adapt exporter BDD tests scripts",
+          "merged_at": "2026-03-03T10:59:24Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/735"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 734,
+          "title": "refactor: extract test runner common logic into tools/test_runner_common.sh",
+          "merged_at": "2026-03-03T10:08:11Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/734"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 733,
           "title": "Adapt scripts for aggregator-cleaner",
           "merged_at": "2026-03-03T08:18:14Z",
@@ -1260,6 +1284,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 610,
+          "title": "Use reusable workflow for BDD tests",
+          "merged_at": "2026-03-03T10:50:06Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/610"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 609,
@@ -2342,18 +2378,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/548"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 544,
-          "title": "[CCXDEV-14330] Handle different server responses as warnings instead of errors",
-          "merged_at": "2025-12-03T13:25:34Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/544"
         }
       ],
       "summary": {
@@ -3065,6 +3089,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1680,
+          "title": "add temporary endpoint for checking the status of request_id in Redis",
+          "merged_at": "2026-03-03T16:06:11Z",
+          "user": "Bee-lee",
+          "total_commits": 4,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1680"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1677,
           "title": "Use reusable workflow for BDD tests",
           "merged_at": "2026-02-27T16:15:48Z",
@@ -3365,14 +3401,14 @@
       }
     }
   },
-  "last_updated": "2026-03-03T10:19:25.923350+00:00",
-  "cutoff_date": "2025-12-03T10:19:25.900244+00:00",
+  "last_updated": "2026-03-03T22:11:44.328286+00:00",
+  "cutoff_date": "2025-12-03T22:11:44.304884+00:00",
   "summary": {
-    "total_prs": 264,
-    "total_retests": 44,
+    "total_prs": 267,
+    "total_retests": 43,
     "prs_with_retests": 28,
-    "retest_rate": 10.606060606060606,
-    "retest_comments": 38,
-    "update_branch_actions": 6
+    "retest_rate": 10.486891385767791,
+    "retest_comments": 36,
+    "update_branch_actions": 7
   }
 }
