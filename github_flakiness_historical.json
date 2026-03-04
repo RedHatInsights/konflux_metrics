@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-04T10:17:17.793195+00:00",
+  "analysis_date": "2026-03-04T22:13:04.374979+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-04T10:17:17.769370+00:00",
-    "to": "2026-03-04T10:17:17.793195+00:00"
+    "from": "2025-12-04T22:13:04.351355+00:00",
+    "to": "2026-03-04T22:13:04.374979+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -962,30 +962,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/492"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 491,
-          "title": "chore(deps): update module github.com/tinylib/msgp to v1.6.1",
-          "merged_at": "2025-12-04T20:52:00Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/491"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 490,
-          "title": "chore(deps): update module github.com/tinylib/msgp to v1.6.0",
-          "merged_at": "2025-12-04T16:54:44Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/490"
         }
       ],
       "summary": {
@@ -1161,6 +1137,30 @@
     },
     "RedHatInsights/insights-behavioral-spec": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 737,
+          "title": "Modifications for notification-writer tests",
+          "merged_at": "2026-03-04T13:03:51Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/737"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 736,
+          "title": "Move Behave runner to a common function",
+          "merged_at": "2026-03-04T09:22:08Z",
+          "user": "joselsegura",
+          "total_commits": 4,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/736"
+        },
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 735,
@@ -2675,6 +2675,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 766,
+          "title": "Use reusable workflow for BDD tests",
+          "merged_at": "2026-03-04T15:01:37Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/766"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 765,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-03-04T05:52:35Z",
@@ -3185,6 +3197,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1681,
+          "title": " switch the StatusOfRequestID to the new optimized handler ",
+          "merged_at": "2026-03-04T13:39:16Z",
+          "user": "Bee-lee",
+          "total_commits": 5,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1681"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1680,
           "title": "add temporary endpoint for checking the status of request_id in Redis",
           "merged_at": "2026-03-03T16:06:11Z",
@@ -3497,14 +3521,14 @@
       }
     }
   },
-  "last_updated": "2026-03-04T10:17:17.793195+00:00",
-  "cutoff_date": "2025-12-04T10:17:17.769370+00:00",
+  "last_updated": "2026-03-04T22:13:04.374979+00:00",
+  "cutoff_date": "2025-12-04T22:13:04.351355+00:00",
   "summary": {
-    "total_prs": 275,
-    "total_retests": 43,
-    "prs_with_retests": 28,
-    "retest_rate": 10.181818181818182,
-    "retest_comments": 36,
+    "total_prs": 277,
+    "total_retests": 45,
+    "prs_with_retests": 30,
+    "retest_rate": 10.830324909747292,
+    "retest_comments": 38,
     "update_branch_actions": 7
   }
 }
