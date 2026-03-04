@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-04T09:20:18.693213",
+  "analysis_date": "2026-03-04T21:15:15.326506",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-25T09:19:24.856932+00:00",
-    "to": "2026-03-04T09:20:18.693226"
+    "from": "2026-02-25T21:14:05.084179+00:00",
+    "to": "2026-03-04T21:15:15.326522"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 39,
-    "total_commits": 47,
-    "total_retests": 8,
-    "retest_comments": 6,
+    "total_prs_analyzed": 41,
+    "total_commits": 57,
+    "total_retests": 10,
+    "retest_comments": 8,
     "update_branch_actions": 2,
-    "prs_with_retests": 6,
-    "prs_with_lte_1_retest": 38,
-    "prs_with_lte_1_retest_percentage": 97.43589743589743,
-    "pr_retest_rate": 15.384615384615385,
-    "avg_retests_per_pr": 0.20512820512820512,
-    "avg_retests_per_commit": 0.1702127659574468
+    "prs_with_retests": 8,
+    "prs_with_lte_1_retest": 40,
+    "prs_with_lte_1_retest_percentage": 97.5609756097561,
+    "pr_retest_rate": 19.51219512195122,
+    "avg_retests_per_pr": 0.24390243902439024,
+    "avg_retests_per_commit": 0.17543859649122806
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -191,6 +191,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 737,
+          "title": "Modifications for notification-writer tests",
+          "merged_at": "2026-03-04T13:03:51Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/737"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 736,
+          "title": "Move Behave runner to a common function",
+          "merged_at": "2026-03-04T09:22:08Z",
+          "user": "joselsegura",
+          "total_commits": 4,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/736"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 735,
           "title": "Adapt exporter BDD tests scripts",
           "merged_at": "2026-03-03T10:59:24Z",
@@ -251,15 +275,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 8,
+        "total_prs_analyzed": 7,
+        "total_commits": 14,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 20.0,
-        "avg_retests_per_pr": 0.2,
-        "avg_retests_per_commit": 0.125
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.07142857142857142
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
@@ -359,30 +383,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/605"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 604,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-25T18:06:11Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/604"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 10,
+        "total_prs_analyzed": 8,
+        "total_commits": 9,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 11.11111111111111,
-        "avg_retests_per_pr": 0.1111111111111111,
-        "avg_retests_per_commit": 0.1
+        "pr_retest_rate": 12.5,
+        "avg_retests_per_pr": 0.125,
+        "avg_retests_per_commit": 0.1111111111111111
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
@@ -470,23 +482,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/579"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 578,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-25T18:07:34Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/578"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 9,
+        "total_prs_analyzed": 7,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -512,6 +512,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 766,
+          "title": "Use reusable workflow for BDD tests",
+          "merged_at": "2026-03-04T15:01:37Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/766"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 765,
@@ -598,15 +610,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 7,
-        "total_retests": 1,
-        "retest_comments": 1,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
+        "total_retests": 2,
+        "retest_comments": 2,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 14.285714285714285,
-        "avg_retests_per_pr": 0.14285714285714285,
-        "avg_retests_per_commit": 0.14285714285714285
+        "prs_with_retests": 2,
+        "pr_retest_rate": 25.0,
+        "avg_retests_per_pr": 0.25,
+        "avg_retests_per_commit": 0.25
       }
     },
     "RedHatInsights/obsint-mocks": {
@@ -625,6 +637,18 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1681,
+          "title": " switch the StatusOfRequestID to the new optimized handler ",
+          "merged_at": "2026-03-04T13:39:16Z",
+          "user": "Bee-lee",
+          "total_commits": 5,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1681"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1680,
@@ -651,15 +675,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 5,
-        "total_retests": 3,
-        "retest_comments": 3,
+        "total_prs_analyzed": 3,
+        "total_commits": 10,
+        "total_retests": 4,
+        "retest_comments": 4,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 1.5,
-        "avg_retests_per_commit": 0.6
+        "prs_with_retests": 2,
+        "pr_retest_rate": 66.66666666666666,
+        "avg_retests_per_pr": 1.3333333333333333,
+        "avg_retests_per_commit": 0.4
       }
     }
   }
