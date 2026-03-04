@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-04T08:03:56.485888",
+  "analysis_date": "2026-03-04T20:04:02.201412",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-25T08:03:39.081066+00:00",
-    "to": "2026-03-04T08:03:56.485929"
+    "from": "2026-02-25T20:03:43.244814+00:00",
+    "to": "2026-03-04T20:04:02.201427"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 4,
-    "total_commits": 4,
+    "total_mrs_analyzed": 5,
+    "total_commits": 6,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 4,
+    "mrs_with_lte_1_retest": 5,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -106,15 +106,26 @@
       }
     },
     "ccx/ccx-load-test": {
-      "mrs": [],
+      "mrs": [
+        {
+          "project": "ccx/ccx-load-test",
+          "mr_iid": 102,
+          "title": "Add load test for on-demand data gathering endpoints",
+          "merged_at": "2026-03-04T15:59:46.829Z",
+          "author": "ireyes",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/102"
+        }
+      ],
       "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
+        "total_mrs_analyzed": 1,
+        "total_commits": 2,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
+        "mr_retest_rate": 0.0,
+        "avg_retests_per_mr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "ccx/parquet-factory": {
