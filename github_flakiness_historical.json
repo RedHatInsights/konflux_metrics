@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-05T10:20:10.569605+00:00",
+  "analysis_date": "2026-03-05T22:12:34.636728+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-05T10:20:10.546255+00:00",
-    "to": "2026-03-05T10:20:10.569605+00:00"
+    "from": "2025-12-05T22:12:34.613447+00:00",
+    "to": "2026-03-05T22:12:34.636728+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,18 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 653,
+          "title": "[CCXDEV-14695] Remove pr_check as we move tests to Konflux",
+          "merged_at": "2026-03-05T09:33:13Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/653"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 650,
@@ -701,6 +713,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 517,
+          "title": "CCXDEV-14690: conf: remove pr_check.sh",
+          "merged_at": "2026-03-05T12:05:23Z",
+          "user": "juandspy",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/517"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 516,
           "title": "Use reusable workflow for BDD tests",
           "merged_at": "2026-03-03T11:44:26Z",
@@ -1151,6 +1175,54 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 741,
+          "title": "Printout the docker ps -a output",
+          "merged_at": "2026-03-05T15:36:43Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/741"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 739,
+          "title": "Don't check for specific version",
+          "merged_at": "2026-03-05T12:55:21Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/739"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 740,
+          "title": "Adding specific logic to run mocks",
+          "merged_at": "2026-03-05T12:46:16Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/740"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 738,
+          "title": "Parametrize the tag of the BDD image to be used",
+          "merged_at": "2026-03-05T10:42:40Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/738"
+        },
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 737,
           "title": "Modifications for notification-writer tests",
           "merged_at": "2026-03-04T13:03:51Z",
@@ -1280,18 +1352,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/727"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 725,
-          "title": "[CCXDEV-15621] feat: add AGENTS.md",
-          "merged_at": "2025-12-05T10:38:11Z",
-          "user": "juandspy",
-          "total_commits": 4,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/725"
         }
       ],
       "summary": {
@@ -2645,18 +2705,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1044"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1043,
-          "title": "[CCXDEV-15686] Update WriteReadError logging to use Warn level",
-          "merged_at": "2025-12-05T13:01:13Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1043"
         }
       ],
       "summary": {
@@ -3197,6 +3245,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1678,
+          "title": "[CCXDEV-14694] We are moving IQE tests to Konflux so we do not need the pr_check script anymore",
+          "merged_at": "2026-03-05T12:54:20Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1678"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1681,
           "title": " switch the StatusOfRequestID to the new optimized handler ",
           "merged_at": "2026-03-04T13:39:16Z",
@@ -3521,13 +3581,13 @@
       }
     }
   },
-  "last_updated": "2026-03-05T10:20:10.569605+00:00",
-  "cutoff_date": "2025-12-05T10:20:10.546255+00:00",
+  "last_updated": "2026-03-05T22:12:34.636728+00:00",
+  "cutoff_date": "2025-12-05T22:12:34.613447+00:00",
   "summary": {
-    "total_prs": 277,
+    "total_prs": 282,
     "total_retests": 48,
     "prs_with_retests": 31,
-    "retest_rate": 11.191335740072201,
+    "retest_rate": 10.99290780141844,
     "retest_comments": 41,
     "update_branch_actions": 7
   }
