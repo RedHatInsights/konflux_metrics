@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-05T21:16:12.913447",
+  "analysis_date": "2026-03-06T09:19:02.250094",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-26T21:15:14.842878+00:00",
-    "to": "2026-03-05T21:16:12.913458"
+    "from": "2026-02-27T09:18:09.946317+00:00",
+    "to": "2026-03-06T09:19:02.250111"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 46,
-    "total_commits": 64,
-    "total_retests": 15,
-    "retest_comments": 12,
-    "update_branch_actions": 3,
-    "prs_with_retests": 11,
+    "total_prs_analyzed": 48,
+    "total_commits": 68,
+    "total_retests": 20,
+    "retest_comments": 15,
+    "update_branch_actions": 5,
+    "prs_with_retests": 13,
     "prs_with_lte_1_retest": 44,
-    "prs_with_lte_1_retest_percentage": 95.65217391304348,
-    "pr_retest_rate": 23.91304347826087,
-    "avg_retests_per_pr": 0.32608695652173914,
-    "avg_retests_per_commit": 0.234375
+    "prs_with_lte_1_retest_percentage": 91.66666666666666,
+    "pr_retest_rate": 27.083333333333332,
+    "avg_retests_per_pr": 0.4166666666666667,
+    "avg_retests_per_commit": 0.29411764705882354
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -558,17 +558,30 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1063,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.494 to 0.1.497",
+          "merged_at": "2026-03-06T06:19:19Z",
+          "user": "dependabot[bot]",
+          "total_commits": 2,
+          "retest_comments": 1,
+          "update_branch_count": 1,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1063"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "total_prs_analyzed": 1,
+        "total_commits": 2,
+        "total_retests": 2,
+        "retest_comments": 1,
+        "update_branch_actions": 1,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 2.0,
+        "avg_retests_per_commit": 1.0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -688,6 +701,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1676,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.496 to 0.1.497",
+          "merged_at": "2026-03-06T07:08:40Z",
+          "user": "dependabot[bot]",
+          "total_commits": 2,
+          "retest_comments": 2,
+          "update_branch_count": 1,
+          "total_retests": 3,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1676"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1678,
           "title": "[CCXDEV-14694] We are moving IQE tests to Konflux so we do not need the pr_check script anymore",
           "merged_at": "2026-03-05T12:54:20Z",
@@ -736,15 +761,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 11,
-        "total_retests": 4,
-        "retest_comments": 4,
-        "update_branch_actions": 0,
-        "prs_with_retests": 2,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 0.36363636363636365
+        "total_prs_analyzed": 5,
+        "total_commits": 13,
+        "total_retests": 7,
+        "retest_comments": 6,
+        "update_branch_actions": 1,
+        "prs_with_retests": 3,
+        "pr_retest_rate": 60.0,
+        "avg_retests_per_pr": 1.4,
+        "avg_retests_per_commit": 0.5384615384615384
       }
     }
   }
