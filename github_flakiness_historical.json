@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-05T22:12:34.636728+00:00",
+  "analysis_date": "2026-03-06T10:16:08.776215+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-05T22:12:34.613447+00:00",
-    "to": "2026-03-05T22:12:34.636728+00:00"
+    "from": "2025-12-06T10:16:08.753237+00:00",
+    "to": "2026-03-06T10:16:08.776215+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -2528,6 +2528,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1063,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.494 to 0.1.497",
+          "merged_at": "2026-03-06T06:19:19Z",
+          "user": "dependabot[bot]",
+          "total_commits": 2,
+          "retest_comments": 1,
+          "update_branch_count": 1,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1063"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1060,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.493 to 0.1.494",
           "merged_at": "2026-02-13T07:37:35Z",
@@ -3245,6 +3257,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1676,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.496 to 0.1.497",
+          "merged_at": "2026-03-06T07:08:40Z",
+          "user": "dependabot[bot]",
+          "total_commits": 2,
+          "retest_comments": 2,
+          "update_branch_count": 1,
+          "total_retests": 3,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1676"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1678,
           "title": "[CCXDEV-14694] We are moving IQE tests to Konflux so we do not need the pr_check script anymore",
           "merged_at": "2026-03-05T12:54:20Z",
@@ -3581,14 +3605,14 @@
       }
     }
   },
-  "last_updated": "2026-03-05T22:12:34.636728+00:00",
-  "cutoff_date": "2025-12-05T22:12:34.613447+00:00",
+  "last_updated": "2026-03-06T10:16:08.776215+00:00",
+  "cutoff_date": "2025-12-06T10:16:08.753237+00:00",
   "summary": {
-    "total_prs": 282,
-    "total_retests": 48,
-    "prs_with_retests": 31,
-    "retest_rate": 10.99290780141844,
-    "retest_comments": 41,
-    "update_branch_actions": 7
+    "total_prs": 284,
+    "total_retests": 53,
+    "prs_with_retests": 33,
+    "retest_rate": 11.619718309859154,
+    "retest_comments": 44,
+    "update_branch_actions": 9
   }
 }
