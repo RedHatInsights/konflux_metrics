@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-06T08:03:44.627438",
+  "analysis_date": "2026-03-06T20:03:38.414280",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,13 +12,13 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-02-27T08:03:27.283054+00:00",
-    "to": "2026-03-06T08:03:44.627459"
+    "from": "2026-02-27T20:03:21.683324+00:00",
+    "to": "2026-03-06T20:03:38.414297"
   },
   "overall_summary": {
     "total_projects": 7,
     "total_mrs_analyzed": 3,
-    "total_commits": 4,
+    "total_commits": 6,
     "total_retests": 0,
     "mrs_with_retests": 0,
     "mrs_with_lte_1_retest": 3,
@@ -32,6 +32,16 @@
       "mrs": [
         {
           "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1197,
+          "title": "feat: Expand endpoint discovery to all API tags",
+          "merged_at": "2026-03-06T13:47:32.245Z",
+          "author": "ireyes",
+          "total_commits": 3,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1197"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1196,
           "title": "Add a blocker for on demand gathering endpoints",
           "merged_at": "2026-03-03T11:36:07.481Z",
@@ -39,21 +49,11 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1196"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1195,
-          "title": "Do not run blocked tests",
-          "merged_at": "2026-02-27T13:51:43.912Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1195"
         }
       ],
       "summary": {
         "total_mrs_analyzed": 2,
-        "total_commits": 2,
+        "total_commits": 4,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
