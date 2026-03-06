@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-06T10:16:08.792269+00:00",
+  "analysis_date": "2026-03-06T22:11:16.516518+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-06T10:16:08.780267+00:00",
-    "to": "2026-03-06T10:16:08.792269+00:00"
+    "from": "2025-12-06T22:11:16.504433+00:00",
+    "to": "2026-03-06T22:11:16.516518+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1197,
+          "title": "feat: Expand endpoint discovery to all API tags",
+          "merged_at": "2026-03-06T13:47:32.245Z",
+          "author": "ireyes",
+          "total_commits": 3,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1197"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1196,
@@ -1038,12 +1048,12 @@
       }
     }
   },
-  "last_updated": "2026-03-06T10:16:08.792269+00:00",
-  "cutoff_date": "2025-12-06T10:16:08.780267+00:00",
+  "last_updated": "2026-03-06T22:11:16.516518+00:00",
+  "cutoff_date": "2025-12-06T22:11:16.504433+00:00",
   "summary": {
-    "total_mrs": 92,
+    "total_mrs": 93,
     "total_retests": 17,
     "mrs_with_retests": 6,
-    "retest_rate": 6.521739130434782
+    "retest_rate": 6.451612903225806
   }
 }
