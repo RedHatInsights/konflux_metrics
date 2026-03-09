@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-09T09:25:54.175892",
+  "analysis_date": "2026-03-09T21:14:54.455190",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-02T09:24:43.194820+00:00",
-    "to": "2026-03-09T09:25:54.175905"
+    "from": "2026-03-02T21:13:37.634766+00:00",
+    "to": "2026-03-09T21:14:54.455207"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 42,
-    "total_commits": 59,
-    "total_retests": 15,
-    "retest_comments": 11,
+    "total_prs_analyzed": 41,
+    "total_commits": 58,
+    "total_retests": 14,
+    "retest_comments": 10,
     "update_branch_actions": 4,
-    "prs_with_retests": 10,
-    "prs_with_lte_1_retest": 39,
-    "prs_with_lte_1_retest_percentage": 92.85714285714286,
-    "pr_retest_rate": 23.809523809523807,
-    "avg_retests_per_pr": 0.35714285714285715,
-    "avg_retests_per_commit": 0.2542372881355932
+    "prs_with_retests": 9,
+    "prs_with_lte_1_retest": 38,
+    "prs_with_lte_1_retest_percentage": 92.6829268292683,
+    "pr_retest_rate": 21.951219512195124,
+    "avg_retests_per_pr": 0.34146341463414637,
+    "avg_retests_per_commit": 0.2413793103448276
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -145,30 +145,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2371"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2367,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-02T09:55:00Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2367"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
-        "total_retests": 1,
-        "retest_comments": 1,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.25
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -226,18 +214,6 @@
     },
     "RedHatInsights/insights-behavioral-spec": {
       "prs": [
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 742,
-          "title": "Adapt script for ccx-notification-service BDD execution",
-          "merged_at": "2026-03-09T09:20:07Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/742"
-        },
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 741,
@@ -348,15 +324,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 16,
+        "total_prs_analyzed": 9,
+        "total_commits": 15,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 10.0,
-        "avg_retests_per_pr": 0.1,
-        "avg_retests_per_commit": 0.0625
+        "pr_retest_rate": 11.11111111111111,
+        "avg_retests_per_pr": 0.1111111111111111,
+        "avg_retests_per_commit": 0.06666666666666667
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
@@ -513,6 +489,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1070,
+          "title": "Using reusable workflow",
+          "merged_at": "2026-03-09T11:32:16Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1070"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1063,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.494 to 0.1.497",
           "merged_at": "2026-03-06T06:19:19Z",
@@ -525,15 +513,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 2,
+        "total_prs_analyzed": 2,
+        "total_commits": 3,
         "total_retests": 2,
         "retest_comments": 1,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 2.0,
-        "avg_retests_per_commit": 1.0
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.6666666666666666
       }
     },
     "RedHatInsights/ccx-notification-writer": {
