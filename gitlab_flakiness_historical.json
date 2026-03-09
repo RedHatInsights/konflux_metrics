@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-09T10:23:25.225990+00:00",
+  "analysis_date": "2026-03-09T22:11:58.178704+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-09T10:23:25.213315+00:00",
-    "to": "2026-03-09T10:23:25.225990+00:00"
+    "from": "2025-12-09T22:11:58.165907+00:00",
+    "to": "2026-03-09T22:11:58.178704+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,36 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 814,
+          "title": "[CCXDEV-11902] Update user config for ccx plugin - identity attr",
+          "merged_at": "2026-03-09T13:49:06.032Z",
+          "author": "mzibrick",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/814"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1200,
+          "title": "IQE-3835: Remove taretto",
+          "merged_at": "2026-03-09T13:19:15.582Z",
+          "author": "ndhandre",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1200"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1199,
+          "title": "[CCXDEV-16074] CI pipeline optimizations",
+          "merged_at": "2026-03-09T13:07:47.644Z",
+          "author": "ireyes",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1199"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1197,
@@ -1018,12 +1048,12 @@
       }
     }
   },
-  "last_updated": "2026-03-09T10:23:25.225990+00:00",
-  "cutoff_date": "2025-12-09T10:23:25.213315+00:00",
+  "last_updated": "2026-03-09T22:11:58.178704+00:00",
+  "cutoff_date": "2025-12-09T22:11:58.165907+00:00",
   "summary": {
-    "total_mrs": 90,
+    "total_mrs": 93,
     "total_retests": 17,
     "mrs_with_retests": 6,
-    "retest_rate": 6.666666666666667
+    "retest_rate": 6.451612903225806
   }
 }

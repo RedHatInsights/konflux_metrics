@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-09T10:23:25.209031+00:00",
+  "analysis_date": "2026-03-09T22:11:58.161472+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-09T10:23:25.185502+00:00",
-    "to": "2026-03-09T10:23:25.209031+00:00"
+    "from": "2025-12-09T22:11:58.136450+00:00",
+    "to": "2026-03-09T22:11:58.161472+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -671,18 +671,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2339"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2338,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-09T17:12:48Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2338"
         }
       ],
       "summary": {
@@ -1979,18 +1967,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/558"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 557,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-09T20:58:44Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/557"
         }
       ],
       "summary": {
@@ -2478,6 +2454,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1070,
+          "title": "Using reusable workflow",
+          "merged_at": "2026-03-09T11:32:16Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1070"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1063,
@@ -3140,18 +3128,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/728"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 727,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-09T21:10:17Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/727"
         }
       ],
       "summary": {
@@ -3545,13 +3521,13 @@
       }
     }
   },
-  "last_updated": "2026-03-09T10:23:25.209031+00:00",
-  "cutoff_date": "2025-12-09T10:23:25.185502+00:00",
+  "last_updated": "2026-03-09T22:11:58.161472+00:00",
+  "cutoff_date": "2025-12-09T22:11:58.136450+00:00",
   "summary": {
-    "total_prs": 279,
+    "total_prs": 277,
     "total_retests": 53,
     "prs_with_retests": 33,
-    "retest_rate": 11.827956989247312,
+    "retest_rate": 11.913357400722022,
     "retest_comments": 44,
     "update_branch_actions": 9
   }
