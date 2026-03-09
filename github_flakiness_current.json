@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-08T21:10:02.557945",
+  "analysis_date": "2026-03-09T09:25:54.175892",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,26 +15,50 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-01T21:09:20.573460+00:00",
-    "to": "2026-03-08T21:10:02.557962"
+    "from": "2026-03-02T09:24:43.194820+00:00",
+    "to": "2026-03-09T09:25:54.175905"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 41,
-    "total_commits": 58,
-    "total_retests": 16,
-    "retest_comments": 12,
+    "total_prs_analyzed": 42,
+    "total_commits": 59,
+    "total_retests": 15,
+    "retest_comments": 11,
     "update_branch_actions": 4,
-    "prs_with_retests": 11,
-    "prs_with_lte_1_retest": 38,
-    "prs_with_lte_1_retest_percentage": 92.6829268292683,
-    "pr_retest_rate": 26.82926829268293,
-    "avg_retests_per_pr": 0.3902439024390244,
-    "avg_retests_per_commit": 0.27586206896551724
+    "prs_with_retests": 10,
+    "prs_with_lte_1_retest": 39,
+    "prs_with_lte_1_retest_percentage": 92.85714285714286,
+    "pr_retest_rate": 23.809523809523807,
+    "avg_retests_per_pr": 0.35714285714285715,
+    "avg_retests_per_commit": 0.2542372881355932
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 655,
+          "title": "build(deps): update boto3 requirement from <1.42.60,>=1.34.1 to >=1.34.1,<1.42.64",
+          "merged_at": "2026-03-09T07:50:14Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/655"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 656,
+          "title": "build(deps): bump aiobotocore from 3.1.3 to 3.2.1",
+          "merged_at": "2026-03-09T07:47:28Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/656"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 653,
@@ -73,15 +97,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 4,
+        "total_prs_analyzed": 5,
+        "total_commits": 6,
         "total_retests": 4,
         "retest_comments": 4,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 66.66666666666666,
-        "avg_retests_per_pr": 1.3333333333333333,
-        "avg_retests_per_commit": 1.0
+        "pr_retest_rate": 40.0,
+        "avg_retests_per_pr": 0.8,
+        "avg_retests_per_commit": 0.6666666666666666
       }
     },
     "RedHatInsights/insights-results-aggregator": {
@@ -133,42 +157,18 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2367"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2370,
-          "title": "Bump github.com/IBM/sarama from 1.46.3 to 1.47.0",
-          "merged_at": "2026-03-02T08:29:06Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2370"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2369,
-          "title": "Use reusable workflow for BDD tests",
-          "merged_at": "2026-03-02T07:16:55Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2369"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
-        "total_retests": 2,
-        "retest_comments": 2,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 2,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.3333333333333333,
-        "avg_retests_per_commit": 0.3333333333333333
+        "prs_with_retests": 1,
+        "pr_retest_rate": 25.0,
+        "avg_retests_per_pr": 0.25,
+        "avg_retests_per_commit": 0.25
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -226,6 +226,18 @@
     },
     "RedHatInsights/insights-behavioral-spec": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 742,
+          "title": "Adapt script for ccx-notification-service BDD execution",
+          "merged_at": "2026-03-09T09:20:07Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/742"
+        },
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 741,
@@ -336,15 +348,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 15,
+        "total_prs_analyzed": 10,
+        "total_commits": 16,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 11.11111111111111,
-        "avg_retests_per_pr": 0.1111111111111111,
-        "avg_retests_per_commit": 0.06666666666666667
+        "pr_retest_rate": 10.0,
+        "avg_retests_per_pr": 0.1,
+        "avg_retests_per_commit": 0.0625
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
