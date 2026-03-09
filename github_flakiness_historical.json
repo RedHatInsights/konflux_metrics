@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-08T22:08:56.732559+00:00",
+  "analysis_date": "2026-03-09T10:23:25.209031+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-08T22:08:56.709118+00:00",
-    "to": "2026-03-08T22:08:56.732559+00:00"
+    "from": "2025-12-09T10:23:25.185502+00:00",
+    "to": "2026-03-09T10:23:25.209031+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,30 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 655,
+          "title": "build(deps): update boto3 requirement from <1.42.60,>=1.34.1 to >=1.34.1,<1.42.64",
+          "merged_at": "2026-03-09T07:50:14Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/655"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 656,
+          "title": "build(deps): bump aiobotocore from 3.1.3 to 3.2.1",
+          "merged_at": "2026-03-09T07:47:28Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/656"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 653,
@@ -938,18 +962,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/495"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 494,
-          "title": "chore(deps): update module golang.org/x/net to v0.48.0",
-          "merged_at": "2025-12-09T00:52:56Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/494"
         }
       ],
       "summary": {
@@ -1061,30 +1073,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/243"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 242,
-          "title": "Bump pytest from 9.0.1 to 9.0.2",
-          "merged_at": "2025-12-08T23:37:36Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/242"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 241,
-          "title": "Bump fastapi from 0.123.0 to 0.124.0",
-          "merged_at": "2025-12-08T23:19:07Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/241"
         }
       ],
       "summary": {
@@ -1101,6 +1089,18 @@
     },
     "RedHatInsights/insights-behavioral-spec": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 742,
+          "title": "Adapt script for ccx-notification-service BDD execution",
+          "merged_at": "2026-03-09T09:20:07Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/742"
+        },
         {
           "repository": "RedHatInsights/insights-behavioral-spec",
           "pr_number": 741,
@@ -1991,18 +1991,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/557"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 556,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-09T01:03:26Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/556"
         }
       ],
       "summary": {
@@ -3164,18 +3152,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/727"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 726,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-09T01:16:26Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/726"
         }
       ],
       "summary": {
@@ -3569,13 +3545,13 @@
       }
     }
   },
-  "last_updated": "2026-03-08T22:08:56.732559+00:00",
-  "cutoff_date": "2025-12-08T22:08:56.709118+00:00",
+  "last_updated": "2026-03-09T10:23:25.209031+00:00",
+  "cutoff_date": "2025-12-09T10:23:25.185502+00:00",
   "summary": {
-    "total_prs": 281,
+    "total_prs": 279,
     "total_retests": 53,
     "prs_with_retests": 33,
-    "retest_rate": 11.743772241992882,
+    "retest_rate": 11.827956989247312,
     "retest_comments": 44,
     "update_branch_actions": 9
   }
