@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-09T08:05:38.114905",
+  "analysis_date": "2026-03-09T20:03:46.817973",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-02T08:05:20.719097+00:00",
-    "to": "2026-03-09T08:05:38.114920"
+    "from": "2026-03-02T20:03:27.741046+00:00",
+    "to": "2026-03-09T20:03:46.817988"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 3,
-    "total_commits": 6,
+    "total_mrs_analyzed": 6,
+    "total_commits": 10,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 3,
+    "mrs_with_lte_1_retest": 6,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,36 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 814,
+          "title": "[CCXDEV-11902] Update user config for ccx plugin - identity attr",
+          "merged_at": "2026-03-09T13:49:06.032Z",
+          "author": "mzibrick",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/814"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1200,
+          "title": "IQE-3835: Remove taretto",
+          "merged_at": "2026-03-09T13:19:15.582Z",
+          "author": "ndhandre",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1200"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1199,
+          "title": "[CCXDEV-16074] CI pipeline optimizations",
+          "merged_at": "2026-03-09T13:07:47.644Z",
+          "author": "ireyes",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1199"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1197,
@@ -52,8 +82,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 2,
-        "total_commits": 4,
+        "total_mrs_analyzed": 5,
+        "total_commits": 8,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
