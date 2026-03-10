@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-10T10:26:15.122200+00:00",
+  "analysis_date": "2026-03-10T22:15:49.151973+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-10T10:26:15.109977+00:00",
-    "to": "2026-03-10T10:26:15.122200+00:00"
+    "from": "2025-12-10T22:15:49.139950+00:00",
+    "to": "2026-03-10T22:15:49.151973+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,36 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1203,
+          "title": "Bumped ccx-rules-ocp version to 2026.03.10",
+          "merged_at": "2026-03-10T16:10:50.689Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1203"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1202,
+          "title": "Bumped ccx-rules-ocp version to 2026.03.10",
+          "merged_at": "2026-03-10T12:07:27.029Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1202"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1201,
+          "title": "Bumped ccx-rules-ocp version to 2026.02.26",
+          "merged_at": "2026-03-10T10:12:40.591Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1201"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 814,
@@ -447,36 +477,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1155"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1154,
-          "title": "Add schemathesis as dependency and adapt to v4",
-          "merged_at": "2025-12-10T16:25:08.223Z",
-          "author": "ireyes",
-          "total_commits": 2,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1154"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1152,
-          "title": "Update pre-commit hooks",
-          "merged_at": "2025-12-10T15:08:44.711Z",
-          "author": "iqe-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1152"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1150,
-          "title": "Refactor test method endpoints",
-          "merged_at": "2025-12-10T15:07:36.293Z",
-          "author": "ireyes",
-          "total_commits": 6,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1150"
         }
       ],
       "summary": {
@@ -919,26 +919,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/317"
-        },
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 316,
-          "title": "[CCXDEV-15661] Remove shared-podman-debug tag for GL runner",
-          "merged_at": "2025-12-10T15:33:42.479Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/316"
-        },
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 315,
-          "title": "[CCXDEV-15661] GitLab runners tag change",
-          "merged_at": "2025-12-10T12:27:51.950Z",
-          "author": "ireyes",
-          "total_commits": 10,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/315"
         }
       ],
       "summary": {
@@ -1048,12 +1028,12 @@
       }
     }
   },
-  "last_updated": "2026-03-10T10:26:15.122200+00:00",
-  "cutoff_date": "2025-12-10T10:26:15.109977+00:00",
+  "last_updated": "2026-03-10T22:15:49.151973+00:00",
+  "cutoff_date": "2025-12-10T22:15:49.139950+00:00",
   "summary": {
-    "total_mrs": 93,
+    "total_mrs": 91,
     "total_retests": 17,
     "mrs_with_retests": 6,
-    "retest_rate": 6.451612903225806
+    "retest_rate": 6.593406593406594
   }
 }
