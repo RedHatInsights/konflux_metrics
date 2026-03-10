@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-10T09:22:12.333857",
+  "analysis_date": "2026-03-10T21:15:04.361815",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-03T09:21:17.212303+00:00",
-    "to": "2026-03-10T09:22:12.333872"
+    "from": "2026-03-03T21:13:57.745511+00:00",
+    "to": "2026-03-10T21:15:04.361832"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 40,
-    "total_commits": 57,
-    "total_retests": 13,
+    "total_prs_analyzed": 34,
+    "total_commits": 46,
+    "total_retests": 12,
     "retest_comments": 9,
-    "update_branch_actions": 4,
-    "prs_with_retests": 8,
-    "prs_with_lte_1_retest": 37,
-    "prs_with_lte_1_retest_percentage": 92.5,
-    "pr_retest_rate": 20.0,
-    "avg_retests_per_pr": 0.325,
-    "avg_retests_per_commit": 0.22807017543859648
+    "update_branch_actions": 3,
+    "prs_with_retests": 7,
+    "prs_with_lte_1_retest": 31,
+    "prs_with_lte_1_retest_percentage": 91.17647058823529,
+    "pr_retest_rate": 20.588235294117645,
+    "avg_retests_per_pr": 0.35294117647058826,
+    "avg_retests_per_commit": 0.2608695652173913
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -160,23 +160,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/517"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 516,
-          "title": "Use reusable workflow for BDD tests",
-          "merged_at": "2026-03-03T11:44:26Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/516"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -309,42 +297,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/736"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 735,
-          "title": "Adapt exporter BDD tests scripts",
-          "merged_at": "2026-03-03T10:59:24Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/735"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 734,
-          "title": "refactor: extract test runner common logic into tools/test_runner_common.sh",
-          "merged_at": "2026-03-03T10:08:11Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/734"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 11,
-        "total_commits": 17,
+        "total_prs_analyzed": 9,
+        "total_commits": 14,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 9.090909090909092,
-        "avg_retests_per_pr": 0.09090909090909091,
-        "avg_retests_per_commit": 0.058823529411764705
+        "pr_retest_rate": 11.11111111111111,
+        "avg_retests_per_pr": 0.1111111111111111,
+        "avg_retests_per_commit": 0.07142857142857142
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
@@ -408,30 +372,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/611"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 610,
-          "title": "Use reusable workflow for BDD tests",
-          "merged_at": "2026-03-03T10:50:06Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/610"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 7,
-        "total_retests": 1,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
+        "total_retests": 0,
         "retest_comments": 0,
-        "update_branch_actions": 1,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 16.666666666666664,
-        "avg_retests_per_pr": 0.16666666666666666,
-        "avg_retests_per_commit": 0.14285714285714285
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
@@ -629,18 +581,6 @@
         },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1678,
-          "title": "[CCXDEV-14694] We are moving IQE tests to Konflux so we do not need the pr_check script anymore",
-          "merged_at": "2026-03-05T12:54:20Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1678"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1681,
           "title": " switch the StatusOfRequestID to the new optimized handler ",
           "merged_at": "2026-03-04T13:39:16Z",
@@ -650,30 +590,18 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1681"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1680,
-          "title": "add temporary endpoint for checking the status of request_id in Redis",
-          "merged_at": "2026-03-03T16:06:11Z",
-          "user": "Bee-lee",
-          "total_commits": 4,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1680"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 12,
+        "total_prs_analyzed": 2,
+        "total_commits": 7,
         "total_retests": 4,
         "retest_comments": 3,
         "update_branch_actions": 1,
         "prs_with_retests": 2,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 0.3333333333333333
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 2.0,
+        "avg_retests_per_commit": 0.5714285714285714
       }
     }
   }
