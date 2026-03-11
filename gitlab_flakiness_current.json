@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-11T08:03:44.953464",
+  "analysis_date": "2026-03-11T20:03:44.590185",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-04T08:03:23.022380+00:00",
-    "to": "2026-03-11T08:03:44.953481"
+    "from": "2026-03-04T20:03:23.784870+00:00",
+    "to": "2026-03-11T20:03:44.590200"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 8,
+    "total_mrs_analyzed": 9,
     "total_commits": 12,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 8,
+    "mrs_with_lte_1_retest": 9,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1206,
+          "title": "Bumped ccx-rules-ocp version",
+          "merged_at": "2026-03-11T16:17:18.290Z",
+          "author": "mzibrick",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1206"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1204,
+          "title": "Bumped ccx-rules-ocp version to 2026.03.10",
+          "merged_at": "2026-03-11T13:15:06.125Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1204"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1203,
@@ -102,8 +122,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 7,
-        "total_commits": 10,
+        "total_mrs_analyzed": 9,
+        "total_commits": 12,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
@@ -136,26 +156,15 @@
       }
     },
     "ccx/ccx-load-test": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-load-test",
-          "mr_iid": 102,
-          "title": "Add load test for on-demand data gathering endpoints",
-          "merged_at": "2026-03-04T15:59:46.829Z",
-          "author": "ireyes",
-          "total_commits": 2,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/102"
-        }
-      ],
+      "mrs": [],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 2,
+        "total_mrs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "mrs_with_retests": 0,
-        "mr_retest_rate": 0.0,
-        "avg_retests_per_mr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "mr_retest_rate": 0,
+        "avg_retests_per_mr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "ccx/parquet-factory": {
