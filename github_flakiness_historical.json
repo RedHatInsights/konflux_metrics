@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-11T11:38:10.580977+00:00",
+  "analysis_date": "2026-03-11T22:11:36.611799+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-11T11:38:10.557933+00:00",
-    "to": "2026-03-11T11:38:10.580977+00:00"
+    "from": "2025-12-11T22:11:36.588192+00:00",
+    "to": "2026-03-11T22:11:36.611799+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1284,6 +1284,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 616,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-11T20:09:10Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/616"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 615,
@@ -3433,18 +3445,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1637"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1639,
-          "title": "Add AGENTS.md",
-          "merged_at": "2025-12-11T14:05:28Z",
-          "user": "lenasolarova",
-          "total_commits": 3,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1639"
         }
       ],
       "summary": {
@@ -3460,14 +3460,14 @@
       }
     }
   },
-  "last_updated": "2026-03-11T11:38:10.580977+00:00",
-  "cutoff_date": "2025-12-11T11:38:10.557933+00:00",
+  "last_updated": "2026-03-11T22:11:36.611799+00:00",
+  "cutoff_date": "2025-12-11T22:11:36.588192+00:00",
   "summary": {
     "total_prs": 272,
-    "total_retests": 50,
-    "prs_with_retests": 32,
-    "retest_rate": 11.76470588235294,
-    "retest_comments": 43,
+    "total_retests": 49,
+    "prs_with_retests": 31,
+    "retest_rate": 11.397058823529411,
+    "retest_comments": 42,
     "update_branch_actions": 7
   }
 }
