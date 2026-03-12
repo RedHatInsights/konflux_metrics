@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-12T09:22:41.969972",
+  "analysis_date": "2026-03-12T21:15:17.822282",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-05T09:21:50.275578+00:00",
-    "to": "2026-03-12T09:22:41.969986"
+    "from": "2026-03-05T21:14:32.970961+00:00",
+    "to": "2026-03-12T21:15:17.822296"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 22,
-    "total_commits": 25,
-    "total_retests": 6,
-    "retest_comments": 3,
-    "update_branch_actions": 3,
-    "prs_with_retests": 3,
-    "prs_with_lte_1_retest": 20,
-    "prs_with_lte_1_retest_percentage": 90.9090909090909,
-    "pr_retest_rate": 13.636363636363635,
-    "avg_retests_per_pr": 0.2727272727272727,
-    "avg_retests_per_commit": 0.24
+    "total_prs_analyzed": 24,
+    "total_commits": 35,
+    "total_retests": 17,
+    "retest_comments": 11,
+    "update_branch_actions": 6,
+    "prs_with_retests": 9,
+    "prs_with_lte_1_retest": 19,
+    "prs_with_lte_1_retest_percentage": 79.16666666666666,
+    "pr_retest_rate": 37.5,
+    "avg_retests_per_pr": 0.7083333333333334,
+    "avg_retests_per_commit": 0.4857142857142857
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -58,23 +58,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/656"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 653,
-          "title": "[CCXDEV-14695] Remove pr_check as we move tests to Konflux",
-          "merged_at": "2026-03-05T09:33:13Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/653"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -85,44 +73,93 @@
       }
     },
     "RedHatInsights/insights-results-aggregator": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2380,
+          "title": "Integrate pre commit",
+          "merged_at": "2026-03-12T15:52:43Z",
+          "user": "joselsegura",
+          "total_commits": 6,
+          "retest_comments": 3,
+          "update_branch_count": 1,
+          "total_retests": 4,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2380"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2375,
+          "title": "fix(deps): update module golang.org/x/sync to v0.20.0",
+          "merged_at": "2026-03-12T14:25:51Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 1,
+          "update_branch_count": 1,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2375"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2374,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-12T13:34:18Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2374"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "total_prs_analyzed": 3,
+        "total_commits": 9,
+        "total_retests": 7,
+        "retest_comments": 5,
+        "update_branch_actions": 2,
+        "prs_with_retests": 3,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 2.3333333333333335,
+        "avg_retests_per_commit": 0.7777777777777778
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 517,
-          "title": "CCXDEV-14690: conf: remove pr_check.sh",
-          "merged_at": "2026-03-05T12:05:23Z",
-          "user": "juandspy",
-          "total_commits": 1,
+          "pr_number": 520,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-12T14:50:58Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
           "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/520"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 518,
+          "title": "fix(deps): update module github.com/minio/minio-go/v7 to v7.0.99",
+          "merged_at": "2026-03-12T14:35:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
           "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/517"
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/518"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "total_prs_analyzed": 2,
+        "total_commits": 3,
+        "total_retests": 2,
+        "retest_comments": 1,
+        "update_branch_actions": 1,
+        "prs_with_retests": 2,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.6666666666666666
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -176,70 +213,46 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/742"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 741,
-          "title": "Printout the docker ps -a output",
-          "merged_at": "2026-03-05T15:36:43Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/741"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 739,
-          "title": "Don't check for specific version",
-          "merged_at": "2026-03-05T12:55:21Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/739"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 740,
-          "title": "Adding specific logic to run mocks",
-          "merged_at": "2026-03-05T12:46:16Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/740"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 738,
-          "title": "Parametrize the tag of the BDD image to be used",
-          "merged_at": "2026-03-05T10:42:40Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/738"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 8,
-        "total_retests": 1,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
+        "total_retests": 0,
         "retest_comments": 0,
-        "update_branch_actions": 1,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 14.285714285714285,
-        "avg_retests_per_pr": 0.14285714285714285,
-        "avg_retests_per_commit": 0.125
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 618,
+          "title": "fix(deps): update module github.com/olekukonko/tablewriter to v1.1.4",
+          "merged_at": "2026-03-12T18:13:30Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/618"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 617,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-12T13:52:32Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/617"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 616,
@@ -290,8 +303,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -303,6 +316,30 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 587,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-12T14:08:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 1,
+          "update_branch_count": 1,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/587"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 586,
+          "title": "fix(deps): update module golang.org/x/sync to v0.20.0",
+          "merged_at": "2026-03-12T13:57:41Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/586"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 585,
@@ -317,15 +354,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "total_prs_analyzed": 3,
+        "total_commits": 5,
+        "total_retests": 3,
+        "retest_comments": 2,
+        "update_branch_actions": 1,
+        "prs_with_retests": 2,
+        "pr_retest_rate": 66.66666666666666,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.6
       }
     },
     "RedHatInsights/ccx-notification-service": {
@@ -433,30 +470,18 @@
           "update_branch_count": 1,
           "total_retests": 3,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1676"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1678,
-          "title": "[CCXDEV-14694] We are moving IQE tests to Konflux so we do not need the pr_check script anymore",
-          "merged_at": "2026-03-05T12:54:20Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1678"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 3,
+        "total_prs_analyzed": 1,
+        "total_commits": 2,
         "total_retests": 3,
         "retest_comments": 2,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 1.5,
-        "avg_retests_per_commit": 1.0
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 3.0,
+        "avg_retests_per_commit": 1.5
       }
     }
   }
