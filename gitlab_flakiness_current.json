@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-12T08:03:39.912958",
+  "analysis_date": "2026-03-12T20:03:57.690345",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-05T08:03:20.946115+00:00",
-    "to": "2026-03-12T08:03:39.912973"
+    "from": "2026-03-05T20:03:38.810880+00:00",
+    "to": "2026-03-12T20:03:57.690361"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 9,
-    "total_commits": 12,
+    "total_mrs_analyzed": 11,
+    "total_commits": 14,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 9,
+    "mrs_with_lte_1_retest": 11,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1208,
+          "title": "Block rbac test on ephemeral",
+          "merged_at": "2026-03-12T18:45:27.500Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1208"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1207,
+          "title": "Fix ephemeral users config",
+          "merged_at": "2026-03-12T11:44:59.938Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1207"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1206,
@@ -122,8 +142,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 9,
-        "total_commits": 12,
+        "total_mrs_analyzed": 11,
+        "total_commits": 14,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
