@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-11T21:13:57.769217",
+  "analysis_date": "2026-03-12T09:22:41.969972",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-04T21:13:22.435206+00:00",
-    "to": "2026-03-11T21:13:57.769233"
+    "from": "2026-03-05T09:21:50.275578+00:00",
+    "to": "2026-03-12T09:22:41.969986"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 24,
-    "total_commits": 28,
-    "total_retests": 10,
-    "retest_comments": 7,
+    "total_prs_analyzed": 22,
+    "total_commits": 25,
+    "total_retests": 6,
+    "retest_comments": 3,
     "update_branch_actions": 3,
-    "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 21,
-    "prs_with_lte_1_retest_percentage": 87.5,
-    "pr_retest_rate": 20.833333333333336,
-    "avg_retests_per_pr": 0.4166666666666667,
-    "avg_retests_per_commit": 0.35714285714285715
+    "prs_with_retests": 3,
+    "prs_with_lte_1_retest": 20,
+    "prs_with_lte_1_retest_percentage": 90.9090909090909,
+    "pr_retest_rate": 13.636363636363635,
+    "avg_retests_per_pr": 0.2727272727272727,
+    "avg_retests_per_commit": 0.24
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -70,42 +70,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/653"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 650,
-          "title": "build(deps): bump aiobotocore from 2.26.0 to 3.1.3",
-          "merged_at": "2026-03-05T08:37:03Z",
-          "user": "dependabot[bot]",
-          "total_commits": 2,
-          "retest_comments": 3,
-          "update_branch_count": 0,
-          "total_retests": 3,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/650"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 652,
-          "title": "build(deps): update boto3 requirement from <1.42.55,>=1.34.1 to >=1.34.1,<1.42.60",
-          "merged_at": "2026-03-05T08:10:21Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/652"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 6,
-        "total_retests": 4,
-        "retest_comments": 4,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 2,
-        "pr_retest_rate": 40.0,
-        "avg_retests_per_pr": 0.8,
-        "avg_retests_per_commit": 0.6666666666666666
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-aggregator": {
