@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-13T10:16:41.019087+00:00",
+  "analysis_date": "2026-03-13T22:12:40.986443+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-13T10:16:41.004636+00:00",
-    "to": "2026-03-13T10:16:41.019087+00:00"
+    "from": "2025-12-13T22:12:40.974318+00:00",
+    "to": "2026-03-13T22:12:40.986443+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1194,
+          "title": "Update pre-commit hooks",
+          "merged_at": "2026-03-13T11:02:26.511Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1194"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1209,
+          "title": "Add clowder_smoke users",
+          "merged_at": "2026-03-13T10:15:11.254Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1209"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1208,
@@ -1048,12 +1068,12 @@
       }
     }
   },
-  "last_updated": "2026-03-13T10:16:41.019087+00:00",
-  "cutoff_date": "2025-12-13T10:16:41.004636+00:00",
+  "last_updated": "2026-03-13T22:12:40.986443+00:00",
+  "cutoff_date": "2025-12-13T22:12:40.974318+00:00",
   "summary": {
-    "total_mrs": 93,
+    "total_mrs": 95,
     "total_retests": 17,
     "mrs_with_retests": 6,
-    "retest_rate": 6.451612903225806
+    "retest_rate": 6.315789473684211
   }
 }
