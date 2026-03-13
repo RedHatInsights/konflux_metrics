@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-12T21:15:17.822282",
+  "analysis_date": "2026-03-13T09:20:17.912828",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-05T21:14:32.970961+00:00",
-    "to": "2026-03-12T21:15:17.822296"
+    "from": "2026-03-06T09:19:45.031307+00:00",
+    "to": "2026-03-13T09:20:17.912846"
   },
   "overall_summary": {
     "total_repos": 11,
     "total_prs_analyzed": 24,
-    "total_commits": 35,
-    "total_retests": 17,
-    "retest_comments": 11,
-    "update_branch_actions": 6,
-    "prs_with_retests": 9,
-    "prs_with_lte_1_retest": 19,
-    "prs_with_lte_1_retest_percentage": 79.16666666666666,
-    "pr_retest_rate": 37.5,
-    "avg_retests_per_pr": 0.7083333333333334,
-    "avg_retests_per_commit": 0.4857142857142857
+    "total_commits": 33,
+    "total_retests": 12,
+    "retest_comments": 8,
+    "update_branch_actions": 4,
+    "prs_with_retests": 7,
+    "prs_with_lte_1_retest": 21,
+    "prs_with_lte_1_retest_percentage": 87.5,
+    "pr_retest_rate": 29.166666666666668,
+    "avg_retests_per_pr": 0.5,
+    "avg_retests_per_commit": 0.36363636363636365
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -76,6 +76,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2381,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.6",
+          "merged_at": "2026-03-13T01:53:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2381"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2378,
+          "title": "[CCXDEV-14693] Remove pr_check script as integration tests should be in konflux",
+          "merged_at": "2026-03-12T22:36:42Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2378"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2380,
           "title": "Integrate pre commit",
           "merged_at": "2026-03-12T15:52:43Z",
@@ -112,15 +136,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 9,
+        "total_prs_analyzed": 5,
+        "total_commits": 11,
         "total_retests": 7,
         "retest_comments": 5,
         "update_branch_actions": 2,
         "prs_with_retests": 3,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 2.3333333333333335,
-        "avg_retests_per_commit": 0.7777777777777778
+        "pr_retest_rate": 60.0,
+        "avg_retests_per_pr": 1.4,
+        "avg_retests_per_commit": 0.6363636363636364
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -378,30 +402,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1070"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1063,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.494 to 0.1.497",
-          "merged_at": "2026-03-06T06:19:19Z",
-          "user": "dependabot[bot]",
-          "total_commits": 2,
-          "retest_comments": 1,
-          "update_branch_count": 1,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1063"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 3,
-        "total_retests": 2,
-        "retest_comments": 1,
-        "update_branch_actions": 1,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 0.6666666666666666
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -458,30 +470,17 @@
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1676,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.496 to 0.1.497",
-          "merged_at": "2026-03-06T07:08:40Z",
-          "user": "dependabot[bot]",
-          "total_commits": 2,
-          "retest_comments": 2,
-          "update_branch_count": 1,
-          "total_retests": 3,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1676"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 2,
-        "total_retests": 3,
-        "retest_comments": 2,
-        "update_branch_actions": 1,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 3.0,
-        "avg_retests_per_commit": 1.5
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     }
   }
