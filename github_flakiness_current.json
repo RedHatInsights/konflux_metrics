@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-13T21:15:28.969355",
+  "analysis_date": "2026-03-14T09:16:12.472421",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-06T21:14:37.713767+00:00",
-    "to": "2026-03-13T21:15:28.969371"
+    "from": "2026-03-07T09:15:19.183373+00:00",
+    "to": "2026-03-14T09:16:12.472433"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 26,
-    "total_commits": 37,
+    "total_prs_analyzed": 32,
+    "total_commits": 43,
     "total_retests": 16,
     "retest_comments": 10,
     "update_branch_actions": 6,
     "prs_with_retests": 10,
-    "prs_with_lte_1_retest": 22,
-    "prs_with_lte_1_retest_percentage": 84.61538461538461,
-    "pr_retest_rate": 38.46153846153847,
-    "avg_retests_per_pr": 0.6153846153846154,
-    "avg_retests_per_commit": 0.43243243243243246
+    "prs_with_lte_1_retest": 28,
+    "prs_with_lte_1_retest_percentage": 87.5,
+    "pr_retest_rate": 31.25,
+    "avg_retests_per_pr": 0.5,
+    "avg_retests_per_commit": 0.37209302325581395
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -74,6 +74,30 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2383,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-14T02:16:30Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2383"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2382,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-13T21:57:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2382"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2381,
@@ -136,15 +160,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 11,
+        "total_prs_analyzed": 7,
+        "total_commits": 13,
         "total_retests": 7,
         "retest_comments": 5,
         "update_branch_actions": 2,
         "prs_with_retests": 3,
-        "pr_retest_rate": 60.0,
-        "avg_retests_per_pr": 1.4,
-        "avg_retests_per_commit": 0.6363636363636364
+        "pr_retest_rate": 42.857142857142854,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.5384615384615384
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -292,6 +316,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 620,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-14T02:02:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/620"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 619,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-13T21:48:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/619"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 618,
           "title": "fix(deps): update module github.com/olekukonko/tablewriter to v1.1.4",
           "merged_at": "2026-03-12T18:13:30Z",
@@ -352,8 +400,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -365,6 +413,30 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 589,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-14T02:01:46Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/589"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 588,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-13T21:46:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/588"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 587,
@@ -391,15 +463,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 4,
+        "total_prs_analyzed": 4,
+        "total_commits": 6,
         "total_retests": 3,
         "retest_comments": 2,
         "update_branch_actions": 1,
         "prs_with_retests": 2,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.5,
-        "avg_retests_per_commit": 0.75
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.75,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/ccx-notification-service": {
