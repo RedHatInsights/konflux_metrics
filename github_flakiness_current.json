@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-14T09:16:12.472421",
+  "analysis_date": "2026-03-14T21:11:28.575875",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-07T09:15:19.183373+00:00",
-    "to": "2026-03-14T09:16:12.472433"
+    "from": "2026-03-07T21:10:45.628313+00:00",
+    "to": "2026-03-14T21:11:28.575886"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 32,
-    "total_commits": 43,
+    "total_prs_analyzed": 31,
+    "total_commits": 42,
     "total_retests": 16,
     "retest_comments": 10,
     "update_branch_actions": 6,
     "prs_with_retests": 10,
-    "prs_with_lte_1_retest": 28,
-    "prs_with_lte_1_retest_percentage": 87.5,
-    "pr_retest_rate": 31.25,
-    "avg_retests_per_pr": 0.5,
-    "avg_retests_per_commit": 0.37209302325581395
+    "prs_with_lte_1_retest": 27,
+    "prs_with_lte_1_retest_percentage": 87.09677419354838,
+    "pr_retest_rate": 32.25806451612903,
+    "avg_retests_per_pr": 0.5161290322580645,
+    "avg_retests_per_commit": 0.38095238095238093
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -385,23 +385,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/615"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 614,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-07T10:03:32Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/614"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 7,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
