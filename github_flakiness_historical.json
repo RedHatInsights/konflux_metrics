@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-14T22:09:48.869144+00:00",
+  "analysis_date": "2026-03-15T10:12:26.376146+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-14T22:09:48.846125+00:00",
-    "to": "2026-03-14T22:09:48.869144+00:00"
+    "from": "2025-12-15T10:12:26.352087+00:00",
+    "to": "2026-03-15T10:12:26.376146+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -296,18 +296,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/628"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 624,
-          "title": "build(deps): update boto3 requirement from <1.42.5,>=1.34.1 to >=1.34.1,<1.42.10",
-          "merged_at": "2025-12-15T07:23:35Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/624"
         }
       ],
       "summary": {
@@ -324,6 +312,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2384,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-14T22:01:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2384"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2383,
@@ -1404,6 +1404,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 621,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-14T21:53:47Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/621"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 620,
@@ -3664,13 +3676,13 @@
       }
     }
   },
-  "last_updated": "2026-03-14T22:09:48.869144+00:00",
-  "cutoff_date": "2025-12-14T22:09:48.846125+00:00",
+  "last_updated": "2026-03-15T10:12:26.376146+00:00",
+  "cutoff_date": "2025-12-15T10:12:26.352087+00:00",
   "summary": {
-    "total_prs": 289,
+    "total_prs": 290,
     "total_retests": 65,
     "prs_with_retests": 41,
-    "retest_rate": 14.186851211072666,
+    "retest_rate": 14.13793103448276,
     "retest_comments": 52,
     "update_branch_actions": 13
   }
