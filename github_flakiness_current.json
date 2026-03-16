@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-15T21:12:11.193309",
+  "analysis_date": "2026-03-16T09:33:20.692325",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,54 +15,42 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-08T21:11:34.097935+00:00",
-    "to": "2026-03-15T21:12:11.193320"
+    "from": "2026-03-09T09:32:26.454271+00:00",
+    "to": "2026-03-16T09:33:20.692341"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 31,
-    "total_commits": 42,
+    "total_prs_analyzed": 29,
+    "total_commits": 40,
     "total_retests": 16,
     "retest_comments": 10,
     "update_branch_actions": 6,
     "prs_with_retests": 10,
-    "prs_with_lte_1_retest": 27,
-    "prs_with_lte_1_retest_percentage": 87.09677419354838,
-    "pr_retest_rate": 32.25806451612903,
-    "avg_retests_per_pr": 0.5161290322580645,
-    "avg_retests_per_commit": 0.38095238095238093
+    "prs_with_lte_1_retest": 25,
+    "prs_with_lte_1_retest_percentage": 86.20689655172413,
+    "pr_retest_rate": 34.48275862068966,
+    "avg_retests_per_pr": 0.5517241379310345,
+    "avg_retests_per_commit": 0.4
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 655,
-          "title": "build(deps): update boto3 requirement from <1.42.60,>=1.34.1 to >=1.34.1,<1.42.64",
-          "merged_at": "2026-03-09T07:50:14Z",
+          "pr_number": 657,
+          "title": "build(deps): update boto3 requirement from <1.42.64,>=1.34.1 to >=1.34.1,<1.42.69",
+          "merged_at": "2026-03-16T07:50:06Z",
           "user": "dependabot[bot]",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/655"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 656,
-          "title": "build(deps): bump aiobotocore from 3.1.3 to 3.2.1",
-          "merged_at": "2026-03-09T07:47:28Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/656"
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/657"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -298,30 +286,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/743"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 742,
-          "title": "Adapt script for ccx-notification-service BDD execution",
-          "merged_at": "2026-03-09T09:20:07Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/742"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 6,
+        "total_prs_analyzed": 4,
+        "total_commits": 5,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 20.0,
-        "avg_retests_per_pr": 0.2,
-        "avg_retests_per_commit": 0.16666666666666666
+        "pr_retest_rate": 25.0,
+        "avg_retests_per_pr": 0.25,
+        "avg_retests_per_commit": 0.2
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
