@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-16T10:29:32.878229+00:00",
+  "analysis_date": "2026-03-16T22:15:43.034633+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-16T10:29:32.854733+00:00",
-    "to": "2026-03-16T10:29:32.878229+00:00"
+    "from": "2025-12-16T22:15:43.011264+00:00",
+    "to": "2026-03-16T22:15:43.034633+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1026,6 +1026,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 252,
+          "title": "Remove pr_check script as now testing is done in konflux",
+          "merged_at": "2026-03-16T11:41:10Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 2,
+          "update_branch_count": 0,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/252"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 253,
@@ -2117,6 +2129,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 590,
+          "title": "fix(deps): update module github.com/unleash/unleash-go-sdk/v6 to v6.4.0",
+          "merged_at": "2026-03-16T14:12:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/590"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 589,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-03-14T02:01:46Z",
@@ -2600,6 +2624,42 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1075,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.6",
+          "merged_at": "2026-03-16T14:13:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1075"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1073,
+          "title": "Remove pr_check script as now IQE runs on konflux",
+          "merged_at": "2026-03-16T13:17:29Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1073"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1072,
+          "title": "Use reusable workflow and shared pre-commit configuration",
+          "merged_at": "2026-03-16T12:28:51Z",
+          "user": "joselsegura",
+          "total_commits": 4,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1072"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1070,
           "title": "Using reusable workflow",
           "merged_at": "2026-03-09T11:32:16Z",
@@ -2793,6 +2853,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 770,
+          "title": "[CCXDEV-14697] Remove pr_check script as now IQE runs on konflux",
+          "merged_at": "2026-03-16T13:01:18Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/770"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 768,
@@ -3568,14 +3640,14 @@
       }
     }
   },
-  "last_updated": "2026-03-16T10:29:32.878229+00:00",
-  "cutoff_date": "2025-12-16T10:29:32.854733+00:00",
+  "last_updated": "2026-03-16T22:15:43.034633+00:00",
+  "cutoff_date": "2025-12-16T22:15:43.011264+00:00",
   "summary": {
-    "total_prs": 281,
-    "total_retests": 65,
-    "prs_with_retests": 41,
-    "retest_rate": 14.590747330960854,
-    "retest_comments": 52,
+    "total_prs": 287,
+    "total_retests": 67,
+    "prs_with_retests": 42,
+    "retest_rate": 14.634146341463413,
+    "retest_comments": 54,
     "update_branch_actions": 13
   }
 }
