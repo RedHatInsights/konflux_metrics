@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-15T22:11:13.573290+00:00",
+  "analysis_date": "2026-03-16T10:29:32.878229+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-15T22:11:13.549793+00:00",
-    "to": "2026-03-15T22:11:13.573290+00:00"
+    "from": "2025-12-16T10:29:32.854733+00:00",
+    "to": "2026-03-16T10:29:32.878229+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,18 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 657,
+          "title": "build(deps): update boto3 requirement from <1.42.64,>=1.34.1 to >=1.34.1,<1.42.69",
+          "merged_at": "2026-03-16T07:50:06Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/657"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 655,
@@ -1109,18 +1121,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/245"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 243,
-          "title": "Bump fastapi from 0.124.0 to 0.124.4",
-          "merged_at": "2025-12-15T23:25:52Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/243"
         }
       ],
       "summary": {
@@ -3568,8 +3568,8 @@
       }
     }
   },
-  "last_updated": "2026-03-15T22:11:13.573290+00:00",
-  "cutoff_date": "2025-12-15T22:11:13.549793+00:00",
+  "last_updated": "2026-03-16T10:29:32.878229+00:00",
+  "cutoff_date": "2025-12-16T10:29:32.854733+00:00",
   "summary": {
     "total_prs": 281,
     "total_retests": 65,
