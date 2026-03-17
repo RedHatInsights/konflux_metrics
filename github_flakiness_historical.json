@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-16T22:15:43.034633+00:00",
+  "analysis_date": "2026-03-17T10:23:22.278563+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-16T22:15:43.011264+00:00",
-    "to": "2026-03-16T22:15:43.034633+00:00"
+    "from": "2025-12-17T10:23:22.255276+00:00",
+    "to": "2026-03-17T10:23:22.278563+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1028,6 +1028,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 254,
+          "title": "Bump uvicorn from 0.41.0 to 0.42.0",
+          "merged_at": "2026-03-16T23:28:10Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/254"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 252,
           "title": "Remove pr_check script as now testing is done in konflux",
           "merged_at": "2026-03-16T11:41:10Z",
@@ -1404,6 +1416,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 622,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-16T22:00:08Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/622"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 621,
@@ -2099,18 +2123,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/563"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 562,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-17T00:58:41Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/562"
         }
       ],
       "summary": {
@@ -2594,18 +2606,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/551"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 550,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-17T00:57:06Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/550"
         }
       ],
       "summary": {
@@ -3260,18 +3260,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/733"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 732,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-17T01:10:26Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/732"
         }
       ],
       "summary": {
@@ -3640,13 +3628,13 @@
       }
     }
   },
-  "last_updated": "2026-03-16T22:15:43.034633+00:00",
-  "cutoff_date": "2025-12-16T22:15:43.011264+00:00",
+  "last_updated": "2026-03-17T10:23:22.278563+00:00",
+  "cutoff_date": "2025-12-17T10:23:22.255276+00:00",
   "summary": {
-    "total_prs": 287,
+    "total_prs": 286,
     "total_retests": 67,
     "prs_with_retests": 42,
-    "retest_rate": 14.634146341463413,
+    "retest_rate": 14.685314685314685,
     "retest_comments": 54,
     "update_branch_actions": 13
   }
