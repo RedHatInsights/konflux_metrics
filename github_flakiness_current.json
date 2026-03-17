@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-17T09:26:02.099698",
+  "analysis_date": "2026-03-17T21:18:17.481059",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-10T09:24:57.479852+00:00",
-    "to": "2026-03-17T09:26:02.099711"
+    "from": "2026-03-10T21:17:33.633196+00:00",
+    "to": "2026-03-17T21:18:17.481075"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 34,
-    "total_commits": 48,
+    "total_prs_analyzed": 35,
+    "total_commits": 52,
     "total_retests": 18,
     "retest_comments": 12,
     "update_branch_actions": 6,
     "prs_with_retests": 11,
-    "prs_with_lte_1_retest": 29,
-    "prs_with_lte_1_retest_percentage": 85.29411764705883,
-    "pr_retest_rate": 32.35294117647059,
-    "avg_retests_per_pr": 0.5294117647058824,
-    "avg_retests_per_commit": 0.375
+    "prs_with_lte_1_retest": 30,
+    "prs_with_lte_1_retest_percentage": 85.71428571428571,
+    "pr_retest_rate": 31.428571428571427,
+    "avg_retests_per_pr": 0.5142857142857142,
+    "avg_retests_per_commit": 0.34615384615384615
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -529,6 +529,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 771,
+          "title": "Linters reusable workflow",
+          "merged_at": "2026-03-17T10:02:55Z",
+          "user": "joselsegura",
+          "total_commits": 4,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/771"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 770,
           "title": "[CCXDEV-14697] Remove pr_check script as now IQE runs on konflux",
           "merged_at": "2026-03-16T13:01:18Z",
@@ -541,8 +553,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
