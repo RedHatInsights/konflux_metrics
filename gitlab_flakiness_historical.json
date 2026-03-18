@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-18T10:25:34.579542+00:00",
+  "analysis_date": "2026-03-18T22:14:22.989737+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-18T10:25:34.567499+00:00",
-    "to": "2026-03-18T10:25:34.579542+00:00"
+    "from": "2025-12-18T22:14:22.978010+00:00",
+    "to": "2026-03-18T22:14:22.989737+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1211,
+          "title": "Remove xfail_if_version_mismatch dependency from IDP tests",
+          "merged_at": "2026-03-18T10:41:03.068Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1211"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1194,
@@ -467,16 +477,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1161"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1160,
-          "title": "Use the same clusters in ephemeral and clowder smoke",
-          "merged_at": "2025-12-18T13:32:14.361Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1160"
         }
       ],
       "summary": {
@@ -673,16 +673,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/857"
-        },
-        {
-          "project": "ccx/content-service",
-          "mr_iid": 854,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-18T13:07:09.547Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/854"
         }
       ],
       "summary": {
@@ -779,26 +769,6 @@
           "total_commits": 1,
           "total_retests": 1,
           "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/332"
-        },
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 329,
-          "title": "fix(deps): update aws-sdk-go-v2 monorepo",
-          "merged_at": "2025-12-18T13:08:53.814Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/329"
-        },
-        {
-          "project": "ccx/parquet-factory",
-          "mr_iid": 330,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2025-12-18T13:08:06.506Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/parquet-factory/-/merge_requests/330"
         }
       ],
       "summary": {
@@ -878,12 +848,12 @@
       }
     }
   },
-  "last_updated": "2026-03-18T10:25:34.579542+00:00",
-  "cutoff_date": "2025-12-18T10:25:34.567499+00:00",
+  "last_updated": "2026-03-18T22:14:22.989737+00:00",
+  "cutoff_date": "2025-12-18T22:14:22.978010+00:00",
   "summary": {
-    "total_mrs": 76,
+    "total_mrs": 73,
     "total_retests": 15,
     "mrs_with_retests": 4,
-    "retest_rate": 5.263157894736842
+    "retest_rate": 5.47945205479452
   }
 }
