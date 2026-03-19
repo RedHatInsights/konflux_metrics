@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-19T10:41:28.277293+00:00",
+  "analysis_date": "2026-03-19T22:10:20.046389+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-19T10:41:28.265323+00:00",
-    "to": "2026-03-19T10:41:28.277293+00:00"
+    "from": "2025-12-19T22:10:20.034822+00:00",
+    "to": "2026-03-19T22:10:20.046389+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -663,16 +663,6 @@
           "total_commits": 1,
           "total_retests": 7,
           "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/856"
-        },
-        {
-          "project": "ccx/content-service",
-          "mr_iid": 857,
-          "title": "fix(deps): update module github.com/burntsushi/toml to v1.6.0",
-          "merged_at": "2025-12-19T11:17:06.613Z",
-          "author": "group_7843_bot_a9ccf2da3fc11b4f888fe6cbaea7c2ee",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/content-service/-/merge_requests/857"
         }
       ],
       "summary": {
@@ -792,16 +782,6 @@
           "total_commits": 2,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-data-eng/-/merge_requests/218"
-        },
-        {
-          "project": "ccx/ccx-upgrades-data-eng",
-          "mr_iid": 214,
-          "title": "Remove pr_check script as now Konflux is running integration tests",
-          "merged_at": "2025-12-19T15:22:53.060Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 4,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-data-eng/-/merge_requests/214"
         }
       ],
       "summary": {
@@ -825,16 +805,6 @@
           "total_commits": 2,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-inference/-/merge_requests/135"
-        },
-        {
-          "project": "ccx/ccx-upgrades-inference",
-          "mr_iid": 132,
-          "title": "Remove pr_check script as now Konflux is running integration tests",
-          "merged_at": "2025-12-19T15:06:25.528Z",
-          "author": "ireyes",
-          "total_commits": 1,
-          "total_retests": 3,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-upgrades-inference/-/merge_requests/132"
         }
       ],
       "summary": {
@@ -848,12 +818,12 @@
       }
     }
   },
-  "last_updated": "2026-03-19T10:41:28.277293+00:00",
-  "cutoff_date": "2025-12-19T10:41:28.265323+00:00",
+  "last_updated": "2026-03-19T22:10:20.046389+00:00",
+  "cutoff_date": "2025-12-19T22:10:20.034822+00:00",
   "summary": {
-    "total_mrs": 73,
-    "total_retests": 15,
-    "mrs_with_retests": 4,
-    "retest_rate": 5.47945205479452
+    "total_mrs": 70,
+    "total_retests": 8,
+    "mrs_with_retests": 2,
+    "retest_rate": 2.857142857142857
   }
 }
