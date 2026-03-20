@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-20T10:17:50.338463+00:00",
+  "analysis_date": "2026-03-20T22:11:11.470126+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-20T10:17:50.314721+00:00",
-    "to": "2026-03-20T10:17:50.338463+00:00"
+    "from": "2025-12-20T22:11:11.446068+00:00",
+    "to": "2026-03-20T22:11:11.470126+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -761,6 +761,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 526,
+          "title": "chore(deps): update module github.com/klauspost/compress to v1.18.5",
+          "merged_at": "2026-03-20T17:29:03Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/526"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 524,
           "title": "chore(deps): update module github.com/buger/jsonparser to v1.1.2",
           "merged_at": "2026-03-19T17:48:14Z",
@@ -1500,6 +1512,30 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 628,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-20T17:36:09Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/628"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 627,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-20T13:43:19Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/627"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 626,
@@ -2247,6 +2283,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 592,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-20T17:35:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/592"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 591,
@@ -3347,7 +3395,20 @@
       }
     },
     "RedHatInsights/obsint-mocks": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 162,
+          "title": "[CCXDEV-15353] Linters reusable workflow",
+          "merged_at": "2026-03-20T11:28:59Z",
+          "user": "joselsegura",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/162"
+        }
+      ],
       "summary": {
         "total_prs_analyzed": 5,
         "total_commits": 6,
@@ -3676,13 +3737,13 @@
       }
     }
   },
-  "last_updated": "2026-03-20T10:17:50.338463+00:00",
-  "cutoff_date": "2025-12-20T10:17:50.314721+00:00",
+  "last_updated": "2026-03-20T22:11:11.470126+00:00",
+  "cutoff_date": "2025-12-20T22:11:11.446068+00:00",
   "summary": {
-    "total_prs": 290,
+    "total_prs": 295,
     "total_retests": 70,
     "prs_with_retests": 45,
-    "retest_rate": 15.517241379310345,
+    "retest_rate": 15.254237288135593,
     "retest_comments": 54,
     "update_branch_actions": 16
   }
