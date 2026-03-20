@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-19T21:17:18.582450",
+  "analysis_date": "2026-03-20T09:20:45.728014",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-12T21:16:25.021024+00:00",
-    "to": "2026-03-19T21:17:18.582462"
+    "from": "2026-03-13T09:19:54.919992+00:00",
+    "to": "2026-03-20T09:20:45.728031"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 40,
-    "total_commits": 58,
+    "total_prs_analyzed": 38,
+    "total_commits": 56,
     "total_retests": 9,
     "retest_comments": 4,
     "update_branch_actions": 5,
     "prs_with_retests": 7,
-    "prs_with_lte_1_retest": 38,
-    "prs_with_lte_1_retest_percentage": 95.0,
-    "pr_retest_rate": 17.5,
-    "avg_retests_per_pr": 0.225,
-    "avg_retests_per_commit": 0.15517241379310345
+    "prs_with_lte_1_retest": 36,
+    "prs_with_lte_1_retest_percentage": 94.73684210526315,
+    "pr_retest_rate": 18.421052631578945,
+    "avg_retests_per_pr": 0.23684210526315788,
+    "avg_retests_per_commit": 0.16071428571428573
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -157,42 +157,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2382"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2381,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.6",
-          "merged_at": "2026-03-13T01:53:53Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2381"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2378,
-          "title": "[CCXDEV-14693] Remove pr_check script as integration tests should be in konflux",
-          "merged_at": "2026-03-12T22:36:42Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2378"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 10,
+        "total_prs_analyzed": 7,
+        "total_commits": 8,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 11.11111111111111,
-        "avg_retests_per_pr": 0.1111111111111111,
-        "avg_retests_per_commit": 0.1
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.125
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
