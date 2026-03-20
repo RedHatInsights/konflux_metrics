@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-20T09:20:45.728014",
+  "analysis_date": "2026-03-20T21:13:14.908612",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-13T09:19:54.919992+00:00",
-    "to": "2026-03-20T09:20:45.728031"
+    "from": "2026-03-13T21:12:33.318997+00:00",
+    "to": "2026-03-20T21:13:14.908629"
   },
   "overall_summary": {
     "total_repos": 11,
     "total_prs_analyzed": 38,
     "total_commits": 56,
-    "total_retests": 9,
-    "retest_comments": 4,
-    "update_branch_actions": 5,
-    "prs_with_retests": 7,
-    "prs_with_lte_1_retest": 36,
-    "prs_with_lte_1_retest_percentage": 94.73684210526315,
-    "pr_retest_rate": 18.421052631578945,
-    "avg_retests_per_pr": 0.23684210526315788,
-    "avg_retests_per_commit": 0.16071428571428573
+    "total_retests": 5,
+    "retest_comments": 2,
+    "update_branch_actions": 3,
+    "prs_with_retests": 4,
+    "prs_with_lte_1_retest": 37,
+    "prs_with_lte_1_retest_percentage": 97.36842105263158,
+    "pr_retest_rate": 10.526315789473683,
+    "avg_retests_per_pr": 0.13157894736842105,
+    "avg_retests_per_commit": 0.08928571428571429
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -175,6 +175,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 526,
+          "title": "chore(deps): update module github.com/klauspost/compress to v1.18.5",
+          "merged_at": "2026-03-20T17:29:03Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/526"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 524,
           "title": "chore(deps): update module github.com/buger/jsonparser to v1.1.2",
           "merged_at": "2026-03-19T17:48:14Z",
@@ -223,15 +235,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 6,
+        "total_prs_analyzed": 5,
+        "total_commits": 7,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.16666666666666666
+        "pr_retest_rate": 20.0,
+        "avg_retests_per_pr": 0.2,
+        "avg_retests_per_commit": 0.14285714285714285
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -259,30 +271,18 @@
           "update_branch_count": 0,
           "total_retests": 2,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/252"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 253,
-          "title": "Use reusable workflow for BDD tests",
-          "merged_at": "2026-03-13T13:59:16Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/253"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 2,
         "retest_comments": 2,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.6666666666666666,
-        "avg_retests_per_commit": 0.6666666666666666
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 1.0
       }
     },
     "RedHatInsights/insights-behavioral-spec": {
@@ -298,46 +298,46 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/747"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 746,
-          "title": "Missing usage of common tooling in those scripts",
-          "merged_at": "2026-03-13T13:39:47Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/746"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 745,
-          "title": "Adapt scripts for running content-template-renderer BDD tests",
-          "merged_at": "2026-03-13T12:54:37Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/745"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 8,
-        "total_retests": 1,
+        "total_prs_analyzed": 1,
+        "total_commits": 5,
+        "total_retests": 0,
         "retest_comments": 0,
-        "update_branch_actions": 1,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.3333333333333333,
-        "avg_retests_per_commit": 0.125
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 628,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-20T17:36:09Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/628"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 627,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-20T13:43:19Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/627"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 626,
@@ -436,19 +436,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 10,
+        "total_prs_analyzed": 10,
+        "total_commits": 12,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 12.5,
-        "avg_retests_per_pr": 0.125,
-        "avg_retests_per_commit": 0.1
+        "pr_retest_rate": 10.0,
+        "avg_retests_per_pr": 0.1,
+        "avg_retests_per_commit": 0.08333333333333333
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 592,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-20T17:35:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/592"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 591,
@@ -499,8 +511,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -601,6 +613,33 @@
       }
     },
     "RedHatInsights/obsint-mocks": {
+      "prs": [
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 162,
+          "title": "[CCXDEV-15353] Linters reusable workflow",
+          "merged_at": "2026-03-20T11:28:59Z",
+          "user": "joselsegura",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/162"
+        }
+      ],
+      "summary": {
+        "total_prs_analyzed": 1,
+        "total_commits": 3,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
+      }
+    },
+    "RedHatInsights/insights-results-smart-proxy": {
       "prs": [],
       "summary": {
         "total_prs_analyzed": 0,
@@ -612,45 +651,6 @@
         "pr_retest_rate": 0,
         "avg_retests_per_pr": 0,
         "avg_retests_per_commit": 0
-      }
-    },
-    "RedHatInsights/insights-results-smart-proxy": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1684,
-          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.497 to 0.1.498",
-          "merged_at": "2026-03-13T12:43:48Z",
-          "user": "dependabot[bot]",
-          "total_commits": 2,
-          "retest_comments": 1,
-          "update_branch_count": 1,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1684"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1682,
-          "title": "Fix some shellcheck errors",
-          "merged_at": "2026-03-13T11:21:24Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1682"
-        }
-      ],
-      "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 3,
-        "total_retests": 3,
-        "retest_comments": 2,
-        "update_branch_actions": 1,
-        "prs_with_retests": 2,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.5,
-        "avg_retests_per_commit": 1.0
       }
     }
   }
