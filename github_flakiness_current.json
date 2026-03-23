@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-23T09:30:58.166036",
+  "analysis_date": "2026-03-23T21:18:04.890404",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-16T09:30:06.891363+00:00",
-    "to": "2026-03-23T09:30:58.166049"
+    "from": "2026-03-16T21:17:05.820395+00:00",
+    "to": "2026-03-23T21:18:04.890422"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 34,
-    "total_commits": 52,
-    "total_retests": 5,
-    "retest_comments": 2,
+    "total_prs_analyzed": 30,
+    "total_commits": 45,
+    "total_retests": 3,
+    "retest_comments": 0,
     "update_branch_actions": 3,
-    "prs_with_retests": 4,
-    "prs_with_lte_1_retest": 33,
-    "prs_with_lte_1_retest_percentage": 97.05882352941177,
-    "pr_retest_rate": 11.76470588235294,
-    "avg_retests_per_pr": 0.14705882352941177,
-    "avg_retests_per_commit": 0.09615384615384616
+    "prs_with_retests": 3,
+    "prs_with_lte_1_retest": 30,
+    "prs_with_lte_1_retest_percentage": 100.0,
+    "pr_retest_rate": 10.0,
+    "avg_retests_per_pr": 0.1,
+    "avg_retests_per_commit": 0.06666666666666667
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -163,6 +163,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 525,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.7",
+          "merged_at": "2026-03-23T13:28:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/525"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 527,
           "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.11.4",
           "merged_at": "2026-03-22T21:35:35Z",
@@ -235,15 +247,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 8,
+        "total_prs_analyzed": 7,
+        "total_commits": 9,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 16.666666666666664,
-        "avg_retests_per_pr": 0.16666666666666666,
-        "avg_retests_per_commit": 0.125
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.1111111111111111
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -259,30 +271,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/254"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 252,
-          "title": "Remove pr_check script as now testing is done in konflux",
-          "merged_at": "2026-03-16T11:41:10Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/252"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
-        "total_retests": 2,
-        "retest_comments": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 1.0
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-behavioral-spec": {
@@ -314,6 +314,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 630,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-23T13:42:46Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/630"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 629,
@@ -412,15 +424,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 10,
+        "total_prs_analyzed": 9,
+        "total_commits": 11,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 12.5,
-        "avg_retests_per_pr": 0.125,
-        "avg_retests_per_commit": 0.1
+        "pr_retest_rate": 11.11111111111111,
+        "avg_retests_per_pr": 0.1111111111111111,
+        "avg_retests_per_commit": 0.09090909090909091
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
@@ -448,23 +460,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/591"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 590,
-          "title": "fix(deps): update module github.com/unleash/unleash-go-sdk/v6 to v6.4.0",
-          "merged_at": "2026-03-16T14:12:57Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/590"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -475,54 +475,17 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1075,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.6",
-          "merged_at": "2026-03-16T14:13:15Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1075"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1073,
-          "title": "Remove pr_check script as now IQE runs on konflux",
-          "merged_at": "2026-03-16T13:17:29Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1073"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1072,
-          "title": "Use reusable workflow and shared pre-commit configuration",
-          "merged_at": "2026-03-16T12:28:51Z",
-          "user": "joselsegura",
-          "total_commits": 4,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1072"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 6,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -538,23 +501,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/771"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 770,
-          "title": "[CCXDEV-14697] Remove pr_check script as now IQE runs on konflux",
-          "merged_at": "2026-03-16T13:01:18Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/770"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 5,
+        "total_prs_analyzed": 1,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
