@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-23T10:27:52.738651+00:00",
+  "analysis_date": "2026-03-23T22:13:11.140160+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-23T10:27:52.714855+00:00",
-    "to": "2026-03-23T10:27:52.738651+00:00"
+    "from": "2025-12-23T22:13:11.116402+00:00",
+    "to": "2026-03-23T22:13:11.140160+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -785,6 +785,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 525,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.7",
+          "merged_at": "2026-03-23T13:28:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/525"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 527,
           "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.11.4",
           "merged_at": "2026-03-22T21:35:35Z",
@@ -1524,6 +1536,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 630,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-23T13:42:46Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/630"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 629,
@@ -3761,13 +3785,13 @@
       }
     }
   },
-  "last_updated": "2026-03-23T10:27:52.738651+00:00",
-  "cutoff_date": "2025-12-23T10:27:52.714855+00:00",
+  "last_updated": "2026-03-23T22:13:11.140160+00:00",
+  "cutoff_date": "2025-12-23T22:13:11.116402+00:00",
   "summary": {
-    "total_prs": 297,
+    "total_prs": 299,
     "total_retests": 70,
     "prs_with_retests": 45,
-    "retest_rate": 15.151515151515152,
+    "retest_rate": 15.050167224080269,
     "retest_comments": 54,
     "update_branch_actions": 16
   }
