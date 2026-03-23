@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-23T08:03:45.070110",
+  "analysis_date": "2026-03-23T20:04:00.754742",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-16T08:03:28.608258+00:00",
-    "to": "2026-03-23T08:03:45.070126"
+    "from": "2026-03-16T20:03:44.373219+00:00",
+    "to": "2026-03-23T20:04:00.754760"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 1,
-    "total_commits": 1,
+    "total_mrs_analyzed": 2,
+    "total_commits": 2,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 1,
+    "mrs_with_lte_1_retest": 2,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1213,
+          "title": "IQE-3822: Pin notification sel version",
+          "merged_at": "2026-03-23T11:18:08.586Z",
+          "author": "ndhandre",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1213"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1211,
@@ -42,8 +52,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 1,
-        "total_commits": 1,
+        "total_mrs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
