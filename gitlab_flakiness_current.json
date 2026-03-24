@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-24T08:03:51.449030",
+  "analysis_date": "2026-03-24T20:03:53.008616",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-17T08:03:35.678502+00:00",
-    "to": "2026-03-24T08:03:51.449051"
+    "from": "2026-03-17T20:03:36.945441+00:00",
+    "to": "2026-03-24T20:03:53.008632"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 2,
-    "total_commits": 2,
+    "total_mrs_analyzed": 5,
+    "total_commits": 6,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 2,
+    "mrs_with_lte_1_retest": 5,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,36 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1212,
+          "title": "Migrate to iqe-bindings for ingress",
+          "merged_at": "2026-03-24T14:24:43.088Z",
+          "author": "mshriver",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1212"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1215,
+          "title": "Block tests blocking rule release",
+          "merged_at": "2026-03-24T13:03:58.123Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1215"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1214,
+          "title": "Bumped ccx-rules-ocp version to 2026.03.24",
+          "merged_at": "2026-03-24T12:38:40.694Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1214"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1213,
@@ -52,8 +82,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 2,
-        "total_commits": 2,
+        "total_mrs_analyzed": 5,
+        "total_commits": 6,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
