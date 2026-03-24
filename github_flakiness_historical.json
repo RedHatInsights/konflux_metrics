@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-24T10:23:48.911645+00:00",
+  "analysis_date": "2026-03-24T22:13:31.580920+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-24T10:23:48.887727+00:00",
-    "to": "2026-03-24T10:23:48.911645+00:00"
+    "from": "2025-12-24T22:13:31.556425+00:00",
+    "to": "2026-03-24T22:13:31.580920+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -360,6 +360,30 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2387,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.7",
+          "merged_at": "2026-03-24T11:01:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2387"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2391,
+          "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.11.4",
+          "merged_at": "2026-03-24T10:41:27Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2391"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2390,
@@ -795,6 +819,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 528,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-24T18:51:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/528"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 525,
@@ -1548,6 +1584,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 632,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-24T19:03:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/632"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 631,
@@ -2355,6 +2403,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 594,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-24T18:58:58Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/594"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 593,
@@ -3821,13 +3881,13 @@
       }
     }
   },
-  "last_updated": "2026-03-24T10:23:48.911645+00:00",
-  "cutoff_date": "2025-12-24T10:23:48.887727+00:00",
+  "last_updated": "2026-03-24T22:13:31.580920+00:00",
+  "cutoff_date": "2025-12-24T22:13:31.556425+00:00",
   "summary": {
-    "total_prs": 302,
+    "total_prs": 307,
     "total_retests": 70,
     "prs_with_retests": 45,
-    "retest_rate": 14.90066225165563,
+    "retest_rate": 14.65798045602606,
     "retest_comments": 54,
     "update_branch_actions": 16
   }
