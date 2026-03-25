@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-25T09:25:32.265333",
+  "analysis_date": "2026-03-25T21:18:12.407896",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-18T09:24:32.347802+00:00",
-    "to": "2026-03-25T09:25:32.265350"
+    "from": "2026-03-18T21:17:22.863716+00:00",
+    "to": "2026-03-25T21:18:12.407912"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 39,
-    "total_commits": 52,
-    "total_retests": 4,
-    "retest_comments": 1,
-    "update_branch_actions": 3,
-    "prs_with_retests": 4,
-    "prs_with_lte_1_retest": 39,
-    "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 10.256410256410255,
-    "avg_retests_per_pr": 0.10256410256410256,
-    "avg_retests_per_commit": 0.07692307692307693
+    "total_prs_analyzed": 34,
+    "total_commits": 43,
+    "total_retests": 6,
+    "retest_comments": 4,
+    "update_branch_actions": 2,
+    "prs_with_retests": 5,
+    "prs_with_lte_1_retest": 33,
+    "prs_with_lte_1_retest_percentage": 97.05882352941177,
+    "pr_retest_rate": 14.705882352941178,
+    "avg_retests_per_pr": 0.17647058823529413,
+    "avg_retests_per_commit": 0.13953488372093023
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -82,23 +82,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/661"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 658,
-          "title": "Linters reusable workflow",
-          "merged_at": "2026-03-18T13:17:57Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/658"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 7,
+        "total_prs_analyzed": 4,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -110,6 +98,30 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2396,
+          "title": "Add bots to codeowners",
+          "merged_at": "2026-03-25T11:58:03Z",
+          "user": "joselsegura",
+          "total_commits": 3,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2396"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2392,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-25T06:48:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2392"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2393,
@@ -133,18 +145,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2394"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2392,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-25T06:48:07Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2392"
         },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
@@ -193,54 +193,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2389"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2388,
-          "title": "fix(deps): update module github.com/lib/pq to v1.12.0",
-          "merged_at": "2026-03-18T17:46:29Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2388"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2385,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-18T14:05:18Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2385"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2386,
-          "title": "Update configurations to the common ones",
-          "merged_at": "2026-03-18T15:00:57Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2386"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 11,
+        "total_prs_analyzed": 8,
+        "total_commits": 10,
         "total_retests": 2,
-        "retest_comments": 1,
-        "update_branch_actions": 1,
+        "retest_comments": 2,
+        "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 20.0,
-        "avg_retests_per_pr": 0.2,
-        "avg_retests_per_commit": 0.18181818181818182
+        "pr_retest_rate": 25.0,
+        "avg_retests_per_pr": 0.25,
+        "avg_retests_per_commit": 0.2
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -328,30 +292,18 @@
           "update_branch_count": 1,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/521"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 522,
-          "title": "fix(deps): update module github.com/lib/pq to v1.12.0",
-          "merged_at": "2026-03-18T17:34:42Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/522"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 10,
+        "total_prs_analyzed": 7,
+        "total_commits": 9,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 12.5,
-        "avg_retests_per_pr": 0.125,
-        "avg_retests_per_commit": 0.1
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.1111111111111111
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -369,30 +321,17 @@
       }
     },
     "RedHatInsights/insights-behavioral-spec": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 747,
-          "title": "Linters reusable workflow",
-          "merged_at": "2026-03-18T10:51:45Z",
-          "user": "joselsegura",
-          "total_commits": 5,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/747"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 5,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
@@ -504,30 +443,18 @@
           "update_branch_count": 1,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/624"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 623,
-          "title": "fix(deps): update module github.com/lib/pq to v1.12.0",
-          "merged_at": "2026-03-18T17:34:55Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/623"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 12,
+        "total_prs_analyzed": 9,
+        "total_commits": 11,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 10.0,
-        "avg_retests_per_pr": 0.1,
-        "avg_retests_per_commit": 0.08333333333333333
+        "pr_retest_rate": 11.11111111111111,
+        "avg_retests_per_pr": 0.1111111111111111,
+        "avg_retests_per_commit": 0.09090909090909091
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
@@ -649,17 +576,30 @@
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1686,
+          "title": "Bump github.com/buger/jsonparser from 1.1.1 to 1.1.2",
+          "merged_at": "2026-03-25T14:44:36Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 2,
+          "update_branch_count": 0,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1686"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
+        "total_retests": 2,
+        "retest_comments": 2,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 2.0,
+        "avg_retests_per_commit": 2.0
       }
     }
   }
