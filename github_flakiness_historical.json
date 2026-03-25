@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-25T10:23:39.937895+00:00",
+  "analysis_date": "2026-03-25T22:17:08.122237+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-25T10:23:39.913676+00:00",
-    "to": "2026-03-25T10:23:39.937895+00:00"
+    "from": "2025-12-25T22:17:08.098908+00:00",
+    "to": "2026-03-25T22:17:08.122237+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -372,6 +372,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2396,
+          "title": "Add bots to codeowners",
+          "merged_at": "2026-03-25T11:58:03Z",
+          "user": "joselsegura",
+          "total_commits": 3,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2396"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2393,
@@ -3617,6 +3629,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1686,
+          "title": "Bump github.com/buger/jsonparser from 1.1.1 to 1.1.2",
+          "merged_at": "2026-03-25T14:44:36Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 2,
+          "update_branch_count": 0,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1686"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1684,
           "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.497 to 0.1.498",
           "merged_at": "2026-03-13T12:43:48Z",
@@ -3929,14 +3953,14 @@
       }
     }
   },
-  "last_updated": "2026-03-25T10:23:39.937895+00:00",
-  "cutoff_date": "2025-12-25T10:23:39.913676+00:00",
+  "last_updated": "2026-03-25T22:17:08.122237+00:00",
+  "cutoff_date": "2025-12-25T22:17:08.098908+00:00",
   "summary": {
-    "total_prs": 311,
-    "total_retests": 71,
-    "prs_with_retests": 46,
-    "retest_rate": 14.790996784565916,
-    "retest_comments": 55,
+    "total_prs": 313,
+    "total_retests": 74,
+    "prs_with_retests": 48,
+    "retest_rate": 15.335463258785943,
+    "retest_comments": 58,
     "update_branch_actions": 16
   }
 }
