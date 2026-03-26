@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-26T10:26:20.138913+00:00",
+  "analysis_date": "2026-03-26T22:11:27.207196+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-26T10:26:20.114273+00:00",
-    "to": "2026-03-26T10:26:20.138913+00:00"
+    "from": "2025-12-26T22:11:27.183112+00:00",
+    "to": "2026-03-26T22:11:27.207196+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -33,6 +33,18 @@
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 664,
+          "title": "Add CODEOWNERS",
+          "merged_at": "2026-03-26T09:39:10Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/664"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 666,
@@ -1670,6 +1682,42 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 635,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.7",
+          "merged_at": "2026-03-26T14:13:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/635"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 633,
+          "title": "Update renovate.json configuration",
+          "merged_at": "2026-03-26T09:57:56Z",
+          "user": "joselsegura",
+          "total_commits": 4,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/633"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 634,
+          "title": "Update renovate config",
+          "merged_at": "2026-03-26T09:46:59Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/634"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 632,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-03-24T19:03:17Z",
@@ -2996,6 +3044,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1074,
+          "title": "Tidy up Makefile and remove unused script",
+          "merged_at": "2026-03-26T12:56:01Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1074"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1075,
           "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.6",
           "merged_at": "2026-03-16T14:13:15Z",
@@ -3977,13 +4037,13 @@
       }
     }
   },
-  "last_updated": "2026-03-26T10:26:20.138913+00:00",
-  "cutoff_date": "2025-12-26T10:26:20.114273+00:00",
+  "last_updated": "2026-03-26T22:11:27.207196+00:00",
+  "cutoff_date": "2025-12-26T22:11:27.183112+00:00",
   "summary": {
-    "total_prs": 315,
+    "total_prs": 320,
     "total_retests": 74,
     "prs_with_retests": 48,
-    "retest_rate": 15.238095238095239,
+    "retest_rate": 15.0,
     "retest_comments": 58,
     "update_branch_actions": 16
   }
