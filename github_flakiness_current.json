@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-25T21:18:12.407896",
+  "analysis_date": "2026-03-26T09:29:02.236179",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,78 +15,54 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-18T21:17:22.863716+00:00",
-    "to": "2026-03-25T21:18:12.407912"
+    "from": "2026-03-19T09:28:14.569003+00:00",
+    "to": "2026-03-26T09:29:02.236194"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 34,
-    "total_commits": 43,
-    "total_retests": 6,
+    "total_prs_analyzed": 31,
+    "total_commits": 37,
+    "total_retests": 5,
     "retest_comments": 4,
-    "update_branch_actions": 2,
-    "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 33,
-    "prs_with_lte_1_retest_percentage": 97.05882352941177,
-    "pr_retest_rate": 14.705882352941178,
-    "avg_retests_per_pr": 0.17647058823529413,
-    "avg_retests_per_commit": 0.13953488372093023
+    "update_branch_actions": 1,
+    "prs_with_retests": 4,
+    "prs_with_lte_1_retest": 30,
+    "prs_with_lte_1_retest_percentage": 96.7741935483871,
+    "pr_retest_rate": 12.903225806451612,
+    "avg_retests_per_pr": 0.16129032258064516,
+    "avg_retests_per_commit": 0.13513513513513514
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 659,
-          "title": "[CCXDEV-15098] rules-uploader add python env vars for better debugging",
-          "merged_at": "2026-03-25T06:24:38Z",
-          "user": "matysek",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/659"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 660,
-          "title": "build(deps): bump aiobotocore from 3.2.1 to 3.3.0",
-          "merged_at": "2026-03-23T07:44:18Z",
-          "user": "dependabot[bot]",
+          "pr_number": 666,
+          "title": "chore(deps): update pre-commit hooks",
+          "merged_at": "2026-03-26T09:27:38Z",
+          "user": "red-hat-konflux[bot]",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/660"
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/666"
         },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 662,
-          "title": "build(deps): update boto3 requirement from <1.42.69,>=1.34.1 to >=1.34.1,<1.42.74",
-          "merged_at": "2026-03-23T07:42:25Z",
-          "user": "dependabot[bot]",
+          "pr_number": 665,
+          "title": "chore(deps): update dependency insights-core-messaging to v1.2.20",
+          "merged_at": "2026-03-26T09:25:37Z",
+          "user": "red-hat-konflux[bot]",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/662"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 661,
-          "title": "build(deps): bump pytest-cov from 7.0.0 to 7.1.0",
-          "merged_at": "2026-03-23T07:42:09Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/661"
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/665"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 5,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -280,30 +256,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/523"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 521,
-          "title": "[CCXDEV-15354] Linters reusable workflow",
-          "merged_at": "2026-03-19T09:26:05Z",
-          "user": "joselsegura",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/521"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 9,
-        "total_retests": 1,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
+        "total_retests": 0,
         "retest_comments": 0,
-        "update_branch_actions": 1,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 14.285714285714285,
-        "avg_retests_per_pr": 0.14285714285714285,
-        "avg_retests_per_commit": 0.1111111111111111
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
