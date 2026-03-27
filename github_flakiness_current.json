@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-26T21:14:46.980312",
+  "analysis_date": "2026-03-27T09:25:53.633349",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-19T21:14:10.762745+00:00",
-    "to": "2026-03-26T21:14:46.980326"
+    "from": "2026-03-20T09:24:39.607084+00:00",
+    "to": "2026-03-27T09:25:53.633364"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 29,
-    "total_commits": 37,
+    "total_prs_analyzed": 38,
+    "total_commits": 49,
     "total_retests": 4,
     "retest_comments": 4,
     "update_branch_actions": 0,
     "prs_with_retests": 3,
-    "prs_with_lte_1_retest": 28,
-    "prs_with_lte_1_retest_percentage": 96.55172413793103,
-    "pr_retest_rate": 10.344827586206897,
-    "avg_retests_per_pr": 0.13793103448275862,
-    "avg_retests_per_commit": 0.10810810810810811
+    "prs_with_lte_1_retest": 37,
+    "prs_with_lte_1_retest_percentage": 97.36842105263158,
+    "pr_retest_rate": 7.894736842105263,
+    "avg_retests_per_pr": 0.10526315789473684,
+    "avg_retests_per_commit": 0.08163265306122448
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -86,6 +86,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2398,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.8",
+          "merged_at": "2026-03-27T01:51:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2398"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2396,
@@ -172,19 +184,43 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 9,
+        "total_prs_analyzed": 8,
+        "total_commits": 10,
         "total_retests": 2,
         "retest_comments": 2,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 28.57142857142857,
-        "avg_retests_per_pr": 0.2857142857142857,
-        "avg_retests_per_commit": 0.2222222222222222
+        "pr_retest_rate": 25.0,
+        "avg_retests_per_pr": 0.25,
+        "avg_retests_per_commit": 0.2
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 530,
+          "title": "Add CODEOWNERS file",
+          "merged_at": "2026-03-27T08:28:20Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/530"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 531,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.8",
+          "merged_at": "2026-03-27T01:33:25Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/531"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 528,
@@ -235,8 +271,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 6,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -261,21 +297,46 @@
       }
     },
     "RedHatInsights/insights-behavioral-spec": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 748,
+          "title": "Add CODEOWNERS file",
+          "merged_at": "2026-03-27T08:14:31Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/748"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 637,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.8",
+          "merged_at": "2026-03-27T01:40:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/637"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 635,
@@ -386,8 +447,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 13,
+        "total_prs_analyzed": 10,
+        "total_commits": 14,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -399,6 +460,30 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 598,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-27T01:47:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/598"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 597,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-26T21:57:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/597"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 594,
@@ -437,8 +522,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -493,6 +578,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 164,
+          "title": "Add CODEOWNERS file",
+          "merged_at": "2026-03-27T07:07:07Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/164"
+        },
+        {
+          "repository": "RedHatInsights/obsint-mocks",
           "pr_number": 162,
           "title": "[CCXDEV-15353] Linters reusable workflow",
           "merged_at": "2026-03-20T11:28:59Z",
@@ -505,8 +602,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -518,6 +615,18 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1688,
+          "title": "Add CODEOWNERS file",
+          "merged_at": "2026-03-27T07:07:17Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1688"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1686,
@@ -532,15 +641,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 3,
         "total_retests": 2,
         "retest_comments": 2,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 2.0,
-        "avg_retests_per_commit": 2.0
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.6666666666666666
       }
     }
   }
