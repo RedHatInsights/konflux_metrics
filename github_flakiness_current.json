@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-27T21:17:21.193298",
+  "analysis_date": "2026-03-28T09:18:10.370203",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-20T21:16:01.293766+00:00",
-    "to": "2026-03-27T21:17:21.193314"
+    "from": "2026-03-21T09:17:16.995209+00:00",
+    "to": "2026-03-28T09:18:10.370218"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 57,
-    "total_commits": 70,
+    "total_prs_analyzed": 64,
+    "total_commits": 77,
     "total_retests": 24,
     "retest_comments": 24,
     "update_branch_actions": 0,
     "prs_with_retests": 15,
-    "prs_with_lte_1_retest": 51,
-    "prs_with_lte_1_retest_percentage": 89.47368421052632,
-    "pr_retest_rate": 26.31578947368421,
-    "avg_retests_per_pr": 0.42105263157894735,
-    "avg_retests_per_commit": 0.34285714285714286
+    "prs_with_lte_1_retest": 58,
+    "prs_with_lte_1_retest_percentage": 90.625,
+    "pr_retest_rate": 23.4375,
+    "avg_retests_per_pr": 0.375,
+    "avg_retests_per_commit": 0.3116883116883117
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -110,6 +110,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2401,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-03-28T01:54:35Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2401"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2397,
@@ -232,19 +244,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 12,
+        "total_prs_analyzed": 11,
+        "total_commits": 13,
         "total_retests": 4,
         "retest_comments": 4,
         "update_branch_actions": 0,
         "prs_with_retests": 4,
-        "pr_retest_rate": 40.0,
-        "avg_retests_per_pr": 0.4,
-        "avg_retests_per_commit": 0.3333333333333333
+        "pr_retest_rate": 36.36363636363637,
+        "avg_retests_per_pr": 0.36363636363636365,
+        "avg_retests_per_commit": 0.3076923076923077
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 533,
+          "title": "Bump github.com/rs/zerolog from 1.34.0 to 1.35.0",
+          "merged_at": "2026-03-27T23:18:15Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/533"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 532,
@@ -319,8 +343,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 7,
+        "total_prs_analyzed": 7,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -398,6 +422,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 639,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-03-28T01:41:55Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/639"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 636,
@@ -520,8 +556,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 14,
+        "total_prs_analyzed": 11,
+        "total_commits": 15,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -533,6 +569,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 599,
+          "title": "fix(deps): update module github.com/rs/zerolog to v1.35.0",
+          "merged_at": "2026-03-28T01:35:04Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/599"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 596,
@@ -595,8 +643,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 7,
+        "total_prs_analyzed": 6,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -608,6 +656,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1081,
+          "title": "fix(deps): update module github.com/rs/zerolog to v1.35.0",
+          "merged_at": "2026-03-28T01:46:13Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1081"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1079,
@@ -658,19 +718,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 4,
         "retest_comments": 4,
         "update_branch_actions": 0,
         "prs_with_retests": 3,
-        "pr_retest_rate": 75.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 1.0
+        "pr_retest_rate": 60.0,
+        "avg_retests_per_pr": 0.8,
+        "avg_retests_per_commit": 0.8
       }
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 778,
+          "title": "fix(deps): update module github.com/rs/zerolog to v1.35.0",
+          "merged_at": "2026-03-28T01:46:13Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/778"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 775,
@@ -733,15 +805,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
         "total_retests": 6,
         "retest_comments": 6,
         "update_branch_actions": 0,
         "prs_with_retests": 4,
-        "pr_retest_rate": 80.0,
-        "avg_retests_per_pr": 1.2,
-        "avg_retests_per_commit": 1.2
+        "pr_retest_rate": 66.66666666666666,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 1.0
       }
     },
     "RedHatInsights/obsint-mocks": {
@@ -797,6 +869,18 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1693,
+          "title": "Update module github.com/rs/zerolog to v1.35.0",
+          "merged_at": "2026-03-28T01:53:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1693"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1692,
@@ -871,15 +955,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 7,
+        "total_prs_analyzed": 7,
+        "total_commits": 8,
         "total_retests": 4,
         "retest_comments": 4,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.6666666666666666,
-        "avg_retests_per_commit": 0.5714285714285714
+        "pr_retest_rate": 28.57142857142857,
+        "avg_retests_per_pr": 0.5714285714285714,
+        "avg_retests_per_commit": 0.5
       }
     }
   }
