@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-30T09:41:37.913256",
+  "analysis_date": "2026-03-30T21:21:15.259207",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-23T09:40:32.199099+00:00",
-    "to": "2026-03-30T09:41:37.913275"
+    "from": "2026-03-23T21:20:14.820929+00:00",
+    "to": "2026-03-30T21:21:15.259224"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 62,
-    "total_commits": 75,
+    "total_prs_analyzed": 64,
+    "total_commits": 77,
     "total_retests": 24,
     "retest_comments": 24,
     "update_branch_actions": 0,
     "prs_with_retests": 15,
-    "prs_with_lte_1_retest": 56,
-    "prs_with_lte_1_retest_percentage": 90.32258064516128,
-    "pr_retest_rate": 24.193548387096776,
-    "avg_retests_per_pr": 0.3870967741935484,
-    "avg_retests_per_commit": 0.32
+    "prs_with_lte_1_retest": 58,
+    "prs_with_lte_1_retest_percentage": 90.625,
+    "pr_retest_rate": 23.4375,
+    "avg_retests_per_pr": 0.375,
+    "avg_retests_per_commit": 0.3116883116883117
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -110,6 +110,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2402,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-03-30T18:13:05Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2402"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2401,
@@ -244,19 +256,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 11,
-        "total_commits": 13,
+        "total_prs_analyzed": 12,
+        "total_commits": 14,
         "total_retests": 4,
         "retest_comments": 4,
         "update_branch_actions": 0,
         "prs_with_retests": 4,
-        "pr_retest_rate": 36.36363636363637,
-        "avg_retests_per_pr": 0.36363636363636365,
-        "avg_retests_per_commit": 0.3076923076923077
+        "pr_retest_rate": 33.33333333333333,
+        "avg_retests_per_pr": 0.3333333333333333,
+        "avg_retests_per_commit": 0.2857142857142857
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 534,
+          "title": "fix(deps): update module github.com/lib/pq to v1.12.1",
+          "merged_at": "2026-03-30T17:52:36Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/534"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 533,
@@ -316,18 +340,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/528"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 525,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.7",
-          "merged_at": "2026-03-23T13:28:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/525"
         }
       ],
       "summary": {
@@ -410,6 +422,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 640,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-03-30T17:57:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/640"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 639,
@@ -517,18 +541,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/631"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 630,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-23T13:42:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/630"
         }
       ],
       "summary": {
@@ -709,6 +721,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 779,
+          "title": "Bump github.com/lib/pq from 1.12.0 to 1.12.1",
+          "merged_at": "2026-03-30T15:46:48Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/779"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 778,
           "title": "fix(deps): update module github.com/rs/zerolog to v1.35.0",
           "merged_at": "2026-03-28T01:46:13Z",
@@ -781,15 +805,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 6,
         "retest_comments": 6,
         "update_branch_actions": 0,
         "prs_with_retests": 4,
-        "pr_retest_rate": 66.66666666666666,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 1.0
+        "pr_retest_rate": 57.14285714285714,
+        "avg_retests_per_pr": 0.8571428571428571,
+        "avg_retests_per_commit": 0.8571428571428571
       }
     },
     "RedHatInsights/obsint-mocks": {
