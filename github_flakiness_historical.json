@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-31T10:28:18.183498+00:00",
+  "analysis_date": "2026-03-31T22:16:21.670921+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-31T10:28:18.158327+00:00",
-    "to": "2026-03-31T10:28:18.183498+00:00"
+    "from": "2025-12-31T22:16:21.645082+00:00",
+    "to": "2026-03-31T22:16:21.670921+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1838,6 +1838,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 642,
+          "title": "chore(deps): update go dependencies to v0.0.4",
+          "merged_at": "2026-03-31T14:05:46Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/642"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 641,
           "title": "chore(deps): update go dependencies",
           "merged_at": "2026-03-31T02:36:47Z",
@@ -3611,6 +3623,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 781,
+          "title": "chore(deps): update all dependencies to v0.0.4",
+          "merged_at": "2026-03-31T14:13:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/781"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 780,
           "title": "chore(deps): update all dependencies",
           "merged_at": "2026-03-31T02:52:45Z",
@@ -4577,13 +4601,13 @@
       }
     }
   },
-  "last_updated": "2026-03-31T10:28:18.183498+00:00",
-  "cutoff_date": "2025-12-31T10:28:18.158327+00:00",
+  "last_updated": "2026-03-31T22:16:21.670921+00:00",
+  "cutoff_date": "2025-12-31T22:16:21.645082+00:00",
   "summary": {
-    "total_prs": 365,
+    "total_prs": 367,
     "total_retests": 94,
     "prs_with_retests": 60,
-    "retest_rate": 16.43835616438356,
+    "retest_rate": 16.348773841961854,
     "retest_comments": 78,
     "update_branch_actions": 16
   }
