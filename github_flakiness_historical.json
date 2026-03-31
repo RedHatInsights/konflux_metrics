@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-30T22:16:31.967114+00:00",
+  "analysis_date": "2026-03-31T10:28:18.183498+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-30T22:16:31.942508+00:00",
-    "to": "2026-03-30T22:16:31.967114+00:00"
+    "from": "2025-12-31T10:28:18.158327+00:00",
+    "to": "2026-03-31T10:28:18.183498+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -420,6 +420,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2403,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-03-31T02:48:11Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2403"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2402,
@@ -1826,6 +1838,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 641,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-03-31T02:36:47Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/641"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 640,
           "title": "fix(deps): update go dependencies",
           "merged_at": "2026-03-30T17:57:53Z",
@@ -2741,6 +2765,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 600,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-31T02:37:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/600"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 599,
           "title": "fix(deps): update module github.com/rs/zerolog to v1.35.0",
           "merged_at": "2026-03-28T01:35:04Z",
@@ -3296,6 +3332,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1082,
+          "title": "Bump github.com/lib/pq from 1.12.0 to 1.12.1",
+          "merged_at": "2026-03-31T07:31:21Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1082"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1081,
           "title": "fix(deps): update module github.com/rs/zerolog to v1.35.0",
           "merged_at": "2026-03-28T01:46:13Z",
@@ -3561,6 +3609,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 780,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-03-31T02:52:45Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/780"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 779,
@@ -4517,13 +4577,13 @@
       }
     }
   },
-  "last_updated": "2026-03-30T22:16:31.967114+00:00",
-  "cutoff_date": "2025-12-30T22:16:31.942508+00:00",
+  "last_updated": "2026-03-31T10:28:18.183498+00:00",
+  "cutoff_date": "2025-12-31T10:28:18.158327+00:00",
   "summary": {
-    "total_prs": 360,
+    "total_prs": 365,
     "total_retests": 94,
     "prs_with_retests": 60,
-    "retest_rate": 16.666666666666664,
+    "retest_rate": 16.43835616438356,
     "retest_comments": 78,
     "update_branch_actions": 16
   }
