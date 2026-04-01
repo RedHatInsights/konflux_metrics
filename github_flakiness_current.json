@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-31T21:19:05.316127",
+  "analysis_date": "2026-04-01T09:34:41.758148",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-24T21:18:16.027130+00:00",
-    "to": "2026-03-31T21:19:05.316142"
+    "from": "2026-03-25T09:33:41.653950+00:00",
+    "to": "2026-04-01T09:34:41.758165"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 35,
-    "total_commits": 45,
+    "total_prs_analyzed": 36,
+    "total_commits": 46,
     "total_retests": 13,
     "retest_comments": 13,
     "update_branch_actions": 0,
     "prs_with_retests": 6,
-    "prs_with_lte_1_retest": 31,
-    "prs_with_lte_1_retest_percentage": 88.57142857142857,
-    "pr_retest_rate": 17.142857142857142,
-    "avg_retests_per_pr": 0.37142857142857144,
-    "avg_retests_per_commit": 0.28888888888888886
+    "prs_with_lte_1_retest": 32,
+    "prs_with_lte_1_retest_percentage": 88.88888888888889,
+    "pr_retest_rate": 16.666666666666664,
+    "avg_retests_per_pr": 0.3611111111111111,
+    "avg_retests_per_commit": 0.2826086956521739
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -355,6 +355,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1083,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.497 to 0.1.499",
+          "merged_at": "2026-04-01T08:55:22Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1083"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1082,
           "title": "Bump github.com/lib/pq from 1.12.0 to 1.12.1",
           "merged_at": "2026-03-31T07:31:21Z",
@@ -427,15 +439,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 4,
         "retest_comments": 4,
         "update_branch_actions": 0,
         "prs_with_retests": 3,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 0.6666666666666666,
-        "avg_retests_per_commit": 0.6666666666666666
+        "pr_retest_rate": 42.857142857142854,
+        "avg_retests_per_pr": 0.5714285714285714,
+        "avg_retests_per_commit": 0.5714285714285714
       }
     },
     "RedHatInsights/ccx-notification-writer": {
