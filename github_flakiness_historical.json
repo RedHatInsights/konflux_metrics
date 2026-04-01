@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-03-31T22:16:21.670921+00:00",
+  "analysis_date": "2026-04-01T10:28:59.893402+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2025-12-31T22:16:21.645082+00:00",
-    "to": "2026-03-31T22:16:21.670921+00:00"
+    "from": "2026-01-01T10:28:59.868243+00:00",
+    "to": "2026-04-01T10:28:59.893402+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -3344,6 +3344,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1083,
+          "title": "Bump github.com/openshift-online/ocm-sdk-go from 0.1.497 to 0.1.499",
+          "merged_at": "2026-04-01T08:55:22Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1083"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1082,
           "title": "Bump github.com/lib/pq from 1.12.0 to 1.12.1",
           "merged_at": "2026-03-31T07:31:21Z",
@@ -4601,13 +4613,13 @@
       }
     }
   },
-  "last_updated": "2026-03-31T22:16:21.670921+00:00",
-  "cutoff_date": "2025-12-31T22:16:21.645082+00:00",
+  "last_updated": "2026-04-01T10:28:59.893402+00:00",
+  "cutoff_date": "2026-01-01T10:28:59.868243+00:00",
   "summary": {
-    "total_prs": 367,
+    "total_prs": 368,
     "total_retests": 94,
     "prs_with_retests": 60,
-    "retest_rate": 16.348773841961854,
+    "retest_rate": 16.304347826086957,
     "retest_comments": 78,
     "update_branch_actions": 16
   }
