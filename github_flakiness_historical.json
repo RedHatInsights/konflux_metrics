@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-02T10:26:34.079102+00:00",
+  "analysis_date": "2026-04-02T22:15:45.456264+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-01-02T10:26:34.054170+00:00",
-    "to": "2026-04-02T10:26:34.079102+00:00"
+    "from": "2026-01-02T22:15:45.431106+00:00",
+    "to": "2026-04-02T22:15:45.456264+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -420,6 +420,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2406,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-02T18:02:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2406"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2403,
@@ -1001,6 +1013,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 536,
+          "title": "fix(deps): update module github.com/minio/minio-go/v7 to v7.0.100",
+          "merged_at": "2026-04-02T17:44:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/536"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 535,
+          "title": "fix(deps): update module github.com/lib/pq to v1.12.2",
+          "merged_at": "2026-04-02T13:38:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/535"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 534,
           "title": "fix(deps): update module github.com/lib/pq to v1.12.1",
           "merged_at": "2026-03-30T17:52:36Z",
@@ -1406,18 +1442,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/498"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 497,
-          "title": "chore(deps): update module github.com/tinylib/msgp to v1.6.3",
-          "merged_at": "2026-01-02T12:56:12Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/497"
         }
       ],
       "summary": {
@@ -1836,6 +1860,30 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 644,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-02T17:52:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/644"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 643,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-04-02T13:47:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/643"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 642,
@@ -3635,6 +3683,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 783,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-02T18:01:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/783"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 781,
           "title": "chore(deps): update all dependencies to v0.0.4",
           "merged_at": "2026-03-31T14:13:31Z",
@@ -4613,13 +4673,13 @@
       }
     }
   },
-  "last_updated": "2026-04-02T10:26:34.079102+00:00",
-  "cutoff_date": "2026-01-02T10:26:34.054170+00:00",
+  "last_updated": "2026-04-02T22:15:45.456264+00:00",
+  "cutoff_date": "2026-01-02T22:15:45.431106+00:00",
   "summary": {
-    "total_prs": 368,
+    "total_prs": 373,
     "total_retests": 94,
     "prs_with_retests": 60,
-    "retest_rate": 16.304347826086957,
+    "retest_rate": 16.0857908847185,
     "retest_comments": 78,
     "update_branch_actions": 16
   }
