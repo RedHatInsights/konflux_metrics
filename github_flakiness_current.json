@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-02T21:17:58.809429",
+  "analysis_date": "2026-04-03T09:26:30.863458",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-26T21:17:20.937670+00:00",
-    "to": "2026-04-02T21:17:58.809451"
+    "from": "2026-03-27T09:25:19.879282+00:00",
+    "to": "2026-04-03T09:26:30.863476"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 36,
-    "total_commits": 42,
+    "total_prs_analyzed": 39,
+    "total_commits": 43,
     "total_retests": 11,
     "retest_comments": 11,
     "update_branch_actions": 0,
     "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 33,
-    "prs_with_lte_1_retest_percentage": 91.66666666666666,
-    "pr_retest_rate": 13.88888888888889,
-    "avg_retests_per_pr": 0.3055555555555556,
-    "avg_retests_per_commit": 0.2619047619047619
+    "prs_with_lte_1_retest": 36,
+    "prs_with_lte_1_retest_percentage": 92.3076923076923,
+    "pr_retest_rate": 12.82051282051282,
+    "avg_retests_per_pr": 0.28205128205128205,
+    "avg_retests_per_commit": 0.2558139534883721
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -51,6 +51,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2408,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-03T02:35:14Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2408"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2406,
           "title": "chore(deps): update go dependencies",
           "merged_at": "2026-04-02T18:02:42Z",
@@ -63,8 +75,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -76,6 +88,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 537,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.9",
+          "merged_at": "2026-04-02T21:59:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/537"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 536,
@@ -102,8 +126,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -153,23 +177,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/749"
-        },
-        {
-          "repository": "RedHatInsights/insights-behavioral-spec",
-          "pr_number": 748,
-          "title": "Add CODEOWNERS file",
-          "merged_at": "2026-03-27T08:14:31Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/748"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -181,6 +193,42 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 647,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-03T02:23:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/647"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 645,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.9",
+          "merged_at": "2026-04-02T22:03:56Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/645"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 646,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-02T22:15:22Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/646"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 644,
@@ -276,23 +324,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/638"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 637,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.8",
-          "merged_at": "2026-03-27T01:40:42Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/637"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 9,
+        "total_prs_analyzed": 11,
+        "total_commits": 11,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -304,6 +340,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 601,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-03T02:22:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/601"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 600,
@@ -339,35 +387,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/596"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 598,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-27T01:47:15Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/598"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 597,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-26T21:57:28Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/597"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 7,
+        "total_prs_analyzed": 4,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -379,6 +403,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1084,
+          "title": "Bump github.com/lib/pq from 1.12.1 to 1.12.2",
+          "merged_at": "2026-04-03T07:37:12Z",
+          "user": "dependabot[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1084"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1083,
@@ -453,19 +489,43 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 4,
         "retest_comments": 4,
         "update_branch_actions": 0,
         "prs_with_retests": 3,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 0.6666666666666666,
-        "avg_retests_per_commit": 0.6666666666666666
+        "pr_retest_rate": 42.857142857142854,
+        "avg_retests_per_pr": 0.5714285714285714,
+        "avg_retests_per_commit": 0.5714285714285714
       }
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 786,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-03T02:34:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/786"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 785,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-02T22:22:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/785"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 783,
@@ -480,8 +540,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -516,23 +576,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/obsint-mocks/pull/165"
-        },
-        {
-          "repository": "RedHatInsights/obsint-mocks",
-          "pr_number": 164,
-          "title": "Add CODEOWNERS file",
-          "merged_at": "2026-03-27T07:07:07Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/164"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 4,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -603,30 +651,18 @@
           "update_branch_count": 0,
           "total_retests": 2,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1690"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1688,
-          "title": "Add CODEOWNERS file",
-          "merged_at": "2026-03-27T07:07:17Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1688"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 7,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 2,
         "retest_comments": 2,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 16.666666666666664,
-        "avg_retests_per_pr": 0.3333333333333333,
-        "avg_retests_per_commit": 0.2857142857142857
+        "pr_retest_rate": 20.0,
+        "avg_retests_per_pr": 0.4,
+        "avg_retests_per_commit": 0.4
       }
     }
   }
