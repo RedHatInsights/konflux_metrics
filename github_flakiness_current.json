@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-05T21:13:24.931584",
+  "analysis_date": "2026-04-06T09:37:39.478558",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,18 +15,18 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-03-29T21:12:58.076237+00:00",
-    "to": "2026-04-05T21:13:24.931599"
+    "from": "2026-03-30T09:37:02.361956+00:00",
+    "to": "2026-04-06T09:37:39.478577"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 14,
-    "total_commits": 14,
+    "total_prs_analyzed": 11,
+    "total_commits": 11,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
     "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 14,
+    "prs_with_lte_1_retest": 11,
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 0.0,
     "avg_retests_per_pr": 0.0,
@@ -62,54 +62,17 @@
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 537,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.9",
-          "merged_at": "2026-04-02T21:59:40Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/537"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 536,
-          "title": "fix(deps): update module github.com/minio/minio-go/v7 to v7.0.100",
-          "merged_at": "2026-04-02T17:44:31Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/536"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 535,
-          "title": "fix(deps): update module github.com/lib/pq to v1.12.2",
-          "merged_at": "2026-04-02T13:38:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/535"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
