@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-06T22:15:31.209840+00:00",
+  "analysis_date": "2026-04-07T10:28:26.069891+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-01-06T22:15:31.197844+00:00",
-    "to": "2026-04-06T22:15:31.209840+00:00"
+    "from": "2026-01-07T10:28:26.057915+00:00",
+    "to": "2026-04-07T10:28:26.069891+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1217,
+          "title": "Fix install instructions, consolidate mypy config",
+          "merged_at": "2026-04-06T20:29:46.769Z",
+          "author": "mshriver",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1217"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1216,
@@ -507,16 +517,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1164"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1162,
-          "title": "[CCXDEV-15873] test: remove tests for ols",
-          "merged_at": "2026-01-07T07:50:33.030Z",
-          "author": "lsolarov",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1162"
         }
       ],
       "summary": {
@@ -828,8 +828,8 @@
       }
     }
   },
-  "last_updated": "2026-04-06T22:15:31.209840+00:00",
-  "cutoff_date": "2026-01-06T22:15:31.197844+00:00",
+  "last_updated": "2026-04-07T10:28:26.069891+00:00",
+  "cutoff_date": "2026-01-07T10:28:26.057915+00:00",
   "summary": {
     "total_mrs": 71,
     "total_retests": 0,
