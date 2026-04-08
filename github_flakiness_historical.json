@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-08T10:29:39.788673+00:00",
+  "analysis_date": "2026-04-08T22:19:51.875839+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-01-08T10:29:39.763459+00:00",
-    "to": "2026-04-08T10:29:39.788673+00:00"
+    "from": "2026-01-08T22:19:51.850720+00:00",
+    "to": "2026-04-08T22:19:51.875839+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -380,18 +380,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/635"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 633,
-          "title": "[CCXDEV-15676] Remove archive-sync-ols from ccx-messaging",
-          "merged_at": "2026-01-08T14:16:36Z",
-          "user": "lenasolarova",
-          "total_commits": 4,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/633"
         }
       ],
       "summary": {
@@ -989,6 +977,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 540,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-08T18:11:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/540"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 537,
           "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.9",
           "merged_at": "2026-04-02T21:59:40Z",
@@ -1418,18 +1418,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/499"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 498,
-          "title": "chore(deps): update module golang.org/x/sys to v0.40.0",
-          "merged_at": "2026-01-08T12:56:40Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/498"
         }
       ],
       "summary": {
@@ -3386,18 +3374,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/556"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 555,
-          "title": "chore(deps): update module golang.org/x/sys to v0.40.0",
-          "merged_at": "2026-01-08T13:03:15Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/555"
         }
       ],
       "summary": {
@@ -4709,14 +4685,14 @@
       }
     }
   },
-  "last_updated": "2026-04-08T10:29:39.788673+00:00",
-  "cutoff_date": "2026-01-08T10:29:39.763459+00:00",
+  "last_updated": "2026-04-08T22:19:51.875839+00:00",
+  "cutoff_date": "2026-01-08T22:19:51.850720+00:00",
   "summary": {
-    "total_prs": 376,
-    "total_retests": 93,
-    "prs_with_retests": 59,
-    "retest_rate": 15.691489361702127,
-    "retest_comments": 77,
+    "total_prs": 374,
+    "total_retests": 91,
+    "prs_with_retests": 58,
+    "retest_rate": 15.508021390374333,
+    "retest_comments": 75,
     "update_branch_actions": 16
   }
 }
