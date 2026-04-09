@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-09T09:36:52.554517",
+  "analysis_date": "2026-04-09T21:22:50.090337",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,26 +15,38 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-02T09:36:02.291446+00:00",
-    "to": "2026-04-09T09:36:52.554528"
+    "from": "2026-04-02T21:22:00.823643+00:00",
+    "to": "2026-04-09T21:22:50.090352"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 26,
-    "total_commits": 27,
-    "total_retests": 17,
-    "retest_comments": 17,
-    "update_branch_actions": 0,
-    "prs_with_retests": 12,
-    "prs_with_lte_1_retest": 24,
-    "prs_with_lte_1_retest_percentage": 92.3076923076923,
-    "pr_retest_rate": 46.15384615384615,
-    "avg_retests_per_pr": 0.6538461538461539,
-    "avg_retests_per_commit": 0.6296296296296297
+    "total_prs_analyzed": 49,
+    "total_commits": 51,
+    "total_retests": 19,
+    "retest_comments": 18,
+    "update_branch_actions": 1,
+    "prs_with_retests": 13,
+    "prs_with_lte_1_retest": 46,
+    "prs_with_lte_1_retest_percentage": 93.87755102040816,
+    "pr_retest_rate": 26.53061224489796,
+    "avg_retests_per_pr": 0.3877551020408163,
+    "avg_retests_per_commit": 0.37254901960784315
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 676,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.10",
+          "merged_at": "2026-04-09T17:57:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/676"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 673,
@@ -49,19 +61,79 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 1.0
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.5,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2415,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-09T18:08:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2415"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2414,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.10",
+          "merged_at": "2026-04-09T18:05:35Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2414"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2413,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-09T14:20:55Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2413"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2412,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.10",
+          "merged_at": "2026-04-09T14:17:24Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2412"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2411,
+          "title": "Update pre-commit-config.yaml",
+          "merged_at": "2026-04-09T12:33:01Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2411"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2407,
@@ -88,19 +160,79 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 3,
         "retest_comments": 3,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.5,
-        "avg_retests_per_commit": 1.5
+        "pr_retest_rate": 28.57142857142857,
+        "avg_retests_per_pr": 0.42857142857142855,
+        "avg_retests_per_commit": 0.42857142857142855
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 545,
+          "title": "chore(deps): update module golang.org/x/crypto to v0.50.0",
+          "merged_at": "2026-04-09T17:50:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/545"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 544,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.10",
+          "merged_at": "2026-04-09T17:50:26Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/544"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 543,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.10",
+          "merged_at": "2026-04-09T14:01:41Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/543"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 542,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-09T14:00:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/542"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 541,
+          "title": "Update pre-commit-config.yaml",
+          "merged_at": "2026-04-09T12:32:51Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/541"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 538,
@@ -127,8 +259,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -195,6 +327,66 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 654,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-09T17:59:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/654"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 653,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.10",
+          "merged_at": "2026-04-09T17:55:06Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/653"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 651,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-09T14:12:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/651"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 652,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.10",
+          "merged_at": "2026-04-09T14:07:27Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/652"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 650,
+          "title": "Update pre-commit-config.yaml",
+          "merged_at": "2026-04-09T12:32:26Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/650"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 649,
           "title": "Bump github.com/lib/pq from 1.12.2 to 1.12.3",
           "merged_at": "2026-04-09T08:12:52Z",
@@ -252,42 +444,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/646"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 644,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-02T17:52:44Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/644"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 643,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-02T13:47:31Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/643"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 7,
+        "total_prs_analyzed": 10,
+        "total_commits": 10,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 14.285714285714285,
-        "avg_retests_per_pr": 0.14285714285714285,
-        "avg_retests_per_commit": 0.14285714285714285
+        "pr_retest_rate": 10.0,
+        "avg_retests_per_pr": 0.1,
+        "avg_retests_per_commit": 0.1
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
@@ -319,6 +487,30 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1089,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.10",
+          "merged_at": "2026-04-09T14:19:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1089"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1088,
+          "title": "Update pre-commit-config.yaml",
+          "merged_at": "2026-04-09T12:28:54Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1088"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1080,
@@ -369,19 +561,55 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.25
+        "pr_retest_rate": 16.666666666666664,
+        "avg_retests_per_pr": 0.16666666666666666,
+        "avg_retests_per_commit": 0.16666666666666666
       }
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 793,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-09T18:19:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/793"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 792,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.10",
+          "merged_at": "2026-04-09T18:04:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/792"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 790,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-09T14:22:18Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/790"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 787,
@@ -393,6 +621,18 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/787"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 784,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.9",
+          "merged_at": "2026-04-09T07:13:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/784"
         },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
@@ -417,48 +657,85 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/789"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 784,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.9",
-          "merged_at": "2026-04-09T07:13:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/784"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 3,
         "retest_comments": 3,
         "update_branch_actions": 0,
         "prs_with_retests": 3,
-        "pr_retest_rate": 75.0,
-        "avg_retests_per_pr": 0.75,
-        "avg_retests_per_commit": 0.75
+        "pr_retest_rate": 42.857142857142854,
+        "avg_retests_per_pr": 0.42857142857142855,
+        "avg_retests_per_commit": 0.42857142857142855
       }
     },
     "RedHatInsights/obsint-mocks": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 168,
+          "title": "Update pre-commit-config.yaml",
+          "merged_at": "2026-04-09T12:54:28Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 1,
+          "update_branch_count": 1,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/168"
+        },
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 169,
+          "title": "Fix CODEOWNERS",
+          "merged_at": "2026-04-09T12:43:43Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/169"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "total_prs_analyzed": 2,
+        "total_commits": 3,
+        "total_retests": 2,
+        "retest_comments": 1,
+        "update_branch_actions": 1,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.6666666666666666
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1698,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v43.110.10",
+          "merged_at": "2026-04-09T14:25:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1698"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1697,
+          "title": "Update pre-commit-config.yaml",
+          "merged_at": "2026-04-09T12:36:53Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1697"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1695,
@@ -497,15 +774,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 4,
+        "total_prs_analyzed": 5,
+        "total_commits": 6,
         "total_retests": 7,
         "retest_comments": 7,
         "update_branch_actions": 0,
         "prs_with_retests": 3,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 2.3333333333333335,
-        "avg_retests_per_commit": 1.75
+        "pr_retest_rate": 60.0,
+        "avg_retests_per_pr": 1.4,
+        "avg_retests_per_commit": 1.1666666666666667
       }
     }
   }
