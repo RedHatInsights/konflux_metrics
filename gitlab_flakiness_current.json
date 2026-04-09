@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-09T07:03:49.503891",
+  "analysis_date": "2026-04-09T19:03:51.026326",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-02T07:03:33.269635+00:00",
-    "to": "2026-04-09T07:03:49.503907"
+    "from": "2026-04-02T19:03:35.123083+00:00",
+    "to": "2026-04-09T19:03:51.026342"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 2,
-    "total_commits": 3,
+    "total_mrs_analyzed": 3,
+    "total_commits": 5,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 2,
+    "mrs_with_lte_1_retest": 3,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1218,
+          "title": "Migrate to iqe-bindings for rbac API",
+          "merged_at": "2026-04-09T08:15:40.451Z",
+          "author": "mshriver",
+          "total_commits": 2,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1218"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1219,
@@ -52,8 +62,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 2,
-        "total_commits": 3,
+        "total_mrs_analyzed": 3,
+        "total_commits": 5,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
