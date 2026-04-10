@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-10T09:35:59.809464",
+  "analysis_date": "2026-04-10T21:18:12.879766",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,26 +15,62 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-03T09:35:03.463112+00:00",
-    "to": "2026-04-10T09:35:59.809482"
+    "from": "2026-04-03T21:16:51.964146+00:00",
+    "to": "2026-04-10T21:18:12.879778"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 59,
-    "total_commits": 61,
-    "total_retests": 21,
-    "retest_comments": 20,
+    "total_prs_analyzed": 78,
+    "total_commits": 81,
+    "total_retests": 20,
+    "retest_comments": 19,
     "update_branch_actions": 1,
-    "prs_with_retests": 14,
-    "prs_with_lte_1_retest": 55,
-    "prs_with_lte_1_retest_percentage": 93.22033898305084,
-    "pr_retest_rate": 23.728813559322035,
-    "avg_retests_per_pr": 0.3559322033898305,
-    "avg_retests_per_commit": 0.3442622950819672
+    "prs_with_retests": 13,
+    "prs_with_lte_1_retest": 74,
+    "prs_with_lte_1_retest_percentage": 94.87179487179486,
+    "pr_retest_rate": 16.666666666666664,
+    "avg_retests_per_pr": 0.2564102564102564,
+    "avg_retests_per_commit": 0.24691358024691357
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 678,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T14:52:58Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/678"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 677,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.14",
+          "merged_at": "2026-04-10T09:50:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/677"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 671,
+          "title": "[CCXDEV-15098] Fix memory leak - add broker size observability gauges",
+          "merged_at": "2026-04-10T11:48:04Z",
+          "user": "matysek",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/671"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 674,
@@ -73,19 +109,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 6,
+        "total_commits": 7,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.3333333333333333,
-        "avg_retests_per_commit": 0.3333333333333333
+        "pr_retest_rate": 16.666666666666664,
+        "avg_retests_per_pr": 0.16666666666666666,
+        "avg_retests_per_commit": 0.14285714285714285
       }
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2419,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.14",
+          "merged_at": "2026-04-10T09:55:13Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2419"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2417,
@@ -208,19 +256,43 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 10,
+        "total_prs_analyzed": 11,
+        "total_commits": 11,
         "total_retests": 5,
         "retest_comments": 5,
         "update_branch_actions": 0,
         "prs_with_retests": 3,
-        "pr_retest_rate": 30.0,
-        "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.5
+        "pr_retest_rate": 27.27272727272727,
+        "avg_retests_per_pr": 0.45454545454545453,
+        "avg_retests_per_commit": 0.45454545454545453
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 550,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T15:01:20Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/550"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 549,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.14",
+          "merged_at": "2026-04-10T09:43:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/549"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 548,
@@ -343,8 +415,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 10,
+        "total_prs_analyzed": 12,
+        "total_commits": 12,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -358,57 +430,94 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 260,
-          "title": "Bump requests from 2.32.5 to 2.33.1",
-          "merged_at": "2026-04-09T08:07:03Z",
-          "user": "dependabot[bot]",
+          "pr_number": 263,
+          "title": "Update Pre-commit hooks",
+          "merged_at": "2026-04-10T14:19:14Z",
+          "user": "red-hat-konflux[bot]",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/260"
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/263"
         },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 261,
-          "title": "Bump fastapi from 0.132.0 to 0.135.3",
-          "merged_at": "2026-04-09T07:58:17Z",
-          "user": "dependabot[bot]",
+          "pr_number": 265,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T14:58:26Z",
+          "user": "InsightsDroid",
           "total_commits": 1,
-          "retest_comments": 1,
+          "retest_comments": 0,
           "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/261"
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/265"
         }
       ],
       "summary": {
         "total_prs_analyzed": 2,
         "total_commits": 2,
-        "total_retests": 1,
-        "retest_comments": 1,
-        "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.5
-      }
-    },
-    "RedHatInsights/insights-behavioral-spec": {
-      "prs": [],
-      "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
+      }
+    },
+    "RedHatInsights/insights-behavioral-spec": {
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-behavioral-spec",
+          "pr_number": 750,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T15:08:39Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-behavioral-spec/pull/750"
+        }
+      ],
+      "summary": {
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 660,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T15:00:01Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/660"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 659,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.14",
+          "merged_at": "2026-04-10T09:49:19Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/659"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 657,
@@ -531,19 +640,55 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 10,
+        "total_prs_analyzed": 12,
+        "total_commits": 12,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 10.0,
-        "avg_retests_per_pr": 0.1,
-        "avg_retests_per_commit": 0.1
+        "pr_retest_rate": 8.333333333333332,
+        "avg_retests_per_pr": 0.08333333333333333,
+        "avg_retests_per_commit": 0.08333333333333333
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 605,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.10",
+          "merged_at": "2026-04-10T14:16:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/605"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 607,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T14:56:07Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/607"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 604,
+          "title": "Add common linter workflow",
+          "merged_at": "2026-04-10T11:56:28Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/604"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 603,
@@ -570,8 +715,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -583,6 +728,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1090,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T15:04:27Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1090"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1089,
@@ -645,19 +802,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 20.0,
-        "avg_retests_per_pr": 0.2,
-        "avg_retests_per_commit": 0.2
+        "pr_retest_rate": 16.666666666666664,
+        "avg_retests_per_pr": 0.16666666666666666,
+        "avg_retests_per_commit": 0.16666666666666666
       }
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 795,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T14:58:18Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/795"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 794,
@@ -756,19 +925,67 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 8,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
         "total_retests": 3,
         "retest_comments": 3,
         "update_branch_actions": 0,
         "prs_with_retests": 3,
-        "pr_retest_rate": 37.5,
-        "avg_retests_per_pr": 0.375,
-        "avg_retests_per_commit": 0.375
+        "pr_retest_rate": 33.33333333333333,
+        "avg_retests_per_pr": 0.3333333333333333,
+        "avg_retests_per_commit": 0.3333333333333333
       }
     },
     "RedHatInsights/obsint-mocks": {
       "prs": [
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 175,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T15:07:22Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/175"
+        },
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 174,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-10T14:04:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/174"
+        },
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 173,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-10T09:45:36Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/173"
+        },
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 172,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.110.14",
+          "merged_at": "2026-04-10T09:42:47Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/172"
+        },
         {
           "repository": "RedHatInsights/obsint-mocks",
           "pr_number": 170,
@@ -819,19 +1036,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 5,
+        "total_prs_analyzed": 8,
+        "total_commits": 9,
         "total_retests": 2,
         "retest_comments": 1,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.4
+        "pr_retest_rate": 12.5,
+        "avg_retests_per_pr": 0.25,
+        "avg_retests_per_commit": 0.2222222222222222
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1699,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-10T15:17:05Z",
+          "user": "InsightsDroid",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1699"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1698,
@@ -894,15 +1123,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 6,
+        "total_prs_analyzed": 6,
+        "total_commits": 7,
         "total_retests": 7,
         "retest_comments": 7,
         "update_branch_actions": 0,
         "prs_with_retests": 3,
-        "pr_retest_rate": 60.0,
-        "avg_retests_per_pr": 1.4,
-        "avg_retests_per_commit": 1.1666666666666667
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 1.1666666666666667,
+        "avg_retests_per_commit": 1.0
       }
     }
   }
