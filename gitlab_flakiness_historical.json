@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-13T10:39:42.344692+00:00",
+  "analysis_date": "2026-04-13T22:22:19.651055+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-01-13T10:39:42.332727+00:00",
-    "to": "2026-04-13T10:39:42.344692+00:00"
+    "from": "2026-01-13T22:22:19.638900+00:00",
+    "to": "2026-04-13T22:22:19.651055+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -590,26 +590,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1133"
-        },
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1131,
-          "title": "[CCXDEV-15916] Removing recursive permissions changes from Dockerfile",
-          "merged_at": "2026-01-13T15:39:39.344Z",
-          "author": "jsegural",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1131"
-        },
-        {
-          "project": "ccx/ccx-data-pipeline",
-          "mr_iid": 1129,
-          "title": "[CCXDEV-15854] Fix CVE-2025-66034 Remove fonttools dependency (no longer required)",
-          "merged_at": "2026-01-13T11:07:56.468Z",
-          "author": "mzibrick",
-          "total_commits": 9,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-data-pipeline/-/merge_requests/1129"
         }
       ],
       "summary": {
@@ -687,6 +667,26 @@
     },
     "ccx/ccx-load-test": {
       "mrs": [
+        {
+          "project": "ccx/ccx-load-test",
+          "mr_iid": 104,
+          "title": "Increase max and avg response time for the v1/org_overview endpoint",
+          "merged_at": "2026-04-13T12:58:41.749Z",
+          "author": "lsolarov",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/104"
+        },
+        {
+          "project": "ccx/ccx-load-test",
+          "mr_iid": 103,
+          "title": "Increase max and avg response time for the v1/org_overview endpoint",
+          "merged_at": "2026-04-13T12:58:41.617Z",
+          "author": "lsolarov",
+          "total_commits": 1,
+          "total_retests": 2,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/103"
+        },
         {
           "project": "ccx/ccx-load-test",
           "mr_iid": 102,
@@ -818,12 +818,12 @@
       }
     }
   },
-  "last_updated": "2026-04-13T10:39:42.344692+00:00",
-  "cutoff_date": "2026-01-13T10:39:42.332727+00:00",
+  "last_updated": "2026-04-13T22:22:19.651055+00:00",
+  "cutoff_date": "2026-01-13T22:22:19.638900+00:00",
   "summary": {
     "total_mrs": 70,
-    "total_retests": 0,
-    "mrs_with_retests": 0,
-    "retest_rate": 0.0
+    "total_retests": 2,
+    "mrs_with_retests": 1,
+    "retest_rate": 1.4285714285714286
   }
 }
