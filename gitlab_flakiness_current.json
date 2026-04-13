@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-13T07:03:55.236902",
+  "analysis_date": "2026-04-13T19:03:35.982317",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,20 +12,20 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-06T07:03:38.700590+00:00",
-    "to": "2026-04-13T07:03:55.236941"
+    "from": "2026-04-06T19:03:21.227414+00:00",
+    "to": "2026-04-13T19:03:35.982334"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 3,
-    "total_commits": 5,
-    "total_retests": 0,
-    "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 3,
-    "mrs_with_lte_1_retest_percentage": 100.0,
-    "mr_retest_rate": 0.0,
-    "avg_retests_per_mr": 0.0,
-    "avg_retests_per_commit": 0.0
+    "total_mrs_analyzed": 5,
+    "total_commits": 7,
+    "total_retests": 2,
+    "mrs_with_retests": 1,
+    "mrs_with_lte_1_retest": 4,
+    "mrs_with_lte_1_retest_percentage": 80.0,
+    "mr_retest_rate": 20.0,
+    "avg_retests_per_mr": 0.4,
+    "avg_retests_per_commit": 0.2857142857142857
   },
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
@@ -96,15 +96,36 @@
       }
     },
     "ccx/ccx-load-test": {
-      "mrs": [],
+      "mrs": [
+        {
+          "project": "ccx/ccx-load-test",
+          "mr_iid": 104,
+          "title": "Increase max and avg response time for the v1/org_overview endpoint",
+          "merged_at": "2026-04-13T12:58:41.749Z",
+          "author": "lsolarov",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/104"
+        },
+        {
+          "project": "ccx/ccx-load-test",
+          "mr_iid": 103,
+          "title": "Increase max and avg response time for the v1/org_overview endpoint",
+          "merged_at": "2026-04-13T12:58:41.617Z",
+          "author": "lsolarov",
+          "total_commits": 1,
+          "total_retests": 2,
+          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/103"
+        }
+      ],
       "summary": {
-        "total_mrs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "mrs_with_retests": 0,
-        "mr_retest_rate": 0,
-        "avg_retests_per_mr": 0,
-        "avg_retests_per_commit": 0
+        "total_mrs_analyzed": 2,
+        "total_commits": 2,
+        "total_retests": 2,
+        "mrs_with_retests": 1,
+        "mr_retest_rate": 50.0,
+        "avg_retests_per_mr": 1.0,
+        "avg_retests_per_commit": 1.0
       }
     },
     "ccx/parquet-factory": {
