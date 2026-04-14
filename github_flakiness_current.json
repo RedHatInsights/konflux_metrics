@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-13T21:23:57.301214",
+  "analysis_date": "2026-04-14T09:42:53.136299",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,22 +15,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-06T21:22:12.634669+00:00",
-    "to": "2026-04-13T21:23:57.301224"
+    "from": "2026-04-07T09:39:51.726675+00:00",
+    "to": "2026-04-14T09:42:53.136318"
   },
   "overall_summary": {
     "total_repos": 11,
-    "total_prs_analyzed": 124,
-    "total_commits": 127,
-    "total_retests": 20,
-    "retest_comments": 19,
+    "total_prs_analyzed": 125,
+    "total_commits": 128,
+    "total_retests": 21,
+    "retest_comments": 20,
     "update_branch_actions": 1,
-    "prs_with_retests": 13,
-    "prs_with_lte_1_retest": 120,
-    "prs_with_lte_1_retest_percentage": 96.7741935483871,
-    "pr_retest_rate": 10.483870967741936,
-    "avg_retests_per_pr": 0.16129032258064516,
-    "avg_retests_per_commit": 0.15748031496062992
+    "prs_with_retests": 14,
+    "prs_with_lte_1_retest": 121,
+    "prs_with_lte_1_retest_percentage": 96.8,
+    "pr_retest_rate": 11.200000000000001,
+    "avg_retests_per_pr": 0.168,
+    "avg_retests_per_commit": 0.1640625
   },
   "repositories": {
     "RedHatInsights/insights-ccx-messaging": {
@@ -196,15 +196,15 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2427,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-13T20:23:28Z",
-          "user": "red-hat-konflux[bot]",
+          "pr_number": 2425,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-13T22:45:41Z",
+          "user": "InsightsDroid",
           "total_commits": 1,
-          "retest_comments": 0,
+          "retest_comments": 1,
           "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2427"
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2425"
         },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
@@ -217,6 +217,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2428"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2427,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-13T20:23:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2427"
         },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
@@ -412,15 +424,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 18,
-        "total_commits": 18,
-        "total_retests": 5,
-        "retest_comments": 5,
+        "total_prs_analyzed": 19,
+        "total_commits": 19,
+        "total_retests": 6,
+        "retest_comments": 6,
         "update_branch_actions": 0,
-        "prs_with_retests": 3,
-        "pr_retest_rate": 16.666666666666664,
-        "avg_retests_per_pr": 0.2777777777777778,
-        "avg_retests_per_commit": 0.2777777777777778
+        "prs_with_retests": 4,
+        "pr_retest_rate": 21.052631578947366,
+        "avg_retests_per_pr": 0.3157894736842105,
+        "avg_retests_per_commit": 0.3157894736842105
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
