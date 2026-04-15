@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-15T10:34:19.097704+00:00",
+  "analysis_date": "2026-04-15T22:20:19.423562+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-01-15T10:34:19.070656+00:00",
-    "to": "2026-04-15T10:34:19.097704+00:00"
+    "from": "2026-01-15T22:20:19.395565+00:00",
+    "to": "2026-04-15T22:20:19.423562+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1283,18 +1283,6 @@
           "update_branch_count": 1,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2353"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2352,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:54:38Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 5,
-          "update_branch_count": 0,
-          "total_retests": 5,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2352"
         }
       ],
       "summary": {
@@ -1958,30 +1946,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/504"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 502,
-          "title": "fix(deps): update module github.com/minio/minio-go/v7 to v7.0.98",
-          "merged_at": "2026-01-15T15:14:39Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/502"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 501,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:49:25Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/501"
         }
       ],
       "summary": {
@@ -2532,6 +2496,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 671,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-15T17:49:06Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/671"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 668,
@@ -3647,30 +3623,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/575"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 574,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-15T17:05:56Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/574"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 573,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:54:49Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/573"
         }
       ],
       "summary": {
@@ -3687,6 +3639,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 615,
+          "title": "chore(deps): update all dependencies",
+          "merged_at": "2026-04-15T17:42:18Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/615"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 614,
@@ -4298,30 +4262,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/563"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 562,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-15T17:04:43Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/562"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 561,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:54:58Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/561"
         }
       ],
       "summary": {
@@ -4673,18 +4613,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1051"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1049,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:54:21Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1049"
         }
       ],
       "summary": {
@@ -5300,18 +5228,6 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/740"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 739,
-          "title": "[CCXDEV-15516] Add CI for checking Go version sync",
-          "merged_at": "2026-01-15T11:49:37Z",
-          "user": "JiriPapousek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/739"
         }
       ],
       "summary": {
@@ -5328,6 +5244,18 @@
     },
     "RedHatInsights/obsint-mocks": {
       "prs": [
+        {
+          "repository": "RedHatInsights/obsint-mocks",
+          "pr_number": 183,
+          "title": "chore(deps): update pre-commit hook redhatinsights/processing-tools to v0.2.0",
+          "merged_at": "2026-04-15T14:34:45Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/obsint-mocks/pull/183"
+        },
         {
           "repository": "RedHatInsights/obsint-mocks",
           "pr_number": 182,
@@ -5969,14 +5897,14 @@
       }
     }
   },
-  "last_updated": "2026-04-15T10:34:19.097704+00:00",
-  "cutoff_date": "2026-01-15T10:34:19.070656+00:00",
+  "last_updated": "2026-04-15T22:20:19.423562+00:00",
+  "cutoff_date": "2026-01-15T22:20:19.395565+00:00",
   "summary": {
-    "total_prs": 481,
-    "total_retests": 106,
-    "prs_with_retests": 68,
-    "retest_rate": 14.137214137214137,
-    "retest_comments": 89,
+    "total_prs": 475,
+    "total_retests": 100,
+    "prs_with_retests": 66,
+    "retest_rate": 13.894736842105262,
+    "retest_comments": 83,
     "update_branch_actions": 17
   }
 }
