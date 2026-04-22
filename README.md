@@ -46,27 +46,28 @@ The [Grafana dashboard](https://grafana.app-sre.devshift.net/d/cf3bjtzod9blsa/ko
 
 ## Repositories Analyzed
 
-### GitHub (11 repositories)
-- RedHatInsights/insights-ccx-messaging
+### GitHub (17 repositories)
 - RedHatInsights/insights-results-aggregator
-- RedHatInsights/insights-results-aggregator-exporter
-- RedHatInsights/insights-content-template-renderer
-- RedHatInsights/insights-behavioral-spec
 - RedHatInsights/insights-results-aggregator-cleaner
+- RedHatInsights/insights-results-aggregator-exporter
+- RedHatInsights/insights-results-aggregator-mock
+- RedHatInsights/insights-ccx-messaging
+- RedHatInsights/content-service
+- RedHatInsights/insights-content-template-renderer
+- RedHatInsights/insights-operator-gathering-conditions
 - RedHatInsights/insights-operator-gathering-conditions-service
+- RedHatInsights/insights-operator-utils
 - RedHatInsights/ccx-notification-service
 - RedHatInsights/ccx-notification-writer
-- RedHatInsights/obsint-mocks
+- RedHatInsights/ocp-advisor-frontend
+- RedHatInsights/parquet-factory
 - RedHatInsights/insights-results-smart-proxy
+- RedHatInsights/ccx-upgrades-data-eng
+- RedHatInsights/ccx-upgrades-inference
 
-### GitLab (7 projects)
+### GitLab (2 projects)
 - insights-qe/iqe-ccx-plugin
-- ccx/ccx-data-pipeline
-- ccx/content-service
 - ccx/ccx-load-test
-- ccx/parquet-factory
-- ccx/ccx-upgrades-data-eng
-- ccx/ccx-upgrades-inference
 
 ## JSON Output
 

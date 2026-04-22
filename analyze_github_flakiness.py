@@ -42,22 +42,27 @@ class HistoricalFlakinessAnalyzer:
         page = 1
 
         while True:
-            url = f"{self.base_url}/pulls?state=closed&sort=updated&direction=desc&per_page=100&page={page}"
+            url = f"{self.base_url}/pulls?state=closed&sort=created&direction=desc&per_page=100&page={page}"
             data = self._api_request(url)
 
             if not data:
                 break
 
+            done = False
             for pr in data:
-                # Check if merged
+                created_at = datetime.fromisoformat(pr['created_at'].replace('Z', '+00:00'))
+
+                # PRs sorted by created desc; once created_at is before our window, all remaining are too
+                if created_at < since_date:
+                    done = True
+                    break
+
                 if not pr.get('merged_at'):
                     continue
 
                 merged_at = datetime.fromisoformat(pr['merged_at'].replace('Z', '+00:00'))
-
-                # Stop if we've gone past our date range
                 if merged_at < since_date:
-                    return prs
+                    continue
 
                 prs.append({
                     'number': pr['number'],
@@ -66,6 +71,9 @@ class HistoricalFlakinessAnalyzer:
                     'user': pr['user']['login'],
                     'base_ref': pr['base']['ref']
                 })
+
+            if done:
+                break
 
             page += 1
 
@@ -193,17 +201,23 @@ class HistoricalFlakinessAnalyzer:
 def main():
     # Configuration
     repos = [
-        "RedHatInsights/insights-ccx-messaging",
         "RedHatInsights/insights-results-aggregator",
-        "RedHatInsights/insights-results-aggregator-exporter",
-        "RedHatInsights/insights-content-template-renderer",
-        "RedHatInsights/insights-behavioral-spec",
         "RedHatInsights/insights-results-aggregator-cleaner",
+        "RedHatInsights/insights-results-aggregator-exporter",
+        "RedHatInsights/insights-results-aggregator-mock",
+        "RedHatInsights/insights-ccx-messaging",
+        "RedHatInsights/content-service",
+        "RedHatInsights/insights-content-template-renderer",
+        "RedHatInsights/insights-operator-gathering-conditions",
         "RedHatInsights/insights-operator-gathering-conditions-service",
+        "RedHatInsights/insights-operator-utils",
         "RedHatInsights/ccx-notification-service",
         "RedHatInsights/ccx-notification-writer",
-        "RedHatInsights/obsint-mocks",
-        "RedHatInsights/insights-results-smart-proxy"
+        "RedHatInsights/ocp-advisor-frontend",
+        "RedHatInsights/parquet-factory",
+        "RedHatInsights/insights-results-smart-proxy",
+        "RedHatInsights/ccx-upgrades-data-eng",
+        "RedHatInsights/ccx-upgrades-inference",
     ]
     # Analyze last 7 days for incremental updates
     # Can be overridden with DAYS_BACK environment variable for backfilling

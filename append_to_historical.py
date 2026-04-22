@@ -256,6 +256,28 @@ def merge_data(increment_file, historical_file, output_file, platform='github', 
         print(f"  📈 Total: {total_items} {cfg['item_name_plural']}, {total_retests} retests")
 
 
+def add_combined_metrics(github_current_file, gitlab_current_file):
+    """Compute combined weighted % and write it back into the GitHub current JSON"""
+    github = load_json(github_current_file)
+    gitlab = load_json(gitlab_current_file)
+
+    if not github or not gitlab:
+        print("  ⚠️  Cannot compute combined metrics — one or both current files missing")
+        return
+
+    gh_summary = github.get('overall_summary', {})
+    gl_summary = gitlab.get('overall_summary', {})
+
+    total = gh_summary.get('total_prs_analyzed', 0) + gl_summary.get('total_mrs_analyzed', 0)
+    lte1 = gh_summary.get('prs_with_lte_1_retest', 0) + gl_summary.get('mrs_with_lte_1_retest', 0)
+
+    combined_pct = lte1 / total * 100 if total > 0 else 0
+    github['overall_summary']['combined_weighted_lte_1_retest_percentage'] = combined_pct
+
+    save_json(github_current_file, github)
+    print(f"  📊 Combined weighted %: {combined_pct:.1f}% ({lte1}/{total} PRs/MRs with ≤1 retest)")
+
+
 def main():
     """Main execution"""
     print("=" * 80)
@@ -279,6 +301,10 @@ def main():
         platform='gitlab',
         days_to_keep=90
     )
+
+    #combined weighted metric
+    print("\n📊 Computing combined weighted metrics...")
+    add_combined_metrics('github_flakiness_current.json', 'gitlab_flakiness_current.json')
 
     print("\n✅ Historical data updated successfully!")
     print("=" * 80)

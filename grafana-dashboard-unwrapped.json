@@ -419,7 +419,7 @@
           "columns": [
             {
               "selector": "prs_with_lte_1_retest_percentage",
-              "text": "percentage",
+              "text": "GitHub %",
               "type": "number"
             }
           ],
@@ -442,7 +442,7 @@
           "columns": [
             {
               "selector": "mrs_with_lte_1_retest_percentage",
-              "text": "percentage",
+              "text": "GitLab %",
               "type": "number"
             }
           ],
@@ -467,16 +467,93 @@
         {
           "id": "merge",
           "options": {}
-        },
-        {
-          "id": "reduce",
-          "options": {
-            "includeTimeField": false,
-            "mode": "reduceFields",
-            "reducers": [
-              "mean"
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "yesoreyeram-infinity-datasource",
+        "uid": "infinity-any-url"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "percentage",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 90
+              }
             ]
+          },
+          "max": 100,
+          "min": 0,
+          "unit": "percent"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 4,
+        "x": 12,
+        "y": 0
+      },
+      "id": 7,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "textMode": "auto",
+        "showPercentChange": false
+      },
+      "pluginVersion": "11.6.3",
+      "targets": [
+        {
+          "columns": [
+            {
+              "selector": "combined_weighted_lte_1_retest_percentage",
+              "text": "Combined %",
+              "type": "number"
+            }
+          ],
+          "datasource": {
+            "type": "yesoreyeram-infinity-datasource",
+            "uid": "infinity-any-url"
+          },
+          "format": "table",
+          "parser": "backend",
+          "refId": "A",
+          "root_selector": "$.overall_summary",
+          "source": "url",
+          "type": "json",
+          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
+          "url_options": {
+            "method": "GET"
           }
+        }
+      ],
+      "title": "Combined Weighted % PRs/MRs with ≤1 Retest (Last 7 Days)",
+      "transformations": [
+        {
+          "id": "merge",
+          "options": {}
         }
       ],
       "type": "stat"

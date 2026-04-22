@@ -194,12 +194,7 @@ def main():
     gitlab_url = "https://gitlab.cee.redhat.com"
     project_paths = [
         "insights-qe/iqe-ccx-plugin",
-        "ccx/ccx-data-pipeline",
-        "ccx/content-service",
         "ccx/ccx-load-test",
-        "ccx/parquet-factory",
-        "ccx/ccx-upgrades-data-eng",
-        "ccx/ccx-upgrades-inference"
     ]
     # Analyze last 7 days for incremental updates
     # Can be overridden with DAYS_BACK environment variable for backfilling
