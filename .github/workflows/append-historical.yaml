@@ -39,8 +39,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add only the historical files
-          git add github_flakiness_historical.json gitlab_flakiness_historical.json
+          # Add historical files and current (which gets combined weighted % written to it)
+          git add github_flakiness_historical.json gitlab_flakiness_historical.json github_flakiness_current.json
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
