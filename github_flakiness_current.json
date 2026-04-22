@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-22T09:43:36.647761",
+  "analysis_date": "2026-04-22T21:26:32.173650",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,27 +21,38 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-15T09:40:04.721756+00:00",
-    "to": "2026-04-22T09:43:36.647776"
+    "from": "2026-04-15T21:23:12.282385+00:00",
+    "to": "2026-04-22T21:26:32.173668"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 248,
-    "total_commits": 310,
-    "total_retests": 27,
-    "retest_comments": 24,
+    "total_prs_analyzed": 241,
+    "total_commits": 295,
+    "total_retests": 17,
+    "retest_comments": 14,
     "update_branch_actions": 3,
-    "prs_with_retests": 16,
-    "prs_with_lte_1_retest": 239,
-    "prs_with_lte_1_retest_percentage": 96.37096774193549,
-    "pr_retest_rate": 6.451612903225806,
-    "avg_retests_per_pr": 0.10887096774193548,
-    "avg_retests_per_commit": 0.08709677419354839,
-    "combined_weighted_lte_1_retest_percentage": 96.3855421686747
+    "prs_with_retests": 10,
+    "prs_with_lte_1_retest": 235,
+    "prs_with_lte_1_retest_percentage": 97.5103734439834,
+    "pr_retest_rate": 4.149377593360995,
+    "avg_retests_per_pr": 0.07053941908713693,
+    "avg_retests_per_commit": 0.0576271186440678
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2456,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.4",
+          "merged_at": "2026-04-22T14:07:22Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2456"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2455,
@@ -317,35 +328,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2432"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2431,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-15T21:56:32Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2431"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2430,
-          "title": "chore(deps): update pre-commit hooks",
-          "merged_at": "2026-04-15T21:52:44Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2430"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 25,
-        "total_commits": 28,
+        "total_prs_analyzed": 24,
+        "total_commits": 27,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -357,6 +344,30 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 702,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.5",
+          "merged_at": "2026-04-22T18:10:24Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/702"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 701,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.4",
+          "merged_at": "2026-04-22T13:54:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/701"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 700,
@@ -692,58 +703,46 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/672"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 671,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-15T17:49:06Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/671"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 670,
-          "title": "chore(deps): update pre-commit hooks",
-          "merged_at": "2026-04-15T21:45:30Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/670"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 669,
-          "title": "[CCXDEV-16245] Switch to shared gotests reusable workflow",
-          "merged_at": "2026-04-16T12:34:58Z",
-          "user": "lenasolarova",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/669"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 31,
-        "total_commits": 35,
+        "total_prs_analyzed": 30,
+        "total_commits": 33,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 3.225806451612903,
-        "avg_retests_per_pr": 0.03225806451612903,
-        "avg_retests_per_commit": 0.02857142857142857
+        "pr_retest_rate": 3.3333333333333335,
+        "avg_retests_per_pr": 0.03333333333333333,
+        "avg_retests_per_commit": 0.030303030303030304
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 588,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.5",
+          "merged_at": "2026-04-22T18:04:11Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/588"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 587,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.4",
+          "merged_at": "2026-04-22T13:46:19Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/587"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 586,
@@ -1031,22 +1030,10 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/561"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 560,
-          "title": "[CCXDEV-16245] Switch to shared gotests reusable workflow",
-          "merged_at": "2026-04-16T12:35:00Z",
-          "user": "lenasolarova",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/560"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 25,
+        "total_prs_analyzed": 26,
         "total_commits": 29,
         "total_retests": 0,
         "retest_comments": 0,
@@ -1122,6 +1109,30 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 714,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.5",
+          "merged_at": "2026-04-22T18:13:08Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/714"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 713,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.4",
+          "merged_at": "2026-04-22T13:51:39Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/713"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 712,
@@ -1373,23 +1384,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/690"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 689,
-          "title": "chore(deps): update pre-commit hooks",
-          "merged_at": "2026-04-15T21:44:05Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/689"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 22,
-        "total_commits": 25,
+        "total_prs_analyzed": 23,
+        "total_commits": 26,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1401,6 +1400,18 @@
     },
     "RedHatInsights/content-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 805,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v43.139.5",
+          "merged_at": "2026-04-22T18:16:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/805"
+        },
         {
           "repository": "RedHatInsights/content-service",
           "pr_number": 804,
@@ -1712,18 +1723,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/777"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 776,
-          "title": "Update Go dependencies",
-          "merged_at": "2026-04-15T17:52:07Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/776"
         }
       ],
       "summary": {
@@ -1895,30 +1894,18 @@
           "update_branch_count": 1,
           "total_retests": 3,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/275"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 274,
-          "title": "Update Pre-commit hooks",
-          "merged_at": "2026-04-20T12:28:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/274"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 18,
-        "total_retests": 7,
-        "retest_comments": 6,
+        "total_prs_analyzed": 13,
+        "total_commits": 17,
+        "total_retests": 5,
+        "retest_comments": 4,
         "update_branch_actions": 1,
-        "prs_with_retests": 3,
-        "pr_retest_rate": 21.428571428571427,
-        "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.3888888888888889
+        "prs_with_retests": 2,
+        "pr_retest_rate": 15.384615384615385,
+        "avg_retests_per_pr": 0.38461538461538464,
+        "avg_retests_per_commit": 0.29411764705882354
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions": {
@@ -1974,6 +1961,30 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 645,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.5",
+          "merged_at": "2026-04-22T18:07:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/645"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 644,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.139.4",
+          "merged_at": "2026-04-22T13:56:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/644"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 643,
@@ -2297,23 +2308,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/616"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 615,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-04-15T17:42:18Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/615"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 28,
-        "total_commits": 31,
+        "total_prs_analyzed": 29,
+        "total_commits": 32,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -2543,30 +2542,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1093"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1091,
-          "title": "[CCXDEV-16245] Switch to shared gotests reusable workflow",
-          "merged_at": "2026-04-20T13:32:50Z",
-          "user": "lenasolarova",
-          "total_commits": 3,
-          "retest_comments": 3,
-          "update_branch_count": 0,
-          "total_retests": 3,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1091"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 19,
-        "total_retests": 3,
-        "retest_comments": 3,
+        "total_prs_analyzed": 13,
+        "total_commits": 16,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 7.142857142857142,
-        "avg_retests_per_pr": 0.21428571428571427,
-        "avg_retests_per_commit": 0.15789473684210525
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -2654,30 +2641,18 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/798"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 797,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-04-20T12:43:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/797"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 11,
-        "total_retests": 5,
-        "retest_comments": 5,
+        "total_prs_analyzed": 7,
+        "total_commits": 10,
+        "total_retests": 3,
+        "retest_comments": 3,
         "update_branch_actions": 0,
-        "prs_with_retests": 3,
-        "pr_retest_rate": 37.5,
-        "avg_retests_per_pr": 0.625,
-        "avg_retests_per_commit": 0.45454545454545453
+        "prs_with_retests": 2,
+        "pr_retest_rate": 28.57142857142857,
+        "avg_retests_per_pr": 0.42857142857142855,
+        "avg_retests_per_commit": 0.3
       }
     },
     "RedHatInsights/ocp-advisor-frontend": {
@@ -2780,30 +2755,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/parquet-factory/pull/54"
-        },
-        {
-          "repository": "RedHatInsights/parquet-factory",
-          "pr_number": 53,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-20T07:12:34Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/parquet-factory/pull/53"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 9,
-        "total_retests": 1,
-        "retest_comments": 1,
+        "total_prs_analyzed": 5,
+        "total_commits": 8,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 16.666666666666664,
-        "avg_retests_per_pr": 0.16666666666666666,
-        "avg_retests_per_commit": 0.1111111111111111
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
@@ -2867,30 +2830,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1701"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1700,
-          "title": "[CCXDEV-16245] Switch to shared gotests reusable workflow",
-          "merged_at": "2026-04-21T07:15:53Z",
-          "user": "lenasolarova",
-          "total_commits": 3,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1700"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 13,
-        "total_retests": 4,
-        "retest_comments": 2,
+        "total_prs_analyzed": 5,
+        "total_commits": 10,
+        "total_retests": 3,
+        "retest_comments": 1,
         "update_branch_actions": 2,
-        "prs_with_retests": 3,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 0.6666666666666666,
-        "avg_retests_per_commit": 0.3076923076923077
+        "prs_with_retests": 2,
+        "pr_retest_rate": 40.0,
+        "avg_retests_per_pr": 0.6,
+        "avg_retests_per_commit": 0.3
       }
     },
     "RedHatInsights/ccx-upgrades-data-eng": {
@@ -3050,42 +3001,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/57"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 56,
-          "title": "Fix test assertion for pydantic UUID error message",
-          "merged_at": "2026-04-15T14:06:42Z",
-          "user": "lenasolarova",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/56"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 55,
-          "title": "[CXDEV-16261] Switch to shared pytests reusable workflow",
-          "merged_at": "2026-04-16T11:10:33Z",
-          "user": "lenasolarova",
-          "total_commits": 2,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/55"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 15,
-        "total_commits": 19,
-        "total_retests": 2,
-        "retest_comments": 2,
+        "total_prs_analyzed": 13,
+        "total_commits": 16,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 2,
-        "pr_retest_rate": 13.333333333333334,
-        "avg_retests_per_pr": 0.13333333333333333,
-        "avg_retests_per_commit": 0.10526315789473684
+        "prs_with_retests": 1,
+        "pr_retest_rate": 7.6923076923076925,
+        "avg_retests_per_pr": 0.07692307692307693,
+        "avg_retests_per_commit": 0.0625
       }
     },
     "RedHatInsights/ccx-upgrades-inference": {
@@ -3245,30 +3172,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/46"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-inference",
-          "pr_number": 45,
-          "title": "[CCXDEV-16245] Switch to shared pytests reusable workflow",
-          "merged_at": "2026-04-16T12:34:57Z",
-          "user": "lenasolarova",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/45"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 18,
+        "total_prs_analyzed": 13,
+        "total_commits": 16,
         "total_retests": 2,
         "retest_comments": 2,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 7.142857142857142,
-        "avg_retests_per_pr": 0.14285714285714285,
-        "avg_retests_per_commit": 0.1111111111111111
+        "pr_retest_rate": 7.6923076923076925,
+        "avg_retests_per_pr": 0.15384615384615385,
+        "avg_retests_per_commit": 0.125
       }
     }
   }
