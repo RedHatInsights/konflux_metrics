@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-22T06:49:06.993731",
+  "analysis_date": "2026-04-22T09:43:36.647761",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-15T06:45:16.793763+00:00",
-    "to": "2026-04-22T06:49:06.993743"
+    "from": "2026-04-15T09:40:04.721756+00:00",
+    "to": "2026-04-22T09:43:36.647776"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 247,
-    "total_commits": 309,
+    "total_prs_analyzed": 248,
+    "total_commits": 310,
     "total_retests": 27,
     "retest_comments": 24,
     "update_branch_actions": 3,
     "prs_with_retests": 16,
-    "prs_with_lte_1_retest": 238,
-    "prs_with_lte_1_retest_percentage": 96.35627530364373,
-    "pr_retest_rate": 6.477732793522267,
-    "avg_retests_per_pr": 0.10931174089068826,
-    "avg_retests_per_commit": 0.08737864077669903,
-    "combined_weighted_lte_1_retest_percentage": 96.37096774193549
+    "prs_with_lte_1_retest": 239,
+    "prs_with_lte_1_retest_percentage": 96.37096774193549,
+    "pr_retest_rate": 6.451612903225806,
+    "avg_retests_per_pr": 0.10887096774193548,
+    "avg_retests_per_commit": 0.08709677419354839
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -1925,6 +1924,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions",
+          "pr_number": 63,
+          "title": "Add Codecov coverage reporting",
+          "merged_at": "2026-04-22T07:28:32Z",
+          "user": "lenasolarova",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions/pull/63"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions",
           "pr_number": 62,
           "title": "Unify pre-commit configuration",
           "merged_at": "2026-04-21T07:16:34Z",
@@ -1949,8 +1960,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 5,
+        "total_prs_analyzed": 3,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
