@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-23T10:38:04.407358+00:00",
+  "analysis_date": "2026-04-23T22:20:49.578118+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-01-23T10:38:04.395472+00:00",
-    "to": "2026-04-23T10:38:04.407358+00:00"
+    "from": "2026-01-23T22:20:49.566466+00:00",
+    "to": "2026-04-23T22:20:49.578118+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,16 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1221,
+          "title": "Bumped ccx-rules-ocp version to 2026.04.23",
+          "merged_at": "2026-04-23T14:40:15.840Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1221"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1220,
@@ -666,12 +676,12 @@
       }
     }
   },
-  "last_updated": "2026-04-23T10:38:04.407358+00:00",
-  "cutoff_date": "2026-01-23T10:38:04.395472+00:00",
+  "last_updated": "2026-04-23T22:20:49.578118+00:00",
+  "cutoff_date": "2026-01-23T22:20:49.566466+00:00",
   "summary": {
-    "total_mrs": 55,
+    "total_mrs": 56,
     "total_retests": 2,
     "mrs_with_retests": 1,
-    "retest_rate": 1.8181818181818181
+    "retest_rate": 1.7857142857142856
   }
 }
