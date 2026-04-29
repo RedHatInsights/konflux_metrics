@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-28T22:26:09.542788+00:00",
+  "analysis_date": "2026-04-29T10:42:08.338610+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-01-28T22:26:09.496166+00:00",
-    "to": "2026-04-28T22:26:09.542788+00:00"
+    "from": "2026-01-29T10:42:08.293512+00:00",
+    "to": "2026-04-29T10:42:08.338610+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -2117,6 +2117,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 606,
+          "title": "chore(deps): update module github.com/buger/jsonparser to v1.2.0",
+          "merged_at": "2026-04-29T09:49:52Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/606"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 605,
           "title": "chore(deps): update pre-commit hook redhatinsights/processing-tools to v0.4.1",
           "merged_at": "2026-04-28T13:58:09Z",
@@ -3230,18 +3242,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/508"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 507,
-          "title": "Bump github.com/lib/pq from 1.10.9 to 1.11.0",
-          "merged_at": "2026-01-28T23:16:33Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/507"
         }
       ],
       "summary": {
@@ -3258,6 +3258,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 301,
+          "title": "Migrate library build and deps to pyproject",
+          "merged_at": "2026-04-29T09:47:54Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/301"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 299,
@@ -5759,18 +5771,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/585"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 584,
-          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
-          "merged_at": "2026-01-29T00:57:58Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/584"
         }
       ],
       "summary": {
@@ -6908,6 +6908,42 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1145,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-04-29T06:10:25Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1145"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1144,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-04-29T02:13:36Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1144"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1143,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-04-28T22:16:18Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1143"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1142,
           "title": "fix(deps): update go dependencies",
           "merged_at": "2026-04-28T18:10:25Z",
@@ -7757,18 +7793,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1056"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1055,
-          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
-          "merged_at": "2026-01-29T01:07:10Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1055"
         }
       ],
       "summary": {
@@ -8540,30 +8564,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/746"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 744,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-01-29T05:13:41Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/744"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 745,
-          "title": "fix(deps): update module github.com/lib/pq to v1.11.0",
-          "merged_at": "2026-01-29T01:07:12Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/745"
         }
       ],
       "summary": {
@@ -10264,6 +10264,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions",
+          "pr_number": 66,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-04-29T09:39:42Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions/pull/66"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions",
           "pr_number": 65,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-04-28T10:52:41Z",
@@ -11473,14 +11485,14 @@
       ]
     }
   },
-  "last_updated": "2026-04-28T22:26:09.542788+00:00",
-  "cutoff_date": "2026-01-28T22:26:09.496166+00:00",
+  "last_updated": "2026-04-29T10:42:08.338610+00:00",
+  "cutoff_date": "2026-01-29T10:42:08.293512+00:00",
   "summary": {
-    "total_prs": 937,
-    "total_retests": 141,
-    "prs_with_retests": 92,
-    "retest_rate": 9.818569903948772,
-    "retest_comments": 117,
+    "total_prs": 938,
+    "total_retests": 142,
+    "prs_with_retests": 93,
+    "retest_rate": 9.914712153518124,
+    "retest_comments": 118,
     "update_branch_actions": 24
   }
 }
