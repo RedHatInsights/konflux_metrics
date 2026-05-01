@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-04-30T22:25:01.633413+00:00",
+  "analysis_date": "2026-05-01T10:36:56.841336+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-01-30T22:25:01.589146+00:00",
-    "to": "2026-04-30T22:25:01.633413+00:00"
+    "from": "2026-01-31T10:36:56.796883+00:00",
+    "to": "2026-05-01T10:36:56.841336+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -3320,6 +3320,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 305,
+          "title": "Update dependency boto3 to v1.43.1",
+          "merged_at": "2026-05-01T01:55:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/305"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 297,
           "title": "Update setuptools requirement from >=77.0.3 to >=82.0.1",
           "merged_at": "2026-04-30T09:36:23Z",
@@ -5943,6 +5955,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 665,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-04-30T22:02:14Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/665"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 664,
@@ -11977,13 +12001,13 @@
       ]
     }
   },
-  "last_updated": "2026-04-30T22:25:01.633413+00:00",
-  "cutoff_date": "2026-01-30T22:25:01.589146+00:00",
+  "last_updated": "2026-05-01T10:36:56.841336+00:00",
+  "cutoff_date": "2026-01-31T10:36:56.796883+00:00",
   "summary": {
-    "total_prs": 979,
+    "total_prs": 981,
     "total_retests": 144,
     "prs_with_retests": 95,
-    "retest_rate": 9.703779366700715,
+    "retest_rate": 9.683995922528032,
     "retest_comments": 120,
     "update_branch_actions": 24
   }
