@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-01T21:24:57.209518",
+  "analysis_date": "2026-05-02T09:33:37.699088",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-24T21:22:42.406122+00:00",
-    "to": "2026-05-01T21:24:57.209537"
+    "from": "2026-04-25T09:31:24.379850+00:00",
+    "to": "2026-05-02T09:33:37.699104"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 174,
-    "total_commits": 195,
+    "total_prs_analyzed": 172,
+    "total_commits": 193,
     "total_retests": 5,
     "retest_comments": 5,
     "update_branch_actions": 0,
     "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 174,
+    "prs_with_lte_1_retest": 172,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 2.8735632183908044,
-    "avg_retests_per_pr": 0.028735632183908046,
-    "avg_retests_per_commit": 0.02564102564102564,
-    "combined_weighted_lte_1_retest_percentage": 100.0
+    "pr_retest_rate": 2.9069767441860463,
+    "avg_retests_per_pr": 0.029069767441860465,
+    "avg_retests_per_commit": 0.025906735751295335
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -125,23 +124,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2466"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2465,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.12",
-          "merged_at": "2026-04-24T21:59:38Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2465"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 9,
+        "total_prs_analyzed": 7,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -153,6 +140,30 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 723,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-01T22:10:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/723"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 722,
+          "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.12.1",
+          "merged_at": "2026-05-01T21:59:37Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/722"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 721,
@@ -296,23 +307,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/710"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 709,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-25T01:56:24Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/709"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 14,
+        "total_prs_analyzed": 14,
+        "total_commits": 15,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -324,6 +323,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 611,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-01T21:51:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/611"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 609,
@@ -455,35 +466,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/599"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 598,
-          "title": "chore(deps): update module github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs to v1.70.0",
-          "merged_at": "2026-04-25T01:47:28Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/598"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 597,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.12",
-          "merged_at": "2026-04-24T21:47:14Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/597"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 14,
+        "total_prs_analyzed": 12,
+        "total_commits": 13,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -522,6 +509,18 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 733,
+          "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.12.1",
+          "merged_at": "2026-05-01T21:59:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/733"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 732,
@@ -605,18 +604,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/726"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 721,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.12",
-          "merged_at": "2026-04-24T21:59:12Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/721"
         }
       ],
       "summary": {
@@ -633,6 +620,18 @@
     },
     "RedHatInsights/content-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 827,
+          "title": "Update Go dependencies",
+          "merged_at": "2026-05-01T22:19:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/827"
+        },
         {
           "repository": "RedHatInsights/content-service",
           "pr_number": 825,
@@ -740,18 +739,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/817"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 816,
-          "title": "Update Go dependencies",
-          "merged_at": "2026-04-28T02:10:40Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/816"
         }
       ],
       "summary": {
@@ -768,6 +755,30 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 308,
+          "title": "Update dependency boto3 to v1.43.2",
+          "merged_at": "2026-05-02T02:02:03Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/308"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 307,
+          "title": "Update pre-commit hook golangci/golangci-lint to v2.12.1",
+          "merged_at": "2026-05-01T22:04:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/307"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 306,
@@ -899,30 +910,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/296"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 295,
-          "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.12",
-          "merged_at": "2026-04-24T21:55:03Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/295"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 12,
-        "total_commits": 13,
+        "total_prs_analyzed": 13,
+        "total_commits": 14,
         "total_retests": 2,
         "retest_comments": 2,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 16.666666666666664,
-        "avg_retests_per_pr": 0.16666666666666666,
-        "avg_retests_per_commit": 0.15384615384615385
+        "pr_retest_rate": 15.384615384615385,
+        "avg_retests_per_pr": 0.15384615384615385,
+        "avg_retests_per_commit": 0.14285714285714285
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions": {
@@ -978,6 +977,30 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 668,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-01T22:07:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/668"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 667,
+          "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.12.1",
+          "merged_at": "2026-05-01T22:03:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/667"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 666,
@@ -1121,23 +1144,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/655"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 654,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-25T01:56:00Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/654"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 14,
+        "total_prs_analyzed": 14,
+        "total_commits": 15,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1149,6 +1160,18 @@
     },
     "RedHatInsights/insights-operator-utils": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 869,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-01T21:52:54Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/869"
+        },
         {
           "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 867,
@@ -1268,47 +1291,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/856"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 855,
-          "title": "chore(deps): lock file maintenance",
-          "merged_at": "2026-04-25T01:47:48Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/855"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 854,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-25T01:49:35Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/854"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 853,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.12",
-          "merged_at": "2026-04-24T21:44:40Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/853"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 14,
+        "total_prs_analyzed": 11,
+        "total_commits": 12,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1703,47 +1690,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1121"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1120,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-25T06:19:39Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1120"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1119,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-25T02:10:29Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1119"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1118,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-24T22:07:13Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1118"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 35,
-        "total_commits": 36,
+        "total_prs_analyzed": 32,
+        "total_commits": 33,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1755,6 +1706,30 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 824,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-01T22:22:27Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/824"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 823,
+          "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.12.1",
+          "merged_at": "2026-05-02T02:10:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/823"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 822,
@@ -1886,30 +1861,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/812"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 811,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-25T02:10:20Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/811"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 810,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.12",
-          "merged_at": "2026-04-24T21:58:32Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/810"
         }
       ],
       "summary": {
@@ -2060,23 +2011,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/parquet-factory/pull/62"
-        },
-        {
-          "repository": "RedHatInsights/parquet-factory",
-          "pr_number": 61,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-25T01:59:09Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/parquet-factory/pull/61"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 9,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -2151,6 +2090,30 @@
     },
     "RedHatInsights/ccx-upgrades-data-eng": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 91,
+          "title": "chore(deps): update dependency cachetools to v7.1.0",
+          "merged_at": "2026-05-02T01:53:13Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/91"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 90,
+          "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.12.1",
+          "merged_at": "2026-05-01T22:04:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/90"
+        },
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 89,
@@ -2273,19 +2236,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 11,
+        "total_prs_analyzed": 12,
+        "total_commits": 13,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 10.0,
-        "avg_retests_per_pr": 0.1,
-        "avg_retests_per_commit": 0.09090909090909091
+        "pr_retest_rate": 8.333333333333332,
+        "avg_retests_per_pr": 0.08333333333333333,
+        "avg_retests_per_commit": 0.07692307692307693
       }
     },
     "RedHatInsights/ccx-upgrades-inference": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 73,
+          "title": "chore(deps): update pre-commit hook golangci/golangci-lint to v2.12.1",
+          "merged_at": "2026-05-01T22:03:59Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/73"
+        },
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 72,
@@ -2372,15 +2347,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 8,
+        "total_prs_analyzed": 8,
+        "total_commits": 9,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 14.285714285714285,
-        "avg_retests_per_pr": 0.14285714285714285,
-        "avg_retests_per_commit": 0.125
+        "pr_retest_rate": 12.5,
+        "avg_retests_per_pr": 0.125,
+        "avg_retests_per_commit": 0.1111111111111111
       }
     }
   }
