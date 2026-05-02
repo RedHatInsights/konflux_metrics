@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-02T09:33:37.699088",
+  "analysis_date": "2026-05-02T21:22:30.331437",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-25T09:31:24.379850+00:00",
-    "to": "2026-05-02T09:33:37.699104"
+    "from": "2026-04-25T21:19:51.536182+00:00",
+    "to": "2026-05-02T21:22:30.331448"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 172,
-    "total_commits": 193,
+    "total_prs_analyzed": 166,
+    "total_commits": 187,
     "total_retests": 5,
     "retest_comments": 5,
     "update_branch_actions": 0,
     "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 172,
+    "prs_with_lte_1_retest": 166,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 2.9069767441860463,
-    "avg_retests_per_pr": 0.029069767441860465,
-    "avg_retests_per_commit": 0.025906735751295335,
-    "combined_weighted_lte_1_retest_percentage": 100.0
+    "pr_retest_rate": 3.0120481927710845,
+    "avg_retests_per_pr": 0.030120481927710843,
+    "avg_retests_per_commit": 0.026737967914438502
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -296,23 +295,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/711"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 710,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-28T01:57:43Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/710"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 15,
+        "total_prs_analyzed": 13,
+        "total_commits": 14,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1280,23 +1267,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/858"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 856,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-28T01:52:07Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/856"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 11,
-        "total_commits": 12,
+        "total_prs_analyzed": 10,
+        "total_commits": 11,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1655,47 +1630,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1124"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1123,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-25T18:13:29Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1123"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1122,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-25T14:07:33Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1122"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1121,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-25T11:01:43Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1121"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 32,
-        "total_commits": 33,
+        "total_prs_analyzed": 29,
+        "total_commits": 30,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1850,23 +1789,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/813"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 812,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-28T02:07:20Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/812"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 14,
+        "total_prs_analyzed": 12,
+        "total_commits": 13,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
