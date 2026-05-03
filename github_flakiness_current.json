@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-02T21:22:30.331437",
+  "analysis_date": "2026-05-03T09:37:54.728784",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-25T21:19:51.536182+00:00",
-    "to": "2026-05-02T21:22:30.331448"
+    "from": "2026-04-26T09:35:54.196705+00:00",
+    "to": "2026-05-03T09:37:54.728802"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 166,
-    "total_commits": 187,
+    "total_prs_analyzed": 164,
+    "total_commits": 185,
     "total_retests": 5,
     "retest_comments": 5,
     "update_branch_actions": 0,
     "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 166,
+    "prs_with_lte_1_retest": 164,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 3.0120481927710845,
-    "avg_retests_per_pr": 0.030120481927710843,
-    "avg_retests_per_commit": 0.026737967914438502,
-    "combined_weighted_lte_1_retest_percentage": 100.0
+    "pr_retest_rate": 3.048780487804878,
+    "avg_retests_per_pr": 0.03048780487804878,
+    "avg_retests_per_commit": 0.02702702702702703
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -314,6 +313,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 612,
+          "title": "chore(deps): update go dependencies to v1.67.2",
+          "merged_at": "2026-05-03T05:47:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/612"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 611,
           "title": "chore(deps): update go dependencies",
           "merged_at": "2026-05-01T21:51:48Z",
@@ -458,8 +469,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 12,
-        "total_commits": 13,
+        "total_prs_analyzed": 13,
+        "total_commits": 14,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1595,47 +1606,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1127"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1126,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-26T06:13:27Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1126"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1125,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-26T02:04:16Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1125"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1124,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-04-25T22:16:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1124"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 29,
-        "total_commits": 30,
+        "total_prs_analyzed": 26,
+        "total_commits": 27,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
