@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-03T10:26:40.483646+00:00",
+  "analysis_date": "2026-05-03T22:19:43.693382+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-02T10:26:40.437474+00:00",
-    "to": "2026-05-03T10:26:40.483646+00:00"
+    "from": "2026-02-02T22:19:43.648931+00:00",
+    "to": "2026-05-03T22:19:43.693382+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -936,6 +936,18 @@
     },
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2473,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-03T10:12:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2473"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2472,
@@ -8225,18 +8237,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1058"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1057,
-          "title": "[CCXDEV-15685] No error handling if the report doesn't exist",
-          "merged_at": "2026-02-02T15:29:20Z",
-          "user": "joselsegura",
-          "total_commits": 3,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1057"
         }
       ],
       "summary": {
@@ -11296,6 +11296,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 72,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-03T14:01:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/72"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 71,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-03T10:03:14Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/71"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
           "pr_number": 69,
           "title": "chore(deps): update go dependencies",
           "merged_at": "2026-04-30T18:17:22Z",
@@ -12253,14 +12277,14 @@
       ]
     }
   },
-  "last_updated": "2026-05-03T10:26:40.483646+00:00",
-  "cutoff_date": "2026-02-02T10:26:40.437474+00:00",
+  "last_updated": "2026-05-03T22:19:43.693382+00:00",
+  "cutoff_date": "2026-02-02T22:19:43.648931+00:00",
   "summary": {
-    "total_prs": 1002,
-    "total_retests": 144,
-    "prs_with_retests": 95,
-    "retest_rate": 9.481037924151696,
-    "retest_comments": 120,
+    "total_prs": 1004,
+    "total_retests": 143,
+    "prs_with_retests": 94,
+    "retest_rate": 9.362549800796813,
+    "retest_comments": 119,
     "update_branch_actions": 24
   }
 }
