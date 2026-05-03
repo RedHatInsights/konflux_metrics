@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-02T22:18:38.006581+00:00",
+  "analysis_date": "2026-05-03T10:26:40.483646+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-01T22:18:37.972022+00:00",
-    "to": "2026-05-02T22:18:38.006581+00:00"
+    "from": "2026-02-02T10:26:40.437474+00:00",
+    "to": "2026-05-03T10:26:40.483646+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -2175,6 +2175,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 612,
+          "title": "chore(deps): update go dependencies to v1.67.2",
+          "merged_at": "2026-05-03T05:47:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/612"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 611,
@@ -12241,13 +12253,13 @@
       ]
     }
   },
-  "last_updated": "2026-05-02T22:18:38.006581+00:00",
-  "cutoff_date": "2026-02-01T22:18:37.972022+00:00",
+  "last_updated": "2026-05-03T10:26:40.483646+00:00",
+  "cutoff_date": "2026-02-02T10:26:40.437474+00:00",
   "summary": {
-    "total_prs": 1001,
+    "total_prs": 1002,
     "total_retests": 144,
     "prs_with_retests": 95,
-    "retest_rate": 9.490509490509492,
+    "retest_rate": 9.481037924151696,
     "retest_comments": 120,
     "update_branch_actions": 24
   }
