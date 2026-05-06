@@ -289,6 +289,23 @@ def main():
 
     print(f"\n📊 Total: {overall_mrs} MRs, {overall_retests} /retest comments ({overall_mrs_with_retests/overall_mrs*100:.1f}% rate)" if overall_mrs > 0 else "\n📊 No MRs analyzed")
 
+    # When no MRs exist, add a sentinel entry so Grafana's Infinity datasource
+    # backend parser doesn't fail on an empty array from $.projects.*.mrs[*].
+    # The sentinel uses mr_iid=0 (never a real MR ID), which the dashboard
+    # filterByValue transformation excludes before counting.
+    if overall_mrs == 0 and project_paths:
+        first_project = project_paths[0]
+        all_results[first_project]['mrs'].append({
+            'project': first_project,
+            'mr_iid': 0,
+            'title': '_no_data_sentinel',
+            'merged_at': since_date.isoformat(),
+            'author': '_sentinel',
+            'total_commits': 0,
+            'total_retests': 0,
+            'url': '',
+        })
+
     # Save current scrape results (all data)
     output_file = "gitlab_flakiness_current.json"
     summary_data = {

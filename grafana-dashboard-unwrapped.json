@@ -80,6 +80,11 @@
               "selector": "total_retests",
               "text": "total_retests",
               "type": "number"
+            },
+            {
+              "selector": "pr_number",
+              "text": "item_id",
+              "type": "number"
             }
           ],
           "datasource": {
@@ -108,6 +113,11 @@
               "selector": "total_retests",
               "text": "total_retests",
               "type": "number"
+            },
+            {
+              "selector": "mr_iid",
+              "text": "item_id",
+              "type": "number"
             }
           ],
           "datasource": {
@@ -131,6 +141,24 @@
         {
           "id": "merge",
           "options": {}
+        },
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "notEqual",
+                  "options": {
+                    "value": 0
+                  }
+                },
+                "fieldName": "item_id"
+              }
+            ],
+            "match": "all",
+            "type": "include"
+          }
         },
         {
           "id": "filterByValue",
@@ -222,6 +250,11 @@
               "selector": "total_retests",
               "text": "total_retests",
               "type": "number"
+            },
+            {
+              "selector": "pr_number",
+              "text": "item_id",
+              "type": "number"
             }
           ],
           "datasource": {
@@ -249,6 +282,11 @@
             {
               "selector": "total_retests",
               "text": "total_retests",
+              "type": "number"
+            },
+            {
+              "selector": "mr_iid",
+              "text": "item_id",
               "type": "number"
             }
           ],
@@ -278,6 +316,11 @@
               "selector": "total_retests",
               "text": "total_retests",
               "type": "number"
+            },
+            {
+              "selector": "pr_number",
+              "text": "item_id",
+              "type": "number"
             }
           ],
           "datasource": {
@@ -306,6 +349,11 @@
               "selector": "total_retests",
               "text": "total_retests",
               "type": "number"
+            },
+            {
+              "selector": "mr_iid",
+              "text": "item_id",
+              "type": "number"
             }
           ],
           "datasource": {
@@ -324,11 +372,29 @@
           }
         }
       ],
-      "title": "Count: PRs/MRs with ≤1 Retest (Last 7 Days)",
+      "title": "Count: PRs/MRs with \u22641 Retest (Last 7 Days)",
       "transformations": [
         {
           "id": "merge",
           "options": {}
+        },
+        {
+          "id": "filterByValue",
+          "options": {
+            "filters": [
+              {
+                "config": {
+                  "id": "notEqual",
+                  "options": {
+                    "value": 0
+                  }
+                },
+                "fieldName": "item_id"
+              }
+            ],
+            "match": "all",
+            "type": "include"
+          }
         },
         {
           "id": "filterByValue",
@@ -462,7 +528,7 @@
           }
         }
       ],
-      "title": "% PRs/MRs with ≤1 Retest (Last 7 Days)",
+      "title": "% PRs/MRs with \u22641 Retest (Last 7 Days)",
       "transformations": [
         {
           "id": "merge",
@@ -549,7 +615,7 @@
           }
         }
       ],
-      "title": "Combined Weighted % PRs/MRs with ≤1 Retest (Last 7 Days)",
+      "title": "Combined Weighted % PRs/MRs with \u22641 Retest (Last 7 Days)",
       "transformations": [
         {
           "id": "merge",

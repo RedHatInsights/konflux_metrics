@@ -330,6 +330,25 @@ def main():
           f"({overall_retest_comments} /retest, {overall_update_branch} update branch) " +
           f"({overall_prs_with_retests/overall_prs*100:.1f}% rate)" if overall_prs > 0 else "\n📊 No PRs analyzed")
 
+    # When no PRs exist, add a sentinel entry so Grafana's Infinity datasource
+    # backend parser doesn't fail on an empty array from $.repositories.*.prs[*].
+    # The sentinel uses pr_number=0 (never a real PR number), which the dashboard
+    # filterByValue transformation excludes before counting.
+    if overall_prs == 0 and repos:
+        first_repo = repos[0]
+        all_results[first_repo]['prs'].append({
+            'repository': first_repo,
+            'pr_number': 0,
+            'title': '_no_data_sentinel',
+            'merged_at': since_date.isoformat(),
+            'user': '_sentinel',
+            'total_commits': 0,
+            'retest_comments': 0,
+            'update_branch_count': 0,
+            'total_retests': 0,
+            'url': '',
+        })
+
     # Save current scrape results (all data)
     output_file = "github_flakiness_current.json"
     summary_data = {
