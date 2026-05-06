@@ -189,6 +189,16 @@ data:
               }
             },
             {
+              "id": "filterFieldsByName",
+              "options": {
+                "include": {
+                  "names": [
+                    "total_retests"
+                  ]
+                }
+              }
+            },
+            {
               "id": "reduce",
               "options": {
                 "includeTimeField": false,
@@ -422,6 +432,16 @@ data:
                 ],
                 "match": "all",
                 "type": "include"
+              }
+            },
+            {
+              "id": "filterFieldsByName",
+              "options": {
+                "include": {
+                  "names": [
+                    "total_retests"
+                  ]
+                }
               }
             },
             {
