@@ -357,6 +357,24 @@ def main():
         'repositories': all_results
     }
 
+    # Compute combined weighted % using the latest GitLab data from the repo checkout.
+    # This ensures the field is always present even when only the GitHub workflow runs,
+    # without waiting for append_to_historical.py to add it an hour later.
+    try:
+        with open('gitlab_flakiness_current.json') as f:
+            gl = json.load(f)
+        gl_summary = gl.get('overall_summary', {})
+        gl_total = gl_summary.get('total_mrs_analyzed', 0)
+        gl_lte1 = gl_summary.get('mrs_with_lte_1_retest', 0)
+    except (FileNotFoundError, json.JSONDecodeError):
+        gl_total, gl_lte1 = 0, 0
+
+    combined_total = overall_prs + gl_total
+    combined_lte1 = overall_prs_with_lte_1_retest + gl_lte1
+    summary_data['overall_summary']['combined_weighted_lte_1_retest_percentage'] = (
+        combined_lte1 / combined_total * 100 if combined_total > 0 else 0
+    )
+
     with open(output_file, 'w') as f:
         json.dump(summary_data, f, indent=2)
 
