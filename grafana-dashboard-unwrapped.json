@@ -72,18 +72,13 @@
         {
           "columns": [
             {
-              "selector": "merged_at",
-              "text": "merged_at",
-              "type": "timestamp"
-            },
-            {
-              "selector": "total_retests",
-              "text": "total_retests",
+              "selector": "total_prs_analyzed",
+              "text": "total",
               "type": "number"
             },
             {
-              "selector": "pr_number",
-              "text": "item_id",
+              "selector": "prs_with_lte_1_retest",
+              "text": "lte1",
               "type": "number"
             }
           ],
@@ -93,8 +88,8 @@
           },
           "format": "table",
           "parser": "backend",
-          "refId": "A",
-          "root_selector": "$.repositories.*.prs[*]",
+          "refId": "GH",
+          "root_selector": "$.overall_summary",
           "source": "url",
           "type": "json",
           "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
@@ -105,18 +100,13 @@
         {
           "columns": [
             {
-              "selector": "merged_at",
-              "text": "merged_at",
-              "type": "timestamp"
-            },
-            {
-              "selector": "total_retests",
-              "text": "total_retests",
+              "selector": "total_mrs_analyzed",
+              "text": "total",
               "type": "number"
             },
             {
-              "selector": "mr_iid",
-              "text": "item_id",
+              "selector": "mrs_with_lte_1_retest",
+              "text": "lte1",
               "type": "number"
             }
           ],
@@ -126,8 +116,8 @@
           },
           "format": "table",
           "parser": "backend",
-          "refId": "B",
-          "root_selector": "$.projects.*.mrs[*]",
+          "refId": "GL",
+          "root_selector": "$.overall_summary",
           "source": "url",
           "type": "json",
           "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_current.json",
@@ -143,39 +133,15 @@
           "options": {}
         },
         {
-          "id": "filterByValue",
+          "id": "calculateField",
           "options": {
-            "filters": [
-              {
-                "config": {
-                  "id": "notEqual",
-                  "options": {
-                    "value": 0
-                  }
-                },
-                "fieldName": "item_id"
-              }
-            ],
-            "match": "all",
-            "type": "include"
-          }
-        },
-        {
-          "id": "filterByValue",
-          "options": {
-            "filters": [
-              {
-                "config": {
-                  "id": "greater",
-                  "options": {
-                    "value": 1
-                  }
-                },
-                "fieldName": "total_retests"
-              }
-            ],
-            "match": "all",
-            "type": "include"
+            "alias": "count",
+            "mode": "binary",
+            "binary": {
+              "left": "total",
+              "operator": "-",
+              "right": "lte1"
+            }
           }
         },
         {
@@ -183,7 +149,7 @@
           "options": {
             "include": {
               "names": [
-                "total_retests"
+                "count"
               ]
             }
           }
@@ -194,7 +160,7 @@
             "includeTimeField": false,
             "mode": "reduceFields",
             "reducers": [
-              "count"
+              "sum"
             ]
           }
         }
@@ -252,18 +218,8 @@
         {
           "columns": [
             {
-              "selector": "merged_at",
-              "text": "merged_at",
-              "type": "timestamp"
-            },
-            {
-              "selector": "total_retests",
-              "text": "total_retests",
-              "type": "number"
-            },
-            {
-              "selector": "pr_number",
-              "text": "item_id",
+              "selector": "prs_with_lte_1_retest",
+              "text": "count",
               "type": "number"
             }
           ],
@@ -273,8 +229,8 @@
           },
           "format": "table",
           "parser": "backend",
-          "refId": "Total",
-          "root_selector": "$.repositories.*.prs[*]",
+          "refId": "GH",
+          "root_selector": "$.overall_summary",
           "source": "url",
           "type": "json",
           "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
@@ -285,18 +241,8 @@
         {
           "columns": [
             {
-              "selector": "merged_at",
-              "text": "merged_at",
-              "type": "timestamp"
-            },
-            {
-              "selector": "total_retests",
-              "text": "total_retests",
-              "type": "number"
-            },
-            {
-              "selector": "mr_iid",
-              "text": "item_id",
+              "selector": "mrs_with_lte_1_retest",
+              "text": "count",
               "type": "number"
             }
           ],
@@ -306,74 +252,8 @@
           },
           "format": "table",
           "parser": "backend",
-          "refId": "Total2",
-          "root_selector": "$.projects.*.mrs[*]",
-          "source": "url",
-          "type": "json",
-          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_current.json",
-          "url_options": {
-            "method": "GET"
-          }
-        },
-        {
-          "columns": [
-            {
-              "selector": "merged_at",
-              "text": "merged_at",
-              "type": "timestamp"
-            },
-            {
-              "selector": "total_retests",
-              "text": "total_retests",
-              "type": "number"
-            },
-            {
-              "selector": "pr_number",
-              "text": "item_id",
-              "type": "number"
-            }
-          ],
-          "datasource": {
-            "type": "yesoreyeram-infinity-datasource",
-            "uid": "infinity-any-url"
-          },
-          "format": "table",
-          "parser": "backend",
-          "refId": "WithRetests",
-          "root_selector": "$.repositories.*.prs[*]",
-          "source": "url",
-          "type": "json",
-          "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/github_flakiness_current.json",
-          "url_options": {
-            "method": "GET"
-          }
-        },
-        {
-          "columns": [
-            {
-              "selector": "merged_at",
-              "text": "merged_at",
-              "type": "timestamp"
-            },
-            {
-              "selector": "total_retests",
-              "text": "total_retests",
-              "type": "number"
-            },
-            {
-              "selector": "mr_iid",
-              "text": "item_id",
-              "type": "number"
-            }
-          ],
-          "datasource": {
-            "type": "yesoreyeram-infinity-datasource",
-            "uid": "infinity-any-url"
-          },
-          "format": "table",
-          "parser": "backend",
-          "refId": "WithRetests2",
-          "root_selector": "$.projects.*.mrs[*]",
+          "refId": "GL",
+          "root_selector": "$.overall_summary",
           "source": "url",
           "type": "json",
           "url": "https://raw.githubusercontent.com/RedHatInsights/konflux_metrics/main/gitlab_flakiness_current.json",
@@ -389,58 +269,12 @@
           "options": {}
         },
         {
-          "id": "filterByValue",
-          "options": {
-            "filters": [
-              {
-                "config": {
-                  "id": "notEqual",
-                  "options": {
-                    "value": 0
-                  }
-                },
-                "fieldName": "item_id"
-              }
-            ],
-            "match": "all",
-            "type": "include"
-          }
-        },
-        {
-          "id": "filterByValue",
-          "options": {
-            "filters": [
-              {
-                "config": {
-                  "id": "lowerOrEqual",
-                  "options": {
-                    "value": 1
-                  }
-                },
-                "fieldName": "total_retests"
-              }
-            ],
-            "match": "all",
-            "type": "include"
-          }
-        },
-        {
-          "id": "filterFieldsByName",
-          "options": {
-            "include": {
-              "names": [
-                "total_retests"
-              ]
-            }
-          }
-        },
-        {
           "id": "reduce",
           "options": {
             "includeTimeField": false,
             "mode": "reduceFields",
             "reducers": [
-              "count"
+              "sum"
             ]
           }
         }
