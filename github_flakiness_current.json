@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-06T07:49:13.057855",
+  "analysis_date": "2026-05-06T08:42:46.286143",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,23 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-29T07:44:45.508194+00:00",
-    "to": "2026-05-06T07:49:13.057875"
+    "from": "2026-04-29T08:38:12.076253+00:00",
+    "to": "2026-05-06T08:42:46.286158"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 153,
-    "total_commits": 162,
-    "total_retests": 5,
+    "total_prs_analyzed": 156,
+    "total_commits": 167,
+    "total_retests": 7,
     "retest_comments": 1,
-    "update_branch_actions": 4,
-    "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 153,
+    "update_branch_actions": 6,
+    "prs_with_retests": 7,
+    "prs_with_lte_1_retest": 156,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 3.2679738562091507,
-    "avg_retests_per_pr": 0.032679738562091505,
-    "avg_retests_per_commit": 0.030864197530864196
+    "pr_retest_rate": 4.487179487179487,
+    "avg_retests_per_pr": 0.04487179487179487,
+    "avg_retests_per_commit": 0.041916167664670656,
+    "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -421,6 +422,18 @@
         },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 610,
+          "title": "chore(deps): update pre-commit hooks",
+          "merged_at": "2026-05-06T07:56:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/610"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 609,
           "title": "chore(deps): update module github.com/klauspost/compress to v1.18.6",
           "merged_at": "2026-04-30T18:03:39Z",
@@ -469,15 +482,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 12,
-        "total_commits": 12,
-        "total_retests": 0,
+        "total_prs_analyzed": 13,
+        "total_commits": 14,
+        "total_retests": 1,
         "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "update_branch_actions": 1,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 7.6923076923076925,
+        "avg_retests_per_pr": 0.07692307692307693,
+        "avg_retests_per_commit": 0.07142857142857142
       }
     },
     "RedHatInsights/insights-results-aggregator-mock": {
@@ -597,6 +610,18 @@
         },
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 833,
+          "title": "Removing old Go test file",
+          "merged_at": "2026-05-06T07:48:21Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/833"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 832,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-05T12:02:56Z",
@@ -669,6 +694,18 @@
         },
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 826,
+          "title": "Update Pre-commit hooks",
+          "merged_at": "2026-05-06T07:56:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/content-service/pull/826"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 825,
           "title": "Update Go dependencies",
           "merged_at": "2026-04-30T18:28:28Z",
@@ -717,15 +754,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 12,
-        "total_commits": 12,
-        "total_retests": 0,
+        "total_prs_analyzed": 14,
+        "total_commits": 15,
+        "total_retests": 1,
         "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "update_branch_actions": 1,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 7.142857142857142,
+        "avg_retests_per_pr": 0.07142857142857142,
+        "avg_retests_per_commit": 0.06666666666666667
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
