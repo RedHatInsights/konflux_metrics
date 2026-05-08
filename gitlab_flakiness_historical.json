@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-08T10:39:32.526305+00:00",
+  "analysis_date": "2026-05-08T22:26:11.379729+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-07T10:39:32.514359+00:00",
-    "to": "2026-05-08T10:39:32.526305+00:00"
+    "from": "2026-02-07T22:26:11.368035+00:00",
+    "to": "2026-05-08T22:26:11.379729+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1226,
+          "title": "Revert \"removing workaround for ingress deserialization\"",
+          "merged_at": "2026-05-08T12:43:04.865Z",
+          "author": "ireyes",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1226"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1225,
+          "title": "Bumped ccx-rules-ocp version to 2026.05.08",
+          "merged_at": "2026-05-08T10:49:14.158Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1225"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1224,
@@ -603,12 +623,12 @@
       }
     }
   },
-  "last_updated": "2026-05-08T10:39:32.526305+00:00",
-  "cutoff_date": "2026-02-07T10:39:32.514359+00:00",
+  "last_updated": "2026-05-08T22:26:11.379729+00:00",
+  "cutoff_date": "2026-02-07T22:26:11.368035+00:00",
   "summary": {
-    "total_mrs": 49,
+    "total_mrs": 51,
     "total_retests": 2,
     "mrs_with_retests": 1,
-    "retest_rate": 2.0408163265306123
+    "retest_rate": 1.9607843137254901
   }
 }
