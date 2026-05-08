@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-07T21:29:32.281153",
+  "analysis_date": "2026-05-08T09:45:08.603541",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-04-30T21:26:19.197666+00:00",
-    "to": "2026-05-07T21:29:32.281172"
+    "from": "2026-05-01T09:41:22.310593+00:00",
+    "to": "2026-05-08T09:45:08.603555"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 176,
-    "total_commits": 204,
+    "total_prs_analyzed": 175,
+    "total_commits": 203,
     "total_retests": 14,
     "retest_comments": 0,
     "update_branch_actions": 14,
     "prs_with_retests": 13,
-    "prs_with_lte_1_retest": 175,
-    "prs_with_lte_1_retest_percentage": 99.43181818181817,
-    "pr_retest_rate": 7.386363636363637,
-    "avg_retests_per_pr": 0.07954545454545454,
-    "avg_retests_per_commit": 0.06862745098039216,
+    "prs_with_lte_1_retest": 174,
+    "prs_with_lte_1_retest_percentage": 99.42857142857143,
+    "pr_retest_rate": 7.428571428571429,
+    "avg_retests_per_pr": 0.08,
+    "avg_retests_per_commit": 0.06896551724137931,
     "combined_weighted_lte_1_retest_percentage": 99.43181818181817
   },
   "repositories": {
@@ -959,23 +959,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/306"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 305,
-          "title": "Update dependency boto3 to v1.43.1",
-          "merged_at": "2026-05-01T01:55:53Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/305"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 14,
+        "total_prs_analyzed": 13,
+        "total_commits": 13,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1157,23 +1145,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/666"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 665,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-04-30T22:02:14Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/665"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 13,
+        "total_prs_analyzed": 12,
+        "total_commits": 12,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1332,6 +1308,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1178,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-07T22:52:19Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1178"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1177,
@@ -1610,8 +1598,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 23,
-        "total_commits": 23,
+        "total_prs_analyzed": 24,
+        "total_commits": 24,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
