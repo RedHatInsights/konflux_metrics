@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-11T11:11:39.993017+00:00",
+  "analysis_date": "2026-05-11T22:29:01.545773+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-10T11:11:39.981835+00:00",
-    "to": "2026-05-11T11:11:39.993017+00:00"
+    "from": "2026-02-10T22:29:01.534193+00:00",
+    "to": "2026-05-11T22:29:01.545773+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -28,6 +28,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1228,
+          "title": "Bumped ccx-rules-ocp version to 2026.05.11",
+          "merged_at": "2026-05-11T19:00:46.903Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1228"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1227,
+          "title": "remove ingress post workaround",
+          "merged_at": "2026-05-11T10:44:55.397Z",
+          "author": "mshriver",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1227"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1226,
@@ -477,16 +497,6 @@
           "total_commits": 1,
           "total_retests": 0,
           "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1176"
-        },
-        {
-          "project": "insights-qe/iqe-ccx-plugin",
-          "mr_iid": 1175,
-          "title": "Bumped ccx-rules-ocp version to 2026.02.10.post1",
-          "merged_at": "2026-02-10T14:52:39.205Z",
-          "author": "iqe-bot",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1175"
         }
       ],
       "summary": {
@@ -603,12 +613,12 @@
       }
     }
   },
-  "last_updated": "2026-05-11T11:11:39.993017+00:00",
-  "cutoff_date": "2026-02-10T11:11:39.981835+00:00",
+  "last_updated": "2026-05-11T22:29:01.545773+00:00",
+  "cutoff_date": "2026-02-10T22:29:01.534193+00:00",
   "summary": {
-    "total_mrs": 49,
+    "total_mrs": 50,
     "total_retests": 2,
     "mrs_with_retests": 1,
-    "retest_rate": 2.0408163265306123
+    "retest_rate": 2.0
   }
 }
