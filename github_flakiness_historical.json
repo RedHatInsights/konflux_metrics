@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-12T10:53:58.584684+00:00",
+  "analysis_date": "2026-05-12T22:32:59.721446+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-11T10:53:58.535560+00:00",
-    "to": "2026-05-12T10:53:58.584684+00:00"
+    "from": "2026-02-11T22:32:59.669745+00:00",
+    "to": "2026-05-12T22:32:59.721446+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -6827,18 +6827,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/594"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 593,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-11T21:22:48Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/593"
         }
       ],
       "summary": {
@@ -11021,6 +11009,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1749,
+          "title": "Update Go dependencies",
+          "merged_at": "2026-05-12T20:31:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1749"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1745,
+          "title": "Update Go dependencies",
+          "merged_at": "2026-05-12T13:51:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 3,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1745"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1748,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-11T11:22:51Z",
@@ -11926,6 +11938,18 @@
     },
     "RedHatInsights/content-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 854,
+          "title": "Bumped ccx-rules-ocp version",
+          "merged_at": "2026-05-12T14:54:02Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/854"
+        },
         {
           "repository": "RedHatInsights/content-service",
           "pr_number": 852,
@@ -15097,14 +15121,14 @@
       ]
     }
   },
-  "last_updated": "2026-05-12T10:53:58.584684+00:00",
-  "cutoff_date": "2026-02-11T10:53:58.535560+00:00",
+  "last_updated": "2026-05-12T22:32:59.721446+00:00",
+  "cutoff_date": "2026-02-11T22:32:59.669745+00:00",
   "summary": {
-    "total_prs": 1239,
-    "total_retests": 159,
-    "prs_with_retests": 109,
-    "retest_rate": 8.797417271993544,
-    "retest_comments": 120,
+    "total_prs": 1241,
+    "total_retests": 160,
+    "prs_with_retests": 110,
+    "retest_rate": 8.8638195004029,
+    "retest_comments": 121,
     "update_branch_actions": 39
   }
 }
