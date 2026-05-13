@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-13T07:03:43.534519",
+  "analysis_date": "2026-05-13T19:03:50.476085",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,16 +12,16 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-06T07:03:24.304893+00:00",
-    "to": "2026-05-13T07:03:43.534542"
+    "from": "2026-05-06T19:03:32.739093+00:00",
+    "to": "2026-05-13T19:03:50.476101"
   },
   "overall_summary": {
     "total_projects": 7,
-    "total_mrs_analyzed": 6,
-    "total_commits": 6,
+    "total_mrs_analyzed": 8,
+    "total_commits": 8,
     "total_retests": 0,
     "mrs_with_retests": 0,
-    "mrs_with_lte_1_retest": 6,
+    "mrs_with_lte_1_retest": 8,
     "mrs_with_lte_1_retest_percentage": 100.0,
     "mr_retest_rate": 0.0,
     "avg_retests_per_mr": 0.0,
@@ -30,6 +30,26 @@
   "projects": {
     "insights-qe/iqe-ccx-plugin": {
       "mrs": [
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1231,
+          "title": "Bumped ccx-rules-ocp version to 2026.05.13",
+          "merged_at": "2026-05-13T12:07:22.607Z",
+          "author": "iqe-bot",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1231"
+        },
+        {
+          "project": "insights-qe/iqe-ccx-plugin",
+          "mr_iid": 1230,
+          "title": "trigger build",
+          "merged_at": "2026-05-13T10:50:18.394Z",
+          "author": "jdiazsua",
+          "total_commits": 1,
+          "total_retests": 0,
+          "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-ccx-plugin/-/merge_requests/1230"
+        },
         {
           "project": "insights-qe/iqe-ccx-plugin",
           "mr_iid": 1229,
@@ -92,8 +112,8 @@
         }
       ],
       "summary": {
-        "total_mrs_analyzed": 6,
-        "total_commits": 6,
+        "total_mrs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "mrs_with_retests": 0,
         "mr_retest_rate": 0.0,
