@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-16T21:24:36.303854",
+  "analysis_date": "2026-05-17T09:41:59.562567",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,13 +21,13 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-09T21:22:00.045692+00:00",
-    "to": "2026-05-16T21:24:36.303870"
+    "from": "2026-05-10T09:39:50.444475+00:00",
+    "to": "2026-05-17T09:41:59.562586"
   },
   "overall_summary": {
     "total_repos": 17,
     "total_prs_analyzed": 119,
-    "total_commits": 185,
+    "total_commits": 181,
     "total_retests": 37,
     "retest_comments": 37,
     "update_branch_actions": 0,
@@ -36,7 +36,7 @@
     "prs_with_lte_1_retest_percentage": 93.27731092436974,
     "pr_retest_rate": 15.126050420168067,
     "avg_retests_per_pr": 0.31092436974789917,
-    "avg_retests_per_commit": 0.2,
+    "avg_retests_per_commit": 0.20441988950276244,
     "combined_weighted_lte_1_retest_percentage": 93.65079365079364
   },
   "repositories": {
@@ -353,6 +353,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 565,
+          "title": "Lock file maintenance",
+          "merged_at": "2026-05-17T02:02:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/565"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 564,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-16T05:12:49Z",
@@ -449,8 +461,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 12,
+        "total_prs_analyzed": 9,
+        "total_commits": 13,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1214,30 +1226,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/843"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 841,
-          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
-          "merged_at": "2026-05-10T05:34:14Z",
-          "user": "obsint-processing-app[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/841"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 14,
+        "total_prs_analyzed": 6,
+        "total_commits": 11,
         "total_retests": 6,
         "retest_comments": 6,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 28.57142857142857,
-        "avg_retests_per_pr": 0.8571428571428571,
-        "avg_retests_per_commit": 0.42857142857142855
+        "pr_retest_rate": 33.33333333333333,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 0.5454545454545454
       }
     },
     "RedHatInsights/ocp-advisor-frontend": {
@@ -1493,6 +1493,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 114,
+          "title": "chore(deps): update dependency cachetools to v7.1.2",
+          "merged_at": "2026-05-17T02:06:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/114"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 113,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-16T05:21:25Z",
@@ -1598,30 +1610,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/105"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 103,
-          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
-          "merged_at": "2026-05-10T05:28:54Z",
-          "user": "obsint-processing-app[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/103"
         }
       ],
       "summary": {
         "total_prs_analyzed": 10,
-        "total_commits": 16,
+        "total_commits": 14,
         "total_retests": 4,
         "retest_comments": 4,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
         "pr_retest_rate": 20.0,
         "avg_retests_per_pr": 0.4,
-        "avg_retests_per_commit": 0.25
+        "avg_retests_per_commit": 0.2857142857142857
       }
     },
     "RedHatInsights/ccx-upgrades-inference": {
