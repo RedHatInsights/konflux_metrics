@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-17T22:23:40.446390+00:00",
+  "analysis_date": "2026-05-18T11:28:02.313858+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-16T22:23:40.395537+00:00",
-    "to": "2026-05-17T22:23:40.446390+00:00"
+    "from": "2026-02-17T11:28:02.261510+00:00",
+    "to": "2026-05-18T11:28:02.313858+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -4913,30 +4913,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/250"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 249,
-          "title": "Bump fastapi from 0.128.6 to 0.129.0",
-          "merged_at": "2026-02-16T23:52:39Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/249"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 248,
-          "title": "Bump uvicorn from 0.40.0 to 0.41.0",
-          "merged_at": "2026-02-16T23:28:26Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/248"
         }
       ],
       "summary": {
@@ -11453,6 +11429,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1754,
+          "title": "Update Pre-commit hooks",
+          "merged_at": "2026-05-18T10:24:47Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1754"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1753,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-16T05:36:18Z",
@@ -16105,14 +16093,14 @@
       ]
     }
   },
-  "last_updated": "2026-05-17T22:23:40.446390+00:00",
-  "cutoff_date": "2026-02-16T22:23:40.395537+00:00",
+  "last_updated": "2026-05-18T11:28:02.313858+00:00",
+  "cutoff_date": "2026-02-17T11:28:02.261510+00:00",
   "summary": {
-    "total_prs": 1323,
-    "total_retests": 194,
-    "prs_with_retests": 127,
-    "retest_rate": 9.599395313681027,
+    "total_prs": 1322,
+    "total_retests": 195,
+    "prs_with_retests": 128,
+    "retest_rate": 9.68229954614221,
     "retest_comments": 155,
-    "update_branch_actions": 39
+    "update_branch_actions": 40
   }
 }
