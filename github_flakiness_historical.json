@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-19T22:34:00.706689+00:00",
+  "analysis_date": "2026-05-20T11:09:16.992592+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-18T22:34:00.654095+00:00",
-    "to": "2026-05-19T22:34:00.706689+00:00"
+    "from": "2026-02-19T11:09:16.939195+00:00",
+    "to": "2026-05-20T11:09:16.992592+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -4086,6 +4086,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 337,
+          "title": "Update dependency boto3 to v1.43.11",
+          "merged_at": "2026-05-19T22:53:01Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/337"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 336,
@@ -8678,18 +8690,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/574"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 573,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-02-19T09:01:29Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/573"
         }
       ],
       "summary": {
@@ -8706,6 +8706,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1198,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-20T09:31:13Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1198"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1197,
@@ -16669,14 +16681,14 @@
       ]
     }
   },
-  "last_updated": "2026-05-19T22:34:00.706689+00:00",
-  "cutoff_date": "2026-02-18T22:34:00.654095+00:00",
+  "last_updated": "2026-05-20T11:09:16.992592+00:00",
+  "cutoff_date": "2026-02-19T11:09:16.939195+00:00",
   "summary": {
-    "total_prs": 1370,
-    "total_retests": 201,
-    "prs_with_retests": 133,
-    "retest_rate": 9.708029197080293,
-    "retest_comments": 158,
+    "total_prs": 1371,
+    "total_retests": 202,
+    "prs_with_retests": 134,
+    "retest_rate": 9.773887673231219,
+    "retest_comments": 159,
     "update_branch_actions": 43
   }
 }
