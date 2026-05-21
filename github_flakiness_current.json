@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-20T21:42:01.737413",
+  "analysis_date": "2026-05-21T10:23:20.226417",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-13T21:39:28.085047+00:00",
-    "to": "2026-05-20T21:42:01.737432"
+    "from": "2026-05-14T10:21:23.295156+00:00",
+    "to": "2026-05-21T10:23:20.226436"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 97,
-    "total_commits": 129,
+    "total_prs_analyzed": 101,
+    "total_commits": 133,
     "total_retests": 7,
     "retest_comments": 3,
     "update_branch_actions": 4,
     "prs_with_retests": 7,
-    "prs_with_lte_1_retest": 97,
+    "prs_with_lte_1_retest": 101,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 7.216494845360824,
-    "avg_retests_per_pr": 0.07216494845360824,
-    "avg_retests_per_commit": 0.05426356589147287,
+    "pr_retest_rate": 6.9306930693069315,
+    "avg_retests_per_pr": 0.06930693069306931,
+    "avg_retests_per_commit": 0.05263157894736842,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -293,6 +293,18 @@
         },
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 557,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1778735208",
+          "merged_at": "2026-05-21T09:13:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/557"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 551,
           "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
           "merged_at": "2026-05-14T18:01:24Z",
@@ -302,18 +314,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/551"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 548,
-          "title": "Update Pre-commit hooks",
-          "merged_at": "2026-05-14T09:57:04Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/548"
         }
       ],
       "summary": {
@@ -395,6 +395,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 866,
+          "title": "Bumped ccx-rules-ocp version",
+          "merged_at": "2026-05-21T09:46:30Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/866"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 864,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:59:31Z",
@@ -467,19 +479,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 8,
+        "total_prs_analyzed": 7,
+        "total_commits": 9,
         "total_retests": 2,
         "retest_comments": 2,
         "update_branch_actions": 0,
         "prs_with_retests": 2,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.3333333333333333,
-        "avg_retests_per_commit": 0.25
+        "pr_retest_rate": 28.57142857142857,
+        "avg_retests_per_pr": 0.2857142857142857,
+        "avg_retests_per_commit": 0.2222222222222222
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 338,
+          "title": "Update dependency boto3 to v1.43.12",
+          "merged_at": "2026-05-21T02:06:41Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/338"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 337,
@@ -566,8 +590,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 8,
+        "total_prs_analyzed": 8,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -758,6 +782,42 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1204,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-21T06:08:20Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1204"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1203,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-21T02:19:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1203"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1202,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-20T22:40:36Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1202"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1201,
           "title": "fix(deps): update go dependencies",
           "merged_at": "2026-05-20T18:07:19Z",
@@ -902,15 +962,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 12,
-        "total_commits": 13,
+        "total_prs_analyzed": 15,
+        "total_commits": 16,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 8.333333333333332,
-        "avg_retests_per_pr": 0.08333333333333333,
-        "avg_retests_per_commit": 0.07692307692307693
+        "pr_retest_rate": 6.666666666666667,
+        "avg_retests_per_pr": 0.06666666666666667,
+        "avg_retests_per_commit": 0.0625
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -1358,23 +1418,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/110"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 109,
-          "title": "chore(deps): update dependency requests to v2.34.1",
-          "merged_at": "2026-05-14T14:04:34Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/109"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 10,
+        "total_prs_analyzed": 8,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
