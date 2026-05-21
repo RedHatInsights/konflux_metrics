@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-20T22:36:23.176201+00:00",
+  "analysis_date": "2026-05-21T11:12:20.710267+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-19T22:36:23.122811+00:00",
-    "to": "2026-05-20T22:36:23.176201+00:00"
+    "from": "2026-02-20T11:12:20.656936+00:00",
+    "to": "2026-05-21T11:12:20.710267+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -4074,6 +4074,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 338,
+          "title": "Update dependency boto3 to v1.43.12",
+          "merged_at": "2026-05-21T02:06:41Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/338"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 337,
@@ -8684,6 +8696,42 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1204,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-21T06:08:20Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1204"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1203,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-21T02:19:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1203"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1202,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-20T22:40:36Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1202"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1201,
           "title": "fix(deps): update go dependencies",
           "merged_at": "2026-05-20T18:07:19Z",
@@ -12632,6 +12680,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 557,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1778735208",
+          "merged_at": "2026-05-21T09:13:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/557"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 566,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:40:39Z",
@@ -12862,6 +12922,18 @@
     },
     "RedHatInsights/content-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 866,
+          "title": "Bumped ccx-rules-ocp version",
+          "merged_at": "2026-05-21T09:46:30Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/866"
+        },
         {
           "repository": "RedHatInsights/content-service",
           "pr_number": 864,
@@ -16693,13 +16765,13 @@
       ]
     }
   },
-  "last_updated": "2026-05-20T22:36:23.176201+00:00",
-  "cutoff_date": "2026-02-19T22:36:23.122811+00:00",
+  "last_updated": "2026-05-21T11:12:20.710267+00:00",
+  "cutoff_date": "2026-02-20T11:12:20.656936+00:00",
   "summary": {
-    "total_prs": 1372,
+    "total_prs": 1378,
     "total_retests": 202,
     "prs_with_retests": 134,
-    "retest_rate": 9.7667638483965,
+    "retest_rate": 9.724238026124818,
     "retest_comments": 159,
     "update_branch_actions": 43
   }
