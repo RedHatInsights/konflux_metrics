@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-21T10:23:20.226417",
+  "analysis_date": "2026-05-21T21:39:09.647358",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-14T10:21:23.295156+00:00",
-    "to": "2026-05-21T10:23:20.226436"
+    "from": "2026-05-14T21:36:52.157051+00:00",
+    "to": "2026-05-21T21:39:09.647373"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 101,
-    "total_commits": 133,
+    "total_prs_analyzed": 95,
+    "total_commits": 128,
     "total_retests": 7,
-    "retest_comments": 3,
-    "update_branch_actions": 4,
+    "retest_comments": 2,
+    "update_branch_actions": 5,
     "prs_with_retests": 7,
-    "prs_with_lte_1_retest": 101,
+    "prs_with_lte_1_retest": 95,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 6.9306930693069315,
-    "avg_retests_per_pr": 0.06930693069306931,
-    "avg_retests_per_commit": 0.05263157894736842,
+    "pr_retest_rate": 7.368421052631578,
+    "avg_retests_per_pr": 0.07368421052631578,
+    "avg_retests_per_commit": 0.0546875,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -77,23 +77,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2498"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2497,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T22:09:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2497"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 6,
+        "total_prs_analyzed": 3,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -105,6 +93,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 753,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T18:07:11Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/753"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 751,
@@ -140,18 +140,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/749"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 748,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:12:54Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/748"
         }
       ],
       "summary": {
@@ -168,6 +156,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 642,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T18:01:25Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/642"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 641,
@@ -215,18 +215,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/638"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 637,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:03:02Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/637"
         }
       ],
       "summary": {
@@ -243,6 +231,18 @@
     },
     "RedHatInsights/insights-results-aggregator-mock": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 567,
+          "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T17:59:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/567"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 566,
@@ -302,18 +302,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/557"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 551,
-          "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:01:24Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/551"
         }
       ],
       "summary": {
@@ -330,6 +318,30 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 758,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T18:07:26Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/758"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 756,
+          "title": "[CCXDEV-15098] Update README and AGENTS.md add releasing info",
+          "merged_at": "2026-05-21T13:57:03Z",
+          "user": "matysek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/756"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 755,
@@ -365,23 +377,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/752"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 751,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:09:36Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/751"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -452,46 +452,34 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/861"
-        },
+        }
+      ],
+      "summary": {
+        "total_prs_analyzed": 5,
+        "total_commits": 7,
+        "total_retests": 1,
+        "retest_comments": 1,
+        "update_branch_actions": 0,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 20.0,
+        "avg_retests_per_pr": 0.2,
+        "avg_retests_per_commit": 0.14285714285714285
+      }
+    },
+    "RedHatInsights/insights-content-template-renderer": {
+      "prs": [
         {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 860,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:18:57Z",
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 339,
+          "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T18:13:43Z",
           "user": "red-hat-konflux[bot]",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/860"
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/339"
         },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 859,
-          "title": "Bumped ccx-rules-ocp version",
-          "merged_at": "2026-05-14T11:30:23Z",
-          "user": "obsint-processing-app[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/content-service/pull/859"
-        }
-      ],
-      "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 9,
-        "total_retests": 2,
-        "retest_comments": 2,
-        "update_branch_actions": 0,
-        "prs_with_retests": 2,
-        "pr_retest_rate": 28.57142857142857,
-        "avg_retests_per_pr": 0.2857142857142857,
-        "avg_retests_per_commit": 0.2222222222222222
-      }
-    },
-    "RedHatInsights/insights-content-template-renderer": {
-      "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 338,
@@ -575,18 +563,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/332"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 331,
-          "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:10:28Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/331"
         }
       ],
       "summary": {
@@ -630,6 +606,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 696,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T18:06:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/696"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 695,
@@ -677,35 +665,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/692"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 691,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:06:57Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/691"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 690,
-          "title": "Update Go version used in the workflow",
-          "merged_at": "2026-05-15T09:31:25Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/690"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -717,6 +681,18 @@
     },
     "RedHatInsights/insights-operator-utils": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 900,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T17:59:13Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/900"
+        },
         {
           "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 898,
@@ -752,18 +728,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/896"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 895,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:00:28Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/895"
         }
       ],
       "summary": {
@@ -780,6 +744,18 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1205,
+          "title": "chore(deps): update github actions",
+          "merged_at": "2026-05-21T12:34:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 1,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1205"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1204,
@@ -962,19 +938,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 15,
-        "total_commits": 16,
-        "total_retests": 1,
+        "total_prs_analyzed": 16,
+        "total_commits": 18,
+        "total_retests": 2,
         "retest_comments": 1,
-        "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 6.666666666666667,
-        "avg_retests_per_pr": 0.06666666666666667,
-        "avg_retests_per_commit": 0.0625
+        "update_branch_actions": 1,
+        "prs_with_retests": 2,
+        "pr_retest_rate": 12.5,
+        "avg_retests_per_pr": 0.125,
+        "avg_retests_per_commit": 0.1111111111111111
       }
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 853,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T18:13:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/853"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 851,
@@ -1010,18 +998,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/849"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 848,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:16:17Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/848"
         }
       ],
       "summary": {
@@ -1127,6 +1103,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 105,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-21T18:07:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/105"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
           "pr_number": 104,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:55:22Z",
@@ -1172,18 +1160,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/parquet-factory/pull/101"
-        },
-        {
-          "repository": "RedHatInsights/parquet-factory",
-          "pr_number": 100,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-14T18:07:06Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/parquet-factory/pull/100"
         }
       ],
       "summary": {
@@ -1394,35 +1370,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/112"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 111,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-15T01:54:11Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/111"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 110,
-          "title": "Remove pre-commit auto-update job",
-          "merged_at": "2026-05-15T09:31:16Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/110"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 9,
+        "total_prs_analyzed": 6,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1469,35 +1421,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/87"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-inference",
-          "pr_number": 86,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.13",
-          "merged_at": "2026-05-15T01:55:09Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/86"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-inference",
-          "pr_number": 85,
-          "title": "Remove pre-commit auto-update job",
-          "merged_at": "2026-05-15T09:31:21Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/85"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 6,
+        "total_prs_analyzed": 3,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
