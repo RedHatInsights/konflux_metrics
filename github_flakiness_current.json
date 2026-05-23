@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-23T09:41:42.020345",
+  "analysis_date": "2026-05-23T21:24:16.637394",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-16T09:40:16.626437+00:00",
-    "to": "2026-05-23T09:41:42.020356"
+    "from": "2026-05-16T21:22:55.191186+00:00",
+    "to": "2026-05-23T21:24:16.637410"
   },
   "overall_summary": {
-    "total_repos": 16,
-    "total_prs_analyzed": 77,
-    "total_commits": 95,
+    "total_repos": 17,
+    "total_prs_analyzed": 85,
+    "total_commits": 105,
     "total_retests": 7,
     "retest_comments": 2,
     "update_branch_actions": 5,
     "prs_with_retests": 7,
-    "prs_with_lte_1_retest": 77,
+    "prs_with_lte_1_retest": 85,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 9.090909090909092,
-    "avg_retests_per_pr": 0.09090909090909091,
-    "avg_retests_per_commit": 0.07368421052631578,
+    "pr_retest_rate": 8.235294117647058,
+    "avg_retests_per_pr": 0.08235294117647059,
+    "avg_retests_per_commit": 0.06666666666666667,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -95,6 +95,18 @@
         },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 752,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-23T18:17:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/752"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 751,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:52:39Z",
@@ -119,8 +131,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 4,
+        "total_prs_analyzed": 4,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -347,6 +359,18 @@
         },
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 865,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-23T18:27:12Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/865"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 864,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:59:31Z",
@@ -371,15 +395,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 4,
+        "total_prs_analyzed": 4,
+        "total_commits": 5,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 33.33333333333333,
-        "avg_retests_per_pr": 0.3333333333333333,
-        "avg_retests_per_commit": 0.25
+        "pr_retest_rate": 25.0,
+        "avg_retests_per_pr": 0.25,
+        "avg_retests_per_commit": 0.2
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -611,6 +635,18 @@
         },
         {
           "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 899,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-05-23T18:10:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/899"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 898,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:39:52Z",
@@ -635,8 +671,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 4,
+        "total_prs_analyzed": 4,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -857,6 +893,18 @@
         },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 852,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-05-23T18:28:32Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/852"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 851,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:55:16Z",
@@ -881,8 +929,71 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 4,
+        "total_prs_analyzed": 4,
+        "total_commits": 5,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
+      }
+    },
+    "RedHatInsights/ocp-advisor-frontend": {
+      "prs": [
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1116,
+          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-05-20T12:05:24Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1116"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1113,
+          "title": "chore(deps): update build-tools digest to 92e350a",
+          "merged_at": "2026-05-19T10:22:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1113"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1112,
+          "title": "chore(deps): update codecov/codecov-action action to v6.0.1",
+          "merged_at": "2026-05-19T11:37:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1112"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1111,
+          "title": "chore(deps): update build-tools digest to 03a5682",
+          "merged_at": "2026-05-18T15:32:20Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1111"
+        }
+      ],
+      "summary": {
+        "total_prs_analyzed": 4,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
