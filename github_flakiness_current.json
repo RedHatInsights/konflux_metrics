@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-24T09:43:08.368089",
+  "analysis_date": "2026-05-24T21:26:25.206388",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-17T09:41:50.614667+00:00",
-    "to": "2026-05-24T09:43:08.368104"
+    "from": "2026-05-17T21:24:19.870470+00:00",
+    "to": "2026-05-24T21:26:25.206403"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 88,
-    "total_commits": 108,
+    "total_prs_analyzed": 92,
+    "total_commits": 112,
     "total_retests": 7,
     "retest_comments": 2,
     "update_branch_actions": 5,
     "prs_with_retests": 7,
-    "prs_with_lte_1_retest": 88,
+    "prs_with_lte_1_retest": 92,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 7.954545454545454,
-    "avg_retests_per_pr": 0.07954545454545454,
-    "avg_retests_per_commit": 0.06481481481481481,
+    "pr_retest_rate": 7.608695652173914,
+    "avg_retests_per_pr": 0.07608695652173914,
+    "avg_retests_per_commit": 0.0625,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -233,6 +233,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 568,
+          "title": "Update Go dependencies",
+          "merged_at": "2026-05-24T17:57:29Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/568"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 567,
           "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
           "merged_at": "2026-05-21T17:59:42Z",
@@ -257,8 +269,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -410,6 +422,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 343,
+          "title": "Update dependency uvicorn to v0.48.0",
+          "merged_at": "2026-05-24T18:10:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/343"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 342,
           "title": "Update dependency fastapi to v0.136.3",
           "merged_at": "2026-05-24T02:07:48Z",
@@ -506,8 +530,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 8,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1217,6 +1241,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 122,
+          "title": "chore(deps): update dependency uvicorn to v0.48.0",
+          "merged_at": "2026-05-24T18:03:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/122"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 121,
           "title": "chore(deps): update dependency fastapi to v0.136.3",
           "merged_at": "2026-05-24T02:03:14Z",
@@ -1289,8 +1325,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1302,6 +1338,18 @@
     },
     "RedHatInsights/ccx-upgrades-inference": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 92,
+          "title": "chore(deps): update dependency uvicorn to v0.48.0",
+          "merged_at": "2026-05-24T18:03:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/92"
+        },
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 91,
@@ -1340,8 +1388,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
