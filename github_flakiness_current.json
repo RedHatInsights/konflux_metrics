@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-23T21:24:16.637394",
+  "analysis_date": "2026-05-24T09:43:08.368089",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-16T21:22:55.191186+00:00",
-    "to": "2026-05-23T21:24:16.637410"
+    "from": "2026-05-17T09:41:50.614667+00:00",
+    "to": "2026-05-24T09:43:08.368104"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 85,
-    "total_commits": 105,
+    "total_prs_analyzed": 88,
+    "total_commits": 108,
     "total_retests": 7,
     "retest_comments": 2,
     "update_branch_actions": 5,
     "prs_with_retests": 7,
-    "prs_with_lte_1_retest": 85,
+    "prs_with_lte_1_retest": 88,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 8.235294117647058,
-    "avg_retests_per_pr": 0.08235294117647059,
-    "avg_retests_per_commit": 0.06666666666666667,
+    "pr_retest_rate": 7.954545454545454,
+    "avg_retests_per_pr": 0.07954545454545454,
+    "avg_retests_per_commit": 0.06481481481481481,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -254,23 +254,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/566"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 565,
-          "title": "Lock file maintenance",
-          "merged_at": "2026-05-17T02:02:16Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/565"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -347,6 +335,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 867,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-23T22:07:22Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/867"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 866,
           "title": "Bumped ccx-rules-ocp version",
           "merged_at": "2026-05-21T09:46:30Z",
@@ -395,19 +395,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 5,
+        "total_prs_analyzed": 5,
+        "total_commits": 6,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.2
+        "pr_retest_rate": 20.0,
+        "avg_retests_per_pr": 0.2,
+        "avg_retests_per_commit": 0.16666666666666666
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 342,
+          "title": "Update dependency fastapi to v0.136.3",
+          "merged_at": "2026-05-24T02:07:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/342"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 341,
@@ -494,8 +506,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 7,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1205,6 +1217,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 121,
+          "title": "chore(deps): update dependency fastapi to v0.136.3",
+          "merged_at": "2026-05-24T02:03:14Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/121"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 120,
           "title": "chore(deps): update dependency cachetools to v7.1.4",
           "merged_at": "2026-05-22T05:57:14Z",
@@ -1262,18 +1286,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/115"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 114,
-          "title": "chore(deps): update dependency cachetools to v7.1.2",
-          "merged_at": "2026-05-17T02:06:43Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/114"
         }
       ],
       "summary": {
@@ -1292,6 +1304,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 91,
+          "title": "chore(deps): update dependency fastapi to v0.136.3",
+          "merged_at": "2026-05-24T02:03:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/91"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 90,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-24T06:05:35Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/90"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 89,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:52:32Z",
@@ -1304,8 +1340,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
