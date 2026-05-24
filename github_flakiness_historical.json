@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-23T22:23:04.290533+00:00",
+  "analysis_date": "2026-05-24T10:38:46.015400+00:00",
   "repos": [
     "RedHatInsights/insights-ccx-messaging",
     "RedHatInsights/insights-results-aggregator",
@@ -15,8 +15,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-02-22T22:23:04.235664+00:00",
-    "to": "2026-05-23T22:23:04.290533+00:00"
+    "from": "2026-02-23T10:38:45.961870+00:00",
+    "to": "2026-05-24T10:38:46.015400+00:00"
   },
   "overall_summary": {
     "total_repos": 11,
@@ -1124,18 +1124,6 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/652"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 651,
-          "title": "build(deps): update boto3 requirement from <1.42.50,>=1.34.1 to >=1.34.1,<1.42.55",
-          "merged_at": "2026-02-23T07:55:24Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/651"
         }
       ],
       "summary": {
@@ -4134,6 +4122,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 342,
+          "title": "Update dependency fastapi to v0.136.3",
+          "merged_at": "2026-05-24T02:07:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/342"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 341,
@@ -13092,6 +13092,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 867,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-23T22:07:22Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/867"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 865,
           "title": "chore(deps): update go dependencies",
           "merged_at": "2026-05-23T18:27:12Z",
@@ -15800,6 +15812,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 121,
+          "title": "chore(deps): update dependency fastapi to v0.136.3",
+          "merged_at": "2026-05-24T02:03:14Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/121"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 119,
           "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
           "merged_at": "2026-05-22T09:59:39Z",
@@ -16512,6 +16536,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 90,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.14",
+          "merged_at": "2026-05-24T06:05:35Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/90"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 91,
+          "title": "chore(deps): update dependency fastapi to v0.136.3",
+          "merged_at": "2026-05-24T02:03:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/91"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 89,
           "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-05-19T13:52:32Z",
@@ -17041,13 +17089,13 @@
       ]
     }
   },
-  "last_updated": "2026-05-23T22:23:04.290533+00:00",
-  "cutoff_date": "2026-02-22T22:23:04.235664+00:00",
+  "last_updated": "2026-05-24T10:38:46.015400+00:00",
+  "cutoff_date": "2026-02-23T10:38:45.961870+00:00",
   "summary": {
-    "total_prs": 1401,
+    "total_prs": 1405,
     "total_retests": 203,
     "prs_with_retests": 135,
-    "retest_rate": 9.635974304068522,
+    "retest_rate": 9.608540925266903,
     "retest_comments": 159,
     "update_branch_actions": 44
   }
