@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-24T21:26:25.206388",
+  "analysis_date": "2026-05-25T10:41:23.500846",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-17T21:24:19.870470+00:00",
-    "to": "2026-05-24T21:26:25.206403"
+    "from": "2026-05-18T10:39:49.239577+00:00",
+    "to": "2026-05-25T10:41:23.500865"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 92,
-    "total_commits": 112,
-    "total_retests": 7,
+    "total_prs_analyzed": 90,
+    "total_commits": 109,
+    "total_retests": 6,
     "retest_comments": 2,
-    "update_branch_actions": 5,
-    "prs_with_retests": 7,
-    "prs_with_lte_1_retest": 92,
+    "update_branch_actions": 4,
+    "prs_with_retests": 6,
+    "prs_with_lte_1_retest": 90,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 7.608695652173914,
-    "avg_retests_per_pr": 0.07608695652173914,
-    "avg_retests_per_commit": 0.0625,
+    "pr_retest_rate": 6.666666666666667,
+    "avg_retests_per_pr": 0.06666666666666667,
+    "avg_retests_per_commit": 0.05504587155963303,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -887,30 +887,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1191"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1190,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-05-18T10:55:25Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1190"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 15,
-        "total_commits": 16,
+        "total_prs_analyzed": 14,
+        "total_commits": 15,
         "total_retests": 2,
         "retest_comments": 1,
         "update_branch_actions": 1,
         "prs_with_retests": 2,
-        "pr_retest_rate": 13.333333333333334,
-        "avg_retests_per_pr": 0.13333333333333333,
-        "avg_retests_per_commit": 0.125
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.13333333333333333
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -1211,30 +1199,18 @@
           "update_branch_count": 1,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1755"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1754,
-          "title": "Update Pre-commit hooks",
-          "merged_at": "2026-05-18T10:24:47Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1754"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 20,
-        "total_retests": 4,
+        "total_prs_analyzed": 7,
+        "total_commits": 18,
+        "total_retests": 3,
         "retest_comments": 0,
-        "update_branch_actions": 4,
-        "prs_with_retests": 4,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.2
+        "update_branch_actions": 3,
+        "prs_with_retests": 3,
+        "pr_retest_rate": 42.857142857142854,
+        "avg_retests_per_pr": 0.42857142857142855,
+        "avg_retests_per_commit": 0.16666666666666666
       }
     },
     "RedHatInsights/ccx-upgrades-data-eng": {
