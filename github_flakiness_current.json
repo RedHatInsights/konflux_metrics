@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-26T21:37:41.830235",
+  "analysis_date": "2026-05-27T10:30:11.590067",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,13 +21,13 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-19T21:36:38.298674+00:00",
-    "to": "2026-05-26T21:37:41.830254"
+    "from": "2026-05-20T10:29:03.566094+00:00",
+    "to": "2026-05-27T10:30:11.590083"
   },
   "overall_summary": {
     "total_repos": 17,
     "total_prs_analyzed": 52,
-    "total_commits": 55,
+    "total_commits": 53,
     "total_retests": 1,
     "retest_comments": 0,
     "update_branch_actions": 1,
@@ -36,7 +36,7 @@
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 1.9230769230769231,
     "avg_retests_per_pr": 0.019230769230769232,
-    "avg_retests_per_commit": 0.01818181818181818,
+    "avg_retests_per_commit": 0.018867924528301886,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -244,23 +244,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/758"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 756,
-          "title": "[CCXDEV-15098] Update README and AGENTS.md add releasing info",
-          "merged_at": "2026-05-21T13:57:03Z",
-          "user": "matysek",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/756"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -311,6 +299,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 344,
+          "title": "Update dependency boto3 to v1.43.15",
+          "merged_at": "2026-05-27T02:01:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/344"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 343,
@@ -382,18 +382,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/338"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 337,
-          "title": "Update dependency boto3 to v1.43.11",
-          "merged_at": "2026-05-19T22:53:01Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/337"
         }
       ],
       "summary": {
@@ -540,6 +528,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1209,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-05-27T02:13:32Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1209"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1208,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-05-27T01:48:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1208"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1207,
           "title": "chore(deps): lock file maintenance ruby dependencies",
           "merged_at": "2026-05-26T00:37:17Z",
@@ -624,15 +636,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 8,
+        "total_prs_analyzed": 9,
+        "total_commits": 10,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 14.285714285714285,
-        "avg_retests_per_pr": 0.14285714285714285,
-        "avg_retests_per_commit": 0.125
+        "pr_retest_rate": 11.11111111111111,
+        "avg_retests_per_pr": 0.1111111111111111,
+        "avg_retests_per_commit": 0.1
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -687,23 +699,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1119"
-        },
-        {
-          "repository": "RedHatInsights/ocp-advisor-frontend",
-          "pr_number": 1116,
-          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
-          "merged_at": "2026-05-20T12:05:24Z",
-          "user": "obsint-processing-app[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1116"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 4,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
