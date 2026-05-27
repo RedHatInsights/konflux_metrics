@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-05-27T10:30:11.590067",
+  "analysis_date": "2026-05-27T21:40:01.954717",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-05-20T10:29:03.566094+00:00",
-    "to": "2026-05-27T10:30:11.590083"
+    "from": "2026-05-20T21:39:03.335853+00:00",
+    "to": "2026-05-27T21:40:01.954732"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 52,
-    "total_commits": 53,
+    "total_prs_analyzed": 49,
+    "total_commits": 50,
     "total_retests": 1,
     "retest_comments": 0,
     "update_branch_actions": 1,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 52,
+    "prs_with_lte_1_retest": 49,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.9230769230769231,
-    "avg_retests_per_pr": 0.019230769230769232,
-    "avg_retests_per_commit": 0.018867924528301886,
+    "pr_retest_rate": 2.0408163265306123,
+    "avg_retests_per_pr": 0.02040816326530612,
+    "avg_retests_per_commit": 0.02,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -609,42 +609,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1202"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1201,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-05-20T18:07:19Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1201"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1200,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-05-20T12:01:36Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1200"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 10,
+        "total_prs_analyzed": 7,
+        "total_commits": 8,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 11.11111111111111,
-        "avg_retests_per_pr": 0.1111111111111111,
-        "avg_retests_per_commit": 0.1
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.125
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -839,23 +815,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/119"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 118,
-          "title": "Remove old GL file",
-          "merged_at": "2026-05-20T10:50:50Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/118"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
