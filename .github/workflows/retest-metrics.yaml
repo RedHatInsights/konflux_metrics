@@ -37,11 +37,6 @@ jobs:
         run: |
           pip install requests prometheus-client
 
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Analyze GitHub repos for retests
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -50,19 +45,47 @@ jobs:
           python3 analyze_github_flakiness.py
 
       - name: Commit and push results
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Add JSON result file
-          git add github_flakiness_current.json || true
+          COMMIT_MSG="chore: update GitHub retest metrics [bot]"
 
-          # Check if there are changes to commit
-          if git diff --cached --quiet; then
+          git add github_flakiness_current.json || true
+          if git diff --staged --quiet; then
             echo "📊 No changes to commit"
-          else
-            echo "📊 Committing new retest metrics..."
-            git commit -m "chore: update GitHub retest metrics [bot]"
-            git pull --rebase origin main || git pull --rebase origin master || true
-            git push
+            exit 0
           fi
+
+          mapfile -t CHANGED < <(git diff --staged --name-only)
+          echo "📊 Committing ${#CHANGED[@]} changed file(s) via API..."
+          git reset HEAD -- . > /dev/null 2>&1 || true
+
+          CURRENT_SHA=$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/main" --jq '.object.sha')
+          BASE_TREE=$(gh api "repos/${GITHUB_REPOSITORY}/git/commits/${CURRENT_SHA}" --jq '.tree.sha')
+
+          TREE_JSON="[]"
+          for file in "${CHANGED[@]}"; do
+            BLOB_SHA=$(gh api "repos/${GITHUB_REPOSITORY}/git/blobs" \
+              -f content="$(base64 < "$file")" \
+              -f encoding="base64" \
+              --jq '.sha')
+            TREE_JSON=$(echo "$TREE_JSON" | jq \
+              --arg path "$file" --arg sha "$BLOB_SHA" \
+              '. + [{"path": $path, "mode": "100644", "type": "blob", "sha": $sha}]')
+          done
+
+          NEW_TREE=$(jq -n --arg base "$BASE_TREE" --argjson tree "$TREE_JSON" \
+            '{base_tree: $base, tree: $tree}' | \
+            gh api "repos/${GITHUB_REPOSITORY}/git/trees" --input - --jq '.sha')
+
+          NEW_COMMIT=$(gh api "repos/${GITHUB_REPOSITORY}/git/commits" \
+            -f message="${COMMIT_MSG}" \
+            -f tree="${NEW_TREE}" \
+            -f "parents[]=${CURRENT_SHA}" \
+            --jq '.sha')
+
+          gh api "repos/${GITHUB_REPOSITORY}/git/refs/heads/main" -X PATCH -f sha="${NEW_COMMIT}" > /dev/null
+          echo "✅ Committed ${NEW_COMMIT:0:7} (verified/signed by GitHub)"
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
