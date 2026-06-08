@@ -65,8 +65,7 @@ jobs:
 
           TREE_JSON="[]"
           for file in "${CHANGED[@]}"; do
-            jq -n --arg content "$(base64 < "$file")" \
-              '{content: $content, encoding: "base64"}' > /tmp/blob.json
+            base64 < "$file" | jq -Rs '{content: ., encoding: "base64"}' > /tmp/blob.json
             BLOB_SHA=$(gh api "repos/${GITHUB_REPOSITORY}/git/blobs" \
               --input /tmp/blob.json --jq '.sha')
             TREE_JSON=$(echo "$TREE_JSON" | jq \
