@@ -38,22 +38,46 @@ jobs:
           cp github_flakiness_current.json github_flakiness_historical.json
 
       - name: Commit and push historical files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          COMMIT_MSG="chore: backfill 90-day historical data [bot]"
 
-          # Add the historical file
           git add github_flakiness_historical.json
-
-          # Check if there are changes to commit
           if git diff --staged --quiet; then
-            echo "No changes to historical data"
-          else
-            echo "📊 Committing 90-day backfill data..."
-            git commit -m "chore: backfill 90-day historical data [bot]"
-            git pull --rebase origin main || git pull --rebase origin master || true
-            git push
+            echo "📊 No changes to historical data"
+            exit 0
           fi
+
+          mapfile -t CHANGED < <(git diff --staged --name-only)
+          echo "📊 Committing ${#CHANGED[@]} changed file(s) via API..."
+          git reset HEAD -- . > /dev/null 2>&1 || true
+
+          CURRENT_SHA=$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/main" --jq '.object.sha')
+          BASE_TREE=$(gh api "repos/${GITHUB_REPOSITORY}/git/commits/${CURRENT_SHA}" --jq '.tree.sha')
+
+          TREE_JSON="[]"
+          for file in "${CHANGED[@]}"; do
+            base64 < "$file" | jq -Rs '{content: ., encoding: "base64"}' > /tmp/blob.json
+            BLOB_SHA=$(gh api "repos/${GITHUB_REPOSITORY}/git/blobs" \
+              --input /tmp/blob.json --jq '.sha')
+            TREE_JSON=$(echo "$TREE_JSON" | jq \
+              --arg path "$file" --arg sha "$BLOB_SHA" \
+              '. + [{"path": $path, "mode": "100644", "type": "blob", "sha": $sha}]')
+          done
+
+          NEW_TREE=$(jq -n --arg base "$BASE_TREE" --argjson tree "$TREE_JSON" \
+            '{base_tree: $base, tree: $tree}' | \
+            gh api "repos/${GITHUB_REPOSITORY}/git/trees" --input - --jq '.sha')
+
+          NEW_COMMIT=$(gh api "repos/${GITHUB_REPOSITORY}/git/commits" \
+            -f message="${COMMIT_MSG}" \
+            -f tree="${NEW_TREE}" \
+            -f "parents[]=${CURRENT_SHA}" \
+            --jq '.sha')
+
+          gh api "repos/${GITHUB_REPOSITORY}/git/refs/heads/main" -X PATCH -f sha="${NEW_COMMIT}" > /dev/null
+          echo "✅ Committed ${NEW_COMMIT:0:7} (verified/signed by GitHub)"
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
