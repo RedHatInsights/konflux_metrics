@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-11T22:40:53.573790+00:00",
+  "analysis_date": "2026-06-12T11:23:50.388254+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-03-13T22:40:53.511626+00:00",
-    "to": "2026-06-11T22:40:53.573790+00:00"
+    "from": "2026-03-14T11:23:50.324492+00:00",
+    "to": "2026-06-12T11:23:50.388254+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -42,6 +42,18 @@
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2524,
+          "title": "[CCXDEV-15434] Old tutorial entries causing a log error report",
+          "merged_at": "2026-06-12T08:32:52Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2524"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2523,
@@ -1589,18 +1601,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2384"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2383,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-14T02:16:30Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2383"
         }
       ],
       "summary": {
@@ -3620,18 +3620,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/621"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 620,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-14T02:02:42Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/620"
         }
       ],
       "summary": {
@@ -9296,18 +9284,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/739"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 738,
-          "title": "Update Go dependencies",
-          "merged_at": "2026-03-14T02:08:29Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/738"
         }
       ],
       "summary": {
@@ -12713,18 +12689,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/590"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 589,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-14T02:01:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/589"
         }
       ],
       "summary": {
@@ -22076,13 +22040,13 @@
       }
     }
   },
-  "last_updated": "2026-06-11T22:40:53.573790+00:00",
-  "cutoff_date": "2026-03-13T22:40:53.511626+00:00",
+  "last_updated": "2026-06-12T11:23:50.388254+00:00",
+  "cutoff_date": "2026-03-14T11:23:50.324492+00:00",
   "summary": {
-    "total_prs": 1815,
+    "total_prs": 1812,
     "total_retests": 202,
     "prs_with_retests": 140,
-    "retest_rate": 7.7134986225895315,
+    "retest_rate": 7.72626931567329,
     "retest_comments": 164,
     "update_branch_actions": 38
   }
