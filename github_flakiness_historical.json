@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-14T22:32:07.180576+00:00",
+  "analysis_date": "2026-06-15T12:06:58.695773+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-03-16T22:32:07.117104+00:00",
-    "to": "2026-06-14T22:32:07.180576+00:00"
+    "from": "2026-03-17T12:06:58.632549+00:00",
+    "to": "2026-06-15T12:06:58.695773+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -6092,6 +6092,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 783,
+          "title": "Fix python-version and update badges",
+          "merged_at": "2026-06-15T08:41:38Z",
+          "user": "joselsegura",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/783"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 757,
           "title": "[CCXDEV-16284] Implement memleak workaround from insights-core",
           "merged_at": "2026-06-08T14:23:19Z",
@@ -9188,42 +9200,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/744"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 743,
-          "title": "Fix branch name in workflow",
-          "merged_at": "2026-03-17T10:23:45Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/content-service/pull/743"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 742,
-          "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.6",
-          "merged_at": "2026-03-17T10:04:48Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/742"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 741,
-          "title": "Linters reusable workflow",
-          "merged_at": "2026-03-17T09:15:36Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/741"
         }
       ],
       "summary": {
@@ -10643,18 +10619,6 @@
           "update_branch_count": 0,
           "total_retests": 5,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/258"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 254,
-          "title": "Bump uvicorn from 0.41.0 to 0.42.0",
-          "merged_at": "2026-03-16T23:28:10Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/254"
         }
       ],
       "summary": {
@@ -16970,18 +16934,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/775"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 771,
-          "title": "Linters reusable workflow",
-          "merged_at": "2026-03-17T10:02:55Z",
-          "user": "joselsegura",
-          "total_commits": 4,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/771"
         }
       ],
       "summary": {
@@ -20882,42 +20834,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/40"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 39,
-          "title": "Fix branch name in workflow",
-          "merged_at": "2026-03-17T10:17:03Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/39"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 38,
-          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.15.6",
-          "merged_at": "2026-03-17T09:57:55Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/38"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 37,
-          "title": "Linters reusable workflow",
-          "merged_at": "2026-03-17T09:29:33Z",
-          "user": "joselsegura",
-          "total_commits": 4,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/37"
         }
       ],
       "summary": {
@@ -21845,30 +21761,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/29"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-inference",
-          "pr_number": 28,
-          "title": "Update pre-commit hook astral-sh/ruff-pre-commit to v0.15.6",
-          "merged_at": "2026-03-17T09:52:20Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/28"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-inference",
-          "pr_number": 27,
-          "title": "Linters reusable workflow",
-          "merged_at": "2026-03-17T07:56:52Z",
-          "user": "joselsegura",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/27"
         }
       ],
       "summary": {
@@ -21884,14 +21776,14 @@
       }
     }
   },
-  "last_updated": "2026-06-14T22:32:07.180576+00:00",
-  "cutoff_date": "2026-03-16T22:32:07.117104+00:00",
+  "last_updated": "2026-06-15T12:06:58.695773+00:00",
+  "cutoff_date": "2026-03-17T12:06:58.632549+00:00",
   "summary": {
-    "total_prs": 1799,
-    "total_retests": 200,
-    "prs_with_retests": 139,
-    "retest_rate": 7.726514730405781,
+    "total_prs": 1790,
+    "total_retests": 198,
+    "prs_with_retests": 137,
+    "retest_rate": 7.653631284916202,
     "retest_comments": 162,
-    "update_branch_actions": 38
+    "update_branch_actions": 36
   }
 }
