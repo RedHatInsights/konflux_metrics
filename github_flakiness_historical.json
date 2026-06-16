@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-15T22:47:23.191650+00:00",
+  "analysis_date": "2026-06-16T11:51:15.768057+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-03-17T22:47:23.127326+00:00",
-    "to": "2026-06-15T22:47:23.191650+00:00"
+    "from": "2026-03-18T11:51:15.704471+00:00",
+    "to": "2026-06-16T11:51:15.768057+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -42,6 +42,18 @@
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2527,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-16T00:36:10Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2527"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2526,
@@ -9350,6 +9362,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 380,
+          "title": "Update dependency boto3 to v1.43.29",
+          "merged_at": "2026-06-15T23:52:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/380"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 378,
           "title": "Update Pre-commit hooks",
           "merged_at": "2026-06-15T18:25:29Z",
@@ -14292,6 +14316,42 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1233,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-16T06:25:22Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1233"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1232,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-06-16T00:58:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1232"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1231,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-16T00:58:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1231"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1230,
@@ -22052,13 +22112,13 @@
       }
     }
   },
-  "last_updated": "2026-06-15T22:47:23.191650+00:00",
-  "cutoff_date": "2026-03-17T22:47:23.127326+00:00",
+  "last_updated": "2026-06-16T11:51:15.768057+00:00",
+  "cutoff_date": "2026-03-18T11:51:15.704471+00:00",
   "summary": {
-    "total_prs": 1813,
+    "total_prs": 1818,
     "total_retests": 198,
     "prs_with_retests": 137,
-    "retest_rate": 7.5565361279647,
+    "retest_rate": 7.5357535753575355,
     "retest_comments": 162,
     "update_branch_actions": 36
   }
