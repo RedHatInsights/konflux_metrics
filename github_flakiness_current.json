@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-16T21:56:32.756808",
+  "analysis_date": "2026-06-17T10:41:18.126494",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-06-09T21:55:34.034272+00:00",
-    "to": "2026-06-16T21:56:32.756827"
+    "from": "2026-06-10T10:39:58.801641+00:00",
+    "to": "2026-06-17T10:41:18.126511"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 46,
-    "total_commits": 48,
+    "total_prs_analyzed": 53,
+    "total_commits": 54,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 46,
+    "prs_with_lte_1_retest": 53,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 2.1739130434782608,
-    "avg_retests_per_pr": 0.021739130434782608,
-    "avg_retests_per_commit": 0.020833333333333332,
+    "pr_retest_rate": 1.8867924528301887,
+    "avg_retests_per_pr": 0.018867924528301886,
+    "avg_retests_per_commit": 0.018518518518518517,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -565,6 +565,66 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1240,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-17T09:55:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1240"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1239,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-17T05:31:52Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1239"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1238,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-06-17T02:55:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1238"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1237,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-17T02:52:20Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1237"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1236,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-16T22:43:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1236"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1235,
           "title": "fix(deps): update go dependencies",
           "merged_at": "2026-06-16T16:54:30Z",
@@ -637,8 +697,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 11,
+        "total_commits": 11,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -691,20 +751,44 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
-          "pr_number": 1134,
-          "title": "fix(deps): update frontend-components to 7.7.1",
-          "merged_at": "2026-06-10T11:21:40Z",
-          "user": "platex-rehor-bot",
-          "total_commits": 2,
+          "pr_number": 1137,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-06-17T08:12:49Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1134"
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1137"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1136,
+          "title": "chore(deps): update codecov/codecov-action action to v7",
+          "merged_at": "2026-06-17T08:13:02Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1136"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1135,
+          "title": "chore(deps): update build-tools digest to 6bdef6f",
+          "merged_at": "2026-06-17T08:07:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1135"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
