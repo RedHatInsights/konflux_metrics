@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-18T10:37:45.690511",
+  "analysis_date": "2026-06-18T21:48:43.483291",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,27 +21,39 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-06-11T10:35:38.712118+00:00",
-    "to": "2026-06-18T10:37:45.690523"
+    "from": "2026-06-11T21:45:59.550638+00:00",
+    "to": "2026-06-18T21:48:43.483308"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 86,
-    "total_commits": 87,
+    "total_prs_analyzed": 105,
+    "total_commits": 106,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 86,
+    "prs_with_lte_1_retest": 105,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.1627906976744187,
-    "avg_retests_per_pr": 0.011627906976744186,
-    "avg_retests_per_commit": 0.011494252873563218,
+    "pr_retest_rate": 0.9523809523809524,
+    "avg_retests_per_pr": 0.009523809523809525,
+    "avg_retests_per_commit": 0.009433962264150943,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2531,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-18T14:34:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2531"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2530,
@@ -116,8 +128,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -129,6 +141,30 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 798,
+          "title": "chore(deps): update module github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs to v1.76.0",
+          "merged_at": "2026-06-18T19:27:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/798"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 797,
+          "title": "chore(deps): update module github.com/ibm/sarama to v1.50.3",
+          "merged_at": "2026-06-18T15:00:58Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/797"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 796,
@@ -203,8 +239,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -216,6 +252,30 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 684,
+          "title": "chore(deps): update module github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs to v1.76.0",
+          "merged_at": "2026-06-18T21:03:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/684"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 683,
+          "title": "chore(deps): update module github.com/ibm/sarama to v1.50.3",
+          "merged_at": "2026-06-18T13:24:55Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/683"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 682,
@@ -290,8 +350,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -404,6 +464,18 @@
         },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 789,
+          "title": "[CCXDEV-16469] Update the insights-core-messaging dependency",
+          "merged_at": "2026-06-18T12:29:30Z",
+          "user": "matysek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/789"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 788,
           "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.222.1",
           "merged_at": "2026-06-17T22:07:05Z",
@@ -464,8 +536,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 7,
+        "total_prs_analyzed": 7,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -477,6 +549,30 @@
     },
     "RedHatInsights/content-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 906,
+          "title": "chore(deps): update module github.com/ibm/sarama to v1.50.3",
+          "merged_at": "2026-06-18T14:15:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/906"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 905,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.224.0",
+          "merged_at": "2026-06-18T10:39:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/905"
+        },
         {
           "repository": "RedHatInsights/content-service",
           "pr_number": 904,
@@ -539,19 +635,43 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 20.0,
-        "avg_retests_per_pr": 0.2,
-        "avg_retests_per_commit": 0.2
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.14285714285714285
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 386,
+          "title": "Update dependency fastapi to v0.137.1",
+          "merged_at": "2026-06-18T14:46:52Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/386"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 385,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v43.224.0",
+          "merged_at": "2026-06-18T19:31:11Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/385"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 384,
@@ -638,8 +758,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 7,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -665,6 +785,30 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 742,
+          "title": "chore(deps): update module github.com/ibm/sarama to v1.50.3",
+          "merged_at": "2026-06-18T14:43:52Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/742"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 741,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.224.0",
+          "merged_at": "2026-06-18T10:39:13Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/741"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 740,
@@ -727,8 +871,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -740,6 +884,30 @@
     },
     "RedHatInsights/insights-operator-utils": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 952,
+          "title": "fix(deps): update module github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs to v1.76.0",
+          "merged_at": "2026-06-18T21:26:47Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/952"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 951,
+          "title": "fix(deps): update module github.com/ibm/sarama to v1.50.3",
+          "merged_at": "2026-06-18T13:49:32Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/951"
+        },
         {
           "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 950,
@@ -814,8 +982,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -988,6 +1156,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 874,
+          "title": "chore(deps): update module github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs to v1.76.0",
+          "merged_at": "2026-06-18T21:20:04Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/874"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 873,
+          "title": "fix(deps): update module github.com/ibm/sarama to v1.50.3",
+          "merged_at": "2026-06-18T15:37:20Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/873"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 872,
           "title": "fix(deps): update go dependencies",
           "merged_at": "2026-06-15T17:40:29Z",
@@ -1012,8 +1204,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1076,6 +1268,18 @@
     },
     "RedHatInsights/parquet-factory": {
       "prs": [
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 149,
+          "title": "fix(deps): update module github.com/ibm/sarama to v1.50.3",
+          "merged_at": "2026-06-18T16:44:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/149"
+        },
         {
           "repository": "RedHatInsights/parquet-factory",
           "pr_number": 148,
@@ -1150,8 +1354,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1177,6 +1381,18 @@
     },
     "RedHatInsights/ccx-upgrades-data-eng": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 148,
+          "title": "chore(deps): update dependency fastapi to v0.137.1",
+          "merged_at": "2026-06-18T14:12:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/148"
+        },
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 147,
@@ -1251,8 +1467,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1264,6 +1480,18 @@
     },
     "RedHatInsights/ccx-upgrades-inference": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 115,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.224.0",
+          "merged_at": "2026-06-18T11:01:14Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/115"
+        },
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 114,
@@ -1314,8 +1542,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
