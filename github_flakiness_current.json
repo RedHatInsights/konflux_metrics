@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-19T21:33:25.342842",
+  "analysis_date": "2026-06-20T10:07:43.479920",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-06-12T21:31:02.982952+00:00",
-    "to": "2026-06-19T21:33:25.342860"
+    "from": "2026-06-13T10:05:21.923259+00:00",
+    "to": "2026-06-20T10:07:43.479941"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 163,
-    "total_commits": 163,
+    "total_prs_analyzed": 168,
+    "total_commits": 168,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 163,
+    "prs_with_lte_1_retest": 168,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 0.6134969325153374,
-    "avg_retests_per_pr": 0.006134969325153374,
-    "avg_retests_per_commit": 0.006134969325153374,
+    "pr_retest_rate": 0.5952380952380952,
+    "avg_retests_per_pr": 0.005952380952380952,
+    "avg_retests_per_commit": 0.005952380952380952,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -986,6 +986,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 392,
+          "title": "Update Python dependencies",
+          "merged_at": "2026-06-20T02:22:45Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/392"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 391,
           "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v43.227.0",
           "merged_at": "2026-06-19T18:34:19Z",
@@ -1154,8 +1166,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 14,
+        "total_prs_analyzed": 15,
+        "total_commits": 15,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1354,6 +1366,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 957,
+          "title": "fix(deps): update module github.com/aws/aws-sdk-go-v2/service/s3 to v1.104.0",
+          "merged_at": "2026-06-19T22:09:49Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/957"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 956,
           "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.227.0",
           "merged_at": "2026-06-19T17:52:01Z",
@@ -1498,8 +1522,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 12,
-        "total_commits": 12,
+        "total_prs_analyzed": 13,
+        "total_commits": 13,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1511,6 +1535,30 @@
     },
     "RedHatInsights/ccx-notification-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1244,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-06-20T01:43:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1244"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1243,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-06-20T01:18:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1243"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1242,
@@ -1669,8 +1717,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 13,
+        "total_prs_analyzed": 15,
+        "total_commits": 15,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1820,6 +1868,18 @@
     },
     "RedHatInsights/parquet-factory": {
       "prs": [
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 156,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-06-19T21:55:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/156"
+        },
         {
           "repository": "RedHatInsights/parquet-factory",
           "pr_number": 155,
@@ -1978,8 +2038,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 13,
+        "total_prs_analyzed": 14,
+        "total_commits": 14,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
