@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-20T21:39:09.343760",
+  "analysis_date": "2026-06-21T10:21:11.288649",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,27 +21,51 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-06-13T21:34:49.594378+00:00",
-    "to": "2026-06-20T21:39:09.343778"
+    "from": "2026-06-14T10:18:38.822268+00:00",
+    "to": "2026-06-21T10:21:11.288668"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 180,
-    "total_commits": 181,
+    "total_prs_analyzed": 187,
+    "total_commits": 188,
     "total_retests": 2,
     "retest_comments": 1,
     "update_branch_actions": 1,
     "prs_with_retests": 2,
-    "prs_with_lte_1_retest": 180,
+    "prs_with_lte_1_retest": 187,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.1111111111111112,
-    "avg_retests_per_pr": 0.011111111111111112,
-    "avg_retests_per_commit": 0.011049723756906077,
+    "pr_retest_rate": 1.06951871657754,
+    "avg_retests_per_pr": 0.0106951871657754,
+    "avg_retests_per_commit": 0.010638297872340425,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2539,
+          "title": "chore(deps): update actions/checkout action to v7",
+          "merged_at": "2026-06-20T22:23:12Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2539"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2538,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-06-21T02:19:52Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2538"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2537,
@@ -200,8 +224,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 13,
+        "total_prs_analyzed": 15,
+        "total_commits": 15,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -851,6 +875,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 914,
+          "title": "chore(deps): update actions/checkout action to v7",
+          "merged_at": "2026-06-20T22:17:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/914"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 913,
           "title": "chore(deps): update module github.com/prometheus/common to v0.69.0",
           "merged_at": "2026-06-20T11:40:05Z",
@@ -1019,19 +1055,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 14,
+        "total_prs_analyzed": 15,
+        "total_commits": 15,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 7.142857142857142,
-        "avg_retests_per_pr": 0.07142857142857142,
-        "avg_retests_per_commit": 0.07142857142857142
+        "pr_retest_rate": 6.666666666666667,
+        "avg_retests_per_pr": 0.06666666666666667,
+        "avg_retests_per_commit": 0.06666666666666667
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 393,
+          "title": "Update Python dependencies",
+          "merged_at": "2026-06-21T09:34:03Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/393"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 392,
@@ -1214,8 +1262,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 15,
-        "total_commits": 15,
+        "total_prs_analyzed": 16,
+        "total_commits": 16,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1633,6 +1681,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1247,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-06-21T03:07:10Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1247"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1245,
           "title": "chore(deps): update actions/checkout action to v7",
           "merged_at": "2026-06-20T18:55:37Z",
@@ -1825,19 +1885,31 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 16,
-        "total_commits": 17,
+        "total_prs_analyzed": 17,
+        "total_commits": 18,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 6.25,
-        "avg_retests_per_pr": 0.0625,
-        "avg_retests_per_commit": 0.058823529411764705
+        "pr_retest_rate": 5.88235294117647,
+        "avg_retests_per_pr": 0.058823529411764705,
+        "avg_retests_per_commit": 0.05555555555555555
       }
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 878,
+          "title": "chore(deps): update actions/checkout action to v7",
+          "merged_at": "2026-06-20T22:07:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/878"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 877,
@@ -1924,8 +1996,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 7,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -2211,6 +2283,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 151,
+          "title": "chore(deps): update dependency fastapi to v0.137.2",
+          "merged_at": "2026-06-21T10:14:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/151"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 150,
           "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v43.227.0",
           "merged_at": "2026-06-19T18:12:50Z",
@@ -2319,8 +2403,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 9,
+        "total_prs_analyzed": 10,
+        "total_commits": 10,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
