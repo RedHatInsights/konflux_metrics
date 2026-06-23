@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-22T22:39:13.908605+00:00",
+  "analysis_date": "2026-06-23T11:10:00.726783+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-03-24T22:39:13.842357+00:00",
-    "to": "2026-06-22T22:39:13.908605+00:00"
+    "from": "2026-03-25T11:10:00.662217+00:00",
+    "to": "2026-06-23T11:10:00.726783+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -1673,42 +1673,6 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2396"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2393,
-          "title": "Update renovate.json configuration",
-          "merged_at": "2026-03-25T08:42:49Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2393"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2394,
-          "title": "Adding CODEOWNERS",
-          "merged_at": "2026-03-25T07:56:21Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2394"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2392,
-          "title": "chore(deps): update all dependencies",
-          "merged_at": "2026-03-25T06:48:07Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2392"
         }
       ],
       "summary": {
@@ -7925,18 +7889,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/663"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 659,
-          "title": "[CCXDEV-15098] rules-uploader add python env vars for better debugging",
-          "merged_at": "2026-03-25T06:24:38Z",
-          "user": "matysek",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/659"
         }
       ],
       "summary": {
@@ -9824,30 +9776,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/750"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 747,
-          "title": "Update Go dependencies",
-          "merged_at": "2026-03-25T10:15:32Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/747"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 746,
-          "title": "Update pre-commit hook golangci/golangci-lint to v2.11.4",
-          "merged_at": "2026-03-25T06:42:28Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/746"
         }
       ],
       "summary": {
@@ -9864,6 +9792,30 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 397,
+          "title": "Update dependency fastapi to v0.138.0",
+          "merged_at": "2026-06-23T02:13:25Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/397"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 396,
+          "title": "Update dependency boto3 to v1.43.34",
+          "merged_at": "2026-06-22T23:07:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/396"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 394,
@@ -18488,6 +18440,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1142,
+          "title": "fix(deps): update dependency semver to ^7.8.5",
+          "merged_at": "2026-06-23T10:10:08Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1142"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1136,
           "title": "chore(deps): update codecov/codecov-action action to v7",
           "merged_at": "2026-06-17T08:13:02Z",
@@ -18965,18 +18929,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1083"
-        },
-        {
-          "repository": "RedHatInsights/ocp-advisor-frontend",
-          "pr_number": 1081,
-          "title": "chore(deps): update dependency redhatinsights/konflux-pipelines to v1.62.0",
-          "merged_at": "2026-03-25T01:31:18Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1081"
         }
       ],
       "summary": {
@@ -21413,6 +21365,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 154,
+          "title": "chore(deps): update dependency fastapi to v0.138.0",
+          "merged_at": "2026-06-23T10:00:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/154"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 153,
           "title": "chore(deps): update dependency pydantic-settings to v2.14.2",
           "merged_at": "2026-06-22T15:09:28Z",
@@ -23648,13 +23612,13 @@
       }
     }
   },
-  "last_updated": "2026-06-22T22:39:13.908605+00:00",
-  "cutoff_date": "2026-03-24T22:39:13.842357+00:00",
+  "last_updated": "2026-06-23T11:10:00.726783+00:00",
+  "cutoff_date": "2026-03-25T11:10:00.662217+00:00",
   "summary": {
-    "total_prs": 1946,
+    "total_prs": 1943,
     "total_retests": 197,
     "prs_with_retests": 136,
-    "retest_rate": 6.98869475847893,
+    "retest_rate": 6.9994853319608845,
     "retest_comments": 163,
     "update_branch_actions": 34
   }
