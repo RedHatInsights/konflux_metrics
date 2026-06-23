@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-23T11:10:00.726783+00:00",
+  "analysis_date": "2026-06-23T22:33:44.300603+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-03-25T11:10:00.662217+00:00",
-    "to": "2026-06-23T11:10:00.726783+00:00"
+    "from": "2026-03-25T22:33:44.234326+00:00",
+    "to": "2026-06-23T22:33:44.300603+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -1661,18 +1661,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2398"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2396,
-          "title": "Add bots to codeowners",
-          "merged_at": "2026-03-25T11:58:03Z",
-          "user": "joselsegura",
-          "total_commits": 3,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2396"
         }
       ],
       "summary": {
@@ -9764,18 +9752,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/753"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 750,
-          "title": "Update Go dependencies",
-          "merged_at": "2026-03-25T14:05:13Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/750"
         }
       ],
       "summary": {
@@ -15212,30 +15188,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/811"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 809,
-          "title": "build(deps): bump github.com/buger/jsonparser from 1.1.1 to 1.1.2",
-          "merged_at": "2026-03-25T12:16:08Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/809"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 808,
-          "title": "Add #nosec comments for gosec G704 SSRF warnings",
-          "merged_at": "2026-03-25T12:12:07Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/808"
         }
       ],
       "summary": {
@@ -21335,18 +21287,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1688"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1686,
-          "title": "Bump github.com/buger/jsonparser from 1.1.1 to 1.1.2",
-          "merged_at": "2026-03-25T14:44:36Z",
-          "user": "dependabot[bot]",
-          "total_commits": 1,
-          "retest_comments": 2,
-          "update_branch_count": 0,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1686"
         }
       ],
       "summary": {
@@ -22574,18 +22514,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/47"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 45,
-          "title": "chore(deps): update dependency requests to v2.33.0",
-          "merged_at": "2026-03-25T21:43:54Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/45"
         }
       ],
       "summary": {
@@ -22602,6 +22530,18 @@
     },
     "RedHatInsights/ccx-upgrades-inference": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 122,
+          "title": "chore(deps): update dependency fastapi to v0.138.0",
+          "merged_at": "2026-06-23T10:34:58Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/122"
+        },
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 121,
@@ -23612,14 +23552,14 @@
       }
     }
   },
-  "last_updated": "2026-06-23T11:10:00.726783+00:00",
-  "cutoff_date": "2026-03-25T11:10:00.662217+00:00",
+  "last_updated": "2026-06-23T22:33:44.300603+00:00",
+  "cutoff_date": "2026-03-25T22:33:44.234326+00:00",
   "summary": {
-    "total_prs": 1943,
-    "total_retests": 197,
-    "prs_with_retests": 136,
-    "retest_rate": 6.9994853319608845,
-    "retest_comments": 163,
+    "total_prs": 1938,
+    "total_retests": 195,
+    "prs_with_retests": 135,
+    "retest_rate": 6.96594427244582,
+    "retest_comments": 161,
     "update_branch_actions": 34
   }
 }
