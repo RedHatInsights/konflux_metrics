@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-27T10:45:15.593122+00:00",
+  "analysis_date": "2026-06-27T22:28:42.322037+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-03-29T10:45:15.524716+00:00",
-    "to": "2026-06-27T10:45:15.593122+00:00"
+    "from": "2026-03-29T22:28:42.253334+00:00",
+    "to": "2026-06-27T22:28:42.322037+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -19715,6 +19715,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 173,
+          "title": "chore(deps): update pre-commit hooks",
+          "merged_at": "2026-06-27T13:37:26Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/173"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 172,
+          "title": "chore(deps): update go dependencies to v2.4.2",
+          "merged_at": "2026-06-27T10:00:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/172"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
           "pr_number": 171,
           "title": "chore(deps): update pre-commit hooks to v43.241.2",
           "merged_at": "2026-06-27T01:25:12Z",
@@ -23480,6 +23504,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 136,
+          "title": "chore(deps): update pre-commit hooks to v43.242.0",
+          "merged_at": "2026-06-27T09:54:25Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/136"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 135,
           "title": "chore(deps): update pre-commit hooks to v43.241.5",
           "merged_at": "2026-06-27T04:41:41Z",
@@ -24644,13 +24680,13 @@
       }
     }
   },
-  "last_updated": "2026-06-27T10:45:15.593122+00:00",
-  "cutoff_date": "2026-03-29T10:45:15.524716+00:00",
+  "last_updated": "2026-06-27T22:28:42.322037+00:00",
+  "cutoff_date": "2026-03-29T22:28:42.253334+00:00",
   "summary": {
-    "total_prs": 2029,
+    "total_prs": 2032,
     "total_retests": 180,
     "prs_with_retests": 126,
-    "retest_rate": 6.209955643173978,
+    "retest_rate": 6.200787401574804,
     "retest_comments": 145,
     "update_branch_actions": 35
   }
