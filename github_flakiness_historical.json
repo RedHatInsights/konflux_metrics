@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-06-30T22:33:15.667746+00:00",
+  "analysis_date": "2026-07-01T11:12:45.925445+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-04-01T22:33:15.599519+00:00",
-    "to": "2026-06-30T22:33:15.667746+00:00"
+    "from": "2026-04-02T11:12:45.856935+00:00",
+    "to": "2026-07-01T11:12:45.925445+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -6233,6 +6233,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 640,
+          "title": "Update Pre-commit hooks to v43.245.0",
+          "merged_at": "2026-06-30T22:09:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/640"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 639,
           "title": "Update Go dependencies to v0.21.0",
           "merged_at": "2026-06-30T08:41:53Z",
@@ -7302,6 +7314,18 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 815,
+          "title": "chore(deps): update pre-commit hooks to v43.245.0",
+          "merged_at": "2026-06-30T22:19:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/815"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 814,
@@ -23153,6 +23177,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 175,
+          "title": "chore(deps): update pre-commit hooks to v43.245.0",
+          "merged_at": "2026-06-30T22:00:17Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/175"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 174,
           "title": "chore(deps): update pre-commit hooks to v43.244.4",
           "merged_at": "2026-06-30T05:43:27Z",
@@ -24584,6 +24620,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 144,
+          "title": "chore(deps): update pre-commit hooks to v43.245.0",
+          "merged_at": "2026-06-30T21:52:48Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/144"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 143,
           "title": "chore(deps): update pre-commit hooks to v43.244.4",
           "merged_at": "2026-06-30T05:26:54Z",
@@ -25844,13 +25892,13 @@
       }
     }
   },
-  "last_updated": "2026-06-30T22:33:15.667746+00:00",
-  "cutoff_date": "2026-04-01T22:33:15.599519+00:00",
+  "last_updated": "2026-07-01T11:12:45.925445+00:00",
+  "cutoff_date": "2026-04-02T11:12:45.856935+00:00",
   "summary": {
-    "total_prs": 2129,
+    "total_prs": 2133,
     "total_retests": 180,
     "prs_with_retests": 126,
-    "retest_rate": 5.918271488961954,
+    "retest_rate": 5.9071729957805905,
     "retest_comments": 145,
     "update_branch_actions": 35
   }
