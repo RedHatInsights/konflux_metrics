@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-07-12T10:33:40.583762+00:00",
+  "analysis_date": "2026-07-12T22:21:12.843604+00:00",
   "gitlab_url": "https://gitlab.cee.redhat.com",
   "project_paths": [
     "insights-qe/iqe-ccx-plugin",
@@ -12,8 +12,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-04-13T10:33:40.572557+00:00",
-    "to": "2026-07-12T10:33:40.583762+00:00"
+    "from": "2026-04-13T22:21:12.832269+00:00",
+    "to": "2026-07-12T22:21:12.843604+00:00"
   },
   "overall_summary": {
     "total_projects": 7,
@@ -214,28 +214,7 @@
       }
     },
     "ccx/ccx-load-test": {
-      "mrs": [
-        {
-          "project": "ccx/ccx-load-test",
-          "mr_iid": 104,
-          "title": "Increase max and avg response time for the v1/org_overview endpoint",
-          "merged_at": "2026-04-13T12:58:41.749Z",
-          "author": "lsolarov",
-          "total_commits": 1,
-          "total_retests": 0,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/104"
-        },
-        {
-          "project": "ccx/ccx-load-test",
-          "mr_iid": 103,
-          "title": "Increase max and avg response time for the v1/org_overview endpoint",
-          "merged_at": "2026-04-13T12:58:41.617Z",
-          "author": "lsolarov",
-          "total_commits": 1,
-          "total_retests": 2,
-          "url": "https://gitlab.cee.redhat.com/ccx/ccx-load-test/-/merge_requests/103"
-        }
-      ],
+      "mrs": [],
       "summary": {
         "total_mrs_analyzed": 0,
         "total_commits": 0,
@@ -283,12 +262,12 @@
       }
     }
   },
-  "last_updated": "2026-07-12T10:33:40.583762+00:00",
-  "cutoff_date": "2026-04-13T10:33:40.572557+00:00",
+  "last_updated": "2026-07-12T22:21:12.843604+00:00",
+  "cutoff_date": "2026-04-13T22:21:12.832269+00:00",
   "summary": {
-    "total_mrs": 17,
-    "total_retests": 2,
-    "mrs_with_retests": 1,
-    "retest_rate": 5.88235294117647
+    "total_mrs": 15,
+    "total_retests": 0,
+    "mrs_with_retests": 0,
+    "retest_rate": 0.0
   }
 }
