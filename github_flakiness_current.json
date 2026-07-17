@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-07-16T21:30:48.763994",
+  "analysis_date": "2026-07-17T09:44:13.485209",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,27 +21,51 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-07-09T21:25:31.851183+00:00",
-    "to": "2026-07-16T21:30:48.764012"
+    "from": "2026-07-10T09:39:44.403808+00:00",
+    "to": "2026-07-17T09:44:13.485229"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 330,
-    "total_commits": 352,
-    "total_retests": 6,
-    "retest_comments": 6,
+    "total_prs_analyzed": 338,
+    "total_commits": 361,
+    "total_retests": 8,
+    "retest_comments": 8,
     "update_branch_actions": 0,
-    "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 329,
-    "prs_with_lte_1_retest_percentage": 99.69696969696969,
-    "pr_retest_rate": 1.5151515151515151,
-    "avg_retests_per_pr": 0.01818181818181818,
-    "avg_retests_per_commit": 0.017045454545454544,
-    "combined_weighted_lte_1_retest_percentage": 99.69696969696969
+    "prs_with_retests": 7,
+    "prs_with_lte_1_retest": 337,
+    "prs_with_lte_1_retest_percentage": 99.70414201183432,
+    "pr_retest_rate": 2.0710059171597637,
+    "avg_retests_per_pr": 0.023668639053254437,
+    "avg_retests_per_commit": 0.0221606648199446,
+    "combined_weighted_lte_1_retest_percentage": 99.70414201183432
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2611,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T05:28:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2611"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2610,
+          "title": "chore(deps): update pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T22:06:50Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2610"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2609,
@@ -329,47 +353,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2585"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2584,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-07-10T21:46:35Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2584"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2583,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T09:27:51Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2583"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2582,
-          "title": "chore(deps): update pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:36:45Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2582"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 27,
-        "total_commits": 27,
+        "total_prs_analyzed": 26,
+        "total_commits": 26,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -381,6 +369,30 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 889,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T05:24:35Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/889"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 888,
+          "title": "chore(deps): update pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T21:47:08Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/888"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 887,
@@ -704,30 +716,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/861"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 860,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T05:40:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/860"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 859,
-          "title": "chore(deps): update pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:50:09Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/859"
         }
       ],
       "summary": {
@@ -744,6 +732,42 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 772,
+          "title": "chore(deps): update pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:17:18Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/772"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 771,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T05:16:59Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/771"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 770,
+          "title": "chore(deps): update pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T22:07:24Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/770"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 769,
@@ -1019,35 +1043,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/747"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 746,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T05:48:38Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/746"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 745,
-          "title": "chore(deps): update pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:17:50Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/745"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 25,
-        "total_commits": 25,
+        "total_prs_analyzed": 26,
+        "total_commits": 26,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1059,6 +1059,42 @@
     },
     "RedHatInsights/insights-results-aggregator-mock": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 699,
+          "title": "Update Pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:05:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/699"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 698,
+          "title": "Update Pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T04:44:39Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/698"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 697,
+          "title": "Update Pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T22:00:46Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/697"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 696,
@@ -1394,35 +1430,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/669"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 668,
-          "title": "Update Pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T05:14:25Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/668"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 667,
-          "title": "Update Pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:19:11Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/667"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 30,
-        "total_commits": 30,
+        "total_prs_analyzed": 31,
+        "total_commits": 31,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1434,6 +1446,42 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 864,
+          "title": "chore(deps): update pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:21:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/864"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 863,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T06:01:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/863"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 862,
+          "title": "chore(deps): update pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T21:57:10Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/862"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 861,
@@ -1685,35 +1733,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/841"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 840,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T05:57:33Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/840"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 839,
-          "title": "chore(deps): update pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:43:24Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/839"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 23,
-        "total_commits": 23,
+        "total_prs_analyzed": 24,
+        "total_commits": 24,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1725,6 +1749,54 @@
     },
     "RedHatInsights/content-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 990,
+          "title": "chore(deps): update pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:40:29Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/990"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 989,
+          "title": "chore(deps): update github actions to v7",
+          "merged_at": "2026-07-17T04:58:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/989"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 988,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T04:59:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/988"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 987,
+          "title": "chore(deps): update pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T21:52:11Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/987"
+        },
         {
           "repository": "RedHatInsights/content-service",
           "pr_number": 986,
@@ -2048,46 +2120,46 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/960"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 959,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T09:26:39Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/959"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 958,
-          "title": "chore(deps): update pre-commit hooks to v43.252.6",
-          "merged_at": "2026-07-10T00:45:54Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/958"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 29,
-        "total_commits": 29,
+        "total_prs_analyzed": 31,
+        "total_commits": 31,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 3.4482758620689653,
-        "avg_retests_per_pr": 0.034482758620689655,
-        "avg_retests_per_commit": 0.034482758620689655
+        "pr_retest_rate": 3.225806451612903,
+        "avg_retests_per_pr": 0.03225806451612903,
+        "avg_retests_per_commit": 0.03225806451612903
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 477,
+          "title": "Update Pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T05:40:32Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/477"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 476,
+          "title": "Update Pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T21:49:14Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/476"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 475,
@@ -2399,30 +2471,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/450"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 449,
-          "title": "Update Pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T06:10:37Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/449"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 448,
-          "title": "Update Pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:43:25Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/448"
         }
       ],
       "summary": {
@@ -2453,6 +2501,42 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 835,
+          "title": "chore(deps): update pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:41:05Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/835"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 834,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T06:07:02Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/834"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 833,
+          "title": "chore(deps): update pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T21:50:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/833"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 832,
@@ -2752,46 +2836,58 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/808"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 807,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T05:32:22Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/807"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 806,
-          "title": "chore(deps): update pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:29:40Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/806"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 27,
-        "total_commits": 27,
+        "total_prs_analyzed": 28,
+        "total_commits": 28,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 3.7037037037037033,
-        "avg_retests_per_pr": 0.037037037037037035,
-        "avg_retests_per_commit": 0.037037037037037035
+        "pr_retest_rate": 3.571428571428571,
+        "avg_retests_per_pr": 0.03571428571428571,
+        "avg_retests_per_commit": 0.03571428571428571
       }
     },
     "RedHatInsights/insights-operator-utils": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 1049,
+          "title": "chore(deps): update pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:18:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1049"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 1048,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T05:27:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1048"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 1047,
+          "title": "chore(deps): update pre-commit hooks to v43.261.4",
+          "merged_at": "2026-07-16T21:36:39Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1047"
+        },
         {
           "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 1046,
@@ -3115,42 +3211,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1020"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 1019,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T05:20:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1019"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 1018,
-          "title": "fix(deps): update go dependencies to v1.105.0",
-          "merged_at": "2026-07-10T01:08:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1018"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 1017,
-          "title": "chore(deps): update pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:09:03Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1017"
         }
       ],
       "summary": {
@@ -3392,6 +3452,30 @@
     },
     "RedHatInsights/parquet-factory": {
       "prs": [
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 236,
+          "title": "chore(deps): update pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:27:36Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/236"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 235,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T05:23:14Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/235"
+        },
         {
           "repository": "RedHatInsights/parquet-factory",
           "pr_number": 234,
@@ -3691,30 +3775,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/parquet-factory/pull/210"
-        },
-        {
-          "repository": "RedHatInsights/parquet-factory",
-          "pr_number": 209,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T05:23:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/parquet-factory/pull/209"
-        },
-        {
-          "repository": "RedHatInsights/parquet-factory",
-          "pr_number": 208,
-          "title": "chore(deps): update pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:24:57Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/parquet-factory/pull/208"
         }
       ],
       "summary": {
@@ -3733,6 +3793,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1789,
+          "title": "Update Pre-commit hooks",
+          "merged_at": "2026-07-17T09:19:26Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1789"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1788,
+          "title": "Update Go dependencies",
+          "merged_at": "2026-07-17T07:07:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 2,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1788"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1787,
           "title": "Update Go dependencies",
           "merged_at": "2026-07-16T20:10:02Z",
@@ -3742,6 +3826,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1787"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1785,
+          "title": "Update Pre-commit hooks",
+          "merged_at": "2026-07-17T07:12:20Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1785"
         },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
@@ -3769,19 +3865,43 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 4,
-        "total_retests": 2,
-        "retest_comments": 2,
+        "total_prs_analyzed": 6,
+        "total_commits": 8,
+        "total_retests": 4,
+        "retest_comments": 4,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 33.33333333333333,
+        "prs_with_retests": 3,
+        "pr_retest_rate": 50.0,
         "avg_retests_per_pr": 0.6666666666666666,
         "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/ccx-upgrades-data-eng": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 217,
+          "title": "chore(deps): update pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:43:38Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/217"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 216,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T04:33:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/216"
+        },
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 215,
@@ -3997,30 +4117,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/198"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 197,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T05:52:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/197"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 196,
-          "title": "chore(deps): update pre-commit hooks to v43.252.6",
-          "merged_at": "2026-07-10T00:38:17Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/196"
         }
       ],
       "summary": {
@@ -4037,6 +4133,30 @@
     },
     "RedHatInsights/ccx-upgrades-inference": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 184,
+          "title": "chore(deps): update pre-commit hooks to v43.262.2",
+          "merged_at": "2026-07-17T09:29:56Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/184"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 183,
+          "title": "chore(deps): update pre-commit hooks to v43.262.1",
+          "merged_at": "2026-07-17T05:24:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/183"
+        },
         {
           "repository": "RedHatInsights/ccx-upgrades-inference",
           "pr_number": 182,
@@ -4216,30 +4336,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/168"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-inference",
-          "pr_number": 167,
-          "title": "chore(deps): update pre-commit hooks to v43.253.1",
-          "merged_at": "2026-07-10T06:07:37Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/167"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-inference",
-          "pr_number": 166,
-          "title": "chore(deps): update pre-commit hooks to v43.252.7",
-          "merged_at": "2026-07-10T01:31:16Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/166"
         }
       ],
       "summary": {
