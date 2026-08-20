@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-08-20T10:10:52.435318+00:00",
+  "analysis_date": "2026-08-20T22:08:48.370317+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-05-22T10:10:52.371135+00:00",
-    "to": "2026-08-20T10:10:52.435318+00:00"
+    "from": "2026-05-22T22:08:48.283925+00:00",
+    "to": "2026-08-20T22:08:48.370317+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -42,6 +42,18 @@
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2694,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.31.0",
+          "merged_at": "2026-08-20T09:41:39Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2694"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2693,
@@ -8471,18 +8483,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/646"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 645,
-          "title": "chore(deps): update go dependencies",
-          "merged_at": "2026-05-22T22:00:14Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/645"
         }
       ],
       "summary": {
@@ -27404,6 +27404,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1187,
+          "title": "chore(deps): update dependency @formatjs/cli to v6.16.18",
+          "merged_at": "2026-08-20T09:43:52Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1187"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1186,
           "title": "chore(deps): update build-tools digest to 6aad292",
           "merged_at": "2026-08-20T08:46:50Z",
@@ -35204,14 +35216,14 @@
       }
     }
   },
-  "last_updated": "2026-08-20T10:10:52.435318+00:00",
-  "cutoff_date": "2026-05-22T10:10:52.371135+00:00",
+  "last_updated": "2026-08-20T22:08:48.370317+00:00",
+  "cutoff_date": "2026-05-22T22:08:48.283925+00:00",
   "summary": {
-    "total_prs": 2909,
-    "total_retests": 71,
-    "prs_with_retests": 47,
-    "retest_rate": 1.615675489859058,
-    "retest_comments": 65,
+    "total_prs": 2910,
+    "total_retests": 72,
+    "prs_with_retests": 48,
+    "retest_rate": 1.6494845360824744,
+    "retest_comments": 66,
     "update_branch_actions": 6
   }
 }
