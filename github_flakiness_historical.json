@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-08-22T22:06:23.786315+00:00",
+  "analysis_date": "2026-08-23T10:07:41.351132+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-05-24T22:06:23.694745+00:00",
-    "to": "2026-08-22T22:06:23.786315+00:00"
+    "from": "2026-05-25T10:07:41.260493+00:00",
+    "to": "2026-08-23T10:07:41.351132+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -16346,6 +16346,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 579,
+          "title": "Update dependency boto3 to v1.43.75",
+          "merged_at": "2026-08-23T02:31:58Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/579"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 578,
           "title": "Update dependency uvicorn to v0.52.4",
           "merged_at": "2026-08-22T06:58:35Z",
@@ -31313,6 +31325,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-upgrades-data-eng",
+          "pr_number": 306,
+          "title": "fix(deps): update dependency uvicorn to v0.52.4",
+          "merged_at": "2026-08-23T01:53:11Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/306"
+        },
+        {
+          "repository": "RedHatInsights/ccx-upgrades-data-eng",
           "pr_number": 305,
           "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.33.2",
           "merged_at": "2026-08-22T01:53:29Z",
@@ -35660,13 +35684,13 @@
       }
     }
   },
-  "last_updated": "2026-08-22T22:06:23.786315+00:00",
-  "cutoff_date": "2026-05-24T22:06:23.694745+00:00",
+  "last_updated": "2026-08-23T10:07:41.351132+00:00",
+  "cutoff_date": "2026-05-25T10:07:41.260493+00:00",
   "summary": {
-    "total_prs": 2947,
+    "total_prs": 2949,
     "total_retests": 72,
     "prs_with_retests": 48,
-    "retest_rate": 1.6287750254496098,
+    "retest_rate": 1.627670396744659,
     "retest_comments": 66,
     "update_branch_actions": 6
   }
