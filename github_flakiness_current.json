@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-08-24T21:12:55.429248",
+  "analysis_date": "2026-08-25T09:18:19.001544",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,27 +21,39 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-08-17T21:10:16.266492+00:00",
-    "to": "2026-08-24T21:12:55.429265"
+    "from": "2026-08-18T09:15:53.694949+00:00",
+    "to": "2026-08-25T09:18:19.001563"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 112,
-    "total_commits": 112,
+    "total_prs_analyzed": 98,
+    "total_commits": 98,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 112,
+    "prs_with_lte_1_retest": 98,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 0.8928571428571428,
-    "avg_retests_per_pr": 0.008928571428571428,
-    "avg_retests_per_commit": 0.008928571428571428,
+    "pr_retest_rate": 1.0204081632653061,
+    "avg_retests_per_pr": 0.01020408163265306,
+    "avg_retests_per_commit": 0.01020408163265306,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2700,
+          "title": "chore(deps): update go dependencies",
+          "merged_at": "2026-08-25T02:03:00Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2700"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2699,
@@ -113,46 +125,34 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2693"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2692,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-08-18T03:02:03Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2692"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2691,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T07:08:37Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2691"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 8,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 12.5,
-        "avg_retests_per_pr": 0.125,
-        "avg_retests_per_commit": 0.125
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.14285714285714285
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 1023,
+          "title": "chore(deps): update module github.com/aws/smithy-go to v1.27.9",
+          "merged_at": "2026-08-25T02:57:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1023"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 1022,
@@ -236,35 +236,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1015"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 1014,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T03:27:40Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1014"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 1013,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-08-18T03:29:27Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1013"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 9,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -276,6 +252,18 @@
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-exporter",
+          "pr_number": 904,
+          "title": "chore(deps): update module github.com/aws/smithy-go to v1.27.9",
+          "merged_at": "2026-08-25T03:21:24Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/904"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-exporter",
           "pr_number": 903,
@@ -371,35 +359,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/895"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 894,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T02:17:14Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/894"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 893,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-08-18T02:23:42Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/893"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 10,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -411,6 +375,18 @@
     },
     "RedHatInsights/insights-results-aggregator-mock": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 823,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1787257899",
+          "merged_at": "2026-08-25T01:20:56Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/823"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 821,
@@ -506,35 +482,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/814"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 813,
-          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T01:34:19Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/813"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 812,
-          "title": "Update module github.com/stretchr/testify to v1.12.0",
-          "merged_at": "2026-08-18T01:33:27Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/812"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 10,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -593,23 +545,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/938"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 937,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T01:45:18Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/937"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -621,6 +561,18 @@
     },
     "RedHatInsights/content-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 1092,
+          "title": "chore(deps): update module github.com/aws/smithy-go to v1.27.9",
+          "merged_at": "2026-08-25T01:55:25Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/1092"
+        },
         {
           "repository": "RedHatInsights/content-service",
           "pr_number": 1091,
@@ -704,35 +656,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/content-service/pull/1084"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 1083,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T02:12:43Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/1083"
-        },
-        {
-          "repository": "RedHatInsights/content-service",
-          "pr_number": 1082,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-08-18T02:18:48Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/content-service/pull/1082"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 9,
-        "total_commits": 9,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -744,6 +672,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 583,
+          "title": "Update dependency boto3 to v1.43.78",
+          "merged_at": "2026-08-25T02:20:01Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/583"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 582,
@@ -875,35 +815,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/571"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 570,
-          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T02:58:28Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/570"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 569,
-          "title": "Update dependency boto3 to v1.43.72",
-          "merged_at": "2026-08-18T03:02:06Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/569"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 13,
+        "total_prs_analyzed": 12,
+        "total_commits": 12,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -929,6 +845,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 971,
+          "title": "chore(deps): update module github.com/aws/smithy-go to v1.27.9",
+          "merged_at": "2026-08-25T02:17:09Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/971"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 970,
@@ -1024,35 +952,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/962"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 961,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T02:35:20Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/961"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 960,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-08-18T02:25:58Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/960"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 10,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1064,6 +968,18 @@
     },
     "RedHatInsights/insights-operator-utils": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 1193,
+          "title": "chore(deps): update module github.com/aws/smithy-go to v1.27.9",
+          "merged_at": "2026-08-25T01:35:45Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1193"
+        },
         {
           "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 1192,
@@ -1159,47 +1075,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1184"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 1183,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T06:42:25Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1183"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 1182,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.2",
-          "merged_at": "2026-08-18T01:21:06Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1182"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 1181,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-08-18T01:20:11Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1181"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 11,
-        "total_commits": 11,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1225,6 +1105,18 @@
     },
     "RedHatInsights/ccx-notification-writer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 947,
+          "title": "chore(deps): update module github.com/aws/smithy-go to v1.27.9",
+          "merged_at": "2026-08-25T02:07:27Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/947"
+        },
         {
           "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 946,
@@ -1260,18 +1152,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/943"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 942,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-08-18T02:16:30Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/942"
         }
       ],
       "summary": {
@@ -1311,23 +1191,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1186"
-        },
-        {
-          "repository": "RedHatInsights/ocp-advisor-frontend",
-          "pr_number": 1184,
-          "title": "chore(deps): update build-tools digest to f6aa7ce",
-          "merged_at": "2026-08-19T08:38:41Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1184"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1339,6 +1207,30 @@
     },
     "RedHatInsights/parquet-factory": {
       "prs": [
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 334,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.39.1",
+          "merged_at": "2026-08-25T01:21:03Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/334"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 333,
+          "title": "chore(deps): update module github.com/aws/smithy-go to v1.27.9",
+          "merged_at": "2026-08-25T01:19:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/333"
+        },
         {
           "repository": "RedHatInsights/parquet-factory",
           "pr_number": 332,
@@ -1422,30 +1314,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/parquet-factory/pull/326"
-        },
-        {
-          "repository": "RedHatInsights/parquet-factory",
-          "pr_number": 325,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T01:57:10Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/parquet-factory/pull/325"
-        },
-        {
-          "repository": "RedHatInsights/parquet-factory",
-          "pr_number": 324,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-08-18T06:29:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/parquet-factory/pull/324"
         }
       ],
       "summary": {
@@ -1523,35 +1391,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/303"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 302,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.31.0",
-          "merged_at": "2026-08-20T01:27:47Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/302"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-data-eng",
-          "pr_number": 301,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.2",
-          "merged_at": "2026-08-18T01:23:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-data-eng/pull/301"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1610,23 +1454,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/266"
-        },
-        {
-          "repository": "RedHatInsights/ccx-upgrades-inference",
-          "pr_number": 265,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.30.3",
-          "merged_at": "2026-08-18T01:42:43Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/265"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
