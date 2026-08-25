@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-08-25T09:18:19.001544",
+  "analysis_date": "2026-08-25T21:11:40.928196",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-08-18T09:15:53.694949+00:00",
-    "to": "2026-08-25T09:18:19.001563"
+    "from": "2026-08-18T21:09:28.013149+00:00",
+    "to": "2026-08-25T21:11:40.928211"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 98,
-    "total_commits": 98,
-    "total_retests": 1,
-    "retest_comments": 1,
+    "total_prs_analyzed": 99,
+    "total_commits": 99,
+    "total_retests": 2,
+    "retest_comments": 2,
     "update_branch_actions": 0,
-    "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 98,
+    "prs_with_retests": 2,
+    "prs_with_lte_1_retest": 99,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.0204081632653061,
-    "avg_retests_per_pr": 0.01020408163265306,
-    "avg_retests_per_commit": 0.01020408163265306,
+    "pr_retest_rate": 2.0202020202020203,
+    "avg_retests_per_pr": 0.020202020202020204,
+    "avg_retests_per_commit": 0.020202020202020204,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -563,6 +563,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 1093,
+          "title": "Bumped ccx-rules-ocp version to 2026.08.25",
+          "merged_at": "2026-08-25T15:32:17Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/content-service/pull/1093"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 1092,
           "title": "chore(deps): update module github.com/aws/smithy-go to v1.27.9",
           "merged_at": "2026-08-25T01:55:25Z",
@@ -659,15 +671,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 8,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 11.11111111111111,
+        "avg_retests_per_pr": 0.1111111111111111,
+        "avg_retests_per_commit": 0.1111111111111111
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
