@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-02T21:16:13.201601",
+  "analysis_date": "2026-09-03T09:22:06.480982",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-08-26T21:14:37.317106+00:00",
-    "to": "2026-09-02T21:16:13.201617"
+    "from": "2026-08-27T09:20:05.304038+00:00",
+    "to": "2026-09-03T09:22:06.481000"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 62,
-    "total_commits": 64,
-    "total_retests": 3,
-    "retest_comments": 3,
+    "total_prs_analyzed": 65,
+    "total_commits": 67,
+    "total_retests": 1,
+    "retest_comments": 1,
     "update_branch_actions": 0,
-    "prs_with_retests": 3,
-    "prs_with_lte_1_retest": 62,
+    "prs_with_retests": 1,
+    "prs_with_lte_1_retest": 65,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 4.838709677419355,
-    "avg_retests_per_pr": 0.04838709677419355,
-    "avg_retests_per_commit": 0.046875,
+    "pr_retest_rate": 1.5384615384615385,
+    "avg_retests_per_pr": 0.015384615384615385,
+    "avg_retests_per_commit": 0.014925373134328358,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -311,23 +311,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/906"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 905,
-          "title": "fix(deps): bump kin-openapi to v0.147.0 for CVE-2026-73501",
-          "merged_at": "2026-09-02T08:08:07Z",
-          "user": "platex-rehor-bot",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/905"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 8,
-        "total_commits": 8,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -339,6 +327,18 @@
     },
     "RedHatInsights/insights-results-aggregator-mock": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 830,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1788329306",
+          "merged_at": "2026-09-03T02:03:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/830"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 828,
@@ -389,8 +389,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -402,6 +402,18 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 944,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.52.1",
+          "merged_at": "2026-09-03T05:49:19Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/944"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 943,
@@ -416,8 +428,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -456,6 +468,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 590,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.52.1",
+          "merged_at": "2026-09-03T05:34:39Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/590"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 589,
@@ -530,8 +554,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 6,
-        "total_commits": 6,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -767,30 +791,17 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1274,
-          "title": "CCXDEV-16757: Bump kin-openapi to v0.147.0 for CVE-2026-73501",
-          "merged_at": "2026-09-02T08:08:12Z",
-          "user": "platex-rehor-bot",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1274"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
-        "total_retests": 1,
-        "retest_comments": 1,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 100.0,
-        "avg_retests_per_pr": 1.0,
-        "avg_retests_per_commit": 1.0
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -923,6 +934,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 341,
+          "title": "chore(deps): update pre-commit hooks",
+          "merged_at": "2026-09-03T05:21:49Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/341"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
+          "pr_number": 340,
+          "title": "chore(deps): update pre-commit hooks",
+          "merged_at": "2026-09-03T02:23:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/parquet-factory/pull/340"
+        },
+        {
+          "repository": "RedHatInsights/parquet-factory",
           "pr_number": 339,
           "title": "chore(deps): update pre-commit hooks",
           "merged_at": "2026-09-02T06:12:18Z",
@@ -956,30 +991,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/parquet-factory/pull/337"
-        },
-        {
-          "repository": "RedHatInsights/parquet-factory",
-          "pr_number": 336,
-          "title": "fix(deps): bump kin-openapi to v0.147.0 for CVE-2026-73501",
-          "merged_at": "2026-09-02T08:08:16Z",
-          "user": "platex-rehor-bot",
-          "total_commits": 1,
-          "retest_comments": 1,
-          "update_branch_count": 0,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/parquet-factory/pull/336"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
-        "total_retests": 1,
-        "retest_comments": 1,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
+        "total_retests": 0,
+        "retest_comments": 0,
         "update_branch_actions": 0,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.25
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
@@ -1024,17 +1047,30 @@
       }
     },
     "RedHatInsights/ccx-upgrades-inference": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-upgrades-inference",
+          "pr_number": 272,
+          "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-09-03T05:28:43Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-upgrades-inference/pull/272"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     }
   }
