@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-03T09:22:06.480982",
+  "analysis_date": "2026-09-03T21:16:51.197258",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-08-27T09:20:05.304038+00:00",
-    "to": "2026-09-03T09:22:06.481000"
+    "from": "2026-08-27T21:15:11.263523+00:00",
+    "to": "2026-09-03T21:16:51.197272"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 65,
-    "total_commits": 67,
+    "total_prs_analyzed": 68,
+    "total_commits": 71,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 65,
+    "prs_with_lte_1_retest": 68,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.5384615384615385,
-    "avg_retests_per_pr": 0.015384615384615385,
-    "avg_retests_per_commit": 0.014925373134328358,
+    "pr_retest_rate": 1.4705882352941175,
+    "avg_retests_per_pr": 0.014705882352941176,
+    "avg_retests_per_commit": 0.014084507042253521,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -596,6 +596,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 980,
+          "title": "fix(deps): bump kin-openapi to v0.147.0 for CVE-2026-73501",
+          "merged_at": "2026-09-03T11:18:42Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/980"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 978,
           "title": "chore(deps): update module github.com/prometheus/procfs to v0.22.0",
           "merged_at": "2026-09-01T02:49:02Z",
@@ -680,8 +692,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 7,
+        "total_prs_analyzed": 8,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -907,6 +919,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1195,
+          "title": "fix(deps): bump fast-uri from 3.1.6 to 3.1.7",
+          "merged_at": "2026-09-03T11:17:37Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1195"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1194,
+          "title": "fix(deps): bump js-yaml to 3.15.2 and 4.3.2",
+          "merged_at": "2026-09-03T11:18:02Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1194"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1193,
           "title": "fix(deps): bump fast-uri from 3.1.5 to 3.1.6",
           "merged_at": "2026-08-31T12:00:39Z",
@@ -919,8 +955,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 3,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
