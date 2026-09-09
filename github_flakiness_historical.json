@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-09T10:17:59.678854+00:00",
+  "analysis_date": "2026-09-09T22:14:29.608907+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-06-11T10:17:59.598246+00:00",
-    "to": "2026-09-09T10:17:59.678854+00:00"
+    "from": "2026-06-11T22:14:29.523358+00:00",
+    "to": "2026-09-09T22:14:29.608907+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -23858,6 +23858,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1276,
+          "title": "[CCXDEV-16567] Filter disabled rules in the Kafka processing path",
+          "merged_at": "2026-09-09T11:50:05Z",
+          "user": "Bee-lee",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1276"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1274,
           "title": "CCXDEV-16757: Bump kin-openapi to v0.147.0 for CVE-2026-73501",
           "merged_at": "2026-09-02T08:08:12Z",
@@ -32576,13 +32588,13 @@
       }
     }
   },
-  "last_updated": "2026-09-09T10:17:59.678854+00:00",
-  "cutoff_date": "2026-06-11T10:17:59.598246+00:00",
+  "last_updated": "2026-09-09T22:14:29.608907+00:00",
+  "cutoff_date": "2026-06-11T22:14:29.523358+00:00",
   "summary": {
-    "total_prs": 2690,
+    "total_prs": 2691,
     "total_retests": 66,
     "prs_with_retests": 44,
-    "retest_rate": 1.6356877323420074,
+    "retest_rate": 1.6350798959494612,
     "retest_comments": 60,
     "update_branch_actions": 6
   }
