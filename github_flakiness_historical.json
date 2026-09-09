@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-08T22:14:54.463099+00:00",
+  "analysis_date": "2026-09-09T10:17:59.678854+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-06-10T22:14:54.382010+00:00",
-    "to": "2026-09-08T22:14:54.463099+00:00"
+    "from": "2026-06-11T10:17:59.598246+00:00",
+    "to": "2026-09-09T10:17:59.678854+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -7961,6 +7961,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 837,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1788917281",
+          "merged_at": "2026-09-09T06:52:29Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/837"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 836,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1788741895",
+          "merged_at": "2026-09-09T01:56:59Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/836"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 833,
           "title": "Update dependency org.clojure:clojure to v1.12.6",
           "merged_at": "2026-09-07T06:41:07Z",
@@ -10698,6 +10722,18 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 955,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.65.5",
+          "merged_at": "2026-09-09T02:58:05Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/955"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 953,
@@ -14988,6 +15024,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 607,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.65.5",
+          "merged_at": "2026-09-09T02:26:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/607"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 605,
@@ -32528,13 +32576,13 @@
       }
     }
   },
-  "last_updated": "2026-09-08T22:14:54.463099+00:00",
-  "cutoff_date": "2026-06-10T22:14:54.382010+00:00",
+  "last_updated": "2026-09-09T10:17:59.678854+00:00",
+  "cutoff_date": "2026-06-11T10:17:59.598246+00:00",
   "summary": {
-    "total_prs": 2686,
+    "total_prs": 2690,
     "total_retests": 66,
     "prs_with_retests": 44,
-    "retest_rate": 1.6381236038719285,
+    "retest_rate": 1.6356877323420074,
     "retest_comments": 60,
     "update_branch_actions": 6
   }
