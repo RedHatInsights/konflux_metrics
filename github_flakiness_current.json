@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-09T09:21:31.379880",
+  "analysis_date": "2026-09-09T21:15:18.074299",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,18 +21,18 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-02T09:19:52.676265+00:00",
-    "to": "2026-09-09T09:21:31.379896"
+    "from": "2026-09-02T21:13:30.122544+00:00",
+    "to": "2026-09-09T21:15:18.074320"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 56,
-    "total_commits": 66,
+    "total_prs_analyzed": 57,
+    "total_commits": 67,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
     "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 56,
+    "prs_with_lte_1_retest": 57,
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 0.0,
     "avg_retests_per_pr": 0.0,
@@ -682,17 +682,30 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1276,
+          "title": "[CCXDEV-16567] Filter disabled rules in the Kafka processing path",
+          "merged_at": "2026-09-09T11:50:05Z",
+          "user": "Bee-lee",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1276"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
