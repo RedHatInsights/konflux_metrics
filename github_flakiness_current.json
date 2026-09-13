@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-12T21:15:22.778547",
+  "analysis_date": "2026-09-13T09:42:06.007806",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,18 +21,18 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-05T21:14:33.790357+00:00",
-    "to": "2026-09-12T21:15:22.778562"
+    "from": "2026-09-06T09:41:04.241126+00:00",
+    "to": "2026-09-13T09:42:06.007824"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 41,
-    "total_commits": 49,
+    "total_prs_analyzed": 39,
+    "total_commits": 45,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
     "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 41,
+    "prs_with_lte_1_retest": 39,
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 0.0,
     "avg_retests_per_pr": 0.0,
@@ -107,23 +107,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/836"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 833,
-          "title": "Update dependency org.clojure:clojure to v1.12.6",
-          "merged_at": "2026-09-07T06:41:07Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/833"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -135,6 +123,30 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 963,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.75.1",
+          "merged_at": "2026-09-13T05:49:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/963"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 962,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.74.1",
+          "merged_at": "2026-09-13T01:47:49Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/962"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 961,
@@ -266,23 +278,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/950"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 949,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.59.2",
-          "merged_at": "2026-09-06T01:30:58Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/949"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 12,
-        "total_commits": 13,
+        "total_prs_analyzed": 13,
+        "total_commits": 14,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -321,6 +321,42 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 615,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.75.1",
+          "merged_at": "2026-09-13T05:46:30Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/615"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 614,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.74.1",
+          "merged_at": "2026-09-13T01:35:12Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/614"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 613,
+          "title": "Update dependency boto3 to v1.43.91",
+          "merged_at": "2026-09-13T01:35:01Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/613"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 612,
@@ -464,71 +500,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/600"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 599,
-          "title": "Update RedHatInsights/processing-tools action to v0.4.5",
-          "merged_at": "2026-09-07T06:40:50Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/599"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 598,
-          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.59.3",
-          "merged_at": "2026-09-06T05:22:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/598"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 597,
-          "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
-          "merged_at": "2026-09-06T04:34:12Z",
-          "user": "obsint-processing-app[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/597"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 596,
-          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.59.2",
-          "merged_at": "2026-09-06T01:10:42Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/596"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 595,
-          "title": "Update dependency boto3 to v1.43.87",
-          "merged_at": "2026-09-06T05:22:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/595"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 17,
-        "total_commits": 21,
+        "total_prs_analyzed": 15,
+        "total_commits": 17,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
