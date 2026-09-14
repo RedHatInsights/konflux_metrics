@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-14T09:25:38.283838",
+  "analysis_date": "2026-09-14T21:14:57.401560",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,18 +21,18 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-07T09:24:35.383204+00:00",
-    "to": "2026-09-14T09:25:38.283852"
+    "from": "2026-09-07T21:14:03.701047+00:00",
+    "to": "2026-09-14T21:14:57.401578"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 38,
-    "total_commits": 42,
+    "total_prs_analyzed": 40,
+    "total_commits": 44,
     "total_retests": 0,
     "retest_comments": 0,
     "update_branch_actions": 0,
     "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 38,
+    "prs_with_lte_1_retest": 40,
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 0.0,
     "avg_retests_per_pr": 0.0,
@@ -347,6 +347,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 619,
+          "title": "fix: prevent env var leak via PythonMonkey template injection",
+          "merged_at": "2026-09-14T14:00:07Z",
+          "user": "joselsegura",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/619"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 618,
           "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.79.6",
           "merged_at": "2026-09-14T05:43:57Z",
@@ -539,8 +551,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 16,
-        "total_commits": 18,
+        "total_prs_analyzed": 17,
+        "total_commits": 19,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -637,6 +649,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1200,
+          "title": "[CCXDEV-16812] Removing remote script to avoid code injection",
+          "merged_at": "2026-09-14T11:20:41Z",
+          "user": "Jakub007d",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1200"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1198,
           "title": "[CCXDEV-16627] Filter field bug fix",
           "merged_at": "2026-09-08T09:05:37Z",
@@ -649,8 +673,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
