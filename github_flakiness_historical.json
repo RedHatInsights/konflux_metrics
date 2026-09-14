@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-13T22:15:16.633978+00:00",
+  "analysis_date": "2026-09-14T10:18:30.732386+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-06-15T22:15:16.568407+00:00",
-    "to": "2026-09-13T22:15:16.633978+00:00"
+    "from": "2026-06-16T10:18:30.648028+00:00",
+    "to": "2026-09-14T10:18:30.732386+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -2177,18 +2177,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2528"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2527,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-06-16T00:36:10Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2527"
         }
       ],
       "summary": {
@@ -7877,6 +7865,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 838,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1789345351",
+          "merged_at": "2026-09-14T05:04:43Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/838"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 837,
           "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1788917281",
           "merged_at": "2026-09-09T06:52:29Z",
@@ -10614,6 +10614,30 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 965,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.79.6",
+          "merged_at": "2026-09-14T05:43:16Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/965"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 964,
+          "title": "chore(deps): update pre-commit hooks",
+          "merged_at": "2026-09-14T02:07:07Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/964"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 963,
@@ -14966,6 +14990,42 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 618,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.79.6",
+          "merged_at": "2026-09-14T05:43:57Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/618"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 617,
+          "title": "Update Pre-commit hooks",
+          "merged_at": "2026-09-14T01:31:26Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/617"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 616,
+          "title": "Update dependency boto3 to v1.43.92",
+          "merged_at": "2026-09-14T01:31:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/616"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 615,
           "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.75.1",
           "merged_at": "2026-09-13T05:46:30Z",
@@ -17759,18 +17819,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/381"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 380,
-          "title": "Update dependency boto3 to v1.43.29",
-          "merged_at": "2026-06-15T23:52:44Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/380"
         }
       ],
       "summary": {
@@ -24239,42 +24287,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1234"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1233,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-06-16T06:25:22Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1233"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1232,
-          "title": "chore(deps): lock file maintenance",
-          "merged_at": "2026-06-16T00:58:44Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1232"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1231,
-          "title": "fix(deps): update go dependencies",
-          "merged_at": "2026-06-16T00:58:17Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1231"
         }
       ],
       "summary": {
@@ -32480,13 +32492,13 @@
       }
     }
   },
-  "last_updated": "2026-09-13T22:15:16.633978+00:00",
-  "cutoff_date": "2026-06-15T22:15:16.568407+00:00",
+  "last_updated": "2026-09-14T10:18:30.732386+00:00",
+  "cutoff_date": "2026-06-16T10:18:30.648028+00:00",
   "summary": {
-    "total_prs": 2682,
+    "total_prs": 2683,
     "total_retests": 66,
     "prs_with_retests": 44,
-    "retest_rate": 1.6405667412378822,
+    "retest_rate": 1.6399552739470742,
     "retest_comments": 60,
     "update_branch_actions": 6
   }
