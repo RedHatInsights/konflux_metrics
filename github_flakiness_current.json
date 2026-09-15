@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-15T09:20:12.343517",
+  "analysis_date": "2026-09-15T21:16:20.005269",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,37 +21,50 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-08T09:19:13.512055+00:00",
-    "to": "2026-09-15T09:20:12.343538"
+    "from": "2026-09-08T21:15:03.479836+00:00",
+    "to": "2026-09-15T21:16:20.005288"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 32,
-    "total_commits": 32,
-    "total_retests": 0,
-    "retest_comments": 0,
+    "total_prs_analyzed": 36,
+    "total_commits": 38,
+    "total_retests": 1,
+    "retest_comments": 1,
     "update_branch_actions": 0,
-    "prs_with_retests": 0,
-    "prs_with_lte_1_retest": 32,
+    "prs_with_retests": 1,
+    "prs_with_lte_1_retest": 36,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 0.0,
-    "avg_retests_per_pr": 0.0,
-    "avg_retests_per_commit": 0.0,
+    "pr_retest_rate": 2.7777777777777777,
+    "avg_retests_per_pr": 0.027777777777777776,
+    "avg_retests_per_commit": 0.02631578947368421,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2712,
+          "title": "CCXDEV-16817: Bump mongo-driver to v1.17.10 (CVE-2026-88031)",
+          "merged_at": "2026-09-15T10:21:42Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2712"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
@@ -334,6 +347,18 @@
         },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 620,
+          "title": "Update dependency boto3 to v1.43.93",
+          "merged_at": "2026-09-15T10:37:42Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/620"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 619,
           "title": "fix: prevent env var leak via PythonMonkey template injection",
           "merged_at": "2026-09-14T14:00:07Z",
@@ -490,15 +515,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 14,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 15,
+        "total_commits": 15,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 6.666666666666667,
+        "avg_retests_per_pr": 0.06666666666666667,
+        "avg_retests_per_commit": 0.06666666666666667
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions": {
@@ -516,46 +541,45 @@
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 984,
+          "title": "Fix pr lock",
+          "merged_at": "2026-09-15T10:06:55Z",
+          "user": "joselsegura",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/984"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-operator-utils": {
-      "prs": [],
-      "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
-      }
-    },
-    "RedHatInsights/ccx-notification-service": {
       "prs": [
         {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1276,
-          "title": "[CCXDEV-16567] Filter disabled rules in the Kafka processing path",
-          "merged_at": "2026-09-09T11:50:05Z",
-          "user": "Bee-lee",
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 1205,
+          "title": "chore(deps): update pre-commit hooks and processing-tools to v0.4.5",
+          "merged_at": "2026-09-15T11:54:55Z",
+          "user": "ikerreyes",
           "total_commits": 1,
           "retest_comments": 0,
           "update_branch_count": 0,
           "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1276"
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1205"
         }
       ],
       "summary": {
@@ -570,7 +594,7 @@
         "avg_retests_per_commit": 0.0
       }
     },
-    "RedHatInsights/ccx-notification-writer": {
+    "RedHatInsights/ccx-notification-service": {
       "prs": [],
       "summary": {
         "total_prs_analyzed": 0,
@@ -582,6 +606,33 @@
         "pr_retest_rate": 0,
         "avg_retests_per_pr": 0,
         "avg_retests_per_commit": 0
+      }
+    },
+    "RedHatInsights/ccx-notification-writer": {
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 959,
+          "title": "chore(deps): update processing-tools to v0.4.5 and pre-commit hooks",
+          "merged_at": "2026-09-15T11:53:12Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/959"
+        }
+      ],
+      "summary": {
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
+        "total_retests": 0,
+        "retest_comments": 0,
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ocp-advisor-frontend": {
