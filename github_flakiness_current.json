@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-15T21:16:20.005269",
+  "analysis_date": "2026-09-16T09:20:10.994776",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,27 +21,39 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-08T21:15:03.479836+00:00",
-    "to": "2026-09-15T21:16:20.005288"
+    "from": "2026-09-09T09:19:03.038101+00:00",
+    "to": "2026-09-16T09:20:10.994792"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 36,
-    "total_commits": 38,
+    "total_prs_analyzed": 47,
+    "total_commits": 56,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 36,
+    "prs_with_lte_1_retest": 47,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 2.7777777777777777,
-    "avg_retests_per_pr": 0.027777777777777776,
-    "avg_retests_per_commit": 0.02631578947368421,
+    "pr_retest_rate": 2.127659574468085,
+    "avg_retests_per_pr": 0.02127659574468085,
+    "avg_retests_per_commit": 0.017857142857142856,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2713,
+          "title": "chore(deps): update processing-tools and pre-commit hooks",
+          "merged_at": "2026-09-16T08:53:43Z",
+          "user": "ikerreyes",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2713"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2712,
@@ -56,8 +68,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -99,6 +111,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 841,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1789521592",
+          "merged_at": "2026-09-16T06:19:37Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/841"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 839,
           "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1789361795",
           "merged_at": "2026-09-15T01:39:49Z",
@@ -120,35 +144,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/838"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 837,
-          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1788917281",
-          "merged_at": "2026-09-09T06:52:29Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/837"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 836,
-          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1788741895",
-          "merged_at": "2026-09-09T01:56:59Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/836"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -160,6 +160,54 @@
     },
     "RedHatInsights/insights-ccx-messaging": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 970,
+          "title": "chore(deps): update redhatinsights/processing-tools action to v0.4.5",
+          "merged_at": "2026-09-16T08:45:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/970"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 969,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.82.5",
+          "merged_at": "2026-09-16T06:43:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/969"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 968,
+          "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-09-16T04:43:30Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/968"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 967,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.82.4",
+          "merged_at": "2026-09-16T02:45:24Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/967"
+        },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 966,
@@ -291,23 +339,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/956"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 955,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.65.5",
-          "merged_at": "2026-09-09T02:58:05Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/955"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 12,
-        "total_commits": 12,
+        "total_prs_analyzed": 15,
+        "total_commits": 16,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -333,6 +369,54 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 625,
+          "title": "Update RedHatInsights/processing-tools action to v0.4.5",
+          "merged_at": "2026-09-16T08:56:49Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/625"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 624,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.82.5",
+          "merged_at": "2026-09-16T06:01:34Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/624"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 623,
+          "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-09-16T04:46:43Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/623"
+        },
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 622,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.82.4",
+          "merged_at": "2026-09-16T02:53:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/622"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 621,
@@ -500,30 +584,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/608"
-        },
-        {
-          "repository": "RedHatInsights/insights-content-template-renderer",
-          "pr_number": 607,
-          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.65.5",
-          "merged_at": "2026-09-09T02:26:07Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/607"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 15,
-        "total_commits": 15,
+        "total_prs_analyzed": 18,
+        "total_commits": 20,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 6.666666666666667,
-        "avg_retests_per_pr": 0.06666666666666667,
-        "avg_retests_per_commit": 0.06666666666666667
+        "pr_retest_rate": 5.555555555555555,
+        "avg_retests_per_pr": 0.05555555555555555,
+        "avg_retests_per_commit": 0.05
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions": {
@@ -544,6 +616,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 986,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.82.5",
+          "merged_at": "2026-09-16T05:43:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/986"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 985,
+          "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-09-16T04:32:56Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/985"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 984,
           "title": "Fix pr lock",
           "merged_at": "2026-09-15T10:06:55Z",
@@ -556,8 +652,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 3,
+        "total_prs_analyzed": 3,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -569,6 +665,18 @@
     },
     "RedHatInsights/insights-operator-utils": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 1206,
+          "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-09-16T04:16:53Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 2,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1206"
+        },
         {
           "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 1205,
@@ -583,8 +691,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -612,6 +720,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 960,
+          "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
+          "merged_at": "2026-09-16T04:52:19Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 3,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/960"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 959,
           "title": "chore(deps): update processing-tools to v0.4.5 and pre-commit hooks",
           "merged_at": "2026-09-15T11:53:12Z",
@@ -624,8 +744,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 4,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -648,11 +768,23 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1200"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1199,
+          "title": "chore(deps): update build-tools digest to ecf451a",
+          "merged_at": "2026-09-16T08:46:29Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1199"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
