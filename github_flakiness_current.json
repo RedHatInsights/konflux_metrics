@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-17T09:21:48.382638",
+  "analysis_date": "2026-09-17T21:17:31.243215",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,27 +21,39 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-10T09:20:04.627511+00:00",
-    "to": "2026-09-17T09:21:48.382653"
+    "from": "2026-09-10T21:15:45.425223+00:00",
+    "to": "2026-09-17T21:17:31.243234"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 80,
-    "total_commits": 108,
-    "total_retests": 8,
-    "retest_comments": 5,
+    "total_prs_analyzed": 83,
+    "total_commits": 111,
+    "total_retests": 9,
+    "retest_comments": 6,
     "update_branch_actions": 3,
-    "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 78,
-    "prs_with_lte_1_retest_percentage": 97.5,
-    "pr_retest_rate": 6.25,
-    "avg_retests_per_pr": 0.1,
-    "avg_retests_per_commit": 0.07407407407407407,
-    "combined_weighted_lte_1_retest_percentage": 97.5
+    "prs_with_retests": 6,
+    "prs_with_lte_1_retest": 81,
+    "prs_with_lte_1_retest_percentage": 97.59036144578313,
+    "pr_retest_rate": 7.228915662650602,
+    "avg_retests_per_pr": 0.10843373493975904,
+    "avg_retests_per_commit": 0.08108108108108109,
+    "combined_weighted_lte_1_retest_percentage": 97.59036144578313
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2716,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.83.2",
+          "merged_at": "2026-09-17T10:27:41Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2716"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2714,
@@ -80,15 +92,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 4,
+        "total_commits": 4,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 25.0,
+        "avg_retests_per_pr": 0.25,
+        "avg_retests_per_commit": 0.25
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
@@ -344,6 +356,18 @@
         },
         {
           "repository": "RedHatInsights/insights-ccx-messaging",
+          "pr_number": 972,
+          "title": "chore(deps): update redhatinsights/processing-tools action to v0.4.5",
+          "merged_at": "2026-09-17T10:21:13Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/972"
+        },
+        {
+          "repository": "RedHatInsights/insights-ccx-messaging",
           "pr_number": 971,
           "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-09-16T11:16:20Z",
@@ -509,18 +533,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/958"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 957,
-          "title": "[CCXDEV-16673] Use URL from the correct field",
-          "merged_at": "2026-09-11T06:10:46Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/957"
         }
       ],
       "summary": {
@@ -564,6 +576,18 @@
     },
     "RedHatInsights/insights-content-template-renderer": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-content-template-renderer",
+          "pr_number": 629,
+          "title": "Update RedHatInsights/processing-tools action to v0.4.5",
+          "merged_at": "2026-09-17T10:21:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-content-template-renderer/pull/629"
+        },
         {
           "repository": "RedHatInsights/insights-content-template-renderer",
           "pr_number": 628,
@@ -818,15 +842,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 21,
-        "total_commits": 25,
+        "total_prs_analyzed": 22,
+        "total_commits": 26,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 4.761904761904762,
-        "avg_retests_per_pr": 0.047619047619047616,
-        "avg_retests_per_commit": 0.04
+        "pr_retest_rate": 4.545454545454546,
+        "avg_retests_per_pr": 0.045454545454545456,
+        "avg_retests_per_commit": 0.038461538461538464
       }
     },
     "RedHatInsights/insights-operator-gathering-conditions": {
@@ -1035,6 +1059,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 963,
+          "title": "chore(deps): update redhatinsights/processing-tools action to v0.4.5",
+          "merged_at": "2026-09-17T10:21:49Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/963"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
           "pr_number": 961,
           "title": "chore(sync): synced file(s) with RedHatInsights/processing-tools",
           "merged_at": "2026-09-17T05:07:45Z",
@@ -1071,8 +1107,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 7,
+        "total_prs_analyzed": 4,
+        "total_commits": 8,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
