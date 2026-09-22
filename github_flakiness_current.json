@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-22T09:21:48.890810",
+  "analysis_date": "2026-09-22T21:17:27.766520",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,23 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-15T09:18:23.096135+00:00",
-    "to": "2026-09-22T09:21:48.890825"
+    "from": "2026-09-15T21:14:31.042811+00:00",
+    "to": "2026-09-22T21:17:27.766535"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 186,
-    "total_commits": 279,
-    "total_retests": 16,
+    "total_prs_analyzed": 180,
+    "total_commits": 278,
+    "total_retests": 18,
     "retest_comments": 7,
-    "update_branch_actions": 9,
-    "prs_with_retests": 12,
-    "prs_with_lte_1_retest": 183,
-    "prs_with_lte_1_retest_percentage": 98.38709677419355,
-    "pr_retest_rate": 6.451612903225806,
-    "avg_retests_per_pr": 0.08602150537634409,
-    "avg_retests_per_commit": 0.05734767025089606,
-    "combined_weighted_lte_1_retest_percentage": 98.38709677419355
+    "update_branch_actions": 11,
+    "prs_with_retests": 13,
+    "prs_with_lte_1_retest": 176,
+    "prs_with_lte_1_retest_percentage": 97.77777777777777,
+    "pr_retest_rate": 7.222222222222221,
+    "avg_retests_per_pr": 0.1,
+    "avg_retests_per_commit": 0.06474820143884892,
+    "combined_weighted_lte_1_retest_percentage": 97.77777777777777
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -149,30 +149,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2714"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2713,
-          "title": "chore(deps): update processing-tools and pre-commit hooks",
-          "merged_at": "2026-09-16T08:53:43Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2713"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 15,
+        "total_prs_analyzed": 9,
+        "total_commits": 14,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 10.0,
-        "avg_retests_per_pr": 0.1,
-        "avg_retests_per_commit": 0.06666666666666667
+        "pr_retest_rate": 11.11111111111111,
+        "avg_retests_per_pr": 0.1111111111111111,
+        "avg_retests_per_commit": 0.07142857142857142
       }
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
@@ -356,30 +344,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1037"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 1036,
-          "title": "chore(deps): update pre-commit hooks and processing-tools to v0.4.5",
-          "merged_at": "2026-09-16T10:01:40Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1036"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 16,
-        "total_commits": 24,
+        "total_prs_analyzed": 15,
+        "total_commits": 23,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 6.25,
-        "avg_retests_per_pr": 0.0625,
-        "avg_retests_per_commit": 0.041666666666666664
+        "pr_retest_rate": 6.666666666666667,
+        "avg_retests_per_pr": 0.06666666666666667,
+        "avg_retests_per_commit": 0.043478260869565216
       }
     },
     "RedHatInsights/insights-results-aggregator-exporter": {
@@ -575,30 +551,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/918"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 917,
-          "title": "chore(deps): bump processing-tools to v0.4.5 and update pre-commit hooks",
-          "merged_at": "2026-09-16T09:43:27Z",
-          "user": "ikerreyes",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/917"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 17,
-        "total_commits": 26,
+        "total_prs_analyzed": 16,
+        "total_commits": 24,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 5.88235294117647,
-        "avg_retests_per_pr": 0.058823529411764705,
-        "avg_retests_per_commit": 0.038461538461538464
+        "pr_retest_rate": 6.25,
+        "avg_retests_per_pr": 0.0625,
+        "avg_retests_per_commit": 0.041666666666666664
       }
     },
     "RedHatInsights/insights-results-aggregator-mock": {
@@ -782,30 +746,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/841"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 840,
-          "title": "Update processing-tools to v0.4.5 and pre-commit hooks",
-          "merged_at": "2026-09-16T09:59:28Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/840"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 16,
-        "total_commits": 24,
+        "total_prs_analyzed": 15,
+        "total_commits": 23,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 6.25,
-        "avg_retests_per_pr": 0.0625,
-        "avg_retests_per_commit": 0.041666666666666664
+        "pr_retest_rate": 6.666666666666667,
+        "avg_retests_per_pr": 0.06666666666666667,
+        "avg_retests_per_commit": 0.043478260869565216
       }
     },
     "RedHatInsights/insights-ccx-messaging": {
@@ -1625,23 +1577,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/985"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 984,
-          "title": "Fix pr lock",
-          "merged_at": "2026-09-15T10:06:55Z",
-          "user": "joselsegura",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/984"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 19,
-        "total_commits": 25,
+        "total_prs_analyzed": 18,
+        "total_commits": 22,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1880,23 +1820,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1206"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 1205,
-          "title": "chore(deps): update pre-commit hooks and processing-tools to v0.4.5",
-          "merged_at": "2026-09-15T11:54:55Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1205"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 20,
-        "total_commits": 25,
+        "total_prs_analyzed": 19,
+        "total_commits": 24,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1907,17 +1835,30 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1278,
+          "title": "[CCXDEV-16568] Filter disabled rules in the ServiceLog processing path",
+          "merged_at": "2026-09-22T16:53:36Z",
+          "user": "Bee-lee",
+          "total_commits": 9,
+          "retest_comments": 0,
+          "update_branch_count": 2,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1278"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 9,
+        "total_retests": 2,
         "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "update_branch_actions": 2,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 2.0,
+        "avg_retests_per_commit": 0.2222222222222222
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -1993,30 +1934,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/960"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-writer",
-          "pr_number": 959,
-          "title": "chore(deps): update processing-tools to v0.4.5 and pre-commit hooks",
-          "merged_at": "2026-09-15T11:53:12Z",
-          "user": "ikerreyes",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/959"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 7,
-        "total_commits": 15,
+        "total_prs_analyzed": 6,
+        "total_commits": 14,
         "total_retests": 1,
         "retest_comments": 0,
         "update_branch_actions": 1,
         "prs_with_retests": 1,
-        "pr_retest_rate": 14.285714285714285,
-        "avg_retests_per_pr": 0.14285714285714285,
-        "avg_retests_per_commit": 0.06666666666666667
+        "pr_retest_rate": 16.666666666666664,
+        "avg_retests_per_pr": 0.16666666666666666,
+        "avg_retests_per_commit": 0.07142857142857142
       }
     },
     "RedHatInsights/ocp-advisor-frontend": {
