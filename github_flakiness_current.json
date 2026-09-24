@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-24T09:24:26.239387",
+  "analysis_date": "2026-09-24T21:20:31.504214",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,23 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-17T09:20:03.020017+00:00",
-    "to": "2026-09-24T09:24:26.239404"
+    "from": "2026-09-17T21:16:15.983111+00:00",
+    "to": "2026-09-24T21:20:31.504232"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 168,
-    "total_commits": 244,
+    "total_prs_analyzed": 169,
+    "total_commits": 245,
     "total_retests": 10,
     "retest_comments": 2,
     "update_branch_actions": 8,
     "prs_with_retests": 8,
-    "prs_with_lte_1_retest": 166,
-    "prs_with_lte_1_retest_percentage": 98.80952380952381,
-    "pr_retest_rate": 4.761904761904762,
-    "avg_retests_per_pr": 0.05952380952380952,
-    "avg_retests_per_commit": 0.040983606557377046,
-    "combined_weighted_lte_1_retest_percentage": 98.80952380952381
+    "prs_with_lte_1_retest": 167,
+    "prs_with_lte_1_retest_percentage": 98.81656804733728,
+    "pr_retest_rate": 4.733727810650888,
+    "avg_retests_per_pr": 0.05917159763313609,
+    "avg_retests_per_commit": 0.04081632653061224,
+    "combined_weighted_lte_1_retest_percentage": 98.81656804733728
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -1868,6 +1868,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1210,
+          "title": "chore(deps): update build-tools digest to f1e45ad",
+          "merged_at": "2026-09-24T12:29:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1210"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1209,
           "title": "chore(deps): update build-tools digest to 4f13726",
           "merged_at": "2026-09-22T07:24:58Z",
@@ -1892,8 +1904,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
