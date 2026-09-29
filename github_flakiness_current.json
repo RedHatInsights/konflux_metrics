@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-09-29T09:24:25.268042",
+  "analysis_date": "2026-09-29T21:19:56.852151",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,23 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-09-22T09:21:01.888476+00:00",
-    "to": "2026-09-29T09:24:25.268064"
+    "from": "2026-09-22T21:16:55.787567+00:00",
+    "to": "2026-09-29T21:19:56.852177"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 149,
-    "total_commits": 159,
-    "total_retests": 2,
+    "total_prs_analyzed": 148,
+    "total_commits": 150,
+    "total_retests": 0,
     "retest_comments": 0,
-    "update_branch_actions": 2,
-    "prs_with_retests": 1,
+    "update_branch_actions": 0,
+    "prs_with_retests": 0,
     "prs_with_lte_1_retest": 148,
-    "prs_with_lte_1_retest_percentage": 99.32885906040269,
-    "pr_retest_rate": 0.6711409395973155,
-    "avg_retests_per_pr": 0.013422818791946308,
-    "avg_retests_per_commit": 0.012578616352201259,
-    "combined_weighted_lte_1_retest_percentage": 99.32885906040269
+    "prs_with_lte_1_retest_percentage": 100.0,
+    "pr_retest_rate": 0.0,
+    "avg_retests_per_pr": 0.0,
+    "avg_retests_per_commit": 0.0,
+    "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -1761,42 +1761,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1280"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1279,
-          "title": "[chore] Update several dependencies by hand",
-          "merged_at": "2026-09-23T15:59:17Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1279"
-        },
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1278,
-          "title": "[CCXDEV-16568] Filter disabled rules in the ServiceLog processing path",
-          "merged_at": "2026-09-22T16:53:36Z",
-          "user": "Bee-lee",
-          "total_commits": 9,
-          "retest_comments": 0,
-          "update_branch_count": 2,
-          "total_retests": 2,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1278"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 13,
-        "total_retests": 2,
+        "total_prs_analyzed": 2,
+        "total_commits": 3,
+        "total_retests": 0,
         "retest_comments": 0,
-        "update_branch_actions": 2,
-        "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.15384615384615385
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
@@ -1890,6 +1866,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1218,
+          "title": "fix: fixing broken package lock and fixing Jest test",
+          "merged_at": "2026-09-29T13:41:23Z",
+          "user": "Jakub007d",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1218"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1216,
           "title": "chore(deps): lock file maintenance",
           "merged_at": "2026-09-28T10:35:50Z",
@@ -1950,8 +1938,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 5,
-        "total_commits": 5,
+        "total_prs_analyzed": 6,
+        "total_commits": 6,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
