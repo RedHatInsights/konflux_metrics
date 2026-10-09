@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-10-09T09:24:45.808383",
+  "analysis_date": "2026-10-09T21:17:50.602895",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-10-02T09:22:44.111272+00:00",
-    "to": "2026-10-09T09:24:45.808403"
+    "from": "2026-10-02T21:15:51.808677+00:00",
+    "to": "2026-10-09T21:17:50.602911"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 83,
-    "total_commits": 89,
-    "total_retests": 1,
-    "retest_comments": 0,
+    "total_prs_analyzed": 84,
+    "total_commits": 90,
+    "total_retests": 2,
+    "retest_comments": 1,
     "update_branch_actions": 1,
-    "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 83,
+    "prs_with_retests": 2,
+    "prs_with_lte_1_retest": 84,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.2048192771084338,
-    "avg_retests_per_pr": 0.012048192771084338,
-    "avg_retests_per_commit": 0.011235955056179775,
+    "pr_retest_rate": 2.380952380952381,
+    "avg_retests_per_pr": 0.023809523809523808,
+    "avg_retests_per_commit": 0.022222222222222223,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -962,6 +962,18 @@
         },
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1284,
+          "title": "CCXDEV-15157: replace deprecated github.com/xdg/scram",
+          "merged_at": "2026-10-09T12:04:46Z",
+          "user": "juandspy",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1284"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1283,
           "title": "Update dependency jekyll-feed to \"~> 0.18.0\"",
           "merged_at": "2026-10-03T04:34:40Z",
@@ -974,15 +986,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 33.33333333333333,
+        "avg_retests_per_pr": 0.3333333333333333,
+        "avg_retests_per_commit": 0.3333333333333333
       }
     },
     "RedHatInsights/ccx-notification-writer": {
