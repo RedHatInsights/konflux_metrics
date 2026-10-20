@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-10-20T09:21:40.297935",
+  "analysis_date": "2026-10-20T21:18:27.439172",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-10-13T09:18:39.844752+00:00",
-    "to": "2026-10-20T09:21:40.297954"
+    "from": "2026-10-13T21:16:13.822435+00:00",
+    "to": "2026-10-20T21:18:27.439188"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 107,
-    "total_commits": 107,
+    "total_prs_analyzed": 108,
+    "total_commits": 108,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 107,
+    "prs_with_lte_1_retest": 108,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 0.9345794392523363,
-    "avg_retests_per_pr": 0.009345794392523364,
-    "avg_retests_per_commit": 0.009345794392523364,
+    "pr_retest_rate": 0.9259259259259258,
+    "avg_retests_per_pr": 0.009259259259259259,
+    "avg_retests_per_commit": 0.009259259259259259,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -803,6 +803,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/content-service",
+          "pr_number": 1105,
+          "title": "Bumped ccx-rules-ocp version to 2026.10.20",
+          "merged_at": "2026-10-20T09:41:11Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/1105"
+        },
+        {
+          "repository": "RedHatInsights/content-service",
           "pr_number": 1104,
           "title": "Bumped ccx-rules-ocp version to 2026.10.14",
           "merged_at": "2026-10-14T09:43:58Z",
@@ -827,8 +839,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 2,
-        "total_commits": 2,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
