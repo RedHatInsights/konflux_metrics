@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-10-28T09:16:20.627327",
+  "analysis_date": "2026-10-28T21:13:19.269070",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,13 +21,13 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-10-21T09:14:06.808197+00:00",
-    "to": "2026-10-28T09:16:20.627345"
+    "from": "2026-10-21T21:11:24.927433+00:00",
+    "to": "2026-10-28T21:13:19.269092"
   },
   "overall_summary": {
     "total_repos": 17,
     "total_prs_analyzed": 101,
-    "total_commits": 115,
+    "total_commits": 111,
     "total_retests": 4,
     "retest_comments": 0,
     "update_branch_actions": 4,
@@ -36,7 +36,7 @@
     "prs_with_lte_1_retest_percentage": 100.0,
     "pr_retest_rate": 3.9603960396039604,
     "avg_retests_per_pr": 0.039603960396039604,
-    "avg_retests_per_commit": 0.034782608695652174,
+    "avg_retests_per_commit": 0.036036036036036036,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -728,17 +728,30 @@
       }
     },
     "RedHatInsights/content-service": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/content-service",
+          "pr_number": 1106,
+          "title": "Bumped ccx-rules-ocp version to 2026.10.28",
+          "merged_at": "2026-10-28T10:26:51Z",
+          "user": "obsint-processing-app[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/content-service/pull/1106"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/insights-content-template-renderer": {
@@ -1197,30 +1210,17 @@
       }
     },
     "RedHatInsights/ccx-notification-service": {
-      "prs": [
-        {
-          "repository": "RedHatInsights/ccx-notification-service",
-          "pr_number": 1286,
-          "title": "[CCXDEV-16966] fix different `rule_id` formats for disabled rules + support cluster transfer scenario",
-          "merged_at": "2026-10-22T08:56:48Z",
-          "user": "Bee-lee",
-          "total_commits": 5,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1286"
-        }
-      ],
+      "prs": [],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 5,
+        "total_prs_analyzed": 0,
+        "total_commits": 0,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "pr_retest_rate": 0,
+        "avg_retests_per_pr": 0,
+        "avg_retests_per_commit": 0
       }
     },
     "RedHatInsights/ccx-notification-writer": {
