@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-03T21:11:56.419532",
+  "analysis_date": "2026-11-04T09:14:57.715153",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,27 +21,39 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-10-27T21:09:18.684366+00:00",
-    "to": "2026-11-03T21:11:56.419551"
+    "from": "2026-10-28T09:11:59.619650+00:00",
+    "to": "2026-11-04T09:14:57.715170"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 104,
-    "total_commits": 110,
-    "total_retests": 2,
+    "total_prs_analyzed": 99,
+    "total_commits": 99,
+    "total_retests": 0,
     "retest_comments": 0,
-    "update_branch_actions": 2,
-    "prs_with_retests": 2,
-    "prs_with_lte_1_retest": 104,
+    "update_branch_actions": 0,
+    "prs_with_retests": 0,
+    "prs_with_lte_1_retest": 99,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.9230769230769231,
-    "avg_retests_per_pr": 0.019230769230769232,
-    "avg_retests_per_commit": 0.01818181818181818,
+    "pr_retest_rate": 0.0,
+    "avg_retests_per_pr": 0.0,
+    "avg_retests_per_commit": 0.0,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator",
+          "pr_number": 2779,
+          "title": "chore(deps): update module github.com/pandatix/go-abnf to v0.5.5",
+          "merged_at": "2026-11-04T01:19:04Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2779"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator",
           "pr_number": 2778,
@@ -101,18 +113,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2774"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator",
-          "pr_number": 2773,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.181.5",
-          "merged_at": "2026-10-28T03:05:26Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator/pull/2773"
         }
       ],
       "summary": {
@@ -129,6 +129,18 @@
     },
     "RedHatInsights/insights-results-aggregator-cleaner": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
+          "pr_number": 1132,
+          "title": "chore(deps): update module github.com/pandatix/go-abnf to v0.5.5",
+          "merged_at": "2026-11-04T02:12:39Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1132"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-cleaner",
           "pr_number": 1131,
@@ -308,18 +320,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1117"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-cleaner",
-          "pr_number": 1116,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.181.5",
-          "merged_at": "2026-10-28T01:56:51Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-cleaner/pull/1116"
         }
       ],
       "summary": {
@@ -491,23 +491,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/996"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-exporter",
-          "pr_number": 995,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.181.5",
-          "merged_at": "2026-10-28T05:02:53Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-exporter/pull/995"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 14,
-        "total_commits": 14,
+        "total_prs_analyzed": 13,
+        "total_commits": 13,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -519,6 +507,18 @@
     },
     "RedHatInsights/insights-results-aggregator-mock": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 943,
+          "title": "Update module github.com/pandatix/go-abnf to v0.5.5",
+          "merged_at": "2026-11-04T00:51:30Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/943"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 942,
@@ -722,18 +722,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/926"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-aggregator-mock",
-          "pr_number": 925,
-          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.181.5",
-          "merged_at": "2026-10-28T01:05:21Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/925"
         }
       ],
       "summary": {
@@ -857,23 +845,11 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/1028"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 1027,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.181.5",
-          "merged_at": "2026-10-28T02:25:23Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/1027"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 10,
-        "total_commits": 10,
+        "total_prs_analyzed": 9,
+        "total_commits": 9,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -965,6 +941,18 @@
     },
     "RedHatInsights/insights-operator-gathering-conditions-service": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 1078,
+          "title": "chore(deps): update module github.com/pandatix/go-abnf to v0.5.5",
+          "merged_at": "2026-11-04T01:46:09Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/1078"
+        },
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 1077,
@@ -1132,18 +1120,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/1064"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
-          "pr_number": 1063,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.181.5",
-          "merged_at": "2026-10-28T02:51:30Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/1063"
         }
       ],
       "summary": {
@@ -1160,6 +1136,18 @@
     },
     "RedHatInsights/insights-operator-utils": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-operator-utils",
+          "pr_number": 1305,
+          "title": "chore(deps): update module github.com/pandatix/go-abnf to v0.5.5",
+          "merged_at": "2026-11-04T00:50:25Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1305"
+        },
         {
           "repository": "RedHatInsights/insights-operator-utils",
           "pr_number": 1304,
@@ -1327,18 +1315,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1291"
-        },
-        {
-          "repository": "RedHatInsights/insights-operator-utils",
-          "pr_number": 1290,
-          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.181.5",
-          "merged_at": "2026-10-28T01:28:02Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-operator-utils/pull/1290"
         }
       ],
       "summary": {
@@ -1435,54 +1411,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1864"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1861,
-          "title": "Update Pre-commit hooks",
-          "merged_at": "2026-10-28T07:44:42Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1861"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1860,
-          "title": "Update Go dependencies",
-          "merged_at": "2026-10-28T07:44:24Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1860"
-        },
-        {
-          "repository": "RedHatInsights/insights-results-smart-proxy",
-          "pr_number": 1859,
-          "title": "Update Go dependencies",
-          "merged_at": "2026-10-28T02:43:46Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 1,
-          "total_retests": 1,
-          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1859"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 10,
-        "total_retests": 2,
+        "total_prs_analyzed": 1,
+        "total_commits": 1,
+        "total_retests": 0,
         "retest_comments": 0,
-        "update_branch_actions": 2,
-        "prs_with_retests": 2,
-        "pr_retest_rate": 50.0,
-        "avg_retests_per_pr": 0.5,
-        "avg_retests_per_commit": 0.2
+        "update_branch_actions": 0,
+        "prs_with_retests": 0,
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/ccx-upgrades-data-eng": {
