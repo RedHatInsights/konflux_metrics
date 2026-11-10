@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-10T10:11:24.948888+00:00",
+  "analysis_date": "2026-11-10T22:09:51.129630+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-08-12T10:11:24.892706+00:00",
-    "to": "2026-11-10T10:11:24.948888+00:00"
+    "from": "2026-08-12T22:09:51.074065+00:00",
+    "to": "2026-11-10T22:09:51.129630+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -7541,18 +7541,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/932"
-        },
-        {
-          "repository": "RedHatInsights/insights-ccx-messaging",
-          "pr_number": 930,
-          "title": "[CCXDEV-16623] solve ccx-messaging glasswing findings",
-          "merged_at": "2026-08-12T12:38:20Z",
-          "user": "joselsegura",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/insights-ccx-messaging/pull/930"
         }
       ],
       "summary": {
@@ -13286,6 +13274,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1291,
+          "title": "fix(build): require Go 1.26.1",
+          "merged_at": "2026-11-10T14:23:30Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1291"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1290,
+          "title": "CCXDEV-17020: Update compress to v1.20.2",
+          "merged_at": "2026-11-10T11:46:12Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1290"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1289,
           "title": "Update dependency github-pages to v233",
           "merged_at": "2026-11-07T02:57:58Z",
@@ -14214,6 +14226,42 @@
     },
     "RedHatInsights/ocp-advisor-frontend": {
       "prs": [
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1241,
+          "title": "chore(deps): update dependency github.com/redhatinsights/konflux-pipelines to v1.81.0",
+          "merged_at": "2026-11-10T15:15:09Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1241"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1239,
+          "title": "chore(deps): update build-tools digest to ef06e64",
+          "merged_at": "2026-11-10T15:12:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1239"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1242,
+          "title": "fix(deps): update dev-server opener",
+          "merged_at": "2026-11-10T11:33:44Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1242"
+        },
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1238,
@@ -16280,13 +16328,13 @@
       }
     }
   },
-  "last_updated": "2026-11-10T10:11:24.948888+00:00",
-  "cutoff_date": "2026-08-12T10:11:24.892706+00:00",
+  "last_updated": "2026-11-10T22:09:51.129630+00:00",
+  "cutoff_date": "2026-08-12T22:09:51.074065+00:00",
   "summary": {
-    "total_prs": 1332,
+    "total_prs": 1336,
     "total_retests": 36,
     "prs_with_retests": 31,
-    "retest_rate": 2.3273273273273274,
+    "retest_rate": 2.3203592814371254,
     "retest_comments": 20,
     "update_branch_actions": 16
   }
