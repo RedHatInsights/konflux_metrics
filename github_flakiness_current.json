@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-10T09:14:32.817011",
+  "analysis_date": "2026-11-10T21:11:55.059046",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-11-03T09:11:56.445994+00:00",
-    "to": "2026-11-10T09:14:32.817028"
+    "from": "2026-11-03T21:09:27.444239+00:00",
+    "to": "2026-11-10T21:11:55.059063"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 95,
-    "total_commits": 95,
+    "total_prs_analyzed": 100,
+    "total_commits": 100,
     "total_retests": 1,
     "retest_comments": 1,
     "update_branch_actions": 0,
     "prs_with_retests": 1,
-    "prs_with_lte_1_retest": 95,
+    "prs_with_lte_1_retest": 100,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.0526315789473684,
-    "avg_retests_per_pr": 0.010526315789473684,
-    "avg_retests_per_commit": 0.010526315789473684,
+    "pr_retest_rate": 1.0,
+    "avg_retests_per_pr": 0.01,
+    "avg_retests_per_commit": 0.01,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -1237,6 +1237,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1291,
+          "title": "fix(build): require Go 1.26.1",
+          "merged_at": "2026-11-10T14:23:30Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1291"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
+          "pr_number": 1290,
+          "title": "CCXDEV-17020: Update compress to v1.20.2",
+          "merged_at": "2026-11-10T11:46:12Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ccx-notification-service/pull/1290"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-service",
           "pr_number": 1289,
           "title": "Update dependency github-pages to v233",
           "merged_at": "2026-11-07T02:57:58Z",
@@ -1249,8 +1273,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 1,
-        "total_commits": 1,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -1360,17 +1384,54 @@
       }
     },
     "RedHatInsights/ocp-advisor-frontend": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1242,
+          "title": "fix(deps): update dev-server opener",
+          "merged_at": "2026-11-10T11:33:44Z",
+          "user": "platex-rehor-bot",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1242"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1241,
+          "title": "chore(deps): update dependency github.com/redhatinsights/konflux-pipelines to v1.81.0",
+          "merged_at": "2026-11-10T15:15:09Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1241"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1239,
+          "title": "chore(deps): update build-tools digest to ef06e64",
+          "merged_at": "2026-11-10T15:12:40Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1239"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
         "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "pr_retest_rate": 0.0,
+        "avg_retests_per_pr": 0.0,
+        "avg_retests_per_commit": 0.0
       }
     },
     "RedHatInsights/parquet-factory": {
