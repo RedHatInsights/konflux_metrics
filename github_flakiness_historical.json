@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-12T10:11:11.246218+00:00",
+  "analysis_date": "2026-11-12T22:09:41.533952+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-08-14T10:11:11.218045+00:00",
-    "to": "2026-11-12T10:11:11.246218+00:00"
+    "from": "2026-08-14T22:09:41.483118+00:00",
+    "to": "2026-11-12T22:09:41.533952+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -4479,6 +4479,30 @@
     },
     "RedHatInsights/insights-results-aggregator-mock": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 963,
+          "title": "Update pre-commit hook renovatebot/pre-commit-hooks to v44.223.1",
+          "merged_at": "2026-11-12T12:39:20Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/963"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 962,
+          "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1794442960",
+          "merged_at": "2026-11-12T12:38:28Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/962"
+        },
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 960,
@@ -9932,6 +9956,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 1092,
+          "title": "chore(deps): update module golang.org/x/crypto to v0.59.0 [security]",
+          "merged_at": "2026-11-12T13:20:18Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/1092"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
+          "pr_number": 1093,
+          "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.223.1",
+          "merged_at": "2026-11-12T13:06:44Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-operator-gathering-conditions-service/pull/1093"
+        },
+        {
+          "repository": "RedHatInsights/insights-operator-gathering-conditions-service",
           "pr_number": 1090,
           "title": "chore(deps): update pre-commit hook renovatebot/pre-commit-hooks to v44.222.3",
           "merged_at": "2026-11-11T05:40:37Z",
@@ -14264,6 +14312,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1244,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-11-12T14:35:03Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1244"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1241,
           "title": "chore(deps): update dependency github.com/redhatinsights/konflux-pipelines to v1.81.0",
           "merged_at": "2026-11-10T15:15:09Z",
@@ -14717,42 +14777,6 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1183"
-        },
-        {
-          "repository": "RedHatInsights/ocp-advisor-frontend",
-          "pr_number": 1177,
-          "title": "chore(deps): lock file maintenance",
-          "merged_at": "2026-08-14T10:53:18Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 3,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1177"
-        },
-        {
-          "repository": "RedHatInsights/ocp-advisor-frontend",
-          "pr_number": 1178,
-          "title": "\ud83d\udd04 synced file(s) with RedHatInsights/processing-tools",
-          "merged_at": "2026-08-14T10:39:12Z",
-          "user": "obsint-processing-app[bot]",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1178"
-        },
-        {
-          "repository": "RedHatInsights/ocp-advisor-frontend",
-          "pr_number": 1179,
-          "title": "chore(deps): update build-tools digest to 1e388d9",
-          "merged_at": "2026-08-14T10:15:18Z",
-          "user": "red-hat-konflux[bot]",
-          "total_commits": 2,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1179"
         }
       ],
       "summary": {
@@ -15156,6 +15180,18 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1869,
+          "title": "[CCXDEV-16882] Add render query parameter to DVO recommendations endpoint",
+          "merged_at": "2026-11-12T15:37:40Z",
+          "user": "JiriPapousek",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1869"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1874,
@@ -16256,13 +16292,13 @@
       }
     }
   },
-  "last_updated": "2026-11-12T10:11:11.246218+00:00",
-  "cutoff_date": "2026-08-14T10:11:11.218045+00:00",
+  "last_updated": "2026-11-12T22:09:41.533952+00:00",
+  "cutoff_date": "2026-08-14T22:09:41.483118+00:00",
   "summary": {
-    "total_prs": 1330,
+    "total_prs": 1333,
     "total_retests": 38,
     "prs_with_retests": 33,
-    "retest_rate": 2.481203007518797,
+    "retest_rate": 2.4756189047261814,
     "retest_comments": 22,
     "update_branch_actions": 16
   }
