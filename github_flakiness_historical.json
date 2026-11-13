@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-13T10:11:04.714414+00:00",
+  "analysis_date": "2026-11-13T22:09:30.021043+00:00",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,8 +21,8 @@
   ],
   "days_analyzed": 90,
   "date_range": {
-    "from": "2026-08-15T10:11:04.658242+00:00",
-    "to": "2026-11-13T10:11:04.714414+00:00"
+    "from": "2026-08-15T22:09:29.971015+00:00",
+    "to": "2026-11-13T22:09:30.021043+00:00"
   },
   "overall_summary": {
     "total_repos": 17,
@@ -14480,6 +14480,30 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1246,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-11-13T16:12:22Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1246"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1243,
+          "title": "fix(deps): update npm minor and patch dependencies",
+          "merged_at": "2026-11-13T15:49:27Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1243"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1244,
           "title": "chore(deps): lock file maintenance",
           "merged_at": "2026-11-12T14:35:03Z",
@@ -15336,6 +15360,42 @@
     },
     "RedHatInsights/insights-results-smart-proxy": {
       "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1872,
+          "title": "Update module github.com/getkin/kin-openapi to v0.149.0 [SECURITY]",
+          "merged_at": "2026-11-13T17:01:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1872"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1873,
+          "title": "Update module github.com/klauspost/compress to v1.20.2 [SECURITY]",
+          "merged_at": "2026-11-13T16:41:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1873"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1868,
+          "title": "Update Ruby dependencies",
+          "merged_at": "2026-11-13T16:05:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1868"
+        },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1878,
@@ -16472,14 +16532,14 @@
       }
     }
   },
-  "last_updated": "2026-11-13T10:11:04.714414+00:00",
-  "cutoff_date": "2026-08-15T10:11:04.658242+00:00",
+  "last_updated": "2026-11-13T22:09:30.021043+00:00",
+  "cutoff_date": "2026-08-15T22:09:29.971015+00:00",
   "summary": {
-    "total_prs": 1348,
-    "total_retests": 39,
-    "prs_with_retests": 34,
-    "retest_rate": 2.522255192878338,
-    "retest_comments": 23,
+    "total_prs": 1353,
+    "total_retests": 41,
+    "prs_with_retests": 36,
+    "retest_rate": 2.6607538802660753,
+    "retest_comments": 25,
     "update_branch_actions": 16
   }
 }
