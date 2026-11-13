@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-13T09:15:51.467203",
+  "analysis_date": "2026-11-13T21:12:55.746488",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-11-06T09:12:29.560663+00:00",
-    "to": "2026-11-13T09:15:51.467221"
+    "from": "2026-11-06T21:08:22.454058+00:00",
+    "to": "2026-11-13T21:12:55.746505"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 157,
-    "total_commits": 157,
-    "total_retests": 3,
-    "retest_comments": 3,
+    "total_prs_analyzed": 162,
+    "total_commits": 162,
+    "total_retests": 5,
+    "retest_comments": 5,
     "update_branch_actions": 0,
-    "prs_with_retests": 3,
-    "prs_with_lte_1_retest": 157,
+    "prs_with_retests": 5,
+    "prs_with_lte_1_retest": 162,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 1.910828025477707,
-    "avg_retests_per_pr": 0.01910828025477707,
-    "avg_retests_per_commit": 0.01910828025477707,
+    "pr_retest_rate": 3.0864197530864197,
+    "avg_retests_per_pr": 0.030864197530864196,
+    "avg_retests_per_commit": 0.030864197530864196,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -1988,6 +1988,18 @@
       "prs": [
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1246,
+          "title": "chore(deps): lock file maintenance",
+          "merged_at": "2026-11-13T16:12:22Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1246"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
           "pr_number": 1244,
           "title": "chore(deps): lock file maintenance",
           "merged_at": "2026-11-12T14:35:03Z",
@@ -1997,6 +2009,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1244"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1243,
+          "title": "fix(deps): update npm minor and patch dependencies",
+          "merged_at": "2026-11-13T15:49:27Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1243"
         },
         {
           "repository": "RedHatInsights/ocp-advisor-frontend",
@@ -2024,15 +2048,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 3,
-        "total_commits": 3,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 5,
+        "total_commits": 5,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 20.0,
+        "avg_retests_per_pr": 0.2,
+        "avg_retests_per_commit": 0.2
       }
     },
     "RedHatInsights/parquet-factory": {
@@ -2090,6 +2114,30 @@
         },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1873,
+          "title": "Update module github.com/klauspost/compress to v1.20.2 [SECURITY]",
+          "merged_at": "2026-11-13T16:41:33Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1873"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1872,
+          "title": "Update module github.com/getkin/kin-openapi to v0.149.0 [SECURITY]",
+          "merged_at": "2026-11-13T17:01:53Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1872"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
           "pr_number": 1869,
           "title": "[CCXDEV-16882] Add render query parameter to DVO recommendations endpoint",
           "merged_at": "2026-11-12T15:37:40Z",
@@ -2099,6 +2147,18 @@
           "update_branch_count": 0,
           "total_retests": 0,
           "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1869"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1868,
+          "title": "Update Ruby dependencies",
+          "merged_at": "2026-11-13T16:05:23Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1868"
         },
         {
           "repository": "RedHatInsights/insights-results-smart-proxy",
@@ -2114,15 +2174,15 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 7,
+        "total_commits": 7,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0.0,
-        "avg_retests_per_pr": 0.0,
-        "avg_retests_per_commit": 0.0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 14.285714285714285,
+        "avg_retests_per_pr": 0.14285714285714285,
+        "avg_retests_per_commit": 0.14285714285714285
       }
     },
     "RedHatInsights/ccx-upgrades-data-eng": {
