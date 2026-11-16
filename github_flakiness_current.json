@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-16T09:18:54.932806",
+  "analysis_date": "2026-11-16T21:12:46.765045",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,22 +21,22 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-11-09T09:16:36.839854+00:00",
-    "to": "2026-11-16T09:18:54.932821"
+    "from": "2026-11-09T21:09:45.253207+00:00",
+    "to": "2026-11-16T21:12:46.765065"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 105,
-    "total_commits": 109,
+    "total_prs_analyzed": 104,
+    "total_commits": 108,
     "total_retests": 4,
     "retest_comments": 3,
     "update_branch_actions": 1,
     "prs_with_retests": 4,
-    "prs_with_lte_1_retest": 105,
+    "prs_with_lte_1_retest": 104,
     "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 3.8095238095238098,
-    "avg_retests_per_pr": 0.0380952380952381,
-    "avg_retests_per_commit": 0.03669724770642202,
+    "pr_retest_rate": 3.8461538461538463,
+    "avg_retests_per_pr": 0.038461538461538464,
+    "avg_retests_per_commit": 0.037037037037037035,
     "combined_weighted_lte_1_retest_percentage": 100.0
   },
   "repositories": {
@@ -1325,30 +1325,18 @@
           "update_branch_count": 0,
           "total_retests": 1,
           "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1243"
-        },
-        {
-          "repository": "RedHatInsights/ocp-advisor-frontend",
-          "pr_number": 1242,
-          "title": "fix(deps): update dev-server opener",
-          "merged_at": "2026-11-10T11:33:44Z",
-          "user": "platex-rehor-bot",
-          "total_commits": 1,
-          "retest_comments": 0,
-          "update_branch_count": 0,
-          "total_retests": 0,
-          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1242"
         }
       ],
       "summary": {
-        "total_prs_analyzed": 4,
-        "total_commits": 4,
+        "total_prs_analyzed": 3,
+        "total_commits": 3,
         "total_retests": 1,
         "retest_comments": 1,
         "update_branch_actions": 0,
         "prs_with_retests": 1,
-        "pr_retest_rate": 25.0,
-        "avg_retests_per_pr": 0.25,
-        "avg_retests_per_commit": 0.25
+        "pr_retest_rate": 33.33333333333333,
+        "avg_retests_per_pr": 0.3333333333333333,
+        "avg_retests_per_commit": 0.3333333333333333
       }
     },
     "RedHatInsights/parquet-factory": {
