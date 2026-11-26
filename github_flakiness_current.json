@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-25T21:11:26.306113",
+  "analysis_date": "2026-11-26T09:13:48.448285",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,23 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-11-18T21:10:27.086696+00:00",
-    "to": "2026-11-25T21:11:26.306129"
+    "from": "2026-11-19T09:13:02.566678+00:00",
+    "to": "2026-11-26T09:13:48.448304"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 31,
-    "total_commits": 31,
-    "total_retests": 0,
-    "retest_comments": 0,
-    "update_branch_actions": 0,
-    "prs_with_retests": 0,
+    "total_prs_analyzed": 32,
+    "total_commits": 34,
+    "total_retests": 2,
+    "retest_comments": 1,
+    "update_branch_actions": 1,
+    "prs_with_retests": 1,
     "prs_with_lte_1_retest": 31,
-    "prs_with_lte_1_retest_percentage": 100.0,
-    "pr_retest_rate": 0.0,
-    "avg_retests_per_pr": 0.0,
-    "avg_retests_per_commit": 0.0,
-    "combined_weighted_lte_1_retest_percentage": 100.0
+    "prs_with_lte_1_retest_percentage": 96.875,
+    "pr_retest_rate": 3.125,
+    "avg_retests_per_pr": 0.0625,
+    "avg_retests_per_commit": 0.058823529411764705,
+    "combined_weighted_lte_1_retest_percentage": 96.875
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -612,17 +612,30 @@
       }
     },
     "RedHatInsights/insights-results-smart-proxy": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/insights-results-smart-proxy",
+          "pr_number": 1882,
+          "title": "Update Go dependencies",
+          "merged_at": "2026-11-26T09:03:31Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 3,
+          "retest_comments": 1,
+          "update_branch_count": 1,
+          "total_retests": 2,
+          "url": "https://github.com/RedHatInsights/insights-results-smart-proxy/pull/1882"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
-        "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "total_prs_analyzed": 1,
+        "total_commits": 3,
+        "total_retests": 2,
+        "retest_comments": 1,
+        "update_branch_actions": 1,
+        "prs_with_retests": 1,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 2.0,
+        "avg_retests_per_commit": 0.6666666666666666
       }
     },
     "RedHatInsights/ccx-upgrades-data-eng": {
