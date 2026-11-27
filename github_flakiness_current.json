@@ -1,5 +1,5 @@
 {
-  "analysis_date": "2026-11-27T09:13:51.397524",
+  "analysis_date": "2026-11-27T21:10:25.012108",
   "repos": [
     "RedHatInsights/insights-results-aggregator",
     "RedHatInsights/insights-results-aggregator-cleaner",
@@ -21,23 +21,23 @@
   ],
   "days_analyzed": 7,
   "date_range": {
-    "from": "2026-11-20T09:12:25.970319+00:00",
-    "to": "2026-11-27T09:13:51.397540"
+    "from": "2026-11-20T21:09:18.690411+00:00",
+    "to": "2026-11-27T21:10:25.012126"
   },
   "overall_summary": {
     "total_repos": 17,
-    "total_prs_analyzed": 54,
-    "total_commits": 56,
-    "total_retests": 6,
-    "retest_comments": 5,
+    "total_prs_analyzed": 59,
+    "total_commits": 61,
+    "total_retests": 9,
+    "retest_comments": 8,
     "update_branch_actions": 1,
-    "prs_with_retests": 5,
-    "prs_with_lte_1_retest": 53,
-    "prs_with_lte_1_retest_percentage": 98.14814814814815,
-    "pr_retest_rate": 9.25925925925926,
-    "avg_retests_per_pr": 0.1111111111111111,
-    "avg_retests_per_commit": 0.10714285714285714,
-    "combined_weighted_lte_1_retest_percentage": 98.14814814814815
+    "prs_with_retests": 8,
+    "prs_with_lte_1_retest": 58,
+    "prs_with_lte_1_retest_percentage": 98.30508474576271,
+    "pr_retest_rate": 13.559322033898304,
+    "avg_retests_per_pr": 0.15254237288135594,
+    "avg_retests_per_commit": 0.14754098360655737,
+    "combined_weighted_lte_1_retest_percentage": 98.30508474576271
   },
   "repositories": {
     "RedHatInsights/insights-results-aggregator": {
@@ -401,6 +401,18 @@
         },
         {
           "repository": "RedHatInsights/insights-results-aggregator-mock",
+          "pr_number": 971,
+          "title": "Update dependency org.clojure:clojure to v1.12.7",
+          "merged_at": "2026-11-27T12:44:21Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/insights-results-aggregator-mock/pull/971"
+        },
+        {
+          "repository": "RedHatInsights/insights-results-aggregator-mock",
           "pr_number": 970,
           "title": "Update registry.access.redhat.com/ubi8/ubi-minimal Docker tag to v8.10-1795196953",
           "merged_at": "2026-11-21T08:14:18Z",
@@ -437,8 +449,8 @@
         }
       ],
       "summary": {
-        "total_prs_analyzed": 13,
-        "total_commits": 13,
+        "total_prs_analyzed": 14,
+        "total_commits": 14,
         "total_retests": 0,
         "retest_comments": 0,
         "update_branch_actions": 0,
@@ -827,31 +839,81 @@
       }
     },
     "RedHatInsights/ccx-notification-writer": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 1013,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.17.6",
+          "merged_at": "2026-11-27T12:58:15Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/1013"
+        },
+        {
+          "repository": "RedHatInsights/ccx-notification-writer",
+          "pr_number": 1012,
+          "title": "fix(deps): update go dependencies",
+          "merged_at": "2026-11-27T13:13:39Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ccx-notification-writer/pull/1012"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
+        "total_retests": 2,
+        "retest_comments": 2,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "prs_with_retests": 2,
+        "pr_retest_rate": 100.0,
+        "avg_retests_per_pr": 1.0,
+        "avg_retests_per_commit": 1.0
       }
     },
     "RedHatInsights/ocp-advisor-frontend": {
-      "prs": [],
+      "prs": [
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1249,
+          "title": "fix(deps): update npm minor and patch dependencies",
+          "merged_at": "2026-11-27T12:46:06Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 0,
+          "update_branch_count": 0,
+          "total_retests": 0,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1249"
+        },
+        {
+          "repository": "RedHatInsights/ocp-advisor-frontend",
+          "pr_number": 1248,
+          "title": "chore(deps): update build-tools digest to 31041f8",
+          "merged_at": "2026-11-27T12:45:08Z",
+          "user": "red-hat-konflux[bot]",
+          "total_commits": 1,
+          "retest_comments": 1,
+          "update_branch_count": 0,
+          "total_retests": 1,
+          "url": "https://github.com/RedHatInsights/ocp-advisor-frontend/pull/1248"
+        }
+      ],
       "summary": {
-        "total_prs_analyzed": 0,
-        "total_commits": 0,
-        "total_retests": 0,
-        "retest_comments": 0,
+        "total_prs_analyzed": 2,
+        "total_commits": 2,
+        "total_retests": 1,
+        "retest_comments": 1,
         "update_branch_actions": 0,
-        "prs_with_retests": 0,
-        "pr_retest_rate": 0,
-        "avg_retests_per_pr": 0,
-        "avg_retests_per_commit": 0
+        "prs_with_retests": 1,
+        "pr_retest_rate": 50.0,
+        "avg_retests_per_pr": 0.5,
+        "avg_retests_per_commit": 0.5
       }
     },
     "RedHatInsights/parquet-factory": {
